@@ -81,6 +81,42 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pixil-frame-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pixil-frame2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pixil-frame1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pixil-frame3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -91,11 +127,16 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/lodge"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
