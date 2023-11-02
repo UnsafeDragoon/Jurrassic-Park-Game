@@ -53,6 +53,15 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown",
+          "Up": "w",
+          "Left": "a",
+          "Right": "d",
+          "Down": "s",
+          "Topdown": "TopDownMovement"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9,
@@ -118,6 +127,10 @@
           "rotateObject": false,
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -495,12 +508,20 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "RemapForTopdown",
+      "type": "BehaviorRemapper::RemapForTopdown"
+    },
+    {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }
