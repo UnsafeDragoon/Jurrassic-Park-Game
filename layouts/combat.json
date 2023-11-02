@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7619362677197606,
+    "zoomFactor": 0.7876290101673769,
     "windowMask": false
   },
   "objectsGroups": [
@@ -53,8 +53,8 @@
       "name": "CombatBoxWalls",
       "persistentUuid": "f291442d-aca0-4180-9efc-fb7e0b067f18",
       "width": 168,
-      "x": 1490,
-      "y": 591,
+      "x": 553,
+      "y": 419,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -69,8 +69,8 @@
       "name": "CombatBoxWalls",
       "persistentUuid": "05c3b7c9-0fbe-44ef-bf13-e6265389b959",
       "width": 168,
-      "x": 1568,
-      "y": 668,
+      "x": 631,
+      "y": 496,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,8 +85,8 @@
       "name": "CombatBoxWalls",
       "persistentUuid": "6f11f148-6396-4b70-8618-a387e7d300f7",
       "width": 168,
-      "x": 1490,
-      "y": 754,
+      "x": 553,
+      "y": 582,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,8 +101,8 @@
       "name": "CombatBoxWalls",
       "persistentUuid": "7299e9a4-b4b0-4690-aeda-4808582583e3",
       "width": 168,
-      "x": 1405,
-      "y": 668,
+      "x": 468,
+      "y": 496,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,8 +116,8 @@
       "name": "MainCharacter",
       "persistentUuid": "9a40f21f-fbfe-4347-8466-f18b157b6505",
       "width": 0,
-      "x": 1561,
-      "y": 677,
+      "x": 624,
+      "y": 505,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -133,7 +133,7 @@
       "persistentUuid": "2ce94dea-e736-49cd-b80e-bfb6f81e6a9b",
       "width": 1449,
       "x": -68,
-      "y": -81,
+      "y": -88,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,8 +148,8 @@
       "name": "DialogueBoxWalls",
       "persistentUuid": "628d8fd5-0f7d-40e1-a439-fbb041a1c015",
       "width": 1001,
-      "x": 134,
-      "y": 433,
+      "x": 143,
+      "y": 747,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -164,8 +164,8 @@
       "name": "DialogueBoxWalls",
       "persistentUuid": "1ba3e0c9-cc34-4ab2-bda9-8cc8da546682",
       "width": 145,
-      "x": 1053,
-      "y": 496,
+      "x": 1062,
+      "y": 810,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -180,8 +180,8 @@
       "name": "DialogueBoxWalls",
       "persistentUuid": "75592fde-61b9-4fbc-a82b-520d7b043894",
       "width": 145,
-      "x": 59,
-      "y": 496,
+      "x": 68,
+      "y": 810,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -196,9 +196,104 @@
       "name": "DialogueBoxWalls",
       "persistentUuid": "16191686-e534-4d0f-a202-f122c6fc1998",
       "width": 1001,
-      "x": 134,
-      "y": 571,
+      "x": 143,
+      "y": 885,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "SpawnBoxes",
+      "persistentUuid": "228e4534-4690-4921-8aa3-e9b25108e856",
+      "width": 21,
+      "x": 562,
+      "y": 409,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "SpawnBoxes",
+      "persistentUuid": "4fb95478-fc6e-4bfa-b33e-52e03734eeed",
+      "width": 21,
+      "x": 593,
+      "y": 409,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "SpawnBoxes",
+      "persistentUuid": "2897823a-6c18-4921-8397-9992784a0494",
+      "width": 21,
+      "x": 625,
+      "y": 409,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "SpawnBoxes",
+      "persistentUuid": "b530c1fe-cbb0-435a-803d-02dbb9abdb2a",
+      "width": 21,
+      "x": 654,
+      "y": 409,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 16,
+      "layer": "",
+      "name": "SpawnBoxes",
+      "persistentUuid": "2ca68563-5bcf-4602-91e0-44b987088027",
+      "width": 21,
+      "x": 690,
+      "y": 409,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "RedFlatBar",
+      "persistentUuid": "f48af6f8-df8d-4da6-8824-dce99d96e9a8",
+      "width": 0,
+      "x": 530,
+      "y": 617,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -285,6 +380,34 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 20,
+          "CurrentHealth": 0,
+          "MaxHealth": 20,
+          "DamageCooldown": 2.5,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
         {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown",
@@ -435,6 +558,213 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpawnBoxes",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Tail",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 68.5,
+                    "y": 21.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 219.5,
+                    "y": 162
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 65.5,
+                        "y": 63
+                      },
+                      {
+                        "x": 63,
+                        "y": 51
+                      },
+                      {
+                        "x": 68,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 90.5,
+                        "y": 13
+                      },
+                      {
+                        "x": 107,
+                        "y": 12
+                      },
+                      {
+                        "x": 122,
+                        "y": 18
+                      },
+                      {
+                        "x": 123.5,
+                        "y": 55
+                      },
+                      {
+                        "x": 124.5,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 138.5,
+                        "y": 122
+                      },
+                      {
+                        "x": 171.5,
+                        "y": 146.5
+                      },
+                      {
+                        "x": 220,
+                        "y": 164
+                      },
+                      {
+                        "x": 163.5,
+                        "y": 164.5
+                      },
+                      {
+                        "x": 79,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "RedFlatBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 20,
+        "InitialValue": 20
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png2",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "20 / 20",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
     }
   ],
   "events": [
@@ -450,7 +780,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "AnkTailSwing",
+            "=",
+            "0"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -473,6 +814,426 @@
                 "MainCharacter",
                 "CombatBoxWalls",
                 ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Ankleo",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Left Side",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "v"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Tail",
+                    "824",
+                    "440",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "200",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingLeft",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Tail"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingLeft",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "-50",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "<=",
+                    "90"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Tail",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingLeft",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Right Side",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Tail",
+                    "824",
+                    "440",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "-200",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingRight",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Tail"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingRight",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "-50",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "Tail",
+                    "<=",
+                    "-90"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Tail",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "AnkTailSwingRight",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Tail",
+                "MainCharacter",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "MainCharacter",
+                "Health",
+                "5",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Health Bar",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "MainCharacter.Health::Health()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDamageCooldownActive"
+              },
+              "parameters": [
+                "MainCharacter",
+                "Health",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MainCharacter",
+                "=",
+                "55"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDamageCooldownActive"
+              },
+              "parameters": [
+                "MainCharacter",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "MainCharacter",
+                "=",
+                "255"
               ]
             }
           ]
@@ -511,6 +1272,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
     {
       "name": "Platform",
       "type": "PlatformBehavior::PlatformBehavior"
