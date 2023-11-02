@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998329974,
+    "zoomFactor": 0.6455105703311481,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -105,6 +105,8 @@
           "IsCalledManually": false
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -114,9 +116,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -314,6 +314,80 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 64,
+      "name": "WoodTile",
+      "tags": "",
+      "texture": "assets\\New image.png6",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Plant",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Plant",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Plant\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAeFJREFUeF7tmD1OAzEQhTcFEgWCkjYFFVwAGjo4BWWOkZJjUHIGCugoCBcgFUi0lEEUSCmCZpVBI8t2vJZnvat5W+76731+z+Nk0hh/Jsb1NwAABxgngAgYNwAOQUQAETBOABEwbgBUAUQAETBOABEwbgBUAUQAETBOABEwbgBUAUQAETBOABEwbgBUAUQAETBOQCUCs6vTjeR697RMnkf27dIvdx+TF5YyAS9+enz033x+v8ia4/bmYvP5tWrH0QSRtTgfDBLPwl8+Vs3DIr7r1+dnrUseX9+CayAI1IZAaEEoAkCKf37/jopieAwgBIG/X54ctl20IBQFQOL5ie0stQkBkO95LIIwCgC0YBcCCQrBcL+FxI/GAS4AeVZICD6hoUN2VBGQIqQTUiqI24aF8/tBR4AW6SuBvPhUGK5otr5mKSxyCDKAg/295ud33eqWd4EcB/AdgMccdBmUAFgsg+gCg0VTHxIuxxo8AB8EH4yYG6ToPsTTHMUiEAOQEwEA2BKgKGnZHw5ABAqfAaXPAW37F48AAGxvhL5yllMJ4ADlCqASgVIx6GP31QDIH0dd48BXaM3aL+NY9Cboy7n7D/Gus6Av4bwOdQC7BNf+DgC1d6D2/HBA7R2oPb95B/wB/+DvQT+mSqMAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 4\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAA8xJREFUeF7tWbuO1EAQ3AtAIAEBEj9BQkRESsjnEpISEZHwE0gEgASCANQrlVQqVXse9nhn9+zobtced1dXVffM3p3u+XU3a/6v377852L79OHLpjFvuthWYCL55y+enZf8+ePX6cnTx6dvX7+fbhoAJP7w0YNzwpx8gPDn99/bAQDJoqJc9Ug2rgCB/74pBjgAtPIAAdK6GQDY4IIB8X/oXSvPMgj6xzWdBzi3LgUZz0S1kVQkxgA4Mx2h/3hPVxfQpCMZXJxUBgQAgLMDAJieo/6I6jcDwIlz0lnFsqAVAOf6vGZon68Sw1racTUDSi7dAgIDoK0Ousd68AVm2MUA0MEkoywH7bQLALTVLVWO5bI7AGpaS5R1FXOJwfTY6VX7+tzF2iBXjE0OPsC0xdjK7MAzYFAkwgAoaE4GF22DGQCokJNGBoCb8kpSGJV8dRdQCbAG3fyuxhb/I4mse2jVAS46wJa6Z2k1d4Gl3o5+7qqcAZB5ALe+UclXMyBujEqXAsl2c2AAxl5lgXoI3493qyGWYqmdBaoZULug28urhtlTWB7ZO+Ax8f3WktgcAK4YKq2zgDNV9RXsFTh5ALBV9ZskUMsA3MdyyABw7r5kqhlb1gAyhAEM1pt3r85newwCdxUNXuXBa7lOsVYSwwFQurMRLkmDT4N0QsTxGIPTy4LVAOjW2AXiRumMFfjcjcruiCzu702+2wOybXF2FqAs4MMQbY06NmO05nGZpbB2f9DEgNrzAAYCNOWOAAD4QJS/x0AF13fHZVh37ZhcDQC7s+sIOtHxPTwFxt8MgOsWOCOEwWXbcEhiDQhVAGTO7MbYCNrN+7qLhAFmJskAKgAsC8TQK4UiAFp5/cECgfKvNxy8gsEMYHlom4S58WSp2+i4Z+2vRlUAlPb9CCQbbFT/PNC4aVH3HU4SDvCebtANgNNn6fgL1S8BoB4DFqBj6Pc9iWONRQAy+uspbSymzs5B8hygbp/tF1pH7977iwC4rasaDrfH0iB0lQDofr31V5qrZwAfSYNqLbq7egDWDBoBmJsg3RFZK7N6dc/PFT2gp+IlA3RdYKvRthWUKgBa6I4AtINoC3T7AB2fe967KQCti9Ukj+pnR2BoqR/ffy7OKL3xVUtgzQv4JAhJMc0zAPao+i4AwPyyo3C3Gdqr6rsB4MwwPrtEohmbd9HZGimNfvYAYDTCs69/MGD2Co2O72DAaIRnX/9gwOwVGh3fwYDRCM++/sGA2Ss0Or6DAaMRnn39gwGzV2h0fAcDRiM8+/oHA2av0Oj47j0D/gN6CcBuocFu4wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"Plant4\"],\"name\":\"Plant\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Plant4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 1
+                      },
+                      {
+                        "x": 51,
+                        "y": 1
+                      },
+                      {
+                        "x": 51,
+                        "y": 58
+                      },
+                      {
+                        "x": 7,
+                        "y": 58
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -494,6 +568,30 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"

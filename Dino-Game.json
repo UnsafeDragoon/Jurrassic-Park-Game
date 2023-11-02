@@ -117,6 +117,105 @@
         "name": "assets\\pixil-frame3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAOdJREFUeF7tm7ENhDAAxGAa9mGdr3+d34dpoP8qshQhjKlzQeczJesy6Tl+n3PS1UPXbvt3HTk4dGjkov8zAXi7AcSaOzLTPoE7ypB3BoBQM2UywLQm6ZIBhJopkwGmNUmXDCDUTJkMMK1JumQAoWbKZIBpTdIlAwg1UyYDTGuSLhlAqJkyGWBak3TJAELNlMkA05qkSwYQaqZMBpjWJF0ygFAzZTLAtCbpkgGEmimTAaY1SZcMINRMmQwwrUm6ZAChZspkgGlN0iUDCDVTJgNMa5IuGUComTIZMGvNfp19+6+zGfAQAy5QZhxBWajgpgAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAN9JREFUeF7tlUENgDAAxEAYanCAEBygBmGgockSslLeDeHuyrYuP3/Wn+dfKoAYcB3bQ/jR7H7ewwdDL6yADOgX6AwYfbCR93UIfn0LkLVmYdE1OEso8p0VQNoyshlgXJVkygDSlpHNAOOqJFMGkLaMbAYYVyWZMoC0ZWQzwLgqyZQBpC0jmwHGVUmmDCBtGdkMMK5KMmUAacvIZoBxVZIpA0hbRjYDjKuSTBlA2jKyGWBclWTKANKWkc0A46okUwaQtoxsBhhXJZkygLRlZDPAuCrJlAGkLSObAcZVSaYXEEQcQWLrrPoAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAANZJREFUeF7tldERgzAUw8hSTNFdOkt3YQqWKscM+sjpnvg3GFtO1jH8WcP//yiACBieQBMYDkCHYBNoAsMTaALDAegWaAJNYHgCTWA4AN0CTYBO4P59/vQdRH9+L1QiEr/GCyACmkBnADnEqLZDcPctQBvcrcfX4O4foN8vAJqgXR8B9gap/wigCdr1EWBvkPqPAJqgXR8B9gap/wigCdr1EWBvkPqPAJqgXR8B9gap/wigCdr1EWBvkPqPAJqgXR8B9gap/wigCdr1EWBvkPqPAJqgXf8ACQ8cQehKpQ8AAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 5\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAOtJREFUeF7tm7ERgzAAxPCSjJANMgUbZASWJE0GcAqfFCJqH//oRelxHo9rW/Dsz9dY8NrpV85+15g9OJ38ORiAXzHg22Xvdh79Tw0wA2BYgeyQASR9Q3YGGFYgO2QASd+QnQGGFcgOGUDSN2RngGEFskMGkPQN2RlgWIHskAEkfUN2BhhWIDtkAEnfkJ0BhhXIDhlA0jdkZ4BhBbJDBpD0DdkZYFiB7JABJH1DdgYYViA7ZABJ35CdAYYVyA4ZQNI3ZGeAYQWyQwaQ9A3ZGWBYgeyQASR9Q3YGGFYgO2RAV2e7PN3t8b++Pv8GWzgudzK0R2cAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 6\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAOlJREFUeF7tlFERwkAUxHo20IKdqsIOWrABFt59MMm06Xenu83mbh03f9bN//8IwOf9+k4teDxPFNhO1+k/rZ2PBiADOgLdAdPL5R/v7dxX0/wuwSmpq76HnmkD1AAYViA7ZABJ35CdAYYVyA4ZQNI3ZGeAYQWyQwaQ9A3ZGWBYgeyQASR9Q3YGGFYgO2QASd+QnQGGFcgOGUDSN2RngGEFskMGkPQN2RlgWIHskAEkfUN2BhhWIDtkAEnfkJ0BhhXIDhlA0jdkZ4BhBbJDBpD0DdkZYFiB7JABJH1DdgYYViA7ZABJ35D9A7WiMx3l6/LZAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[null],\"name\":\"New image\"}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\New image.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_New image.png3.png\"}",
+        "name": "assets\\New image.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\New image.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_New image.png5.png\"}",
+        "name": "assets\\New image.png5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image.png6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\New image.png6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Plant",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Plant2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Plant3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Plant4.png\"}",
+        "name": "Plant4",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
