@@ -188,9 +188,9 @@
       "layer": "",
       "name": "DialogueBoxWalls",
       "persistentUuid": "1ba3e0c9-cc34-4ab2-bda9-8cc8da546682",
-      "width": 145,
-      "x": 1059,
-      "y": 480,
+      "width": 189,
+      "x": 1037,
+      "y": 502,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -204,9 +204,9 @@
       "layer": "",
       "name": "DialogueBoxWalls",
       "persistentUuid": "75592fde-61b9-4fbc-a82b-520d7b043894",
-      "width": 145,
-      "x": 65,
-      "y": 480,
+      "width": 190,
+      "x": 43,
+      "y": 504,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -220,9 +220,9 @@
       "layer": "",
       "name": "DialogueBoxWalls",
       "persistentUuid": "16191686-e534-4d0f-a202-f122c6fc1998",
-      "width": 1001,
+      "width": 1002,
       "x": 140,
-      "y": 555,
+      "y": 604,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,7 +348,7 @@
       "persistentUuid": "01ff7ba1-d0aa-43e4-bf8f-a68880938edd",
       "width": 0,
       "x": 215,
-      "y": 614,
+      "y": 643,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -363,7 +363,7 @@
       "persistentUuid": "47123330-772d-4a98-8381-ea675d5207aa",
       "width": 0,
       "x": 418,
-      "y": 613,
+      "y": 642,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -378,7 +378,7 @@
       "persistentUuid": "fe426a9e-1b8f-4a37-8e04-74208c10c9ed",
       "width": 0,
       "x": 621,
-      "y": 612,
+      "y": 641,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -393,7 +393,7 @@
       "persistentUuid": "468686c6-839a-4640-917f-ee33eb733505",
       "width": 0,
       "x": 823,
-      "y": 612,
+      "y": 641,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -407,8 +407,8 @@
       "name": "twointhreechance",
       "persistentUuid": "58ff8579-cfa1-4004-a733-43378ee1a00b",
       "width": 0,
-      "x": 1021,
-      "y": 853,
+      "x": 938,
+      "y": 224,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -422,8 +422,8 @@
       "name": "twointhreechance",
       "persistentUuid": "e64015d8-b6aa-47d2-9d78-babd0e57c64f",
       "width": 0,
-      "x": 903,
-      "y": 854,
+      "x": 820,
+      "y": 225,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -437,8 +437,8 @@
       "name": "twointhreechance",
       "persistentUuid": "fcf68d13-facc-430b-aaf5-2266a8457ea2",
       "width": 0,
-      "x": 1197,
-      "y": 856,
+      "x": 1114,
+      "y": 227,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -452,8 +452,8 @@
       "name": "oneinthreechance",
       "persistentUuid": "2cbda7c8-d30c-4c53-a78c-461d7ad6267a",
       "width": 0,
-      "x": 1212,
-      "y": 856,
+      "x": 1129,
+      "y": 227,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -1815,6 +1815,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2495,6 +2496,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Run",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2560,42 +2562,8 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "DinosaurAppears",
-                        "=",
-                        "\"YIPPE\""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -2610,7 +2578,18 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DinosaurAppears",
+                            "=",
+                            "\"You ran away\""
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -2626,7 +2605,18 @@
                               ]
                             }
                           ],
-                          "actions": []
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -2638,11 +2628,22 @@
                               "parameters": [
                                 "Level2Combat",
                                 "=",
-                                "0"
+                                "1"
                               ]
                             }
                           ],
-                          "actions": []
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -2654,20 +2655,26 @@
                               "parameters": [
                                 "Level3Combat",
                                 "=",
-                                "0"
+                                "1"
                               ]
                             }
                           ],
-                          "actions": []
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Scene"
+                              },
+                              "parameters": [
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -2697,42 +2704,8 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "DinosaurAppears",
-                        "=",
-                        "\"Failed\""
-                      ]
-                    }
-                  ],
+                  "actions": [],
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -2745,12 +2718,6 @@
                             "Text_AutoTyping",
                             ""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -2761,7 +2728,34 @@
                           "parameters": [
                             "DinosaurAppears",
                             "=",
-                            "\"cry about it\""
+                            "\"Failed to run away\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "spawnedobject",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DinosaurAppears",
+                            "=",
+                            "\"After failed testing Text\""
                           ]
                         }
                       ]
@@ -2775,6 +2769,31 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Back"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "spawnedobject",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
