@@ -400,7 +400,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walking down8.png\"}",
         "name": "Walking down8",
         "smoothed": true,
         "userAdded": false
@@ -409,7 +409,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walking down9.png\"}",
         "name": "Walking down9",
         "smoothed": true,
         "userAdded": false
@@ -418,8 +418,143 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walking down10.png\"}",
         "name": "Walking down10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JohnArnold",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JohnArnold2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/JohnArnold7.png\"}",
+        "name": "JohnArnold3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HenryWu.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HenryWu",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HenryWu2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HenryWu2.png\"}",
+        "name": "HenryWu2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JohnArnold4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JohnArnold5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DennisNedry.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DennisNedry",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DennisNedry2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/DennisNedry2.png\"}",
+        "name": "DennisNedry2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IanMalcolm.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IanMalcolm",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DennisNedry3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/DennisNedry3.png\"}",
+        "name": "DennisNedry3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/JohnArnold10.png\"}",
+        "name": "JohnArnold6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DonaldGennaro.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/DonaldGennaro.png\"}",
+        "name": "DonaldGennaro",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AlanGrant.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AlanGrant",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AlanGrant2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/AlanGrant2.png\"}",
+        "name": "AlanGrant2",
         "smoothed": true,
         "userAdded": false
       }
