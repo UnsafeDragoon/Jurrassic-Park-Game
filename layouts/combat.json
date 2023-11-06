@@ -514,7 +514,7 @@
       "name": "FightBar",
       "persistentUuid": "8621acf9-990c-4fc3-8c0f-f1fcfaa8d4bd",
       "width": 41,
-      "x": 144,
+      "x": 135,
       "y": 435,
       "zOrder": 23,
       "numberProperties": [],
@@ -1961,7 +1961,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -3614,6 +3619,10 @@
     {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     },
     {
       "name": "Text_AutoTyping",
