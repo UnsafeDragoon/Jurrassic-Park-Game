@@ -769,6 +769,105 @@
         "name": "NewSprite49",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AlanGrant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AlanGrant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IanMalcolm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\IanMalcolm.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DonaldGennaro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DonaldGennaro.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RobertMuldoon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RobertMuldoon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DennisNedry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\DennisNedry.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnArnold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JohnArnold.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EdRegis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\EdRegis.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HenryWu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\HenryWu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite50.png\"}",
+        "name": "NewSprite50",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite51.png\"}",
+        "name": "NewSprite51",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pressed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Pressed.png\"}",
+        "name": "Pressed",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -871,6 +970,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/inventories"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shakeobject"

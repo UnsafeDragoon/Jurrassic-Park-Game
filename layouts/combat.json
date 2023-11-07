@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690412,
+    "zoomFactor": 0.8141881203709929,
     "windowMask": false
   },
   "objectsGroups": [
@@ -80,6 +80,20 @@
         },
         {
           "name": "HeavyHit"
+        }
+      ]
+    },
+    {
+      "name": "ActionText_TextBoxes",
+      "objects": [
+        {
+          "name": "ActionText_Flirt"
+        },
+        {
+          "name": "ActionText_Talk"
+        },
+        {
+          "name": "ActionText_Taunt"
         }
       ]
     }
@@ -629,8 +643,8 @@
       "name": "ActionText_Flirt",
       "persistentUuid": "1d599910-2477-407a-a75f-b5ff84be92c3",
       "width": 958,
-      "x": 157,
-      "y": 452,
+      "x": 161,
+      "y": 451,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -2673,6 +2687,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ActionText_Talk",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "- Talk",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ActionText_Taunt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "- Taunt",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -2758,6 +2816,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3315,6 +3374,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Break From Combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3389,6 +3449,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Fight",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",

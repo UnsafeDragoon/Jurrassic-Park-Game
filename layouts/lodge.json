@@ -18,10 +18,40 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.71303776306904,
+    "zoomFactor": 0.7370816317994032,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "People",
+      "objects": [
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -35,7 +65,7 @@
       "width": 46,
       "x": 134,
       "y": 287,
-      "zOrder": 1,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -103,11 +133,138 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Cursor",
+      "persistentUuid": "93bf8c8d-15f2-47f6-9c04-ff89068e8153",
+      "width": 0,
+      "x": 151,
+      "y": 383,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "AlanGrant",
+      "persistentUuid": "92724bbd-6647-4436-8e87-93de48282f36",
+      "width": 58,
+      "x": 134,
+      "y": 52,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 117,
+      "layer": "",
+      "name": "DonaldGenero",
+      "persistentUuid": "11fbb64e-5bac-46be-9cd5-d6b807e8636a",
+      "width": 59,
+      "x": 191,
+      "y": 52,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 115,
+      "layer": "",
+      "name": "IanMalcom",
+      "persistentUuid": "f689d797-49f7-43e8-8bb3-44ace56e091e",
+      "width": 58,
+      "x": 239,
+      "y": 52,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 117,
+      "layer": "",
+      "name": "DennisNedry",
+      "persistentUuid": "3dc54b9b-b5e5-435d-aff0-4fef5bf0eadd",
+      "width": 59,
+      "x": 293,
+      "y": 52,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 115,
+      "layer": "",
+      "name": "JohnArnold",
+      "persistentUuid": "47a02b6f-0b7d-410b-bd63-275a1fbeaf0f",
+      "width": 58,
+      "x": 345,
+      "y": 52,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "EdRegis",
+      "persistentUuid": "80c0579c-498e-4a74-8a92-18eed7d7b8a5",
+      "width": 58,
+      "x": 394,
+      "y": 52,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 116,
+      "layer": "",
+      "name": "HeneryWu",
+      "persistentUuid": "a640e0d4-6a5b-40d5-99d2-2b21b146fb42",
+      "width": 58,
+      "x": 451,
+      "y": 292,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
       "tags": "",
@@ -191,10 +348,6 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
-        },
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -225,11 +378,11 @@
                     [
                       {
                         "x": 1,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
@@ -273,11 +426,11 @@
                     [
                       {
                         "x": 1,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
@@ -321,11 +474,11 @@
                     [
                       {
                         "x": 1,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
@@ -369,11 +522,11 @@
                     [
                       {
                         "x": 1,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
-                        "y": 27
+                        "y": 31
                       },
                       {
                         "x": 24,
@@ -464,6 +617,605 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "AlanGrant",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AlanGrant.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 14
+                      },
+                      {
+                        "x": 42,
+                        "y": 14
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "IanMalcom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\IanMalcolm.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DonaldGenero",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\DonaldGennaro.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 15
+                      },
+                      {
+                        "x": 42,
+                        "y": 15
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "RobertMuldoon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RobertMuldoon.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 13
+                      },
+                      {
+                        "x": 42,
+                        "y": 13
+                      },
+                      {
+                        "x": 42,
+                        "y": 85
+                      },
+                      {
+                        "x": 8,
+                        "y": 85
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DennisNedry",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\DennisNedry.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 19
+                      },
+                      {
+                        "x": 42,
+                        "y": 19
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "JohnArnold",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\JohnArnold.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 20
+                      },
+                      {
+                        "x": 42,
+                        "y": 20
+                      },
+                      {
+                        "x": 42,
+                        "y": 87
+                      },
+                      {
+                        "x": 8,
+                        "y": 87
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "EdRegis",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\EdRegis.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 14
+                      },
+                      {
+                        "x": 42,
+                        "y": 14
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HeneryWu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\HenryWu.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 18
+                      },
+                      {
+                        "x": 42,
+                        "y": 87
+                      },
+                      {
+                        "x": 8,
+                        "y": 87
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "E_Buton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Waiting",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite51",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 48
+                      },
+                      {
+                        "x": 0,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pressed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Pressed",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 0
+                      },
+                      {
+                        "x": 48,
+                        "y": 48
+                      },
+                      {
+                        "x": 0,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -482,10 +1234,37 @@
       "actions": []
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            "Cursor"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Cursor",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -593,6 +1372,121 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "MainCharacter",
+                "People",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Interactions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "People",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "E_Buton",
+                "HeneryWu.X() + 6",
+                "HeneryWu.Y() - 32",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "E_Buton",
+                "\"Waiting\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "E_Buton",
+                "\"Pressed\""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -624,23 +1518,7 @@
           "width": 0
         }
       ],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -655,10 +1533,6 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-    },
-    {
-      "name": "YSort",
-      "type": "YSort::YSort"
     }
   ]
 }
