@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203709929,
+    "zoomFactor": 0.7619362677197614,
     "windowMask": false
   },
   "objectsGroups": [
@@ -494,13 +494,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 163,
+      "height": 219,
       "layer": "",
       "name": "Anklyo",
       "persistentUuid": "97c5d231-caf9-42a5-9b12-7a9fe78864a0",
-      "width": 163,
-      "x": 556,
-      "y": 263,
+      "width": 219,
+      "x": 516,
+      "y": 254,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -1006,76 +1006,21 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite55",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 68.5,
-                    "y": 21.5
+                    "x": 5,
+                    "y": 5.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 219.5,
-                    "y": 162
+                    "x": 79.5,
+                    "y": 19.5
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 65.5,
-                        "y": 63
-                      },
-                      {
-                        "x": 63,
-                        "y": 51
-                      },
-                      {
-                        "x": 68,
-                        "y": 35.5
-                      },
-                      {
-                        "x": 90.5,
-                        "y": 13
-                      },
-                      {
-                        "x": 107,
-                        "y": 12
-                      },
-                      {
-                        "x": 122,
-                        "y": 18
-                      },
-                      {
-                        "x": 123.5,
-                        "y": 55
-                      },
-                      {
-                        "x": 124.5,
-                        "y": 92.5
-                      },
-                      {
-                        "x": 138.5,
-                        "y": 122
-                      },
-                      {
-                        "x": 171.5,
-                        "y": 146.5
-                      },
-                      {
-                        "x": 220,
-                        "y": 164
-                      },
-                      {
-                        "x": 163.5,
-                        "y": 164.5
-                      },
-                      {
-                        "x": 79,
-                        "y": 80
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1160,16 +1105,8 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.05,
-          "CharacterJustAdded": false,
-          "CurrentCharacter": ""
-        }
-      ],
-      "string": "A wild ______ has appeared!",
+      "behaviors": [],
+      "string": "CRAXY ",
       "font": "",
       "textAlignment": "left",
       "characterSize": 40,
@@ -1672,7 +1609,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite23",
+                  "image": "NewSprite52",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1688,308 +1625,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 7
+                        "x": 1,
+                        "y": 21
                       },
                       {
-                        "x": 50,
-                        "y": 7
+                        "x": 244,
+                        "y": 21
                       },
                       {
-                        "x": 50,
-                        "y": 47
+                        "x": 244,
+                        "y": 153
                       },
                       {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite24",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite25",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite26",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite27",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite28",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite29",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite30",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite31",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 7
-                      },
-                      {
-                        "x": 50,
-                        "y": 47
-                      },
-                      {
-                        "x": 9,
-                        "y": 47
+                        "x": 1,
+                        "y": 153
                       }
                     ]
                   ]
@@ -2731,6 +2380,68 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Compy",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite53",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 3
+                      },
+                      {
+                        "x": 99,
+                        "y": 3
+                      },
+                      {
+                        "x": 99,
+                        "y": 98
+                      },
+                      {
+                        "x": 1,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2812,6 +2523,112 @@
       ]
     },
     {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "WildAnk",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Remove this event later"
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "WildAnk",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "DinosaurAppears",
+            "=",
+            "\"A wild Ankylosaurus has appeared!\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "WildCompy",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "DinosaurAppears",
+            "=",
+            "\"A wild Compy has appeared!\""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -2851,6 +2668,22 @@
                 "CursorX()",
                 "=",
                 "CursorY()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PlayerCombatHealth",
+                "=",
+                "MainCharacter.Health::Health()"
               ]
             }
           ]
@@ -2906,6 +2739,15 @@
                 "FightBox",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Anklyo",
+                "\"Attack\""
+              ]
             }
           ]
         },
@@ -2928,6 +2770,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Ankleo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -2937,7 +2780,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Left Side",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2947,11 +2789,23 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "KeyPressed"
+                            "value": "VarGlobal"
                           },
                           "parameters": [
-                            "",
-                            "v"
+                            "WildAnk",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\"",
+                            ">=",
+                            "2"
                           ]
                         },
                         {
@@ -2969,8 +2823,19 @@
                           "parameters": [
                             "",
                             "Tail",
-                            "174",
-                            "440",
+                            "320",
+                            "526",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RotateTowardAngle"
+                          },
+                          "parameters": [
+                            "Tail",
+                            "-60",
+                            "0",
                             ""
                           ]
                         },
@@ -3043,7 +2908,7 @@
                           },
                           "parameters": [
                             "Tail",
-                            "60",
+                            "70",
                             ""
                           ]
                         }
@@ -3093,7 +2958,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Right Side",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3103,11 +2967,23 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "KeyPressed"
+                            "value": "VarGlobal"
                           },
                           "parameters": [
-                            "",
-                            "Space"
+                            "WildAnk",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\"",
+                            ">=",
+                            "5.5"
                           ]
                         },
                         {
@@ -3125,8 +3001,19 @@
                           "parameters": [
                             "",
                             "Tail",
-                            "804",
-                            "440",
+                            "755",
+                            "521",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RotateTowardAngle"
+                          },
+                          "parameters": [
+                            "Tail",
+                            "60",
+                            "0",
                             ""
                           ]
                         },
@@ -3199,7 +3086,7 @@
                           },
                           "parameters": [
                             "Tail",
-                            "-50",
+                            "-70",
                             ""
                           ]
                         }
@@ -3238,36 +3125,37 @@
                             "=",
                             "0"
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                        },
                         {
                           "type": {
-                            "value": "CollisionNP"
+                            "value": "Wait"
                           },
                           "parameters": [
-                            "Tail",
-                            "MainCharacter",
-                            "",
-                            "",
-                            ""
+                            "1"
                           ]
-                        }
-                      ],
-                      "actions": [
+                        },
                         {
                           "type": {
-                            "value": "Health::Health::Hit"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "MainCharacter",
-                            "Health",
-                            "5",
-                            "",
-                            "",
+                            "FightBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ActionText_Flirt"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "TextBox",
                             ""
                           ]
                         }
@@ -3275,6 +3163,54 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Tail",
+                        "MainCharacter",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "MainCharacter",
+                        "Health",
+                        "5",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Tail",
+                        "=",
+                        "1.3"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -3431,6 +3367,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3577,18 +3514,14 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "FightMeter"
-                      ]
-                    }
-                  ],
-                  "actions": [],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Damage Numbers",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -3599,80 +3532,14 @@
                           },
                           "parameters": [
                             "FightBar",
-                            "NoHit",
+                            "FightBarEndHitBox",
                             "",
                             "",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
                           ]
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "ShakeObject_PositionAngle",
-                            "0.5",
-                            "0",
-                            "25",
-                            "0",
-                            "0.08",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "0",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "HitEnemy",
-                            "618",
-                            "269",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.3"
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Delete"
@@ -3692,21 +3559,28 @@
                         },
                         {
                           "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Montre"
                           },
                           "parameters": [
-                            "DinosaurAppears",
+                            "FightBox",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "ResetObjectTimer"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Missed\""
+                            "Anklyo",
+                            "\"Attack\""
                           ]
                         }
                       ]
@@ -3720,19 +3594,7 @@
                           },
                           "parameters": [
                             "FightBar",
-                            "NoHit",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "LowHit",
+                            "HeavyHit",
                             "",
                             "",
                             ""
@@ -3780,7 +3642,7 @@
                           "parameters": [
                             "Anklyo",
                             "Health",
-                            "3",
+                            "20",
                             "",
                             "",
                             ""
@@ -3825,396 +3687,28 @@
                         },
                         {
                           "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Montre"
                           },
                           "parameters": [
-                            "DinosaurAppears",
+                            "FightBox",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Low Hit\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "LowHit",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "ShakeObject_PositionAngle",
-                            "0.5",
-                            "0",
-                            "25",
-                            "0",
-                            "0.08",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
+                            "value": "ResetObjectTimer"
                           },
                           "parameters": [
                             "Anklyo",
-                            "Health",
-                            "5",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "HitEnemy",
-                            "618",
-                            "269",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "FightMeter"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Low Hit!\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "LowHit",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "MedHit",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "ShakeObject_PositionAngle",
-                            "0.5",
-                            "0",
-                            "25",
-                            "0",
-                            "0.08",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "7",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "HitEnemy",
-                            "618",
-                            "269",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "FightMeter"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Medium Hit\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "MedHit",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            "ShakeObject_PositionAngle",
-                            "0.5",
-                            "0",
-                            "25",
-                            "0",
-                            "0.08",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "10",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "HitEnemy",
-                            "618",
-                            "269",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1.3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "FightBar",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "FightMeter"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Medium Hit!\""
+                            "\"Attack\""
                           ]
                         }
                       ]
@@ -4336,18 +3830,25 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "DinosaurAppears",
+                            "FightBox",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Heavy Hit\""
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\""
                           ]
                         }
                       ]
@@ -4361,7 +3862,7 @@
                           },
                           "parameters": [
                             "FightBar",
-                            "HeavyHit",
+                            "MedHit",
                             "",
                             "",
                             ""
@@ -4409,7 +3910,7 @@
                           "parameters": [
                             "Anklyo",
                             "Health",
-                            "20",
+                            "10",
                             "",
                             "",
                             ""
@@ -4457,18 +3958,25 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "DinosaurAppears",
+                            "FightBox",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Heavy Hit!\""
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\""
                           ]
                         }
                       ]
@@ -4482,14 +3990,92 @@
                           },
                           "parameters": [
                             "FightBar",
-                            "FightBarEndHitBox",
+                            "LowHit",
                             "",
                             "",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "MedHit",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "0",
+                            "25",
+                            "0",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "FightBar"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "Health",
+                            "7",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HitEnemy",
+                            "618",
+                            "269",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.3"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Delete"
@@ -4512,33 +4098,427 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "TextBox",
+                            "FightBox",
                             ""
                           ]
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"Missed\""
+                            "TextBox"
                           ]
                         },
                         {
                           "type": {
-                            "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                            "value": "ResetObjectTimer"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "Text_AutoTyping",
+                            "Anklyo",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "LowHit",
+                            "",
+                            "",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "0",
+                            "25",
+                            "0",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "FightBar"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "Health",
+                            "5",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HitEnemy",
+                            "618",
+                            "269",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightMeter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "FightBox",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "NoHit",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "LowHit",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "0",
+                            "25",
+                            "0",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "FightBar"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "Health",
+                            "3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HitEnemy",
+                            "618",
+                            "269",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightMeter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "FightBox",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "NoHit",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "0",
+                            "25",
+                            "0",
+                            "0.08",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "FightBar"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "Health",
+                            "0",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HitEnemy",
+                            "618",
+                            "269",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FightBar",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightMeter"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "FightBox",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "\"Attack\""
                           ]
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 }
               ],
               "parameters": []
@@ -4676,7 +4656,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Run",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4966,6 +4945,35 @@
           ]
         }
       ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Health Bar for Ank",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Health Bar for Compy",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
       "parameters": []
     }
   ],
