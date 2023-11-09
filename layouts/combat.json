@@ -2442,6 +2442,25 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Damage_Numbers",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[outline=black]outlined[/outline]",
+        "opacity": 255,
+        "fontSize": 20,
+        "visible": true,
+        "color": "255;0;0",
+        "fontFamily": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -2633,7 +2652,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2687,6 +2705,45 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player Death",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Death\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -3220,7 +3277,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Health Bar",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3367,7 +3423,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3418,6 +3473,15 @@
                       },
                       "parameters": [
                         "HitEnemy",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Damage_Numbers",
                         ""
                       ]
                     }
@@ -3662,6 +3726,28 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]20[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -3802,6 +3888,28 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]15[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -3926,6 +4034,28 @@
                             "618",
                             "269",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]10[/outline]\""
                           ]
                         },
                         {
@@ -4070,6 +4200,28 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]7[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -4191,9 +4343,31 @@
                           "parameters": [
                             "",
                             "HitEnemy",
-                            "618",
+                            "610",
                             "269",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "600",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]5[/outline]\""
                           ]
                         },
                         {
@@ -4338,6 +4512,28 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]3[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -4466,6 +4662,28 @@
                         },
                         {
                           "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Damage_Numbers",
+                            "610",
+                            "235",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "Damage_Numbers",
+                            "=",
+                            "\"[outline=black]0[/outline]\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -4513,6 +4731,46 @@
                           "parameters": [
                             "Anklyo",
                             "\"Attack\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Enemy Deaths",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::IsDead"
+                          },
+                          "parameters": [
+                            "Anklyo",
+                            "Health",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DinosaurAppears",
+                            "=",
+                            "\"Victory!\""
                           ]
                         }
                       ]
@@ -4656,6 +4914,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Run",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4723,6 +4982,14 @@
                         "DinosaurAppears",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "ActionText_Flirt"
+                      ]
                     }
                   ],
                   "events": [
@@ -4776,18 +5043,7 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
@@ -4885,18 +5141,7 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                          },
-                          "parameters": [
-                            "DinosaurAppears",
-                            "Text_AutoTyping",
-                            ""
-                          ]
-                        }
-                      ],
+                      "conditions": [],
                       "actions": [
                         {
                           "type": {
@@ -4927,12 +5172,44 @@
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "DinosaurAppears",
-                            "=",
-                            "\"After failed testing Text\""
+                            "TextBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ActionText_Flirt"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "FightBox",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
