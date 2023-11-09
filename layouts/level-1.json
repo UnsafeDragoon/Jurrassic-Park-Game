@@ -18,11 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988869,
+    "zoomFactor": 0.37971210019479323,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
+<<<<<<< HEAD
   "instances": [
     {
       "angle": 0,
@@ -654,6 +655,11 @@
       ]
     }
   ],
+=======
+  "instances": [],
+  "objects": [],
+  "events": [],
+>>>>>>> 325455fa51ce33195aeba248ac2a1aa8881b7a01
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -683,10 +689,5 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": [
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
-    }
-  ]
+  "behaviorsSharedData": []
 }
