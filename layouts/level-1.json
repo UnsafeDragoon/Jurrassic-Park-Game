@@ -18,11 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6040838749988869,
+    "zoomFactor": 0.37971210019479323,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
+<<<<<<< HEAD
   "instances": [
     {
       "angle": 0,
@@ -33,8 +34,8 @@
       "persistentUuid": "70dc1f70-a510-47e6-9c81-510c1c9eeefb",
       "width": 0,
       "x": 1328,
-      "y": -106,
-      "zOrder": 15,
+      "y": -104,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -67,6 +68,67 @@
       "x": 26,
       "y": 12,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SquareRed",
+      "persistentUuid": "f789b804-b819-40bc-bc17-0ef3c7350220",
+      "width": 0,
+      "x": 826,
+      "y": 432,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SquareYellow",
+      "persistentUuid": "d9c289e9-bdce-40b1-9a6a-415a0d6bbdf4",
+      "width": 0,
+      "x": 705,
+      "y": 402,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SquareBlue",
+      "persistentUuid": "e53d7723-aa8e-4556-870d-f89f075d229a",
+      "width": 0,
+      "x": 932,
+      "y": 372,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 160,
+      "layer": "",
+      "name": "TrashCan",
+      "persistentUuid": "cc35948e-1a1f-477c-8667-330940f24217",
+      "width": 160,
+      "x": 195,
+      "y": 334,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -471,6 +533,68 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TrashCan",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite63",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 10
+                      },
+                      {
+                        "x": 53,
+                        "y": 10
+                      },
+                      {
+                        "x": 53,
+                        "y": 60
+                      },
+                      {
+                        "x": 10,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -531,6 +655,11 @@
       ]
     }
   ],
+=======
+  "instances": [],
+  "objects": [],
+  "events": [],
+>>>>>>> 325455fa51ce33195aeba248ac2a1aa8881b7a01
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -560,10 +689,5 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": [
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
-    }
-  ]
+  "behaviorsSharedData": []
 }

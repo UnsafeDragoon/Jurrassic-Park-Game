@@ -871,12 +871,93 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Waiting.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Waiting",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pressed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Pressed2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite52.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite52.png\"}",
         "name": "NewSprite52",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -885,7 +966,7 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite53",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -893,6 +974,42 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite54",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnHammond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JohnHammond.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\New image3",
         "smoothed": true,
         "userAdded": false
       },
@@ -909,28 +1026,11 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite56.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite56.png\"}",
         "name": "NewSprite56",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite57",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite58.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite58",
-        "smoothed": true,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "alwaysLoaded": false,
@@ -976,6 +1076,28 @@
         "name": "NewSprite62",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite63",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Roboto-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+=======
+>>>>>>> 325455fa51ce33195aeba248ac2a1aa8881b7a01
       }
     ],
     "resourceFolders": []
@@ -1042,72 +1164,122 @@
           ]
         }
       ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "interactibles",
+      "objects": [
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "Plant"
+        },
+        {
+          "name": "JohnHammond"
+        }
+      ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Backpack",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
+      "name": "collidables",
+      "objects": [
         {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite59",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 15,
-                        "y": 8
-                      },
-                      {
-                        "x": 49,
-                        "y": 8
-                      },
-                      {
-                        "x": 49,
-                        "y": 60
-                      },
-                      {
-                        "x": 15,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+          "name": "Plant"
+        },
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "outdoorWalls"
+        },
+        {
+          "name": "safariLodgeWall"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "wallw"
+        },
+        {
+          "name": "wallBottom"
         }
       ]
     }
   ],
+<<<<<<< HEAD
   "objectsGroups": [],
+  "variables": [
+    {
+      "name": "InvItemsOrder",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 2
+        },
+        {
+          "type": "number",
+          "value": 3
+        }
+      ]
+    }
+  ],
+=======
   "variables": [],
+>>>>>>> 325455fa51ce33195aeba248ac2a1aa8881b7a01
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1141,7 +1313,7 @@
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/backpack"
+      "referenceTo": "/externalEvents/freeroamconstants"
     }
   ],
   "eventsFunctionsExtensions": [

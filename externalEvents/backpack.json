@@ -106,21 +106,12 @@
             },
             {
               "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "InvItemsOrder",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "BackpackedSquareYellow",
-                " GlobalVariableChildCount(InvItemsOrder)*64",
+                " GlobalVariable(InvItemsCountTotal)*64",
                 "20",
                 ""
               ]
@@ -193,21 +184,12 @@
             },
             {
               "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "InvItemsOrder",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "BackpackedSquareRed",
-                "GlobalVariableChildCount(InvItemsOrder)*64",
+                " GlobalVariable(InvItemsCountTotal)*64",
                 "20",
                 ""
               ]
@@ -280,21 +262,12 @@
             },
             {
               "type": {
-                "value": "GlobalVariablePushNumber"
-              },
-              "parameters": [
-                "InvItemsOrder",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
                 "",
                 "BackpackedSquareBlue",
-                "GlobalVariableChildCount(InvItemsOrder)*64",
+                " GlobalVariable(InvItemsCountTotal)*64",
                 "20",
                 ""
               ]
@@ -484,6 +457,59 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Cursor",
+            "TrashCan",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "BackpackedSquareRed",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "InvItemsCountTotal",
+            "-",
+            "1"
+          ]
+        }
+      ]
     }
   ]
 }
