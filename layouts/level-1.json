@@ -18,12 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37971210019479323,
+    "zoomFactor": 0.6244537826599996,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-<<<<<<< HEAD
   "instances": [
     {
       "angle": 0,
@@ -31,104 +30,11 @@
       "height": 0,
       "layer": "",
       "name": "Cursor",
-      "persistentUuid": "70dc1f70-a510-47e6-9c81-510c1c9eeefb",
+      "persistentUuid": "acfbfac4-2a10-446d-a701-cca83d7875ae",
       "width": 0,
-      "x": 1328,
-      "y": -104,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 84,
-      "layer": "",
-      "name": "Backpack",
-      "persistentUuid": "f27289e4-bc5d-460e-b10e-2b836950f97b",
-      "width": 84,
-      "x": -11,
-      "y": -2,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 60,
-      "layer": "",
-      "name": "BackpackBackground",
-      "persistentUuid": "f783fe3a-0c22-42df-8f5b-ef33a780145d",
-      "width": 64,
-      "x": 26,
-      "y": 12,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SquareRed",
-      "persistentUuid": "f789b804-b819-40bc-bc17-0ef3c7350220",
-      "width": 0,
-      "x": 826,
-      "y": 432,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SquareYellow",
-      "persistentUuid": "d9c289e9-bdce-40b1-9a6a-415a0d6bbdf4",
-      "width": 0,
-      "x": 705,
-      "y": 402,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SquareBlue",
-      "persistentUuid": "e53d7723-aa8e-4556-870d-f89f075d229a",
-      "width": 0,
-      "x": 932,
-      "y": 372,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 160,
-      "layer": "",
-      "name": "TrashCan",
-      "persistentUuid": "cc35948e-1a1f-477c-8667-330940f24217",
-      "width": 160,
-      "x": 195,
-      "y": 334,
-      "zOrder": 22,
+      "x": 1324,
+      "y": -26,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,7 +45,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SquareYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -162,7 +67,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite56",
+                  "image": "NewSprite68",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -206,7 +111,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SquareRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -270,80 +174,12 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "SquareBlue",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite58",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
+      "height": 50,
       "name": "BackpackBackground",
-      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
+      "width": 64,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -352,7 +188,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -414,7 +249,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -476,7 +310,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -538,7 +371,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TrashCan",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -595,8 +427,103 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SquareBlue",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite67",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "SquareBlue"
+      },
+      {
+        "objectName": "SquareYellow"
+      },
+      {
+        "objectName": "SquareRed"
+      },
+      {
+        "objectName": "BackpackBackground"
+      },
+      {
+        "objectName": "BackpackedSquareYellow"
+      },
+      {
+        "objectName": "BackpackedSquareRed"
+      },
+      {
+        "objectName": "BackpackedSquareBlue"
+      },
+      {
+        "objectName": "TrashCan"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -655,11 +582,6 @@
       ]
     }
   ],
-=======
-  "instances": [],
-  "objects": [],
-  "events": [],
->>>>>>> 325455fa51ce33195aeba248ac2a1aa8881b7a01
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -689,5 +611,34 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
 }
