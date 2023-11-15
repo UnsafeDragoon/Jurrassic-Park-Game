@@ -898,6 +898,42 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnHammond.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/JohnHammond.png\",\"extension\":\".png\"}",
+        "name": "assets\\JohnHammond.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\New image3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite55.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1039,6 +1075,103 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite68",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "PermanentMarker-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PermanentMarker-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LexMurphy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LexMurphy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TimMurphy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TimMurphy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_JohnHammond.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_JohnHammond.png\"}",
+        "name": "assets\\JohnHammond",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_JohnHammond2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_JohnHammond2.png\"}",
+        "name": "assets\\JohnHammond2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_JohnHammond3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_JohnHammond3.png\"}",
+        "name": "assets\\JohnHammond3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnHammond2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "JohnHammond",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnHammond3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/JohnHammond3.png\"}",
+        "name": "JohnHammond2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite58",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite59",
         "smoothed": true,
         "userAdded": false
       }
@@ -1198,9 +1331,70 @@
         },
         {
           "type": "number",
-          "value": 3
+          "value": 3,
+          "name": "Plant"
+        },
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "outdoorWalls"
+        },
+        {
+          "name": "safariLodgeWall"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "wallw"
+        },
+        {
+          "name": "wallBottom"
+        },
+        {
+          "name": "LexMurphy"
+        },
+        {
+          "name": "TimMurphy"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "interactingStatus",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "sentenceFinished",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
