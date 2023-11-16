@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7619362677197614,
+    "zoomFactor": 0.841642812537312,
     "windowMask": false
   },
   "objectsGroups": [
@@ -29,7 +29,7 @@
           "name": "CombatBoxWalls"
         },
         {
-          "name": "MainCharacter"
+          "name": "MovingHead"
         },
         {
           "name": "Tail"
@@ -169,7 +169,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "MainCharacter",
+      "name": "MovingHead",
       "persistentUuid": "9a40f21f-fbfe-4347-8466-f18b157b6505",
       "width": 0,
       "x": 624,
@@ -517,7 +517,7 @@
       "width": 985,
       "x": 148,
       "y": 363,
-      "zOrder": 17,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -680,6 +680,97 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ReniforcedTwoInThree",
+      "persistentUuid": "2d4559b0-6f2c-4f66-960d-c7c7aadd7d8a",
+      "width": 0,
+      "x": 1025,
+      "y": 850,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ReniforcedTwoInThree",
+      "persistentUuid": "f3363a7c-f8ca-476d-a436-d9cd74638d5b",
+      "width": 0,
+      "x": 906,
+      "y": 851,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "da9e7923-b657-4b05-94f7-5cb5f28e4685",
+      "width": 0,
+      "x": 567,
+      "y": 314,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SpinoSaurus",
+      "persistentUuid": "21b6de8a-693a-4cfb-a97b-a2f365b50f46",
+      "width": 0,
+      "x": 495,
+      "y": 165,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SpineEnd",
+      "persistentUuid": "3948672d-cd38-4c9f-b247-dbd34e105ae7",
+      "width": 0,
+      "x": 925,
+      "y": 559,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "layer": "",
+      "name": "SpineEnd",
+      "persistentUuid": "21db14e9-7014-47fc-8c32-4ca7ac52f182",
+      "width": 135,
+      "x": 1051,
+      "y": 575,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -687,6 +778,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CombatBoxWalls",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -755,7 +847,8 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "MainCharacter",
+      "name": "MovingHead",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -870,6 +963,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "NewTiledSprite",
+      "tags": "",
       "texture": "New image",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
@@ -881,6 +975,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DialogueBoxWalls",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -942,6 +1037,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpawnBoxes",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -984,6 +1080,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tail",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1000,13 +1097,13 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite55",
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite73",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 5,
-                    "y": 5.5
+                    "x": 2,
+                    "y": 17
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -1014,7 +1111,42 @@
                     "x": 79.5,
                     "y": 19.5
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.5,
+                        "y": 22
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 16.5
+                      },
+                      {
+                        "x": 27.5,
+                        "y": 14
+                      },
+                      {
+                        "x": 80,
+                        "y": 15.5
+                      },
+                      {
+                        "x": 80,
+                        "y": 42
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 43
+                      },
+                      {
+                        "x": 5.5,
+                        "y": 39
+                      },
+                      {
+                        "x": 1,
+                        "y": 28.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1025,6 +1157,7 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "RedFlatBar",
+      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1093,6 +1226,7 @@
       "italic": false,
       "name": "DinosaurAppears",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1111,6 +1245,7 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Fight",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1174,6 +1309,7 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Act",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1237,6 +1373,7 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Item",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1300,6 +1437,7 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Run",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1364,6 +1502,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "twointhreechance",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1425,6 +1564,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "oneinthreechance",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1486,6 +1626,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "spawnedobject",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1547,6 +1688,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Anklyo",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1637,6 +1779,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBar",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1703,6 +1846,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightMeter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1764,6 +1908,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NoHit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1806,6 +1951,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LowHit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1848,6 +1994,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MedHit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1890,6 +2037,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeavyHit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1932,6 +2080,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HitEnemy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2247,6 +2396,7 @@
       "italic": false,
       "name": "ActionText_Flirt",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2274,6 +2424,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBarEndHitBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2318,6 +2469,7 @@
       "italic": false,
       "name": "ActionText_Talk",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2339,6 +2491,7 @@
       "italic": false,
       "name": "ActionText_Taunt",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2358,11 +2511,41 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Compy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 25,
+          "CurrentHealth": 0,
+          "MaxHealth": 25,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -2418,6 +2601,7 @@
     {
       "assetStoreId": "",
       "name": "Damage_Numbers",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -2432,100 +2616,266 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ReniforcedTwoInThree",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite74",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpinoSaurus",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 400,
+          "CurrentHealth": 0,
+          "MaxHealth": 400,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite80",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 50
+                      },
+                      {
+                        "x": 300,
+                        "y": 50
+                      },
+                      {
+                        "x": 300,
+                        "y": 254
+                      },
+                      {
+                        "x": 0,
+                        "y": 254
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SPINE",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "SpineSino",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Spinosaurus",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 98,
+                        "y": 50
+                      },
+                      {
+                        "x": 202,
+                        "y": 50
+                      },
+                      {
+                        "x": 202,
+                        "y": 107
+                      },
+                      {
+                        "x": 98,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpineEnd",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite82",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "CombatBoxWalls"
-      },
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "DialogueBoxWalls"
-      },
-      {
-        "objectName": "SpawnBoxes"
-      },
-      {
-        "objectName": "Tail"
-      },
-      {
-        "objectName": "RedFlatBar"
-      },
-      {
-        "objectName": "DinosaurAppears"
-      },
-      {
-        "objectName": "Fight"
-      },
-      {
-        "objectName": "Act"
-      },
-      {
-        "objectName": "Item"
-      },
-      {
-        "objectName": "Run"
-      },
-      {
-        "objectName": "twointhreechance"
-      },
-      {
-        "objectName": "oneinthreechance"
-      },
-      {
-        "objectName": "spawnedobject"
-      },
-      {
-        "objectName": "Anklyo"
-      },
-      {
-        "objectName": "FightBar"
-      },
-      {
-        "objectName": "FightMeter"
-      },
-      {
-        "objectName": "NoHit"
-      },
-      {
-        "objectName": "LowHit"
-      },
-      {
-        "objectName": "MedHit"
-      },
-      {
-        "objectName": "HeavyHit"
-      },
-      {
-        "objectName": "HitEnemy"
-      },
-      {
-        "objectName": "ActionText_Flirt"
-      },
-      {
-        "objectName": "FightBarEndHitBox"
-      },
-      {
-        "objectName": "ActionText_Talk"
-      },
-      {
-        "objectName": "ActionText_Taunt"
-      },
-      {
-        "objectName": "Compy"
-      },
-      {
-        "objectName": "Damage_Numbers"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2617,18 +2967,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "WildAnk",
-            "=",
-            "1"
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -2645,70 +2984,182 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "PickYourFighter",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "WildAnk",
-            "=",
-            "1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "AnklyoStrike",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DinosaurAppears",
+                "=",
+                "\"A wild Ankylosaurus has appeared!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Compy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Anklyo",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "DinosaurAppears",
-            "=",
-            "\"A wild Ankylosaurus has appeared!\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarGlobal"
-          },
-          "parameters": [
-            "WildCompy",
-            "=",
-            "1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "CompyStrike",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DinosaurAppears",
+                "=",
+                "\"A wild Compy has appeared!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Anklyo"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpinoSaurus"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Compy",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "DinosaurAppears",
-            "=",
-            "\"A wild Compy has appeared!\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "SpinoStrike",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DinosaurAppears",
+                "=",
+                "\"A wild Spino has appeared!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Anklyo"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Compy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpinoSaurus",
+                ""
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -2729,7 +3180,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "MainCharacter",
+                "MovingHead",
                 "CombatBoxWalls",
                 ""
               ]
@@ -2765,7 +3216,7 @@
               "parameters": [
                 "PlayerCombatHealth",
                 "=",
-                "MainCharacter.Health::Health()"
+                "MovingHead.Health::Health()"
               ]
             }
           ]
@@ -2787,7 +3238,7 @@
                     "value": "Health::Health::IsDead"
                   },
                   "parameters": [
-                    "MainCharacter",
+                    "MovingHead",
                     "Health",
                     ""
                   ]
@@ -2859,15 +3310,6 @@
                 "FightBox",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Anklyo",
-                "\"Attack\""
-              ]
             }
           ]
         },
@@ -2899,6 +3341,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Left Side",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2911,7 +3354,7 @@
                             "value": "VarGlobal"
                           },
                           "parameters": [
-                            "WildAnk",
+                            "AnklyoStrike",
                             "=",
                             "1"
                           ]
@@ -3089,7 +3532,7 @@
                             "value": "VarGlobal"
                           },
                           "parameters": [
-                            "WildAnk",
+                            "AnklyoStrike",
                             "=",
                             "1"
                           ]
@@ -3292,7 +3735,7 @@
                       },
                       "parameters": [
                         "Tail",
-                        "MainCharacter",
+                        "MovingHead",
                         "",
                         "",
                         ""
@@ -3305,7 +3748,7 @@
                         "value": "Health::Health::Hit"
                       },
                       "parameters": [
-                        "MainCharacter",
+                        "MovingHead",
                         "Health",
                         "5",
                         "",
@@ -3339,6 +3782,178 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
+              "name": "Compy",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Spino",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "SpinoSaurus",
+                        "\"Attack\"",
+                        ">=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SpinoStrike",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SPINE",
+                        "200",
+                        "500",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        "280",
+                        "50",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        "<=",
+                        "500"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        "0",
+                        "100",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        ">=",
+                        "600"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        "0",
+                        "-100",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        "SpineEnd",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "SPINE",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
               "name": "Health Bar",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3354,7 +3969,7 @@
                       "parameters": [
                         "RedFlatBar",
                         "=",
-                        "MainCharacter.Health::Health()",
+                        "MovingHead.Health::Health()",
                         ""
                       ]
                     }
@@ -3368,7 +3983,7 @@
                         "value": "Health::Health::IsDamageCooldownActive"
                       },
                       "parameters": [
-                        "MainCharacter",
+                        "MovingHead",
                         "Health",
                         "="
                       ]
@@ -3380,7 +3995,7 @@
                         "value": "Opacity"
                       },
                       "parameters": [
-                        "MainCharacter",
+                        "MovingHead",
                         "=",
                         "50"
                       ]
@@ -3396,7 +4011,7 @@
                         "value": "Health::Health::IsDamageCooldownActive"
                       },
                       "parameters": [
-                        "MainCharacter",
+                        "MovingHead",
                         "Health",
                         ""
                       ]
@@ -3408,7 +4023,7 @@
                         "value": "Opacity"
                       },
                       "parameters": [
-                        "MainCharacter",
+                        "MovingHead",
                         "=",
                         "255"
                       ]
@@ -3428,6 +4043,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Break From Combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3696,14 +4312,103 @@
                             "FightBox",
                             ""
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3756,19 +4461,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "20",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -3846,14 +4538,142 @@
                             "FightBox",
                             ""
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "20",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "20",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "20",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -3918,19 +4738,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "15",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4008,14 +4815,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "15",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "15",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "15",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4068,19 +5003,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "10",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4158,14 +5080,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "10",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "10",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "10",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4230,19 +5280,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "7",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4320,14 +5357,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "7",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "7",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "7",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4380,19 +5545,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "5",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4470,14 +5622,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "5",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "5",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "5",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4542,19 +5822,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "3",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4632,14 +5899,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4692,19 +6087,6 @@
                           },
                           "parameters": [
                             "FightBar"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "Health",
-                            "0",
-                            "",
-                            "",
-                            ""
                           ]
                         },
                         {
@@ -4782,14 +6164,142 @@
                           "parameters": [
                             "TextBox"
                           ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "Health",
+                                "0",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
                         },
                         {
-                          "type": {
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Anklyo",
-                            "\"Attack\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "0",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "Health",
+                                "0",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
+                                "\"Attack\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -4802,6 +6312,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Enemy Deaths",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -4831,6 +6342,40 @@
                             "\"Victory!\""
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "FightBox"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PopScene"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -4844,6 +6389,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Act",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4943,6 +6489,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Item",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -5092,6 +6639,18 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "spawnedobject",
+                        "ReniforcedTwoInThree",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -5109,56 +6668,31 @@
                             "=",
                             "\"You ran away\""
                           ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Level1Combat",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": []
                         },
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Level2Combat",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": []
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "2"
+                          ]
                         },
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "VarGlobal"
-                              },
-                              "parameters": [
-                                "Level3Combat",
-                                "=",
-                                "1"
-                              ]
-                            }
-                          ],
-                          "actions": []
+                          "type": {
+                            "value": "PopScene"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "spawnedobject",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -5254,7 +6788,18 @@
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "AnklyoStrike",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
                           "actions": [
                             {
                               "type": {
@@ -5262,6 +6807,58 @@
                               },
                               "parameters": [
                                 "Anklyo",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "CompyStrike",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Compy",
+                                "\"Attack\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SpinoStrike",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "SpinoSaurus",
                                 "\"Attack\""
                               ]
                             }
@@ -5284,6 +6881,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Health Bar for Ank",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5377,6 +6975,10 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",
