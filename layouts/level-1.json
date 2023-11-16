@@ -475,6 +475,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterSpawnBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -536,6 +537,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CompyEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -597,6 +599,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "AnklyoEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -658,6 +661,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -719,6 +723,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -780,6 +785,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoBossSpawn",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -838,50 +844,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "SquareBlue"
-      },
-      {
-        "objectName": "SquareYellow"
-      },
-      {
-        "objectName": "SquareRed"
-      },
-      {
-        "objectName": "BackpackBackground"
-      },
-      {
-        "objectName": "BackpackedSquareYellow"
-      },
-      {
-        "objectName": "BackpackedSquareRed"
-      },
-      {
-        "objectName": "BackpackedSquareBlue"
-      },
-      {
-        "objectName": "RandomEncounterSpawnBox"
-      },
-      {
-        "objectName": "CompyEncounter"
-      },
-      {
-        "objectName": "AnklyoEncounter"
-      },
-      {
-        "objectName": "SpinoBossSpawn"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
-        "objectName": "LoadingScreen"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

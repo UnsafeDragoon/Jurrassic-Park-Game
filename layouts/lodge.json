@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998329977,
+    "zoomFactor": 0.39251611754883886,
     "windowMask": false
   },
   "objectsGroups": [
@@ -52,7 +52,83 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "dialogueHammond",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "number",
+          "value": 1
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Hello everyone, I hope you all have had a safe flight."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "We have alot to show you here. You will travel back to the Prehistoric Era with what you will witness today."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Have some time to settle in and be ready to leave the Lodge at noon for the tour! "
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Also everyone, please keep in mind...."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "This park is near and dear to me, so please treat it with respect."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Welcome everyone, to the JURRASSIC PARK!"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "And you! Umm...."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "What was your name again?"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Ok [name], being the new technician, you are going to be responsible for fixing any electical issues the park may encounter."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Ed Reigis here will give you a tour around the Lodge, where most of the operations take place."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Before you're off, make sure not to hurt any of MY dinosaurs. It is park property and costs alot of money."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Anyways, welcome aboard the Jurassic Park team!"
+        },
+        {
+          "type": "string",
+          "value": "What are you still doing here? Off with you!"
+        }
+      ]
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -63,8 +139,8 @@
       "name": "MainCharacter",
       "persistentUuid": "d716f091-3221-4f43-8ea6-946fca22bf49",
       "width": 46,
-      "x": 134,
-      "y": 287,
+      "x": 332,
+      "y": 494,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +155,8 @@
       "name": "Plant",
       "persistentUuid": "85cd190b-0c8c-4a35-98c4-06bac8d22db9",
       "width": 56,
-      "x": 66,
-      "y": 82,
+      "x": 67,
+      "y": 154,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -90,13 +166,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 606,
+      "height": 1724,
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "2797156e-8cef-4029-b807-c68bf7ef7b63",
-      "width": 1204,
-      "x": 40,
-      "y": 52,
+      "width": 1026,
+      "x": 51,
+      "y": -929,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -111,8 +187,8 @@
       "name": "Plant",
       "persistentUuid": "1bde58ff-df24-4153-b767-d6dcaf9d58be",
       "width": 56,
-      "x": 53,
-      "y": 586,
+      "x": 340,
+      "y": 236,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,8 +234,8 @@
       "name": "AlanGrant",
       "persistentUuid": "92724bbd-6647-4436-8e87-93de48282f36",
       "width": 58,
-      "x": 134,
-      "y": 52,
+      "x": 344,
+      "y": 327,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -174,8 +250,8 @@
       "name": "DonaldGenero",
       "persistentUuid": "11fbb64e-5bac-46be-9cd5-d6b807e8636a",
       "width": 59,
-      "x": 191,
-      "y": 52,
+      "x": 265,
+      "y": 402,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,8 +266,8 @@
       "name": "IanMalcom",
       "persistentUuid": "f689d797-49f7-43e8-8bb3-44ace56e091e",
       "width": 58,
-      "x": 239,
-      "y": 52,
+      "x": 286,
+      "y": 449,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -206,8 +282,8 @@
       "name": "DennisNedry",
       "persistentUuid": "3dc54b9b-b5e5-435d-aff0-4fef5bf0eadd",
       "width": 59,
-      "x": 293,
-      "y": 52,
+      "x": 191,
+      "y": -119,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,8 +298,8 @@
       "name": "JohnArnold",
       "persistentUuid": "47a02b6f-0b7d-410b-bd63-275a1fbeaf0f",
       "width": 58,
-      "x": 345,
-      "y": 52,
+      "x": 355,
+      "y": -131,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,8 +314,8 @@
       "name": "EdRegis",
       "persistentUuid": "80c0579c-498e-4a74-8a92-18eed7d7b8a5",
       "width": 58,
-      "x": 394,
-      "y": 52,
+      "x": 496,
+      "y": 347,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -254,8 +330,8 @@
       "name": "HeneryWu",
       "persistentUuid": "a640e0d4-6a5b-40d5-99d2-2b21b146fb42",
       "width": 58,
-      "x": 451,
-      "y": 292,
+      "x": 677,
+      "y": -148,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -798,7 +874,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -814,8 +895,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": -0.5,
+                    "y": -37.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -827,11 +908,11 @@
                     [
                       {
                         "x": 7,
-                        "y": 1
+                        "y": 45.5
                       },
                       {
-                        "x": 51,
-                        "y": 1
+                        "x": 50.5,
+                        "y": 46
                       },
                       {
                         "x": 51,
@@ -860,10 +941,15 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
       "tags": "",
@@ -871,7 +957,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -900,11 +991,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 14
+                        "y": 71
                       },
                       {
-                        "x": 42,
-                        "y": 14
+                        "x": 41.5,
+                        "y": 71
                       },
                       {
                         "x": 42,
@@ -924,7 +1015,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "IanMalcom",
       "tags": "",
@@ -932,7 +1023,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -961,11 +1057,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 18
+                        "y": 71
                       },
                       {
                         "x": 42,
-                        "y": 18
+                        "y": 71.5
                       },
                       {
                         "x": 42,
@@ -985,7 +1081,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DonaldGenero",
       "tags": "",
@@ -993,7 +1089,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1022,11 +1123,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 15
+                        "y": 70.5
                       },
                       {
                         "x": 42,
-                        "y": 15
+                        "y": 70.5
                       },
                       {
                         "x": 42,
@@ -1107,7 +1208,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DennisNedry",
       "tags": "",
@@ -1115,7 +1216,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1144,11 +1250,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 19
+                        "y": 70
                       },
                       {
-                        "x": 42,
-                        "y": 19
+                        "x": 41.5,
+                        "y": 71
                       },
                       {
                         "x": 42,
@@ -1168,7 +1274,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnArnold",
       "tags": "",
@@ -1176,7 +1282,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1205,11 +1316,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 20
+                        "y": 69
                       },
                       {
-                        "x": 42,
-                        "y": 20
+                        "x": 41.5,
+                        "y": 69.5
                       },
                       {
                         "x": 42,
@@ -1229,7 +1340,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
       "tags": "",
@@ -1237,7 +1348,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1266,11 +1382,11 @@
                     [
                       {
                         "x": 8,
-                        "y": 14
+                        "y": 70
                       },
                       {
-                        "x": 42,
-                        "y": 14
+                        "x": 41.5,
+                        "y": 70.5
                       },
                       {
                         "x": 42,
@@ -1290,7 +1406,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeneryWu",
       "tags": "",
@@ -1298,7 +1414,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1326,12 +1447,12 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 18
+                        "x": 7.5,
+                        "y": 72.5
                       },
                       {
-                        "x": 42,
-                        "y": 18
+                        "x": 41,
+                        "y": 73
                       },
                       {
                         "x": 42,
@@ -1372,18 +1493,18 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite51",
+                  "image": "assets\\Waiting.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": -11.5,
+                    "y": 35.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 17.5,
+                    "y": 17.5
                   },
                   "customCollisionMask": [
                     [
@@ -1392,16 +1513,16 @@
                         "y": 0
                       },
                       {
-                        "x": 48,
+                        "x": 36,
                         "y": 0
                       },
                       {
-                        "x": 48,
-                        "y": 48
+                        "x": 36,
+                        "y": 36
                       },
                       {
                         "x": 0,
-                        "y": 48
+                        "y": 36
                       }
                     ]
                   ]
@@ -1421,7 +1542,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Pressed",
+                  "image": "assets\\Pressed2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1629,7 +1750,7 @@
       "height": 32,
       "name": "grass",
       "tags": "",
-      "texture": "New image4",
+      "texture": "assets\\New image4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1668,7 +1789,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "JohnHammond2",
+                  "image": "assets\\JohnHammond.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1717,115 +1838,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\JohnHammond",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6.5,
-                        "y": 69.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 70.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 87
-                      },
-                      {
-                        "x": 7,
-                        "y": 87
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\JohnHammond2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6.5,
-                        "y": 69.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 70.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 87
-                      },
-                      {
-                        "x": 7,
-                        "y": 87
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
                   "image": "assets\\JohnHammond.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6.5,
-                        "y": 69.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 70.5
-                      },
-                      {
-                        "x": 45,
-                        "y": 87
-                      },
-                      {
-                        "x": 7,
-                        "y": 87
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\JohnHammond3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1892,7 +1905,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\New image3",
+                  "image": "assets\\assets_New image3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1985,16 +1998,16 @@
                         "y": 0
                       },
                       {
-                        "x": 48,
+                        "x": 888,
                         "y": 0
                       },
                       {
-                        "x": 48,
-                        "y": 48
+                        "x": 888,
+                        "y": 138
                       },
                       {
                         "x": 0,
-                        "y": 48
+                        "y": 138
                       }
                     ]
                   ]
@@ -2094,6 +2107,42 @@
                       }
                     ]
                   ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\LexMurphy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 16.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 84
+                      },
+                      {
+                        "x": 11,
+                        "y": 84
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2125,6 +2174,42 @@
               "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\TimMurphy.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 0.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 74
+                      },
+                      {
+                        "x": 39,
+                        "y": 74
+                      },
+                      {
+                        "x": 39,
+                        "y": 84
+                      },
+                      {
+                        "x": 11,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\TimMurphy.png",
@@ -2258,78 +2343,6 @@
                       }
                     ]
                   ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite71",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 14,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 100
-                      },
-                      {
-                        "x": 14,
-                        "y": 100
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite72",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 14,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 6
-                      },
-                      {
-                        "x": 90,
-                        "y": 100
-                      },
-                      {
-                        "x": 14,
-                        "y": 100
-                      }
-                    ]
-                  ]
                 }
               ]
             }
@@ -2375,264 +2388,135 @@
           ]
         }
       ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
       "actions": [
         {
           "type": {
-            "value": "CacheSouris"
+            "value": "Opacity"
           },
           "parameters": [
-            "Cursor"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Cursor",
+            "blueTint",
             "=",
-            "CursorX()",
-            "=",
-            "CursorY()"
+            "70"
           ]
         }
       ]
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Player",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "\"Up\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "MainCharacter",
-                "\"Walking Up\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "\"Down\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "MainCharacter",
-                "\"Walking down\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "MainCharacter",
-                "\"Walking Left\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "\"Right\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "MainCharacter",
-                "\"Walking Right\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "MainCharacter",
-                "People",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "freeRoamConstants"
     },
     {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "Interactions",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "MainCharacter",
+            "JohnHammond",
+            "35",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "Distance"
+                "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
-                "MainCharacter",
-                "People",
-                "100",
-                ""
+                "sentenceFinished",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialogueText",
+                "=",
+                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "ModVarScene"
               },
-              "parameters": []
+              "parameters": [
+                "dialogueHammond[0]",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "JohnHammond",
+                "\"talking\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "sentenceFinished",
+                "False"
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
               },
               "parameters": [
-                "",
-                "E_Buton",
-                "HeneryWu.X() + 6",
-                "HeneryWu.Y() - 32",
+                "dialogueText",
+                "Text_AutoTyping",
                 ""
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "E_Buton",
-                "\"Waiting\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "E_Buton",
-                "\"Pressed\""
-              ]
-            }
-          ]
         }
-      ],
-      "parameters": []
+      ]
     }
   ],
   "layers": [
@@ -2662,44 +2546,60 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "hud",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "dialogueOverlay",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
-    },
-    {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
     },
     {
+      "name": "Text_AutoTyping",
+      "type": "AutoTyping::Text_AutoTyping"
+    },
+    {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }

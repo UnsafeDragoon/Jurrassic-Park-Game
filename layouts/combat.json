@@ -2621,6 +2621,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ReniforcedTwoInThree",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2682,6 +2683,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoSaurus",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2772,6 +2774,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SPINE",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2833,6 +2836,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpineEnd",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2872,110 +2876,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "CombatBoxWalls"
-      },
-      {
-        "objectName": "MovingHead"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "DialogueBoxWalls"
-      },
-      {
-        "objectName": "SpawnBoxes"
-      },
-      {
-        "objectName": "Tail"
-      },
-      {
-        "objectName": "RedFlatBar"
-      },
-      {
-        "objectName": "DinosaurAppears"
-      },
-      {
-        "objectName": "Fight"
-      },
-      {
-        "objectName": "Act"
-      },
-      {
-        "objectName": "Item"
-      },
-      {
-        "objectName": "Run"
-      },
-      {
-        "objectName": "twointhreechance"
-      },
-      {
-        "objectName": "oneinthreechance"
-      },
-      {
-        "objectName": "spawnedobject"
-      },
-      {
-        "objectName": "Anklyo"
-      },
-      {
-        "objectName": "FightBar"
-      },
-      {
-        "objectName": "FightMeter"
-      },
-      {
-        "objectName": "NoHit"
-      },
-      {
-        "objectName": "LowHit"
-      },
-      {
-        "objectName": "MedHit"
-      },
-      {
-        "objectName": "HeavyHit"
-      },
-      {
-        "objectName": "HitEnemy"
-      },
-      {
-        "objectName": "ActionText_Flirt"
-      },
-      {
-        "objectName": "FightBarEndHitBox"
-      },
-      {
-        "objectName": "ActionText_Talk"
-      },
-      {
-        "objectName": "ActionText_Taunt"
-      },
-      {
-        "objectName": "Compy"
-      },
-      {
-        "objectName": "Damage_Numbers"
-      },
-      {
-        "objectName": "ReniforcedTwoInThree"
-      },
-      {
-        "objectName": "SpinoSaurus"
-      },
-      {
-        "objectName": "SPINE"
-      },
-      {
-        "objectName": "SpineEnd"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

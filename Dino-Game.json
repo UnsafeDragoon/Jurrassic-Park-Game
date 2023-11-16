@@ -1185,6 +1185,60 @@
         "name": "NewSprite82",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/JohnHammond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\JohnHammond.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_New image3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LexMurphy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\LexMurphy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TimMurphy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TimMurphy.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1318,6 +1372,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1596,20 +1651,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "Backpack"
-      },
-      {
-        "objectName": "MainCharacter"
-      }
-    ]
-  },
   "objectsGroups": [
     {
       "name": "collidables",
