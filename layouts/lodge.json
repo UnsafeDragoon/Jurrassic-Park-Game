@@ -569,8 +569,8 @@
       "name": "nameInput",
       "persistentUuid": "4e234370-2cb9-4a0e-8d50-8bfa5ca1940a",
       "width": 572,
-      "x": 342,
-      "y": 180,
+      "x": 355,
+      "y": 184,
       "zOrder": 112,
       "numberProperties": [],
       "stringProperties": [],
@@ -582,6 +582,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -868,6 +869,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Plant",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -933,6 +935,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
+      "tags": "",
       "texture": "assets\\assets_New image.png6.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -949,6 +952,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1014,6 +1018,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "IanMalcom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1079,6 +1084,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DonaldGenero",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1144,6 +1150,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RobertMuldoon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1204,6 +1211,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DennisNedry",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1269,6 +1277,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnArnold",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1334,6 +1343,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1399,6 +1409,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeneryWu",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1464,6 +1475,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "E_Buton",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1574,6 +1586,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "safariLodgeWall",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1590,6 +1603,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWalls",
+      "tags": "",
       "texture": "assets\\New image3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1601,6 +1615,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NewSprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1667,6 +1682,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "blueTint",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1733,6 +1749,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "grass",
+      "tags": "",
       "texture": "New image4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1749,6 +1766,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnHammond",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1972,6 +1990,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2038,6 +2057,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "textBorder",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2112,6 +2132,7 @@
       "italic": false,
       "name": "dialogueText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2139,6 +2160,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LexMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2204,6 +2226,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2269,6 +2292,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2437,6 +2461,7 @@
     {
       "assetStoreId": "",
       "name": "nameInput",
+      "tags": "",
       "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
@@ -2458,86 +2483,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Plant"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "AlanGrant"
-      },
-      {
-        "objectName": "IanMalcom"
-      },
-      {
-        "objectName": "DonaldGenero"
-      },
-      {
-        "objectName": "RobertMuldoon"
-      },
-      {
-        "objectName": "DennisNedry"
-      },
-      {
-        "objectName": "JohnArnold"
-      },
-      {
-        "objectName": "EdRegis"
-      },
-      {
-        "objectName": "HeneryWu"
-      },
-      {
-        "objectName": "E_Buton"
-      },
-      {
-        "objectName": "safariLodgeWall"
-      },
-      {
-        "objectName": "outdoorWalls"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "blueTint"
-      },
-      {
-        "objectName": "grass"
-      },
-      {
-        "objectName": "JohnHammond"
-      },
-      {
-        "objectName": "wallBottom"
-      },
-      {
-        "objectName": "textBorder"
-      },
-      {
-        "objectName": "dialogueText"
-      },
-      {
-        "objectName": "LexMurphy"
-      },
-      {
-        "objectName": "TimMurphy"
-      },
-      {
-        "objectName": "headSprites"
-      },
-      {
-        "objectName": "nameInput"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
