@@ -1210,6 +1210,69 @@
         "name": "assets\\Pressed2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textBoxWorld.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\textBoxWorld.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/johnHead2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\johnHead2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/johnHead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\johnHead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite69",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite70",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite71",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite72",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1219,7 +1282,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1281,7 +1343,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1340,7 +1401,107 @@
       ]
     }
   ],
-  "objectsGroups": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Cursor"
+      },
+      {
+        "objectName": "Backpack"
+      }
+    ]
+  },
+  "objectsGroups": [
+    {
+      "name": "collidables",
+      "objects": [
+        {
+          "name": "Plant"
+        },
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "outdoorWalls"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "LexMurphy"
+        },
+        {
+          "name": "TimMurphy"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "wallBottom"
+        }
+      ]
+    },
+    {
+      "name": "interactibles",
+      "objects": [
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "LexMurphy"
+        },
+        {
+          "name": "TimMurphy"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "InvItemsOrder",

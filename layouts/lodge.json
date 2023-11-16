@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39251611754883636,
+    "zoomFactor": 0.23867758270258818,
     "windowMask": false
   },
   "objectsGroups": [
@@ -559,6 +559,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "nameInput",
+      "persistentUuid": "4e234370-2cb9-4a0e-8d50-8bfa5ca1940a",
+      "width": 572,
+      "x": 342,
+      "y": 180,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -566,7 +582,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -853,7 +868,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Plant",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -919,7 +933,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
-      "tags": "",
       "texture": "assets\\assets_New image.png6.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -936,7 +949,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1002,7 +1014,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "IanMalcom",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1068,7 +1079,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DonaldGenero",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1134,7 +1144,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RobertMuldoon",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1195,7 +1204,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DennisNedry",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1261,7 +1269,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnArnold",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1327,7 +1334,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1393,7 +1399,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeneryWu",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1459,7 +1464,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "E_Buton",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1570,7 +1574,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "safariLodgeWall",
-      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1587,7 +1590,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWalls",
-      "tags": "",
       "texture": "assets\\New image3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1599,7 +1601,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NewSprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1666,7 +1667,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "blueTint",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1733,7 +1733,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "grass",
-      "tags": "",
       "texture": "New image4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1750,7 +1749,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnHammond",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1786,7 +1784,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.5,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 45,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 45,
+                        "y": 87
+                      },
+                      {
+                        "x": 7,
+                        "y": 87
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -1955,7 +1972,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2022,7 +2038,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "textBorder",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2040,7 +2055,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite57",
+                  "image": "assets\\textBoxWorld.png",
                   "points": [
                     {
                       "name": "headSpawn",
@@ -2097,7 +2112,6 @@
       "italic": false,
       "name": "dialogueText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2125,7 +2139,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LexMurphy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2191,7 +2204,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimMurphy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2257,7 +2269,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2269,13 +2280,121 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABkCAYAAACoy2Z3AAAAAXNSR0IArs4c6QAABq1JREFUeF7t3DGO5EQUBuDemAA0SGhShJBgjgAbcIANOSbhHoBg4QgDElqRjpBoQUC8BLuItmfGrvpdZXe7P0K2nnv6e6/qt8csLw7+IUCAAAECgcCLoEYJAQIECBA4CBBDQIAAAQKRgACJ2BQRIECAgAAxAwQIECAQCQiQiE0RAQIECAgQM0CAAAECkYAAidgUESBAgIAAMQMECBAgEAkIkIhNEQECBAgIEDNAgAABApGAAInYFBEgQICAADEDBAgQIBAJCJCITREBAgQICBAzQIAAAQKRgACJ2BQRIECAgAAxAwQIECAQCQiQiE0RAQIECAgQM0CAAAECkYAAidgUESBAgIAAMQMECBAgEAkIkIhNEQECBAgIEDNAgAABApGAAInYFBEgQICAADEDBAgQIBAJCJCITREBAgQICBAzQIAAAQKRgACJ2BQRIECAgAAxAwQIECAQCQiQiE0RAQIECAgQM0CAAAECkYAAidgUESBAgIAAMQMECBAgEAkIkIhNEQECBAgIEDNAgAABApGAAInYFBEgQICAADEDBAgQIBAJCJCITREBAgQICBAzQIAAAQKRgACJ2BQRIECAgAAxAwQIECAQCQiQiE0RAQIECAgQM0CAAAECkYAAidgUESBAgIAAMQMECBAgEAkIkIhNEQECBAgIEDNAgAABApGAAInYFBEgQICAADEDBAgQIBAJCJCITREBAgQICBAzQIAAAQKRgACJ2BQRIECAgAAxAwQIECAQCQiQiE0RAQIECAgQM0CAAAECkYAAidgUESBAgIAAMQMECBAgEAkIkIhNEQECBAgIEDNAgAABApGAAInYFBEgQICAADEDBAgQIBAJCJCITREBAgQInG2A3N/fv5tqz29vXld178uXrybX393dna1F1RfttFg/OsGGl9WPEK5T2bX242wPzWttSKf5XnxZ/VhM2PQC+tGUc/HFrrUfAuTD6HgCmd5D17pBFp8snS6gH51gw8teaz8EiAAp2jLXukGKcDZYpB8boE985LX2Y7MAeXh4mHzHMe7V8Xgc/Ku/f/m5aoI+/vqbwfqbm5uq+tvb282sqn7QcLF+hHCdyvSjE2x4Wf14Gm6zQ1FDwknuVKYfnWDDy+pHCNepTD8EiCeQic1lg3Q6ecLL6kcI16lMPwSIABEgnY6X9pd1YLU3XXJF/dg4QGobMNfsuXciS995zH3+pb8T0Y+5Dq/75/qxrvfcp+nHnND7P1/tHYiGlDVkrVX6sZZ02efoR5nTWqv0o0xagJQ5PVrlCWRI4okwHKQPZQ6sZX6tq/WjTFSAlDkJkBknARIOkgBZBtepWoCUwV5sgIy/3vgAq/17HmVc/6/yBDItph91E9X6wLI/6vzHq/WjzE+AlDl5Aql0EiB1YA6sOq/eq/WjTFiAlDkJkEonAVIH5sCq8+q9Wj/KhAVImZMAqXQSIHVgDqw6r96r9aNMuFuArN2A8dft/Q5k/Hnn/k5EP8o2xFqr9GMt6bLP0Y8yp/EqAZK5XdwTiQ3SqNGNLqMfjSAbXUY/MkgBkrkJkJHA+FdWnginB8uB1WjjNbqMfmSQAiRzEyACZNHkOLAW8TUv1o+M9GIDZPx1135p6x3I9MDpx7ZPIPZH3YHYO0D22g8BUjdnz66+9pfoe90gjcbj0WUcWL1ks+vqR+YmQDI3v8KacfME4gnkVMAN1nAe9rI/BIgAaSSwzw3SBedwOLjj7SWbXVc/MrdmAbJ1A8Zff+2/B3Ju70T0Y9iRre+A9UM/po7oSz2vBEgWvLNVDqwh0aVukNlGFy4QIAJEgEwI2CA2yB43SGE+zC6zP+yPPe4PTyCzWz9b4AnEE8ipgAARIAKk4gnk959eT568n3/7KjuZn6nq/V811H6fcwuQ2p9/aXP0Yyg4DhD9uG1285rMqn4Mz9/0vGrWRA1p05BkMzxVox/6cToXAl2gnwqMb+AFyPE4mJDWL21r7xjThgiQMgH9KHP6b5UAESACZGLP2CA2SI8NUndMP7/aE6Enwj0+ETb7FdbbH394N7XZ/vjzr8EfL30Hsvb//XV8x/vZp59Mni1ffPd9M9vkENOPoZp+DD16P6HbH0PvvZ5XzQ45B5YDayroHFhusE7nQ6DvI9AFSOHtvSeQaai93mEVjsfsMjdYbrD2eIMlQGa3/vsFAkSAFI7Kk8sEiAARIBMCcxtkXPrRVy+X7MdHtb1fov/z65uqn/fcH9H1o6qdixfbH5cVIPZH2civ9gSiIWUNabXKgeXAOhVwgzWcB/ujzf74Fy6gYLDanbbGAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[null]}}\",\"resourceNames\":[\"NewSprite69\",\"NewSprite70\",\"NewSprite71\",\"NewSprite72\"],\"name\":\"NewSprite2\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite59",
+                  "image": "NewSprite69",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 100
+                      },
+                      {
+                        "x": 14,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite70",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 100
+                      },
+                      {
+                        "x": 14,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite71",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 6
+                      },
+                      {
+                        "x": 90,
+                        "y": 100
+                      },
+                      {
+                        "x": 14,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite72",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2314,8 +2433,111 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "nameInput",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "The Technician",
+        "placeholder": "The Technician",
+        "fontResourceName": "PermanentMarker-Regular.ttf",
+        "fontSize": 60,
+        "inputType": "text",
+        "textColor": "255;3;3",
+        "fillColor": "255;255;255",
+        "fillOpacity": 255,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 10,
+        "readOnly": false,
+        "disabled": false
+      }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "MainCharacter"
+      },
+      {
+        "objectName": "Plant"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "AlanGrant"
+      },
+      {
+        "objectName": "IanMalcom"
+      },
+      {
+        "objectName": "DonaldGenero"
+      },
+      {
+        "objectName": "RobertMuldoon"
+      },
+      {
+        "objectName": "DennisNedry"
+      },
+      {
+        "objectName": "JohnArnold"
+      },
+      {
+        "objectName": "EdRegis"
+      },
+      {
+        "objectName": "HeneryWu"
+      },
+      {
+        "objectName": "E_Buton"
+      },
+      {
+        "objectName": "safariLodgeWall"
+      },
+      {
+        "objectName": "outdoorWalls"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "blueTint"
+      },
+      {
+        "objectName": "grass"
+      },
+      {
+        "objectName": "JohnHammond"
+      },
+      {
+        "objectName": "wallBottom"
+      },
+      {
+        "objectName": "textBorder"
+      },
+      {
+        "objectName": "dialogueText"
+      },
+      {
+        "objectName": "LexMurphy"
+      },
+      {
+        "objectName": "TimMurphy"
+      },
+      {
+        "objectName": "headSprites"
+      },
+      {
+        "objectName": "nameInput"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2351,6 +2573,11 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -2365,20 +2592,11 @@
         },
         {
           "type": {
-            "value": "KeyPressed"
+            "value": "KeyReleased"
           },
           "parameters": [
             "",
             "e"
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "sentenceFinished",
-            "True"
           ]
         },
         {
@@ -2388,34 +2606,77 @@
           "parameters": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "dialogueText",
-            "=",
-            "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "sentenceFinished",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialogueText",
+                "=",
+                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "dialogueHammond[0]",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "JohnHammond",
+                "\"talking\""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "dialogueHammond[0]",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "JohnHammond",
-            "\"talking\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "sentenceFinished",
+                "False"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+              },
+              "parameters": [
+                "dialogueText",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -2484,12 +2745,40 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Text_AutoTyping",
