@@ -1194,6 +1194,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1255,6 +1256,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1608,7 +1610,96 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "collidables",
+      "objects": [
+        {
+          "name": "Plant"
+        },
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "outdoorWalls"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "LexMurphy"
+        },
+        {
+          "name": "TimMurphy"
+        },
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "wallBottom"
+        }
+      ]
+    },
+    {
+      "name": "interactibles",
+      "objects": [
+        {
+          "name": "AlanGrant"
+        },
+        {
+          "name": "IanMalcom"
+        },
+        {
+          "name": "RobertMuldoon"
+        },
+        {
+          "name": "DonaldGenero"
+        },
+        {
+          "name": "DennisNedry"
+        },
+        {
+          "name": "JohnArnold"
+        },
+        {
+          "name": "EdRegis"
+        },
+        {
+          "name": "HeneryWu"
+        },
+        {
+          "name": "JohnHammond"
+        },
+        {
+          "name": "LexMurphy"
+        },
+        {
+          "name": "TimMurphy"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "InvItemsOrder",
@@ -1665,6 +1756,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/backpack"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/freeroamconstants"
     }
   ],
   "eventsFunctionsExtensions": [
