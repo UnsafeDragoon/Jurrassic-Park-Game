@@ -463,6 +463,18 @@
       "conditions": [
         {
           "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Cursor",
+            "TrashCan",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "MouseButtonReleased"
           },
           "parameters": [
