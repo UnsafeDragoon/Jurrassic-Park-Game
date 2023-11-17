@@ -5,6 +5,20 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -122,11 +136,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "e"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
               ]
             }
           ],
@@ -147,11 +178,28 @@
           "conditions": [
             {
               "type": {
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "e"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
               ]
             },
             {
@@ -219,11 +267,10 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                "value": "PauseAnimation"
               },
               "parameters": [
-                "headSprites",
-                "Animation"
+                "headSprites"
               ]
             }
           ]
@@ -244,11 +291,10 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                "value": "PlayAnimation"
               },
               "parameters": [
-                "headSprites",
-                "Animation"
+                "headSprites"
               ]
             }
           ]
@@ -273,6 +319,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
+              },
+              "parameters": [
+                "dialogueText",
+                "Text_AutoTyping",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "ShowLayer"
