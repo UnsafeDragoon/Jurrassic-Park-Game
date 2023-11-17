@@ -48,8 +48,8 @@
       "name": "MainCharacter",
       "persistentUuid": "691bce29-5aa0-459e-b2a6-2832fcb2c60e",
       "width": 38,
-      "x": 578,
-      "y": 710,
+      "x": 646,
+      "y": 820,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -76,7 +76,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SquareYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -143,7 +142,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SquareRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -210,7 +208,6 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
-      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -222,7 +219,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareYellow",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -284,7 +280,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareRed",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -346,7 +341,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackedSquareBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -408,7 +402,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SquareBlue",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -475,7 +468,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterSpawnBox",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -493,7 +485,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite70",
+                  "image": "NewSprite83",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -537,7 +529,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CompyEncounter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -599,7 +590,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "AnklyoEncounter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -661,7 +651,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -723,7 +712,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -785,7 +773,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoBossSpawn",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -844,6 +831,50 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "SquareYellow"
+      },
+      {
+        "objectName": "SquareRed"
+      },
+      {
+        "objectName": "BackpackBackground"
+      },
+      {
+        "objectName": "BackpackedSquareYellow"
+      },
+      {
+        "objectName": "BackpackedSquareRed"
+      },
+      {
+        "objectName": "BackpackedSquareBlue"
+      },
+      {
+        "objectName": "SquareBlue"
+      },
+      {
+        "objectName": "RandomEncounterSpawnBox"
+      },
+      {
+        "objectName": "CompyEncounter"
+      },
+      {
+        "objectName": "AnklyoEncounter"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
+      },
+      {
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "SpinoBossSpawn"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
