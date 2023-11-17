@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156849,
+    "zoomFactor": 1.134371579716097,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -66,6 +66,21 @@
       "x": 914,
       "y": 775,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bagel",
+      "persistentUuid": "d899100d-45f0-45cd-89a0-94014614914c",
+      "width": 0,
+      "x": 499,
+      "y": 801,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -829,6 +844,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bagel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite85",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 20
+                      },
+                      {
+                        "x": 55,
+                        "y": 20
+                      },
+                      {
+                        "x": 55,
+                        "y": 47
+                      },
+                      {
+                        "x": 5,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -872,6 +948,9 @@
       },
       {
         "objectName": "SpinoBossSpawn"
+      },
+      {
+        "objectName": "Bagel"
       }
     ]
   },
@@ -2162,10 +2241,6 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

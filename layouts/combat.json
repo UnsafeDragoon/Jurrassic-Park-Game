@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740942,
+    "zoomFactor": 0.8141881203709943,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3635,6 +3635,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "During Combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3699,6 +3700,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Ankleo",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -3712,6 +3714,38 @@
                       },
                       "parameters": [
                         "Tail",
+                        "MovingHead",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "MovingHead",
+                        "Health",
+                        "5",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "ShellSpikes",
                         "MovingHead",
                         "",
                         "",
@@ -4418,7 +4452,7 @@
                                             "MovingHead",
                                             "TopDownMovement",
                                             "=",
-                                            "5000"
+                                            "-5000"
                                           ]
                                         },
                                         {
@@ -4429,6 +4463,24 @@
                                             "MovingHead",
                                             "TopDownMovement",
                                             "yes"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "TopDownMovementBehavior::SimulateLeftKey"
+                                          },
+                                          "parameters": [
+                                            "MovingHead",
+                                            "TopDownMovement"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "TopDownMovementBehavior::SimulateLeftKey"
+                                          },
+                                          "parameters": [
+                                            "MovingHead",
+                                            "TopDownMovement"
                                           ]
                                         },
                                         {
@@ -4607,6 +4659,24 @@
                                             "MovingHead",
                                             "TopDownMovement",
                                             "yes"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "TopDownMovementBehavior::SimulateRightKey"
+                                          },
+                                          "parameters": [
+                                            "MovingHead",
+                                            "TopDownMovement"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "TopDownMovementBehavior::SimulateRightKey"
+                                          },
+                                          "parameters": [
+                                            "MovingHead",
+                                            "TopDownMovement"
                                           ]
                                         },
                                         {
@@ -9759,7 +9829,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Item",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10221,8 +10290,24 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Platform",
@@ -10231,6 +10316,14 @@
     {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "ShakeObject_PositionAngle",
