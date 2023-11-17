@@ -9729,7 +9729,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Act",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9846,7 +9845,16 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "DinosaurAppears"
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
