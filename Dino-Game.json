@@ -1262,7 +1262,7 @@
         "alwaysLoaded": false,
         "file": "assets/textBoxWorld.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/textBoxWorld.png\",\"extension\":\".png\"}",
         "name": "assets\\textBoxWorld.png",
         "smoothed": true,
         "userAdded": true
@@ -1447,6 +1447,15 @@
         "name": "talking6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite83",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1932,36 +1941,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dialogueText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Text_AutoTyping",
-          "type": "AutoTyping::Text_AutoTyping",
-          "Interval": 0.01,
-          "CharacterJustAdded": false,
-          "CurrentCharacter": ""
-        }
-      ],
-      "string": "",
-      "font": "PermanentMarker-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 25,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 184
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
@@ -2114,6 +2093,36 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "dialogueText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Text_AutoTyping",
+          "type": "AutoTyping::Text_AutoTyping",
+          "Interval": 0.01,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "string": "",
+      "font": "PermanentMarker-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 184
+      }
     }
   ],
   "objectsGroups": [
@@ -2164,6 +2173,9 @@
         },
         {
           "name": "wallBottom"
+        },
+        {
+          "name": "safariLodgeWall"
         }
       ]
     },
@@ -2226,6 +2238,12 @@
           "value": 3
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "playerName",
+      "type": "string",
+      "value": "none"
     }
   ],
   "layouts": [

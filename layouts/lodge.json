@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2530387740590412,
+    "zoomFactor": 0.8700232859857786,
     "windowMask": false
   },
   "objectsGroups": [
@@ -110,12 +110,12 @@
         {
           "folded": true,
           "type": "string",
-          "value": "Ok [name], being the new technician, you are going to be responsible for fixing any electical issues the park may encounter."
+          "value": "I see..."
         },
         {
           "folded": true,
           "type": "string",
-          "value": "Ed Reigis here will give you a tour around the Lodge, where most of the operations take place."
+          "value": "Ed Regis here will give you a tour around the Lodge, where most of the operations take place."
         },
         {
           "folded": true,
@@ -181,14 +181,13 @@
           "value": "We're not in a rush though so feel free to look around, I'll be waiting by the staircase just up ahead."
         },
         {
-          "folded": true,
           "type": "string",
-          "value": "endConvo"
+          "value": "specialEvent"
         },
         {
           "folded": true,
           "type": "string",
-          "value": "0"
+          "value": "endConvo"
         }
       ]
     }
@@ -203,8 +202,8 @@
       "name": "MainCharacter",
       "persistentUuid": "d716f091-3221-4f43-8ea6-946fca22bf49",
       "width": 46,
-      "x": 332,
-      "y": 494,
+      "x": 353,
+      "y": 480,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,8 +218,8 @@
       "name": "Plant",
       "persistentUuid": "85cd190b-0c8c-4a35-98c4-06bac8d22db9",
       "width": 56,
-      "x": 67,
-      "y": 154,
+      "x": 404,
+      "y": 592,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,38 +243,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 56,
-      "layer": "",
-      "name": "Plant",
-      "persistentUuid": "1bde58ff-df24-4153-b767-d6dcaf9d58be",
-      "width": 56,
-      "x": 340,
-      "y": 236,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 56,
-      "layer": "",
-      "name": "Plant",
-      "persistentUuid": "f36dbe01-031c-43f7-b369-57295cdd2227",
-      "width": 56,
-      "x": 1182,
-      "y": 592,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -284,7 +251,7 @@
       "width": 0,
       "x": 151,
       "y": 383,
-      "zOrder": 100,
+      "zOrder": 600,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -378,8 +345,8 @@
       "name": "EdRegis",
       "persistentUuid": "80c0579c-498e-4a74-8a92-18eed7d7b8a5",
       "width": 58,
-      "x": 580,
-      "y": 253,
+      "x": 606,
+      "y": 263,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -652,6 +619,166 @@
       "x": 438,
       "y": 429,
       "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "4a608146-de77-40b6-9b85-3a345a1bcf35",
+      "width": 56,
+      "x": 404,
+      "y": 623,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "324e8db9-ebf3-400d-8ea5-5c20bd51159a",
+      "width": 56,
+      "x": 403,
+      "y": 561,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f1d3c07c-6872-47e2-a217-6786363c12da",
+      "width": 56,
+      "x": 406,
+      "y": 674,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "757b7e6b-382c-4caa-b553-89487e0c5d27",
+      "width": 56,
+      "x": 405,
+      "y": 643,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "41135542-075b-42c4-a5cd-e232261635d8",
+      "width": 56,
+      "x": 639,
+      "y": 625,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "b151b769-c442-4b97-8212-c19efa345140",
+      "width": 56,
+      "x": 639,
+      "y": 594,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "5200a426-4a79-451e-9d8e-d57129a09443",
+      "width": 56,
+      "x": 638,
+      "y": 563,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "0a616eaa-5ccf-451e-a910-2f422b1607d7",
+      "width": 56,
+      "x": 638,
+      "y": 676,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "09d5c855-d2c5-4523-8579-eb756d95ab21",
+      "width": 56,
+      "x": 637,
+      "y": 645,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 95,
+      "layer": "",
+      "name": "doorControl",
+      "persistentUuid": "8070b207-a1b3-43fb-a723-5a5e9d9de26d",
+      "width": 52,
+      "x": 114,
+      "y": -913,
+      "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2436,6 +2563,73 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "doorControl",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite83",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -2523,27 +2717,42 @@
           "parameters": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "headSprites",
-            "\"hammondHead\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"hammondHead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "JohnHammond",
+                "\"talking\""
+              ]
+            }
           ]
         },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "JohnHammond",
-            "\"talking\""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2589,23 +2798,45 @@
                 "=",
                 "\"endConvo\""
               ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "dialogueHammond[0]",
+                "-",
+                "1"
+              ]
             },
             {
               "type": {
-                "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                "value": "TextObject::String"
               },
               "parameters": [
                 "dialogueText",
-                "Text_AutoTyping",
-                ""
+                "=",
+                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
               ]
             }
           ],
-          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -2623,6 +2854,25 @@
                   "parameters": [
                     "JohnHammond",
                     "\"idle\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"noHead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "=",
+                    "\"\""
                   ]
                 },
                 {
@@ -2674,7 +2924,18 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialogueText",
+                "=",
+                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2708,15 +2969,6 @@
                     "dialogueHammond[0]",
                     "+",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "JohnHammond",
-                    "\"talking\""
                   ]
                 }
               ]
@@ -2798,27 +3050,42 @@
           "parameters": []
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "headSprites",
-            "\"reigisHead\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"reigisHead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "EdRegis",
+                "\"talking\""
+              ]
+            }
           ]
         },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "EdRegis",
-            "\"talking\""
-          ]
-        }
-      ],
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2841,11 +3108,66 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ShowLayer"
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
-                    "\"userNameInput\""
+                    "\"dialogueOverlay\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "interactingStatus",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"noHead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "EdRegis",
+                    "\"idle\""
                   ]
                 }
               ]
@@ -2864,23 +3186,45 @@
                 "=",
                 "\"endConvo\""
               ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "dialogueReigis[0]",
+                "-",
+                "1"
+              ]
             },
             {
               "type": {
-                "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                "value": "TextObject::String"
               },
               "parameters": [
                 "dialogueText",
-                "Text_AutoTyping",
-                ""
+                "=",
+                "VariableString(dialogueReigis[VariableString(dialogueReigis[0])])"
               ]
             }
           ],
-          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -2902,12 +3246,31 @@
                 },
                 {
                   "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"noHead\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "MainCharacter",
                     "TopDownMovement",
                     "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "=",
+                    "\"\""
                   ]
                 },
                 {
@@ -2924,6 +3287,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2949,7 +3313,18 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "dialogueText",
+                "=",
+                "VariableString(dialogueReigis[VariableString(dialogueReigis[0])])"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2983,15 +3358,6 @@
                     "dialogueReigis[0]",
                     "+",
                     "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "EdRegis",
-                    "\"talking\""
                   ]
                 }
               ]
@@ -3027,7 +3393,35 @@
       ]
     },
     {
-      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "dialogueReigis[0]",
+            "=",
+            "8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "EdRegis",
+            "71",
+            "-869",
+            "24",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3109,6 +3503,26 @@
                 "",
                 "\"userNameInput\""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "playerName",
+                "=",
+                "nameInput.Text()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "dialogueHammond[10]",
+                "=",
+                "\"Ok \" + GlobalVariableString(playerName) + \", being the new technician, you are going to be responsible for fixing any electical issues the park may encounter.\""
+              ]
             }
           ]
         }
@@ -3153,22 +3567,6 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "hud",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
       "name": "dialogueOverlay",
       "renderingType": "",
       "visibility": false,
@@ -3188,6 +3586,22 @@
       "name": "userNameInput",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "hud",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": []
     }
