@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8700232859857786,
+    "zoomFactor": 0.39251611754884486,
     "windowMask": false
   },
   "objectsGroups": [
@@ -345,7 +345,7 @@
       "name": "EdRegis",
       "persistentUuid": "80c0579c-498e-4a74-8a92-18eed7d7b8a5",
       "width": 58,
-      "x": 606,
+      "x": 593,
       "y": 263,
       "zOrder": 9,
       "numberProperties": [],
@@ -789,7 +789,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1076,7 +1075,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Plant",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1142,7 +1140,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
-      "tags": "",
       "texture": "assets\\assets_New image.png6.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1159,7 +1156,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1225,7 +1221,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "IanMalcom",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1291,7 +1286,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DonaldGenero",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1357,7 +1351,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RobertMuldoon",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1418,7 +1411,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DennisNedry",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1484,7 +1476,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnArnold",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1550,7 +1541,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1738,7 +1728,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeneryWu",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1804,7 +1793,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "E_Buton",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1915,7 +1903,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "safariLodgeWall",
-      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1932,7 +1919,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWalls",
-      "tags": "",
       "texture": "assets\\New image3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -1944,7 +1930,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NewSprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2011,7 +1996,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "blueTint",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2078,7 +2062,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "grass",
-      "tags": "",
       "texture": "assets\\New image4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2095,7 +2078,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnHammond",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2209,7 +2191,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2276,7 +2257,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LexMurphy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2378,7 +2358,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimMurphy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2479,7 +2458,6 @@
     {
       "assetStoreId": "",
       "name": "nameInput",
-      "tags": "",
       "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
@@ -2503,7 +2481,6 @@
     {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
       "name": "RedButtonWithShadow",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -2568,7 +2545,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "doorControl",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2632,6 +2608,83 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "MainCharacter"
+      },
+      {
+        "objectName": "Plant"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "AlanGrant"
+      },
+      {
+        "objectName": "IanMalcom"
+      },
+      {
+        "objectName": "DonaldGenero"
+      },
+      {
+        "objectName": "RobertMuldoon"
+      },
+      {
+        "objectName": "DennisNedry"
+      },
+      {
+        "objectName": "JohnArnold"
+      },
+      {
+        "objectName": "EdRegis"
+      },
+      {
+        "objectName": "HeneryWu"
+      },
+      {
+        "objectName": "E_Buton"
+      },
+      {
+        "objectName": "safariLodgeWall"
+      },
+      {
+        "objectName": "outdoorWalls"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "blueTint"
+      },
+      {
+        "objectName": "grass"
+      },
+      {
+        "objectName": "JohnHammond"
+      },
+      {
+        "objectName": "wallBottom"
+      },
+      {
+        "objectName": "LexMurphy"
+      },
+      {
+        "objectName": "TimMurphy"
+      },
+      {
+        "objectName": "nameInput"
+      },
+      {
+        "objectName": "RedButtonWithShadow"
+      },
+      {
+        "objectName": "doorControl"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3608,12 +3661,40 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Text_AutoTyping",

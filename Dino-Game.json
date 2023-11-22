@@ -1465,7 +1465,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1527,7 +1526,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1589,7 +1587,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1871,7 +1868,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "textBorder",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1944,7 +1940,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2100,7 +2095,6 @@
       "italic": false,
       "name": "dialogueText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2125,6 +2119,29 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Cursor"
+      },
+      {
+        "objectName": "Backpack"
+      },
+      {
+        "objectName": "MainCharacter"
+      },
+      {
+        "objectName": "textBorder"
+      },
+      {
+        "objectName": "headSprites"
+      },
+      {
+        "objectName": "dialogueText"
+      }
+    ]
+  },
   "objectsGroups": [
     {
       "name": "collidables",
