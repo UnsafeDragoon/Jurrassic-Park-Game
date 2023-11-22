@@ -828,7 +828,7 @@
         "alwaysLoaded": false,
         "file": "assets/EdRegis.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/EdRegis.png\",\"extension\":\".png\"}",
         "name": "assets\\EdRegis.png",
         "smoothed": true,
         "userAdded": false
@@ -1046,7 +1046,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite69.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite69.png\"}",
         "name": "NewSprite69",
         "smoothed": true,
         "userAdded": true
@@ -1244,7 +1244,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite83.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite83.png\"}",
         "name": "NewSprite83",
         "smoothed": true,
         "userAdded": true
@@ -1347,6 +1347,348 @@
         "name": "NewSprite85",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textBoxWorld.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\textBoxWorld.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/noHead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\noHead.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/noHead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "noHead",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/headSprites2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/headSprites2.png\",\"extension\":\".png\"}",
+        "name": "assets\\headSprites2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/headSprites.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/headSprites.png\",\"extension\":\".png\"}",
+        "name": "assets\\headSprites.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/headSprites3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/headSprites3.png\",\"extension\":\".png\"}",
+        "name": "assets\\headSprites3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walking down",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interactActive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interactActive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interactPressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\interactPressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talking9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "talking",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talking9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "talking2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talking3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\talking3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talking2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\talking2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talking4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\talking4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite86",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite87",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite88.png\"}",
+        "name": "NewSprite88",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walkUp9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walkUp9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite89",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite90",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite91.png\"}",
+        "name": "NewSprite91",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite92",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/reigisHead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "reigisHead",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/reigisShock.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "reigisShock",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/reigisShock2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/reigisShock2.png\"}",
+        "name": "reigisShock2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1848,7 +2190,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "noHead2",
+                  "image": "noHead",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1920,12 +2262,12 @@
           "directions": [
             {
               "looping": true,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"headSprites\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":3,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"headSprites2\",\"headSprites3\",\"headSprites\"],\"name\":\"headSprites\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"headSprites\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":4,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABkCAYAAACoy2Z3AAAAAXNSR0IArs4c6QAAA5hJREFUeF7t1bENAAAIwzD6/9P8kNnsXSyk7BwBAgQIEAgCCxsTAgQIECBwAuIJCBAgQCAJCEhiMyJAgAABAfEDBAgQIJAEBCSxGREgQICAgPgBAgQIEEgCApLYjAgQIEBAQPwAAQIECCQBAUlsRgQIECAgIH6AAAECBJKAgCQ2IwIECBAQED9AgAABAklAQBKbEQECBAgIiB8gQIAAgSQgIInNiAABAgQExA8QIECAQBIQkMRmRIAAAQIC4gcIECBAIAkISGIzIkCAAAEB8QMECBAgkAQEJLEZESBAgICA+AECBAgQSAICktiMCBAgQEBA/AABAgQIJAEBSWxGBAgQICAgfoAAAQIEkoCAJDYjAgQIEBAQP0CAAAECSUBAEpsRAQIECAiIHyBAgACBJCAgic2IAAECBATEDxAgQIBAEhCQxGZEgAABAgLiBwgQIEAgCQhIYjMiQIAAAQHxAwQIECCQBAQksRkRIECAgID4AQIECBBIAgKS2IwIECBAQED8AAECBAgkAQFJbEYECBAgICB+gAABAgSSgIAkNiMCBAgQEBA/QIAAAQJJQEASmxEBAgQICIgfIECAAIEkICCJzYgAAQIEBMQPECBAgEASEJDEZkSAAAECAuIHCBAgQCAJCEhiMyJAgAABAfEDBAgQIJAEBCSxGREgQICAgPgBAgQIEEgCApLYjAgQIEBAQPwAAQIECCQBAUlsRgQIECAgIH6AAAECBJKAgCQ2IwIECBAQED9AgAABAklAQBKbEQECBAgIiB8gQIAAgSQgIInNiAABAgQExA8QIECAQBIQkMRmRIAAAQIC4gcIECBAIAkISGIzIkCAAAEB8QMECBAgkAQEJLEZESBAgICA+AECBAgQSAICktiMCBAgQEBA/AABAgQIJAEBSWxGBAgQICAgfoAAAQIEkoCAJDYjAgQIEBAQP0CAAAECSUBAEpsRAQIECAiIHyBAgACBJCAgic2IAAECBATEDxAgQIBAEhCQxGZEgAABAgLiBwgQIEAgCQhIYjMiQIAAAQHxAwQIECCQBAQksRkRIECAgID4AQIECBBIAgKS2IwIECBAQED8AAECBAgkAQFJbEYECBAgICB+gAABAgSSgIAkNiMCBAgQEBA/QIAAAQJJQEASmxEBAgQICIgfIECAAIEkICCJzYgAAQIEBMQPECBAgEASEJDEZkSAAAECAuIHCBAgQCAJCEhiMyJAgACBB9bxAGWtoMHOAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"assets\\\\headSprites.png\",\"assets\\\\headSprites2.png\",\"assets\\\\headSprites3.png\",\"reigisHead\"],\"name\":\"reigisHead\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "headSprites2",
+                  "image": "assets\\headSprites.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1942,7 +2284,7 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "headSprites3",
+                  "image": "assets\\headSprites2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1959,7 +2301,37 @@
                 },
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "headSprites",
+                  "image": "assets\\headSprites3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reigisShock",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"reigisShock\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAA81JREFUeF7tm79rFEEUx/caSyEELr1F1E4LRbA4bAQR1Ih1MEGwESyV/AFBS8FGkERSi1FBBBtJERAttFNT2OcgBCxtIts57459vJ15s7Pn57owb97Mfj/vx+zcZVDxKUqBQVG7YTMVQAoLAoAApDAFCttO5xnycvPJUUma3Fq536kmnS5egwBIGI4AEelJhlCygpDIniGllSitf+XOGIAoRACihWzmcYBkFlxbDiCaQpnHAZJZcG05gGgKZR4HSGbBteVmDkjf3ju6BuT+HgIQDXHmuyyAAMSmgNHau6dkL1l7L14ZJejWfPH2zWADAOmWRwWQjgHI5QECEF8F1kejor4zj33atZ0d177r6rx+eIDYQgAgNr0qMsQomLd574E8WD4V9JCFE1e8NUvqf//X+8Df460frlXF1Xn9JACxxQdAFL3IEFtAuVsDxF1i2wIAsenlbg0Qd4ltCwDEppe7NUDcJbYtABCbXu7WMw9kdWWterfz1V3IFAtcHZ2tNjbXZ/tNvQYiP6UAqgHIT++ByKsS+YDTgGjR7AFsmvjT9iGBSJvUd1vJr048gGjAPMcB4qluC98AaSGa5xSAeKrbwjdAWojmOQUgnuq28A2QFqJ5Tuk9EClO347BuQFIvZK/hwAkLl8BIvQjQ6bcbcXFWNzs/x6IVb7z55ZMUz5/2TbZa8ap766K6yGaAHIcIFbFhL12yrK6v37jnmnKm9dPTfaaMRkiFAKIFjLGcS1jVpeeN3o8OPpmWnF+cKbRfmP7TuO4d0Zk7yHm9xKAmAIu2ljLkId33wZrjMfj4O/YDBkOh4G/R8+ukSFNCgAkOuZtDg5390z/c+idIdru5y4uut9m/LuHrIvVCwOkOQTcgVgBaBGrZYw8VcmeofnXxr0zBiAaATEOECEIGWKMIGlOybIJ2LuSJR9PZkzqniHXo2QpAQYQWwaaj7lG9xVAjIql7iGUrMIByO159xDvnpK8qefOCIAoGQMQY0kR5mRInH5V6mNw74B03dTpIYW9hwAEIHFF1bupU7I6PlVpALo+9qYuYdFNveuMAIhQACChILHHYDIkrmVOzC4OyPf9D42PeHrhclIJvG97rc8DEPFDutSXiwAx5g8ZojR1a0QZ9Z8wB4iQ5OfHrcZfIh4c/g5mxPYQCcD72CsDbH7ueGMMnby0HHVQippc7wwgIR+AiHj1bupkiBCckqV0Xa1kTdT4Yxdi+3gw37upj/98Mu23+JIFEBPPyr2pAwQgNgUU696VrKRPj7P4koWGaRWI7iFpt4M3gBQWAwApDMhfJ1+jg7A2zuEAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAj5JREFUeF7tlbFSwzAAxZwh+TyWTixdWPpJLCwsTCx8XjKEsznnXJoAF7tUHOpeV3mK3C74QS3QoWiECQqBvQQKUQhsARiOhSgEtgAMx0IUAlsAhmMhCoEtAMOxEIXAFoDhWIhCYAvAcCxEIbAFYDgWohDYAjAcC1EIbAEYjoUoBLYADMdCFAJbAIZjIQqBLQDDsRCFwBaA4ViIQmALwHAsRCGwBWA4qEJOx8Mc93l8fv08UyvOdH789H0fpmkKp+Mh/l6r86v1IkCyiPg0Ty9v6aHGcVwerusSZi3rPM+Lj3T2MAzh4f5u+R2CmNqHrH4jsow1EeXhlVIuZOSzo5T4yWJuLQUhZE1GHKqsJCWyr5TVMsqzSyn/XkgIYfXt/U0huZadwqtvibOboOlp+w7bvE4u/tkbFbKFqZCPZRRSvCE3/w9RyHmvCinfzn1X4r6LeuNbBCE/urYq7/dvr8XK85tJoQj5UkqjsTalNDq/iRSSkCTlyiVf+/xqKTQh1Q/01w9QCMygQhQCWwCGYyEKgS0Aw7EQhcAWgOFYiEJgC8BwLEQhsAVgOBaiENgCMBwLUQhsARiOhSgEtgAMx0IUAlsAhmMhCoEtAMOxEIXAFoDhWIhCYAvAcCxEIbAFYDgWohDYAjAcC1EIbAEYjoUoBLYADMdCFAJbAIZjIQqBLQDDsRCFwBaA4ViIQmALwHAsRCGwBWA4FqIQ2AIwHAtRCGwBGI6FKAS2AAzHQhQCWwCGYyEKgS0Aw7EQmJB3w7J7ZfRb6fkAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAj1JREFUeF7tmDFOw1AUBJ2bUFFxDUpa7hEhcQgkxD1oKbkGVSpuAkrpj4T0tYO9QZM6u36Z8fu2clj8VBE4VE3jMItCym4ChSikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI3jhiikjEDZOG6IQsoIlI2z+4bcXF99JUxenp9W8ePDY1K3fJw+d2Wy68XP5BSyvn8UMuyTG+KRtbolNt+Q97fX1TODPvPpI/D27n5TRpte7HwrKOT3dw6FDHzGtzY3ZPKldXwIe2RNAhy/Pgtw9i3or/vDn/8jvvmRpZCyZ4hCFDL118zskfjvjiz6B1163+7PkEsHSM+vEJpo2KeQECAdVwhNNOxTSAiQjiuEJhr2KSQESMcVQhMN+xQSAqTjCqGJhn0KCQHScYXQRMM+hYQA6bhCaKJhn0JCgHRcITTRsE8hIUA6rhCaaNinkBAgHVcITTTsU0gIkI4rhCYa9ikkBEjHFUITDfsUEgKk4wqhiYZ9CgkB0nGF0ETDPoWEAOm4QmiiYZ9CQoB0XCE00bBPISFAOq4QmmjYp5AQIB1XCE007FNICJCOK4QmGvYpJARIxxVCEw37FBICpOMKoYmGfQoJAdJxhdBEwz6FhADpuEJoomGfQkKAdFwhNNGw7xtTNmhlk9Cc9QAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"reigisShock2\"],\"name\":\"reigisShock\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "reigisShock2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2081,6 +2453,12 @@
         },
         {
           "name": "wallBottom"
+        },
+        {
+          "name": "safariLodgeWall"
+        },
+        {
+          "name": "lodgeWall"
         }
       ]
     },
