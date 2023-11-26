@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18305734955561412,
+    "zoomFactor": 0.26364576737714257,
     "windowMask": false
   },
   "objectsGroups": [
@@ -55,89 +55,6 @@
   "variables": [
     {
       "folded": true,
-      "name": "dialogueHammond",
-      "type": "array",
-      "children": [
-        {
-          "folded": true,
-          "type": "number",
-          "value": 1
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Hello everyone, I hope you all have had a safe flight."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "We have alot to show you here. You will travel back to the Prehistoric Era with what you will witness today."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Have some time to settle in and be ready to leave the Lodge at noon for the tour! "
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Also everyone, please keep in mind...."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "This park is near and dear to me, so please treat it with respect."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Welcome everyone, to the JURRASSIC PARK!"
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "And you! Umm...."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "What was your name again?"
-        },
-        {
-          "type": "string",
-          "value": "specialEvent"
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "I see..."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Ed Regis here will give you a tour around the Lodge, where most of the operations take place."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Before you're off, make sure not to hurt any of MY dinosaurs. It is park property and costs alot of money."
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "Anyways, welcome aboard the Jurassic Park team!"
-        },
-        {
-          "type": "string",
-          "value": "What are you still doing here? Off with you!"
-        },
-        {
-          "type": "string",
-          "value": "endConvo"
-        }
-      ]
-    },
-    {
       "name": "dialogueReigis",
       "type": "array",
       "children": [
@@ -179,17 +96,32 @@
           "folded": true,
           "type": "string",
           "value": "We're not in a rush though so feel free to look around, I'll be waiting by the staircase just up ahead."
-        },
-        {
-          "type": "string",
-          "value": "specialEvent"
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "endConvo"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "plantInteract",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "introSequenceActive",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "safariDialogue",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "updatedSafariDialogue",
+      "type": "string",
+      "value": ""
     }
   ],
   "instances": [
@@ -202,10 +134,15 @@
       "name": "MainCharacter",
       "persistentUuid": "d716f091-3221-4f43-8ea6-946fca22bf49",
       "width": 46,
-      "x": 353,
-      "y": 480,
+      "x": 521,
+      "y": 3029,
       "zOrder": 50,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -229,13 +166,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1804,
+      "height": 1934,
       "layer": "",
       "name": "NewTiledSprite",
       "persistentUuid": "2797156e-8cef-4029-b807-c68bf7ef7b63",
       "width": 1026,
       "x": 51,
-      "y": -1009,
+      "y": -1139,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -249,9 +186,9 @@
       "name": "Cursor",
       "persistentUuid": "93bf8c8d-15f2-47f6-9c04-ff89068e8153",
       "width": 0,
-      "x": 151,
-      "y": 383,
-      "zOrder": 600,
+      "x": 162,
+      "y": 381,
+      "zOrder": 2008,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -265,10 +202,15 @@
       "name": "AlanGrant",
       "persistentUuid": "92724bbd-6647-4436-8e87-93de48282f36",
       "width": 58,
-      "x": 344,
-      "y": 327,
+      "x": 518,
+      "y": 2995,
       "zOrder": 4,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -281,10 +223,15 @@
       "name": "DonaldGenero",
       "persistentUuid": "11fbb64e-5bac-46be-9cd5-d6b807e8636a",
       "width": 59,
-      "x": 265,
-      "y": 402,
+      "x": 517,
+      "y": 2996,
       "zOrder": 5,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -297,10 +244,15 @@
       "name": "IanMalcom",
       "persistentUuid": "f689d797-49f7-43e8-8bb3-44ace56e091e",
       "width": 58,
-      "x": 286,
-      "y": 449,
+      "x": 518,
+      "y": 3000,
       "zOrder": 6,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -313,8 +265,8 @@
       "name": "DennisNedry",
       "persistentUuid": "3dc54b9b-b5e5-435d-aff0-4fef5bf0eadd",
       "width": 59,
-      "x": 191,
-      "y": -119,
+      "x": 998,
+      "y": -834,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,8 +281,8 @@
       "name": "JohnArnold",
       "persistentUuid": "47a02b6f-0b7d-410b-bd63-275a1fbeaf0f",
       "width": 58,
-      "x": 355,
-      "y": -131,
+      "x": 426,
+      "y": -319,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -345,10 +297,15 @@
       "name": "EdRegis",
       "persistentUuid": "80c0579c-498e-4a74-8a92-18eed7d7b8a5",
       "width": 58,
-      "x": 796,
-      "y": 311,
+      "x": 988,
+      "y": 541,
       "zOrder": 9,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -361,8 +318,8 @@
       "name": "HeneryWu",
       "persistentUuid": "a640e0d4-6a5b-40d5-99d2-2b21b146fb42",
       "width": 58,
-      "x": 677,
-      "y": -148,
+      "x": 183,
+      "y": 455,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,7 +329,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1964,
+      "height": 1961,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "03d44237-434d-4294-af94-0f7b1f83ae10",
@@ -388,7 +345,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1965,
+      "height": 1962,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "5cb054eb-e0fb-4494-96eb-53d948a4945a",
@@ -402,31 +359,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "50ef034e-16a4-4559-a757-9cef99c2a519",
-      "width": 0,
-      "x": 447,
-      "y": 719,
-      "zOrder": 104,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 109,
+      "depth": 1,
+      "height": 114,
       "layer": "",
       "name": "blueTint",
       "persistentUuid": "bb747c4e-63bb-4a27-ab47-3b97ae820a90",
-      "width": 204,
-      "x": 447,
-      "y": 704,
-      "zOrder": 102,
+      "width": 206,
+      "x": 446,
+      "y": 680,
+      "zOrder": 1900,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -434,16 +376,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 3172,
-      "layer": "",
-      "locked": true,
+      "depth": 1,
+      "height": 7753,
+      "layer": "background",
       "name": "grass",
       "persistentUuid": "8fdd3f1b-dbf4-4768-8539-c26729492620",
-      "sealed": true,
-      "width": 4333,
-      "x": -1361,
-      "y": -1502,
+      "width": 8536,
+      "x": -3581,
+      "y": -4562,
       "zOrder": -15,
       "numberProperties": [],
       "stringProperties": [],
@@ -458,8 +398,8 @@
       "name": "JohnHammond",
       "persistentUuid": "87a4ba7d-9761-4fae-825d-180e54294996",
       "width": 58,
-      "x": 519,
-      "y": 443,
+      "x": 492,
+      "y": 331,
       "zOrder": 105,
       "numberProperties": [],
       "stringProperties": [],
@@ -505,7 +445,7 @@
       "name": "textBorder",
       "persistentUuid": "7cfffa7f-bbeb-4a54-84be-159d22f193b7",
       "width": 0,
-      "x": 185,
+      "x": 187,
       "y": 20,
       "zOrder": 108,
       "numberProperties": [],
@@ -518,7 +458,7 @@
       "depth": 0,
       "height": 100,
       "layer": "dialogueOverlay",
-      "name": "dialogueText",
+      "name": "dialogueTexts",
       "persistentUuid": "0f7c5dbf-34a7-4102-87ce-46576a029a11",
       "width": 673,
       "x": 382,
@@ -537,10 +477,15 @@
       "name": "LexMurphy",
       "persistentUuid": "bd3fe3bb-75f1-4ed3-8062-d91d970d8f4c",
       "width": 58,
-      "x": 310,
-      "y": 356,
+      "x": 516,
+      "y": 3023,
       "zOrder": 110,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -553,10 +498,15 @@
       "name": "TimMurphy",
       "persistentUuid": "ddde0eea-5bf9-4346-9e64-3c38d54bd931",
       "width": 58,
-      "x": 278,
-      "y": 358,
+      "x": 518,
+      "y": 2999,
       "zOrder": 1,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -768,32 +718,16 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 290,
-      "layer": "",
-      "name": "helipad",
-      "persistentUuid": "5133aeff-0dc8-4d91-8f87-750e8dec544b",
-      "width": 289,
-      "x": -603,
-      "y": 325,
-      "zOrder": 601,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 90,
       "customSize": true,
       "depth": 1,
       "height": 291,
-      "layer": "",
+      "layer": "background",
       "name": "NewTiledSprite2",
       "persistentUuid": "c7d543e0-f725-4ffd-9cad-f8f5aaea64e3",
-      "width": 928,
-      "x": 88,
-      "y": 1111,
+      "width": 2254,
+      "x": -575,
+      "y": 1774,
       "zOrder": 602,
       "numberProperties": [],
       "stringProperties": [],
@@ -804,11 +738,11 @@
       "customSize": true,
       "depth": 1,
       "height": 300,
-      "layer": "",
+      "layer": "background",
       "name": "NewTiledSprite2",
       "persistentUuid": "8604aecc-32f8-4618-a206-baee8407223c",
-      "width": 5277,
-      "x": -1883,
+      "width": 8599,
+      "x": -3533,
       "y": 1005,
       "zOrder": 603,
       "numberProperties": [],
@@ -820,28 +754,28 @@
       "customSize": true,
       "depth": 1,
       "height": 291,
-      "layer": "",
+      "layer": "background",
       "name": "NewTiledSprite2",
       "persistentUuid": "54890272-cf3e-4197-a8a5-e555c3ae2d63",
-      "width": 847,
-      "x": -882,
-      "y": 672,
+      "width": 4652,
+      "x": -3427,
+      "y": -1214,
       "zOrder": 599,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 147,
+      "angle": 158,
       "customSize": true,
       "depth": 1,
-      "height": 291,
-      "layer": "",
+      "height": 325,
+      "layer": "background",
       "name": "NewTiledSprite2",
       "persistentUuid": "3dee6b8e-7cc9-42cb-95e0-a3b7f5454ccd",
-      "width": 928,
-      "x": -1402,
-      "y": 1278,
+      "width": 4050,
+      "x": -4207,
+      "y": 1750,
       "zOrder": 602,
       "numberProperties": [],
       "stringProperties": [],
@@ -872,9 +806,325 @@
       "name": "lodgeWall",
       "persistentUuid": "7da906fe-b05d-4c21-bbbf-5fe771ba6602",
       "width": 1030,
-      "x": 41,
-      "y": -940,
+      "x": 44,
+      "y": -1030,
       "zOrder": 600,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
+      "layer": "dialogueOverlay",
+      "name": "dialougeOptions",
+      "persistentUuid": "25260db8-7619-4a20-97ba-172042d51620",
+      "width": 554,
+      "x": 412,
+      "y": 80,
+      "zOrder": 608,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 201,
+      "layer": "",
+      "name": "interactiblePlant",
+      "persistentUuid": "025a4785-6d89-46c4-b207-fe4b88213844",
+      "width": 240,
+      "x": 456,
+      "y": -334,
+      "zOrder": 609,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "dialogueOverlay",
+      "name": "dialogueSelector",
+      "persistentUuid": "322e0f38-8294-4b10-83ed-58b0b7761a4a",
+      "width": 0,
+      "x": 415,
+      "y": 113,
+      "zOrder": 610,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "layer": "dialogueOverlay",
+      "name": "dialogueText",
+      "persistentUuid": "aad45b2f-fe21-4a79-af6c-697d703ff2f6",
+      "width": 678,
+      "x": 385,
+      "y": 32,
+      "zOrder": 2009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "safariDoor",
+      "persistentUuid": "ae1a6ff7-363d-4d0d-9020-d136652d8ae9",
+      "width": 0,
+      "x": 447,
+      "y": 711,
+      "zOrder": 2010,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "4e00c776-0927-47d3-9962-af8b74798648",
+      "width": 0,
+      "x": 312,
+      "y": 378,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "d1c470a0-b66c-42f9-92a8-82631c3f785c",
+      "width": 0,
+      "x": 859,
+      "y": 393,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "fe2206b3-1295-494a-b663-57fa15f2894a",
+      "width": 0,
+      "x": 301,
+      "y": -101,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "e225f390-ba2a-4345-b254-7994b9bd2d77",
+      "width": 0,
+      "x": 895,
+      "y": -106,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "0520ea03-ca3b-4336-85ac-8e7e9eb5dca5",
+      "width": 0,
+      "x": 560,
+      "y": -995,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "3c6baec9-feaf-4551-bc6a-c3bc15c3456a",
+      "width": 0,
+      "x": 272,
+      "y": -670,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "a8b639c4-0bc7-4f52-a36d-8c18e30b8ea9",
+      "width": 0,
+      "x": 819,
+      "y": -655,
+      "zOrder": 2011,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "background",
+      "name": "helipad",
+      "persistentUuid": "e9b6e71e-b95b-426a-a0a8-687a5e7858ea",
+      "width": 289,
+      "x": 402,
+      "y": 3015,
+      "zOrder": 603,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 152,
+      "layer": "",
+      "name": "beatifulPainting",
+      "persistentUuid": "82ee2ec8-ae2b-4ef4-ad48-48c59d843034",
+      "width": 306,
+      "x": 381,
+      "y": -929,
+      "zOrder": 2012,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "layer": "",
+      "name": "reception",
+      "persistentUuid": "4c38cb07-69e8-49eb-bc0d-badcccc3b626",
+      "width": 423,
+      "x": 293,
+      "y": -807,
+      "zOrder": 2013,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 193,
+      "layer": "",
+      "name": "vendingMachine",
+      "persistentUuid": "193fc647-cf55-44bc-9fc4-177a62da3439",
+      "width": 120,
+      "x": 892,
+      "y": -980,
+      "zOrder": 2014,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 29,
+      "layer": "",
+      "name": "ringBell",
+      "persistentUuid": "07e3e6e9-1a64-4e7a-b7e5-ddc1e7d54ac3",
+      "width": 20,
+      "x": 371,
+      "y": -807,
+      "zOrder": 2015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "f5532de6-03b0-4658-91de-155c7ae21738",
+      "width": 56,
+      "x": 1012,
+      "y": -891,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "c390d98a-c522-48c3-9e14-08ad04a67ee5",
+      "width": 56,
+      "x": 79,
+      "y": -904,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 56,
+      "layer": "",
+      "name": "Plant",
+      "persistentUuid": "6e7cc709-f915-4a3c-a961-c464702337da",
+      "width": 56,
+      "x": 205,
+      "y": -902,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -902,10 +1152,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
+          "LeftwardSpeed": 2,
+          "RightwardSpeed": 2,
+          "UpwardSpeed": 2,
+          "DownwardSpeed": 2,
           "FollowOnX": true,
           "FollowOnY": true,
           "FollowFreeAreaLeft": 0,
@@ -1252,7 +1502,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
-      "persistentUuid": "51fedfa7-abca-41d4-b7a6-920d5e293eeb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1265,7 +1514,7 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1274,7 +1523,37 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\AlanGrant.png",
+                  "image": "AlanGrant.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\AlanGrant\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAwhJREFUeF7tmr9LHFEQx8/C+CN6NqeQIiBEG3vBWvTfCAgmFkERBEkhiCAigiCKRWIhJP9BarFW0qextBD0Gs/4M8WFWZjj9t2+fW9md563x1yl58zs+3y/M7PLnV2lDnl1dQhHSUHazUl1RB0RUkBbS0hYdll1hC2dUKI6IiQsu6w6wpZOKFEdERKWXVYdYUsnlKiOCAnLLquOsKUTSlRHhIRll1VH2NIJJaojQsKyy6ojbOmEEtURIWHZZdURtnRCieqIkLDssuoIWzqhRHXEFPbT5kGdI/bR2mIuYuZSBAAKC7K8/6PFgfvaLcmUt+Whlvi9pY8scVlJcPUkEBKFJTgYiBSAyUUFIjuiIMS+C+4IDnjS4Pqc3ZYvBmJrKSkQFMEXyHtGXOs2qyNw8CzrWEFAwaxthe2TVie31kpbtyFAfGfF2VquIbf1ts/GMh1Jq+VyJjMId8hNUJe7CoKKuVqrMI5cnHyvH/7pbWl5VytQZsS1Ab9MPJXGZz6njoFzRgAELmTChAIBCHjlBmLChABBiFxAoAi6Aj/vnD3HuibvGcHiq1M9jeu43IBAZ2thNYQJDeIDQQIxh3d+9kP9uvYSvT1SfhP7s+19CHLl/Dq/9Ba3+aKsJCjQMSDfdjeibXb79zHmxtBAX+z3/t7uxE388PQv9j7WWV3fZonLSoITJIG8q5S9bx9tA7Kz8bXxuRYFwCRFoFdzBEGyQABUIUCuqrWGAS5gjA0+Iz6ONIPAErANPtC2LQge7KZajVwZG33fviBp7VIYkJ+HW9bvQ2CAcQuhI8OVSskG3ryKF1bWWbcEVhK0ioIk3DIL5wgwJLXXq4LY1q95g2ueEQDBZzFcxeajSvAZyQpidhiAAVRwEDzI3PRI6re5x6fX0ULxjfN+6jQC2VtLQSySo3PqCFcBV89jXd8ZMeOp52LPSMeATI4Pev3vye+Lu0gsanwwR6gHo8YHA6FeSDqePSPSB6PWVxCqYtLx6oi0wtT66ghVMel4dURaYWp9dYSqmHS8OiKtMLX+fzib2nQVV0vQAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAActJREFUeF7tljFqAkEYhfUwaXIKC1srq1zALpDSQLAIgaQMpPMCqaxsU3iKNDlMZARFFtfh/bvzWIfP1jfzz/u+2dXxqJLPuJIeI4oMzSRGMFKIAFerENjwthgJoyu0ECOFwIa3xUgT3Xa9+o/gnC1ee4HZyyapwM0WiR48Zy1qKGyEIhklGMnd2bbvuVpDuVoPs0no90I1/73dSS8iKZwOc7NFSj0LqqHc2yxrpJoiXf5+qNQv5XMmjmuyRtoOM5/cF3noN7vf0JlCi1I5imTuG0aiDyRXa2hX6+9nfXprLd8+o2IP6z5enk7r76aL0AsotChNPS/SbJErdn7w5tpBFemix17keNhrZpRC0QKdf9mrK9JGffP1fPEvzPzxPfxcXjNcZNM0sJoiyvPRR7aYkT4Op+xBEYWWI4sRB2VlBkYUWo4sRhyUlRkYUWg5shhxUFZmYESh5chixEFZmYERhZYjixEHZWUGRhRajixGHJSVGRhRaDmyGHFQVmZgRKHlyGLEQVmZgRGFliOLEQdlZQZGFFqOLEYclJUZGFFoObIYcVBWZmBEoeXIYsRBWZmBEYWWI4sRB2VlBkYUWo4sRhyUlRkYUWg5snvaAm5lsMeP5wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"assets\\\\AlanGrant\"],\"name\":\"assets\\\\AlanGrant\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AlanGrant",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1330,16 +1609,66 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\IanMalcolm.png",
+                  "image": "down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 71
+                      },
+                      {
+                        "x": 42,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "up",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1395,16 +1724,66 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\DonaldGennaro.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 42,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 42,
+                        "y": 86
+                      },
+                      {
+                        "x": 8,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAqxJREFUeF7tmr8uREEUxolml0r8iRdQ2cY7iE4UElGQSCQi0VIRhVDRSkQikWhEohCdeAfNdl5A/CntbiNkRs66htm589lz7b0+3brnnDvf9ztn5t6lu6sgP90F0dFFIZ1GkkRIRMkBtpaSsXBZEoGtU0okESVj4bIkAlunlEgiSsbCZUkEtk4pkUSUjIXLkghsnVIiiSgZC5clEdg6pUQSUTIWLksisHVKiSSiZCxclkRg65QSSUTJWLgsicDWKSWSiGvszsbaG2L25u5+W8xsSxEjILdCDva2IQIhaqvrW5C5UJJZTO6FaAlwScWSiSZCIaHhcK6TSMiwrFoKnZXUM+IKeXh8tvccHhoIeZDquq9e2hajkNwR8c1GVkKkL0MtFmwtCkk14p9BIcK5I+LbCX8t5O7mqPmUe317by0U9zS232TNyfGRJrLRieWWYxCckayEJA0yZ1NShLnWViGmoKES6ufI8WiGS935ybFvJdouRO4gbYYu2pfnkpA4ChEnkjOSdDF3RHwtoPU0HNpmfesJ7lqFF7IwN2vPl1q9/kVrb7lsP/f19f7owctLzf7el3d6dg6ZCyWZhbhChgax95LHp4/3GjEgcyEz01PNEx8VIchEjPl8cXkFmQslmRsWToiPRtLlZOv4Zkfi/4zIvxFSbzTsKAz097fczTqeSMcLWVla/PHbePecECHlUskSCe1wh8cn0AYEJZkFUUjg4CQR9MUIbS3zKOI7S8xackNEnqnEQFdU5kJkIZVKpeXfEqvVqt1Q0sahHQLvWhTisVzIkQjqQKjnpW7aGXHjY9cFz0hhhJR6elL950Pj9dWaFRufGZHYhcXGZyYk9kba8fCMaC8stj6FxDqmHU8i2g7H1ieRWMe040lE2+HY+iQS65h2PIloOxxb/x2XcY90kdLVYQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAhFJREFUeF7tljFOxDAURLNlzgF7irQcAIkDQEVHQUmFqCgp6KjgAEgcgDanWDhHSpAjWQpWvH/2Y08gmlTRZuz/Z96PN5tmJddmJT4aGflrJEVERColoNGqFKx7WxFxR1dpoYhUCta9rYi4o6u0sBiR/u3hy9Njd3pdpIcimwQD/9aIt3GLmpeQm4iMGEhExJrZ3PPt8ZHrlLLq7T4+XePuWhSakREDiYhYM1vrmLXqps+t08x8R1ZjJJdc13VVTq2+781w53pyLQobRSNt2zbDMPzYe/pbuA9X1Fj6RY1MGw33hxhJjS5mJDaeS30fkfTZ+BW91GjFmZo2dej9dC4XNzI3UuG9SE3te1cWIbJ7fxpPrYvbl9mDzXqp00XPd+fjT9uTS9cB5FoUCkYjsaGcIeuPLxqIusWNpA3njKWNp+voRmIDKRmLQO6510Dczz1aqzOSS/j18Wb2E+bs6v7X4RX9RLFGaDVGLKOln1fBXLpJZD8ZQVJiakSEmTZSS0SQlJgaEWGmjdQSESQlpkZEmGkjtUQESYmpERFm2kgtEUFSYmpEhJk2UktEkJSYGhFhpo3UEhEkJaZGRJhpI7VEBEmJqRERZtpILRFBUmJqRISZNlJLRJCUmBoRYaaN1BIRJCWmRkSYaSO1RARJiakREWbaSC0RQVJiakSEmTZSS0SQlJgaEWGmjdQSESQlpuYbqhq+ZQvUFNEAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"up3\"],\"name\":\"up\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "up3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1585,11 +1964,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\JohnArnold",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1824,7 +2204,7 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
+              "looping": false,
               "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"walkUp\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":7,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":7,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":7,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[null]}}\",\"resourceNames\":[\"walkUp3\",\"walkUp4\",\"walkUp5\",\"walkUp6\",\"walkUp7\",\"walkUp8\",\"walkUp9\"],\"name\":\"walkUp\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
@@ -2289,72 +2669,6 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite53",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 1,
-                    "y": 39
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 99
-                      },
-                      {
-                        "x": 206,
-                        "y": 99
-                      },
-                      {
-                        "x": 206,
-                        "y": 115
-                      },
-                      {
-                        "x": 0,
-                        "y": 115
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "blueTint",
@@ -2362,30 +2676,24 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite2",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite54",
+                  "image": "assets\\NewSprite54.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 12.5
+                    "y": 0
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2429,12 +2737,7 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ]
+      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -2553,7 +2856,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
-      "persistentUuid": "8aec2129-671c-4feb-b11a-8a4069ca0ca2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2632,11 +2934,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2714,6 +3017,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAZRJREFUeF7tl8FtwlAQBc0h13SVKmggLVBHLmkgx1SQbmgkyFKQEMLK3/c9DvwMZ78Vb2bXiN00yGc3SI/JIvdmUiMagQi4WhDYeKxGYnRQUCMQ2HisRmJ0UFAjENh4rEZidFBQI2ewX+/77zUgv7x+dEHtCs8FHr7IWgWubaZmYiMW+eWgNFJ941Ar1Xsr5RuxSFF99VY0UgRcflwjrcg89lZSP8+5Wq3Ahlmttf+HLAHEV2u4IlsUqlgp/7JfrwJ5M5sWWdrxz7fDzf/yz0/H1vfKdBdFlr5txeAQRSolZmjdN9KyJxUL87xqCbzIFgXOIFEj/7JIsk6Xa/3nRnoLbLJat14El+u2Vgn82Icu0vK6Tp5BbyT5QmnGIik5KqcRimw6VyMpOSqnEYpsOlcjKTkqpxGKbDpXIyk5KqcRimw6VyMpOSqnEYpsOlcjKTkqpxGKbDpXIyk5KqcRimw6VyMpOSqnEYpsOlcjKTkqpxGKbDpXIyk5KqcRimw6VyMpOSqnEYpsOlcjKTkqpxGKbDr3BKKheWVLvdMaAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAolJREFUeF7tmDFLA0EQhZNKQ9CAiqhYCcFGrOxtYmFlIRZaCDYxVRBE7OxFBbHSlIKVWFjZpLG3Ei3EfyBaRAixEJQ9suFyub3szu5w5/mu0+xM5r3v7e2SbCYlTzYlOjIQkjSSIAIiTA4gWkzGktuCCNk6pkIQYTKW3BZEyNYxFYIIk7HktiBCto6pEESYjCW3BRGydUyFIMJkLLktiJCtYyoEESZjyW1BhGwdUyGIMBlLbgsiZOuYCkGEyVhyWxAhW8dUCCJMxpLbOiNSXq7+hE2xvjHR+fd387lnyVLlyskMTpqI6VRCgpOvrXywiCEL0R08KitS1PXtaGdZ7e6MNBOpyISAaeghxNQxF5HS+U5TMsbRghAdDL417ERe6zXvvDg6eTIcTW/53u6ct7BYKhulxWixFCFHci1GipD9TcRYCXFJJijClAqEuI4XiLQdRbQQLcVxgj3yr/dIWCpcXSJN71bBWYzeWqkWsnVw3PWjw0B+qEvvYC7X+fur1erxQn5+Wt20MtWqWEwVFFIYG9e65vpFCTGJESJI+N3XUeMXc76/bWWqVbGfiC4Jv8BECakcXnh7xJSGFCTFxE6kn5DG+1smilZihOycXYb+VCocFyKanw3P/KmZonLbCDGxE9EVMjI5rYzfnxKSHy5ERiz216+KiIiVeGS0hBDxqPYLhFBuv2G71ZSIvMIEX9exE5HiVhfnQ99eN/eP3qHb73Odm0DUGuuTHULaDkhisRNRRUYO1i9awXVUQdbRKi3MKk92MVT94cX7Dt11EEJ1IGl11tFKiiAISQoJOQeIgAiTA4gWk7HktiBCto6pEESYjCW3BRGydUyFIMJkLLktiJCtYypMDZFfYJgbdNbYSmMAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"LexMurphy2\"],\"name\":\"LexMurphy\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "LexMurphy2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 16.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 84
+                      },
+                      {
+                        "x": 11,
+                        "y": 84
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2733,11 +3085,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "down",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2775,10 +3128,23 @@
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAoZJREFUeF7tl79KA0EQh5NCiH8wbRrBQon4DnY+gC+gnVoERbARESQgFoIgSgq10xfwAex8BzFoIdikjRgNWET2yIRjs5e7m925rMfPJuDtTPb7fbObpFjIyV8xJxwFgPhmEkZgRCgBjJZQsOy2MMKOTqgQRoSCZbeFEXZ0QoUwIhQsuy2MsKMTKoQRoWDZbWGEHZ1QIYwIBctuCyPs6IQKYUQoWHZbGGFHJ1QII0LBstvCCDs6oUIYEQqW3RZG2NEJFcKIHuzmyVWPE/bt0Y6TMJ00UQD/FmTv8o5lIM7axe4GK1xWkdpMLkE6n+3C9Gw5Lmzjc702MyMmEy5BiDYtUOrRAkjE4EXZhJEkJzXqppI4I2o/aaykOiMAGaF7lM1MjdiMFfG5OPCpRuv18Sb4WtJ4Lg0ylgCpLXeD/ourW4n3l3ihakwgYRjXIASRGQjBuAQJQ2QKoo9Zkis8ao0OAZAkaYbPCK0PH/wkPbwwYtrE2sqSkx9YD08vqS4efS9WxapZbkDO6ge98sxk5FRNlSYGz767v8Z1as167dAqVKtitavr8/rQaIU3b9q5CWh7/9hqL1bFOkgcgA4VBvIGJC0EQREMQPqJOBst3Qgl3f76Cd6KLoSodd4aIZC3948AZGF+Lnj1FuS+cTp0a4UPsQ5iglH/G/v1CxDtLoYRV7eWPlr6p7bpjJjOydiN0IS0Wi3jt+BKpRJc8XHPbX4CqFrrzxGA9BMgY2M3EjUytLG40dLXcYGsR6vZbI78hVitVoP3SLoOINwEfKuzHi1fgADiiwnaB4zAiFACGC2hYNltYYQdnVAhjAgFy24LI+zohAphRChYdlsYYUcnVAgjQsGy2/4B0ChNdOjrpLoAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAABkCAYAAADE6GNbAAAAAXNSR0IArs4c6QAAAX5JREFUeF7tlj1OAmEURYedUOA6bGAFlPbGxgW4AhdgQ+gpWQE2rkMLd4IZIwkx/OS+jxNxcqjvuzPvnPlmGHUD+Y0GskfnItdmUiMagQj4aEFgy7UaKaODBjUCgS3XaqSMDhrUCAS2XKuRMjpoUCMQ2HJts5HN4m5bvvre4Oxh1XQvTcP9ffz7RS61wG+bVTNlIy5y5kBppPrG8dHy0TpNwLeWZ8Qz4hk5TcAzcm1nZHc/76/L7efHW/UPwvfceHLb3Uzvy5+CvqNpuC/oF2na4mf4zxc5tsT65enggvPH52Z4h66JlF7CUNrhIikxOq8RmnDar5GUGJ3XCE047ddISozOa4QmnPZrJCVG5zVCE077NZISo/MaoQmn/RpJidF5jdCE036NpMTovEZowmm/RlJidF4jNOG0XyMpMTqvEZpw2q+RlBid1whNOO3XSEqMzmuEJpz2ayQlRuc1QhNO+zWSEqPzGqEJp/0aSYnReY3QhNN+jaTE6PxgjHwBMsNPZVL+URIAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"up5\"],\"name\":\"up\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\TimMurphy.png",
+                  "image": "up5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2930,7 +3296,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite92",
+                  "image": "NewSprite96",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2947,11 +3313,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 0
                       },
                       {
                         "x": 50,
-                        "y": 1
+                        "y": 0
                       },
                       {
                         "x": 50,
@@ -3043,7 +3409,7 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "jurassicBanner",
       "type": "Sprite",
@@ -3063,7 +3429,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite90",
+                  "image": "NewSprite93",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3079,20 +3445,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 156.5,
+                        "y": 51
                       },
                       {
-                        "x": 1025,
-                        "y": 0
+                        "x": 872,
+                        "y": 51
                       },
                       {
-                        "x": 1025,
-                        "y": 146
+                        "x": 880,
+                        "y": 171.5
                       },
                       {
-                        "x": 0,
-                        "y": 146
+                        "x": 154,
+                        "y": 167.5
                       }
                     ]
                   ]
@@ -3134,7 +3500,7 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 44
+                    "y": 27
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3168,6 +3534,638 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "testVariables",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 33,
+        "g": 255,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "dialougeOptions",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "sadsds\nsdsdsdsdsds\ndsadfjjjjjdjjdjdjdjdjd",
+      "font": "PermanentMarker-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 184
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "interactiblePlant",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "peel",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\Plant4\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":300,\\\"width\\\":300,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"assets\\\\Plant5\"],\"name\":\"assets\\\\Plant4\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Plant5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17.5,
+                    "y": 122.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 138.5,
+                    "y": 231.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 89,
+                        "y": 233
+                      },
+                      {
+                        "x": 191.5,
+                        "y": 232
+                      },
+                      {
+                        "x": 182.5,
+                        "y": 270.5
+                      },
+                      {
+                        "x": 95,
+                        "y": 270.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "peeled",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "peeled",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 17.5,
+                    "y": 122.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 138.5,
+                    "y": 231.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 89,
+                        "y": 233
+                      },
+                      {
+                        "x": 191.5,
+                        "y": 232
+                      },
+                      {
+                        "x": 182.5,
+                        "y": 270.5
+                      },
+                      {
+                        "x": 95,
+                        "y": 270.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "dialogueText",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "sdsas",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "184;0;0",
+        "fontFamily": "PermanentMarker-Regular.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "safariDoor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite53.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1,
+                    "y": 31.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 98.5
+                      },
+                      {
+                        "x": 205,
+                        "y": 100
+                      },
+                      {
+                        "x": 206,
+                        "y": 115
+                      },
+                      {
+                        "x": 0,
+                        "y": 115
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 1,
+                    "y": 31.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 104,
+                        "y": 101
+                      },
+                      {
+                        "x": 205,
+                        "y": 101
+                      },
+                      {
+                        "x": 206,
+                        "y": 115
+                      },
+                      {
+                        "x": 103.5,
+                        "y": 114
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 900,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "npcWalkPoint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite97",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 17
+                      },
+                      {
+                        "x": 42,
+                        "y": 17
+                      },
+                      {
+                        "x": 42,
+                        "y": 47
+                      },
+                      {
+                        "x": 22,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "beatifulPainting",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite100",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 93.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 250,
+                        "y": 0
+                      },
+                      {
+                        "x": 250,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "reception",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite103",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -1.5,
+                    "y": 65
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0.5,
+                        "y": 97
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 97
+                      },
+                      {
+                        "x": 400,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ],
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 42.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 42.5,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "vendingMachine",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite112",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 386
+                      },
+                      {
+                        "x": 0,
+                        "y": 386
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ringBell",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite113",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 14
+                      },
+                      {
+                        "x": 58,
+                        "y": 14
+                      },
+                      {
+                        "x": 58,
+                        "y": 44
+                      },
+                      {
+                        "x": 6,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3178,6 +4176,9 @@
       },
       {
         "objectName": "Plant"
+      },
+      {
+        "objectName": "interactiblePlant"
       },
       {
         "objectName": "NewTiledSprite"
@@ -3216,10 +4217,10 @@
         "objectName": "outdoorWalls"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "blueTint"
       },
       {
-        "objectName": "blueTint"
+        "objectName": "safariDoor"
       },
       {
         "objectName": "grass"
@@ -3256,6 +4257,33 @@
       },
       {
         "objectName": "lodgeWall"
+      },
+      {
+        "objectName": "testVariables"
+      },
+      {
+        "objectName": "dialougeOptions"
+      },
+      {
+        "objectName": "dialogueText"
+      },
+      {
+        "objectName": "NewLight"
+      },
+      {
+        "objectName": "npcWalkPoint"
+      },
+      {
+        "objectName": "beatifulPainting"
+      },
+      {
+        "objectName": "reception"
+      },
+      {
+        "objectName": "vendingMachine"
+      },
+      {
+        "objectName": "ringBell"
       }
     ]
   },
@@ -3280,6 +4308,540 @@
           "parameters": [
             "blueTint",
             "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "dialogueLodge"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueSelector"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialougeOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textBorder"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "MainCharacter",
+            "TopDownMovement",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "introSequenceActive",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "ambience-night-field-cricket-01-7015.mp3",
+            "0",
+            "100",
+            "100",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "DonaldGenero",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "IanMalcom",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "AlanGrant",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "LexMurphy",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "TimMurphy",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "MainCharacter",
+                "500",
+                "986",
+                "200",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "11.85"
+              ]
+            },
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "DonaldGenero"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "DonaldGenero",
+                "438",
+                "436",
+                "125",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "DonaldGenero"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "IanMalcom"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "IanMalcom",
+                "480",
+                "454",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "IanMalcom"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "AlanGrant"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "AlanGrant",
+                "524",
+                "457",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "MainCharacter"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "AlanGrant"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "LexMurphy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "TimMurphy"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "LexMurphy",
+                "568",
+                "472",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "TimMurphy",
+                "602",
+                "439",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".8"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "LexMurphy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "TimMurphy"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "MainCharacter",
+                "522",
+                "557",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "MainCharacter"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "safariDoor",
+                "Animation",
+                "=",
+                "\"Closed\""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "blueTint",
+                "Opacity",
+                "=",
+                "70"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "door-slam-172171.mp3",
+                "",
+                "80",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "cottagecore-17463.mp3",
+                "0",
+                "yes",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"hammondIntro\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "introSequenceActive",
+                "False"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Opacity"
+          },
+          "parameters": [
+            "blueTint",
+            "=",
             "70"
           ]
         }
@@ -3295,701 +4857,17 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "MainCharacter",
-            "JohnHammond",
-            "35",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "interactingStatus",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"hammondHead\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "JohnHammond",
-                "\"talking\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueHammond[VariableString(dialogueHammond[0])]",
-                "=",
-                "\"specialEvent\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"userNameInput\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueHammond[VariableString(dialogueHammond[0])]",
-                "=",
-                "\"endConvo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "dialogueHammond[0]",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialogueText",
-                "=",
-                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"dialogueOverlay\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "JohnHammond",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "headSprites",
-                    "\"noHead\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "interactingStatus",
-                    "False"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueHammond[VariableString(dialogueHammond[0])]",
-                "=",
-                "\"specialEvent\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueHammond[VariableString(dialogueHammond[0])]",
-                "=",
-                "\"endConvo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialogueText",
-                "=",
-                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sentenceFinished",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "dialogueHammond[0]",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sentenceFinished",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "MainCharacter",
-            "EdRegis",
-            "35",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "interactingStatus",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"reigisHead\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "EdRegis",
-                "\"talking\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueReigis[VariableString(dialogueReigis[0])]",
-                "=",
-                "\"specialEvent\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueReigis[VariableString(dialogueReigis[0])]",
-                "=",
-                "\"endConvo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "dialogueReigis[0]",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialogueText",
-                "=",
-                "VariableString(dialogueReigis[VariableString(dialogueReigis[0])])"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::TypingFinished"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"dialogueOverlay\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "EdRegis",
-                    "\"idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "headSprites",
-                    "\"noHead\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "interactingStatus",
-                    "False"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueReigis[VariableString(dialogueReigis[0])]",
-                "=",
-                "\"specialEvent\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "dialogueReigis[VariableString(dialogueReigis[0])]",
-                "=",
-                "\"endConvo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialogueText",
-                "=",
-                "VariableString(dialogueReigis[VariableString(dialogueReigis[0])])"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sentenceFinished",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "VariableString(dialogueReigis[VariableString(dialogueReigis[0])])"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "dialogueReigis[0]",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "sentenceFinished",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "Text_AutoTyping",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "dialogueReigis[0]",
-            "=",
-            "8"
-          ]
-        }
-      ],
       "actions": [
         {
           "type": {
-            "value": "AddForceVersPos"
+            "value": "CentreCamera"
           },
           "parameters": [
-            "EdRegis",
-            "71",
-            "-869",
-            "24",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "EdRegis",
-            "Animation",
-            "=",
-            "\"walkUp\""
+            "",
+            "MainCharacter",
+            "",
+            "\"background\"",
+            "0"
           ]
         }
       ]
@@ -3999,17 +4877,7 @@
       "conditions": [
         {
           "type": {
-            "value": "VarScene"
-          },
-          "parameters": [
-            "dialogueReigis[0]",
-            "=",
-            "8"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "DialogueTree::IsDialogueRunning"
           },
           "parameters": []
         }
@@ -4017,30 +4885,21 @@
       "actions": [
         {
           "type": {
-            "value": "SetAnimationName"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "EdRegis",
-            "\"idle\""
+            "MainCharacter",
+            "TopDownMovement",
+            "no"
           ]
         },
         {
           "type": {
-            "value": "SetAnimationName"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "headSprites",
-            "\"noHead\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "dialogueText",
-            "=",
-            "\"\""
+            "",
+            "\"dialogueOverlay\""
           ]
         },
         {
@@ -4049,7 +4908,94 @@
           },
           "parameters": [
             "interactingStatus",
-            "False"
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogueText",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "textBorder",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueRunning"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"scrollText\"",
+            ">=",
+            ".5"
+          ]
+        },
+        {
+          "type": {
+            "value": "GlobalVariableAsBoolean"
+          },
+          "parameters": [
+            "specialDialogueEvent",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"dialogueOverlay\""
           ]
         },
         {
@@ -4064,24 +5010,1270 @@
         },
         {
           "type": {
-            "value": "HideLayer"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "",
-            "\"dialogueOverlay\""
+            "headSprites",
+            "Animation",
+            "=",
+            "\"none\""
           ]
         },
         {
           "type": {
-            "value": "Wait"
+            "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "2"
+            "interactingStatus",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textBorder"
           ]
         }
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"headSprites\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "headSprites",
+            "Animation",
+            "=",
+            "DialogueTree::CommandParameter(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"peeled\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "interactiblePlant",
+            "Animation",
+            "=",
+            "\"peeled\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "090035_splatwav-91604.mp3",
+            "no",
+            "70",
+            ".75"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Special Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"introSpeechFinished\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "DonaldGenero",
+                    "88",
+                    "0",
+                    "125",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "IanMalcom",
+                    "370",
+                    "0",
+                    "125",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "AlanGrant",
+                    "860",
+                    "-90",
+                    "125",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "LexMurphy",
+                    "1000",
+                    "0",
+                    "200",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceVersPos"
+                  },
+                  "parameters": [
+                    "TimMurphy",
+                    "1000",
+                    "0",
+                    "200",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::CompleteClippedTextScrolling"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"userNameInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"userNameInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "specialDialogueEvent",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Level Interactions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "JohnHammond",
+                "35",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "dialogueStates[0]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"hammondIntro\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "safariDoor",
+                "35",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "dialogueStates[0]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"doorOne\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "interactiblePlant",
+                "35",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "plantInteract",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"plantTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "plantInteract",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"plantOne\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "plantInteract",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"text\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "dialogueText",
+            "=",
+            "DialogueTree::ClippedLineText()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\"",
+                ">=",
+                "GlobalVariable(textScrollSpeed)"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ScrollClippedText"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "headSprites",
+                "Animation",
+                "=",
+                "\"hammond\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "hammondSpeak.mp3",
+                "",
+                "15",
+                ".75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "textScrollSpeed",
+                "=",
+                ".0001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "textScrollSpeed",
+                "=",
+                ".025"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueSelector"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialougeOptions"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogueSelector",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialougeOptions",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectPreviousOption"
+              },
+              "parameters": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "113"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "135"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "157"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Down"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectNextOption"
+              },
+              "parameters": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "113"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "135"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "DialogueTree::SelectedOptionIndex()",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "dialogueSelector",
+                    "=",
+                    "415",
+                    "=",
+                    "157"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ConfirmSelectOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasSelectedOptionChanged"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dialougeOptions",
+                "Text",
+                "=",
+                "DialogueTree::VerticalOptionsList(\"\")"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4105,16 +6297,6 @@
         },
         {
           "type": {
-            "value": "VarSceneTxt"
-          },
-          "parameters": [
-            "dialogueHammond[VariableString(dialogueHammond[0])]",
-            "=",
-            "\"specialEvent\""
-          ]
-        },
-        {
-          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -4126,35 +6308,6 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "dialogueHammond[0]",
-                "+",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialogueText",
-                "=",
-                "VariableString(dialogueHammond[VariableString(dialogueHammond[0])])"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "JohnHammond",
-                "\"talking\""
-              ]
-            },
             {
               "type": {
                 "value": "HideLayer"
@@ -4176,20 +6329,185 @@
             },
             {
               "type": {
-                "value": "ModVarSceneTxt"
+                "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
-                "dialogueHammond[10]",
-                "=",
-                "\"Ok \" + GlobalVariableString(playerName) + \", being the new technician, you are going to be responsible for fixing any electical issues the park may encounter.\""
+                "specialDialogueEvent",
+                "False"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "jurassicBanner",
+                "MainCharacter.PointX(\"origin\")",
+                "MainCharacter.PointY(\"origin\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MainCharacter",
+                "jurassicBanner",
+                "MainCharacter.PointY(\"center\")",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "jurassicBanner",
+            "Opacity",
+            "=",
+            "70"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionPoint"
+          },
+          "parameters": [
+            "jurassicBanner",
+            "MainCharacter.PointX(\"origin\")",
+            "MainCharacter.PointY(\"origin\")"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MainCharacter",
+            "jurassicBanner",
+            "MainCharacter.PointY(\"center\")",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "jurassicBanner",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "",
+            "\"66;66;66\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AjoutObjConcern"
+          },
+          "parameters": [
+            "",
+            "NewLight"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewLight",
+            ""
           ]
         }
       ]
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -4229,7 +6547,7 @@
       "isLocked": false,
       "name": "dialogueOverlay",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     },
@@ -4260,6 +6578,22 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "hud",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 66,
+      "ambientLightColorG": 66,
+      "ambientLightColorR": 66,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -4302,10 +6636,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

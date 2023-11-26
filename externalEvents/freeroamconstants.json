@@ -82,7 +82,7 @@
                 "",
                 "E_Buton",
                 "interactibles.PointX(\"center\")",
-                "interactibles.PointY(\"origin\")",
+                "interactibles.PointY(\"origin\")-(interactibles.Height()*.25)",
                 ""
               ]
             }
@@ -174,6 +174,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -238,20 +239,11 @@
                 "interactingStatus",
                 "True"
               ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "no"
-              ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -267,6 +259,16 @@
           "actions": [
             {
               "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "headSprites",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "PauseAnimation"
               },
               "parameters": [
@@ -276,6 +278,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -300,6 +303,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -321,26 +325,27 @@
           "actions": [
             {
               "type": {
-                "value": "AutoTyping::Text_AutoTyping::StartAtBeginning"
-              },
-              "parameters": [
-                "dialogueText",
-                "Text_AutoTyping",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"dialogueOverlay\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "no"
+              ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -368,10 +373,21 @@
                 "",
                 "\"dialogueOverlay\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "yes"
+              ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -379,7 +395,7 @@
                 "value": "AutoTyping::Text_AutoTyping::TypingFinished"
               },
               "parameters": [
-                "dialogueText",
+                "dialogueTexts",
                 "Text_AutoTyping",
                 ""
               ]
@@ -404,6 +420,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -412,7 +429,7 @@
                 "value": "AutoTyping::Text_AutoTyping::TypingFinished"
               },
               "parameters": [
-                "dialogueText",
+                "dialogueTexts",
                 "Text_AutoTyping",
                 ""
               ]
