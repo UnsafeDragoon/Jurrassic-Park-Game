@@ -2225,6 +2225,60 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Capture.PNG",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Capture.PNG\",\"extension\":\".png\"}",
+        "name": "assets\\Capture.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite114",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image8.png\"}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3338,6 +3392,12 @@
     {
       "folded": true,
       "name": "playerName",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "BandAidCount",
       "type": "string",
       "value": ""
     }

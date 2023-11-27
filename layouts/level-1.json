@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.13138826996359704,
+    "zoomFactor": 0.31119749424452414,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,40 +32,9 @@
       "name": "Cursor",
       "persistentUuid": "acfbfac4-2a10-446d-a701-cca83d7875ae",
       "width": 0,
-      "x": 1324,
-      "y": -26,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 152,
-      "layer": "",
-      "name": "MainCharacter",
-      "persistentUuid": "691bce29-5aa0-459e-b2a6-2832fcb2c60e",
-      "width": 38,
-      "x": 646,
-      "y": 820,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "SpinoBossSpawn",
-      "persistentUuid": "b886bce8-4553-4c78-9ae2-f8d466be2abc",
-      "width": 0,
-      "x": 914,
-      "y": 775,
-      "zOrder": 6,
+      "x": 24,
+      "y": 73,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -150,43 +119,556 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
-      "name": "BagelPickup",
-      "persistentUuid": "c200da69-d19c-40a9-8f89-4faae6e70768",
-      "width": 0,
-      "x": 355,
-      "y": 773,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Band_AidPickup",
-      "persistentUuid": "a1b7ca3a-8060-4fac-83d6-cee5ad893e26",
-      "width": 0,
-      "x": 329,
-      "y": 892,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
+      "layer": "Backpack",
       "name": "Bagel_Text",
       "persistentUuid": "66acc3dc-0bf2-4178-9f23-66b867f26dff",
       "width": 0,
       "x": 246,
       "y": 20,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3382,
+      "layer": "",
+      "name": "GrassFlooring",
+      "persistentUuid": "146ae40b-cc92-46b0-8990-3d2c4bd0b5bb",
+      "width": 2951,
+      "x": -268,
+      "y": -359,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 184,
+      "layer": "",
+      "name": "MainCharacter",
+      "persistentUuid": "263e0f96-ded8-4664-9c83-1e866ba6c3bc",
+      "width": 46,
+      "x": 625,
+      "y": 598,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "7d9566ca-4b00-4661-b22d-1f08762b1cbd",
+      "width": 137,
+      "x": 584,
+      "y": 607,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 587,
+      "layer": "",
+      "name": "LodgeExitPhoto",
+      "persistentUuid": "dd910683-ae76-46ba-bf78-1f285b9d0120",
+      "width": 907,
+      "x": 431,
+      "y": 639,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 100,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "fc572584-eaa3-41ee-82a0-9d9d458c495d",
+      "width": 137,
+      "x": 594,
+      "y": 485,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 115,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "3021b55a-9592-44c8-9a86-6c5b3b3239ee",
+      "width": 137,
+      "x": 630,
+      "y": 372,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 133,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "f7842bf1-4ec9-45f5-919a-cc2fc98acf51",
+      "width": 137,
+      "x": 696,
+      "y": 276,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 146,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "7288ca26-bc53-4c23-996b-0a124af002c4",
+      "width": 137,
+      "x": 786,
+      "y": 199,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 160,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "0fef4177-e7de-4f25-843f-13031ff3d95b",
+      "width": 137,
+      "x": 894,
+      "y": 145,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 172,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "a9562c4e-2dd9-4c34-87f5-8b5952e89ead",
+      "width": 137,
+      "x": 1003,
+      "y": 120,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "068be13c-083f-4719-bd5d-878e422003b1",
+      "width": 730,
+      "x": 1127,
+      "y": 111,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 188,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "6635fa70-78fd-4abb-8648-bd43f8b61489",
+      "width": 137,
+      "x": 1845,
+      "y": 121,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 201,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "ef5da355-4b94-446f-be2c-2783f0c35cd3",
+      "width": 137,
+      "x": 1943,
+      "y": 149,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 219,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "d0f27194-852b-41cf-a232-7476d8f41bbb",
+      "width": 137,
+      "x": 2026,
+      "y": 203,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 235,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "8419f100-53b1-4857-b2de-9a0f02c3785b",
+      "width": 137,
+      "x": 2098,
+      "y": 281,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 246,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "08999ab4-d745-418f-9325-eb51541f85ed",
+      "width": 137,
+      "x": 2149,
+      "y": 378,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 261,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "ab4dc2c6-6fdb-4eaa-8a50-52c21fefd330",
+      "width": 137,
+      "x": 2183,
+      "y": 491,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "1ee92b52-3604-44fc-8c65-1b57a738bc3d",
+      "width": 137,
+      "x": 2194,
+      "y": 617,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "46426dfd-47b4-4b8c-ae39-46a16d0ea8d5",
+      "width": 456,
+      "x": 2035,
+      "y": 904,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 1008,
+      "layer": "",
+      "name": "Fence_Top",
+      "persistentUuid": "289bd206-f8d1-470b-bea2-5f385fc92962",
+      "width": 228,
+      "x": 433,
+      "y": -171,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 4,
+      "height": 2050,
+      "layer": "",
+      "name": "Fence_Top",
+      "persistentUuid": "4a776b6a-a388-4dbc-ba13-ae5b88f1d264",
+      "width": 228,
+      "x": 1451,
+      "y": -1190,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "7e297982-0e14-46e2-90b7-e24bab232ead",
+      "width": 1008,
+      "x": 1759,
+      "y": 1630,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 4,
+      "height": 1185,
+      "layer": "",
+      "name": "Fence_Top",
+      "persistentUuid": "b9d8def2-d049-40df-bcf9-0fea01cf6824",
+      "width": 228,
+      "x": 1312,
+      "y": 9,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 4,
+      "height": 242,
+      "layer": "",
+      "name": "Fence_Top",
+      "persistentUuid": "5f021bba-ba74-44c4-9060-575e472a8c4f",
+      "width": 228,
+      "x": 716,
+      "y": 595,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 1854,
+      "layer": "",
+      "name": "Fence_Top",
+      "persistentUuid": "e12664db-02a8-4870-8bf9-6827170d937a",
+      "width": 228,
+      "x": 1909,
+      "y": 594,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 187,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "729d6dce-b239-4832-a6a4-3e0af448b7c3",
+      "width": 187,
+      "x": 2171,
+      "y": 2220,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 264,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "",
+      "name": "DirtPath",
+      "persistentUuid": "a6754931-4caf-4c88-ae75-8da5fc30b161",
+      "width": 137,
+      "x": 2204,
+      "y": 2369,
+      "zOrder": 22,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3386,
+      "layer": "",
+      "name": "SandTilledSprite",
+      "persistentUuid": "1708e31f-e2d5-412f-a982-53c8cf99d028",
+      "width": 112,
+      "x": 2673,
+      "y": -359,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -680,6 +1162,258 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "GrassFlooring",
+      "texture": "assets\\New image4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DirtPath",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New image5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 56
+                      },
+                      {
+                        "x": 400,
+                        "y": 56
+                      },
+                      {
+                        "x": 400,
+                        "y": 359
+                      },
+                      {
+                        "x": 0,
+                        "y": 359
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New image6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 56
+                      },
+                      {
+                        "x": 400,
+                        "y": 56
+                      },
+                      {
+                        "x": 400,
+                        "y": 359
+                      },
+                      {
+                        "x": 0,
+                        "y": 359
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LodgeExitPhoto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Capture",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Capture.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 92
+                      },
+                      {
+                        "x": 811,
+                        "y": 92
+                      },
+                      {
+                        "x": 811,
+                        "y": 499
+                      },
+                      {
+                        "x": 0,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fence_Top",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite114",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 64
+                      },
+                      {
+                        "x": 30,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SandTilledSprite",
+      "texture": "New image6",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -708,6 +1442,21 @@
       },
       {
         "objectName": "Band_AidPickup"
+      },
+      {
+        "objectName": "GrassFlooring"
+      },
+      {
+        "objectName": "DirtPath"
+      },
+      {
+        "objectName": "LodgeExitPhoto"
+      },
+      {
+        "objectName": "Fence_Top"
+      },
+      {
+        "objectName": "SandTilledSprite"
       }
     ]
   },
@@ -766,6 +1515,26 @@
             "=",
             "CursorY()"
           ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "Fence_Top",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "LodgeExitPhoto",
+            ""
+          ]
         }
       ]
     },
@@ -774,6 +1543,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -906,6 +1676,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Random Encounters",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1170,6 +1941,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Anklyo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1422,6 +2194,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Compy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1674,6 +2447,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spino",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1932,6 +2706,33 @@
       "ambientLightColorR": 200,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
@@ -1957,33 +2758,6 @@
           "booleanParameters": {}
         }
       ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [
-        {
-          "defaultSize": true,
-          "defaultViewport": true,
-          "height": 0,
-          "viewportBottom": 1,
-          "viewportLeft": 0,
-          "viewportRight": 1,
-          "viewportTop": 0,
-          "width": 0
-        }
-      ],
-      "effects": []
     }
   ],
   "behaviorsSharedData": [

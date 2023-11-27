@@ -38,7 +38,7 @@
                 "Band_Aid_Text",
                 "Text",
                 "=",
-                "\"x\" + BackpackVisability"
+                "\"x\" + BandAidCount"
               ]
             },
             {
@@ -123,7 +123,7 @@
                 "value": "ModVarGlobal"
               },
               "parameters": [
-                "BackpackVisability",
+                "BandAidCount",
                 "+",
                 "1"
               ]
