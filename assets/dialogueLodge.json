@@ -1,0 +1,62 @@
+[
+	{
+		"title": "hammondIntro",
+		"tags": "",
+		"body": "<< headSprites hammond>> \nHello everyone, I hope you all have had a safe flight. We have alot to show you here. \nYou will travel back to the Prehistoric Era with what you will witness today. \nHave some time to settle in and be ready to leave the Lodge soon for the tour!  \nAlso everyone, please keep in mind....  \nThis park is near and dear to me, so please treat it with respect.\nWith that said...\n<< introSpeechFinished >>\nWelcome everyone, to [color=#eef704]Jurrassic Park[/color]!  \nAnd you! Umm....  \nWhat was your name again?  \nYou know what forget it!\nI can't even remember half of the faces that I hire!\nI'll just call you [color=#eef704]Techy[/color].\nBeing the new technician, you are going to fix any electrical issues the park may encounter. \n[color=#eef704]Ed Regis[/color], with the [color=#eef704]sunglasses[/color], will give you a tour around the Lodge, where most of the operations take place. \nBefore you're off, make sure not to [color=#eef704]hurt[/color] any of MY [color=#eef704]dinosaurs[/color].\nIt is park property and costs alot of money. Anyways, welcome aboard the Jurassic Park team!",
+		"position": {
+			"x": 590,
+			"y": 425
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorOne",
+		"tags": "",
+		"body": "The door seems to be automatic or may be controlled remotely.",
+		"position": {
+			"x": 821,
+			"y": 144
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantOne",
+		"tags": "",
+		"body": "In front of you appears to be a gianormous plant much taller than yourself.\nThere also seems to be a plaque right next to it.\nIt says \"Do NOT touch the plants!\"\n[[ Touch It: |plantTouched]]\n[[ Don't Touch It: |plantNotTouched]]",
+		"position": {
+			"x": 265,
+			"y": 182
+		},
+		"colorID": 1
+	},
+	{
+		"title": "plantTouched",
+		"tags": "",
+		"body": "You reach in to touch the plant and...\n<< peeled>> fail to see the banana that you end up slipping on.\nEveryone saw it and it was hilarious.\n",
+		"position": {
+			"x": 166,
+			"y": -62
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantNotTouched",
+		"tags": "",
+		"body": "You decided to obey the law of the sign and walked away...\n<< peeled>> But then you accidentally slip on a banana peel and touch it anyways\n<< headSprites arnold>> what the hell technician!\nI specifically put that sign there for a reason!\nHuh? A banana peel?\nYeah right, i'll believe it when I see it.",
+		"position": {
+			"x": 386,
+			"y": -78
+		},
+		"colorID": 0
+	},
+	{
+		"title": "plantTwo",
+		"tags": "",
+		"body": "You lost your plant appetite and deem plants as your mortal enemy.",
+		"position": {
+			"x": 220,
+			"y": -323
+		},
+		"colorID": 0
+	}
+]
