@@ -2,20 +2,20 @@
 	{
 		"title": "hammondIntro",
 		"tags": "",
-		"body": "<< headSprites hammond>> \nHello everyone, I hope you all have had a safe flight. We have alot to show you here. \nYou will travel back to the Prehistoric Era with what you will witness today. \nHave some time to settle in and be ready to leave the Lodge soon for the tour!  \nAlso everyone, please keep in mind....  \nThis park is near and dear to me, so please treat it with respect.\nWith that said...\n<< introSpeechFinished >>\nWelcome everyone, to [color=#eef704]Jurrassic Park[/color]!  \nAnd you! Umm....  \nWhat was your name again?  \nYou know what forget it!\nI can't even remember half of the faces that I hire!\nI'll just call you [color=#eef704]Techy[/color].\nBeing the new technician, you are going to fix any electrical issues the park may encounter. \n[color=#eef704]Ed Regis[/color], with the [color=#eef704]sunglasses[/color], will give you a tour around the Lodge, where most of the operations take place. \nBefore you're off, make sure not to [color=#eef704]hurt[/color] any of MY [color=#eef704]dinosaurs[/color].\nIt is park property and costs alot of money. Anyways, welcome aboard the Jurassic Park team!",
+		"body": "<< headSprites hammond>> \nHello everyone, I hope you all have had a safe flight. We have alot to show you here. \nYou will travel back to the Prehistoric Era with what you will witness today. \nHave some time to settle in and be ready to leave the Lodge soon for the tour!  \nAlso everyone, please keep in mind....  \nThis park is near and dear to me, so please treat it with respect.\nWith that said...\n<< introSpeechFinished >>\nWelcome everyone, to [color=#eef704]Jurrassic Park![/color] \nAnd you! Umm....  \nWhat was your name again?  \nYou know what forget it!\nI can't even remember half of the faces that I hire!\nI'll just call you [color=#eef704]Techy[/color].\nBeing the new technician, you are going to fix any electrical issues the park may encounter. \n[color=#eef704]Ed Regis[/color], with the [color=#eef704]sunglasses[/color], will give you a tour around the Lodge, where most of the operations take place. \nBefore you're off, make sure not to [color=#eef704]hurt[/color] any of MY [color=#eef704]dinosaurs[/color].\nIt is park property and costs alot of money. Anyways, welcome aboard the Jurassic Park team!",
 		"position": {
-			"x": 590,
-			"y": 425
+			"x": 240,
+			"y": 556
 		},
 		"colorID": 0
 	},
 	{
 		"title": "doorOne",
 		"tags": "",
-		"body": "The door seems to be automatic or may be controlled remotely.",
+		"body": "The door seems to be automatic or may be controlled remotely.\nIt seems to be totally reliant on electricity.",
 		"position": {
-			"x": 821,
-			"y": 144
+			"x": 310,
+			"y": -633
 		},
 		"colorID": 0
 	},
@@ -24,8 +24,8 @@
 		"tags": "",
 		"body": "In front of you appears to be a gianormous plant much taller than yourself.\nThere also seems to be a plaque right next to it.\nIt says \"Do NOT touch the plants!\"\n[[ Touch It: |plantTouched]]\n[[ Don't Touch It: |plantNotTouched]]",
 		"position": {
-			"x": 265,
-			"y": 182
+			"x": -168,
+			"y": 167
 		},
 		"colorID": 1
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "You reach in to touch the plant and...\n<< peeled>> fail to see the banana that you end up slipping on.\nEveryone saw it and it was hilarious.\n",
 		"position": {
-			"x": 166,
-			"y": -62
+			"x": -267,
+			"y": -77
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "You decided to obey the law of the sign and walked away...\n<< peeled>> But then you accidentally slip on a banana peel and touch it anyways\n<< headSprites arnold>> what the hell technician!\nI specifically put that sign there for a reason!\nHuh? A banana peel?\nYeah right, i'll believe it when I see it.",
 		"position": {
-			"x": 386,
-			"y": -78
+			"x": -47,
+			"y": -93
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,148 @@
 		"tags": "",
 		"body": "You lost your plant appetite and deem plants as your mortal enemy.",
 		"position": {
-			"x": 220,
-			"y": -323
+			"x": -189,
+			"y": -311
+		},
+		"colorID": 0
+	},
+	{
+		"title": "hammondOne",
+		"tags": "",
+		"body": "<< headSprites hammond>> \nHello Techy, please tell me if there are any issues with your coworkers.\nEspecially that damned [color=#eef704]Nedry.[/color]",
+		"position": {
+			"x": 264,
+			"y": 830
+		},
+		"colorID": 0
+	},
+	{
+		"title": "hammondTwo",
+		"tags": "",
+		"body": "<< headSprites hammond>> \nY'know thinking back on your resume, you are a pretty suspicious individual.\nYou have no education, no experience, and absolutely no qualifying skills to do this job.\nBut I like your moxie kid so you get a pass.",
+		"position": {
+			"x": 478,
+			"y": 718
+		},
+		"colorID": 0
+	},
+	{
+		"title": "hammondThree",
+		"tags": "",
+		"body": "<< headSprites hammond>> \nLook Techy, I've got a group to tour and you've got a job to do.\nGet to work.",
+		"position": {
+			"x": 696,
+			"y": 694
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryOne",
+		"tags": "",
+		"body": "Ugh.. Damn machine!\nWorthless piece of junk!\n...\n<< headSprites nedry>> \nHey you!\nYou're new around here right? \nMind helping a friend out?\n[[ Give a Dollar: |giveMoney]]\n[[ Don't Give Dollar: |dontGiveMoney]]",
+		"position": {
+			"x": 1119,
+			"y": -125
+		},
+		"colorID": 0
+	},
+	{
+		"title": "giveMoney",
+		"tags": "",
+		"body": "Thanks bud!\n<< headSprites none>> \n*click*\n<< headSprites nedry>>\nAnyways, welcome to this dump we call a park.\nI am definitely the most qualified here so if you want to know anything, just ask.",
+		"position": {
+			"x": 1239,
+			"y": -345
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dontGiveMoney",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nAlright fine then jerk.\nWelcome to Jurrassic Park, a hole filled with dino dung and losers.\nDon't worry, you'll fit right in.\nGet lost.\n<< nedryAlt true>>",
+		"position": {
+			"x": 1459,
+			"y": -345
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryAlt",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nWhat do you want?\nDid you have a change of heart all of a sudden?\n[[ Give a Dollar: |giveMoneyAlt]]\n[[ Don't Give Anything: |dontGiveMoneyAlt]]",
+		"position": {
+			"x": 1769,
+			"y": -162
+		},
+		"colorID": 0
+	},
+	{
+		"title": "giveMoneyAlt",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nWhat?\nI mean, I guess I'll take it.\n<< headSprites none>>\nclick\n<< headSprites nedry>>\nAlright.\nYou ticked me off earlier but I'll forgive it just this once.\nThose other bums are too incompetent to do their jobs, so if you've got any questions ask away.",
+		"position": {
+			"x": 1889,
+			"y": -382
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dontGiveMoneyAlt",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nYeah I thought so, get lost!",
+		"position": {
+			"x": 2109,
+			"y": -382
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryAsk",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Wu: |nedryAskWu]]\n[[ Regis: |nedryAskRegis]]",
+		"position": {
+			"x": 1465,
+			"y": -690
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryAskHam",
+		"tags": "",
+		"body": "<< headSprites nedry>>\nOh, that guy.\nThanks to him, i'm forced to work here against my will.\nA small job he said!\nHe lied so I left.\nBut APPARENTLY thats against the law.\nSo it's either 10 years in a cell, 20 years in debt, or this dump.",
+		"position": {
+			"x": 1232,
+			"y": -1013
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryAskWu",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1452,
+			"y": -1013
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nedryAskRegis",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1672,
+			"y": -1013
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1171,
+			"y": -809
 		},
 		"colorID": 0
 	}

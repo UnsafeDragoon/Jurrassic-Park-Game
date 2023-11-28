@@ -810,7 +810,7 @@
         "alwaysLoaded": false,
         "file": "assets/DennisNedry.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/DennisNedry.png\",\"extension\":\".png\"}",
         "name": "assets\\DennisNedry.png",
         "smoothed": true,
         "userAdded": false
@@ -2225,6 +2225,123 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite120.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite120.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite124.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite124.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite129.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite129.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite118.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite118.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite118.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite127.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite127.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite130.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite130.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\NewSprite130",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\NewSprite131",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_NewSprite132.png\"}",
+        "name": "assets\\NewSprite132",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bench.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bench",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "back",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "back2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nedry.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nedry",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2984,6 +3101,36 @@
               ]
             }
           ]
+        },
+        {
+          "name": "nedry",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "nedry",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3172,6 +3319,18 @@
         },
         {
           "name": "vendingMachine"
+        },
+        {
+          "name": "table"
+        },
+        {
+          "name": "buffetCounter"
+        },
+        {
+          "name": "trash"
+        },
+        {
+          "name": "bench"
         }
       ]
     },
