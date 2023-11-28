@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.343752024161244,
+    "zoomFactor": 0.3216911764706005,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1099,12 +1099,27 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "CeaderTree",
-      "persistentUuid": "c4574d63-8975-4dca-a3c6-317d8c8836e1",
+      "name": "Flashlight",
+      "persistentUuid": "1df4ea6f-6473-4eb9-a0d0-7b9246d98b54",
       "width": 0,
-      "x": 587,
-      "y": -188,
+      "x": 2357,
+      "y": 443,
       "zOrder": 2018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "deb73fb7-8521-4d4b-b689-abb5a4f9b2b3",
+      "width": 0,
+      "x": 2412,
+      "y": 462,
+      "zOrder": 2019,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1921,6 +1936,123 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Flashlight",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite120.png",
+                  "points": [
+                    {
+                      "name": "Light",
+                      "x": 45.5,
+                      "y": 24
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 13.5,
+                    "y": 16.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 17,
+                    "y": 24
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 20
+                      },
+                      {
+                        "x": 39,
+                        "y": 20
+                      },
+                      {
+                        "x": 39,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
+                        "y": 21
+                      },
+                      {
+                        "x": 43,
+                        "y": 21
+                      },
+                      {
+                        "x": 43,
+                        "y": 27
+                      },
+                      {
+                        "x": 50,
+                        "y": 27
+                      },
+                      {
+                        "x": 50,
+                        "y": 32
+                      },
+                      {
+                        "x": 39,
+                        "y": 32
+                      },
+                      {
+                        "x": 39,
+                        "y": 28
+                      },
+                      {
+                        "x": 13,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1970,6 +2102,12 @@
       },
       {
         "objectName": "CeaderTree"
+      },
+      {
+        "objectName": "NewLight"
+      },
+      {
+        "objectName": "Flashlight"
       }
     ]
   },
@@ -2039,6 +2177,42 @@
           "parameters": [
             "MainCharacter",
             "WaterTiledSprite",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "NewLight",
+            "=",
+            "Flashlight.PointX(\"Light\")",
+            "=",
+            "Flashlight.PointY(\"Light\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Flashlight",
+            "=",
+            "MainCharacter.CenterX()",
+            "=",
+            "MainCharacter.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "Flashlight",
+            "Cursor.X()",
+            "Cursor.Y()",
+            "0",
             ""
           ]
         }
@@ -3073,6 +3247,22 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -3087,6 +3277,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Opacity",
