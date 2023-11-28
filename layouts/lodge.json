@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410742355,
+    "zoomFactor": 1.2952916551239075,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1109,21 +1109,6 @@
       "x": 205,
       "y": -902,
       "zOrder": 666,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "NewTiledSprite2",
-      "persistentUuid": "44495f33-0215-4f56-9f1d-6a67c70603c6",
-      "width": 0,
-      "x": 38,
-      "y": -1311,
-      "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -6740,7 +6725,7 @@
       "isLocked": false,
       "name": "Lighting",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": []
     }

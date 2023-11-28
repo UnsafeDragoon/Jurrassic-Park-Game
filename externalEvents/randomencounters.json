@@ -1,0 +1,289 @@
+{
+  "associatedLayout": "Level 1",
+  "lastChangeTimeStamp": 0,
+  "name": "RandomEncounters",
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Random Encounters",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MainCharacter",
+                "RandomEncounterTrigger",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\"",
+                "<=",
+                "0.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "BoxesSpawnedX",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2019",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2147",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2275",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2403",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2531",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox",
+                "2659",
+                "128*Variable(BoxesSpawnedX)-128+722",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\"",
+                ">",
+                "1.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "AnklyoEncounter",
+                "RandomEncounterSpawnBox.CenterX()",
+                "RandomEncounterSpawnBox.CenterY()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\"",
+                ">",
+                "1.3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "RandomEncounterSpawnBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "CompyEncounter",
+                "RandomEncounterSpawnBox.CenterX()",
+                "RandomEncounterSpawnBox.CenterY()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\"",
+                ">",
+                "1.7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RemoveObjectTimer"
+              },
+              "parameters": [
+                "Cursor",
+                "\"Spawning\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "CompyEncounter",
+                "AnklyoEncounter",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CompyEncounter",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AnklyoEncounter",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}
