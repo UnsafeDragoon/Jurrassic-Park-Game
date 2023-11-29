@@ -794,7 +794,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CombatBoxWalls",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -864,7 +863,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MovingHead",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -979,7 +977,6 @@
       "assetStoreId": "",
       "height": 128,
       "name": "NewTiledSprite",
-      "tags": "",
       "texture": "New image",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
@@ -991,7 +988,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DialogueBoxWalls",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1053,7 +1049,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpawnBoxes",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1096,7 +1091,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tail",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1173,7 +1167,6 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "RedFlatBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1242,7 +1235,6 @@
       "italic": false,
       "name": "DinosaurAppears",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1261,7 +1253,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Fight",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1325,7 +1316,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Act",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1389,7 +1379,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Item",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1453,7 +1442,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Run",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1518,7 +1506,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "twointhreechance",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1580,7 +1567,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "oneinthreechance",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1642,7 +1628,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "spawnedobject",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1704,7 +1689,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Anklyo",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1795,7 +1779,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBar",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1862,7 +1845,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightMeter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1924,7 +1906,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NoHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1967,7 +1948,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LowHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2010,7 +1990,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MedHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2053,7 +2032,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeavyHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2096,7 +2074,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HitEnemy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2412,7 +2389,6 @@
       "italic": false,
       "name": "ActionText_Flirt",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2440,7 +2416,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBarEndHitBox",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2485,7 +2460,6 @@
       "italic": false,
       "name": "ActionText_Talk",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2507,7 +2481,6 @@
       "italic": false,
       "name": "ActionText_Taunt",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2527,7 +2500,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Compy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2617,7 +2589,6 @@
     {
       "assetStoreId": "",
       "name": "Damage_Numbers",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -2637,7 +2608,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ReniforcedTwoInThree",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2699,7 +2669,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoSaurus",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2790,7 +2759,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SPINE",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2852,7 +2820,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpineEnd",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2895,7 +2862,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ClawSpino",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2957,7 +2923,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MiniCompy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3127,7 +3092,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ShellSpikes",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3186,6 +3150,119 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "CombatBoxWalls"
+      },
+      {
+        "objectName": "MovingHead"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "DialogueBoxWalls"
+      },
+      {
+        "objectName": "SpawnBoxes"
+      },
+      {
+        "objectName": "Tail"
+      },
+      {
+        "objectName": "RedFlatBar"
+      },
+      {
+        "objectName": "DinosaurAppears"
+      },
+      {
+        "objectName": "Fight"
+      },
+      {
+        "objectName": "Act"
+      },
+      {
+        "objectName": "Item"
+      },
+      {
+        "objectName": "Run"
+      },
+      {
+        "objectName": "twointhreechance"
+      },
+      {
+        "objectName": "oneinthreechance"
+      },
+      {
+        "objectName": "spawnedobject"
+      },
+      {
+        "objectName": "Anklyo"
+      },
+      {
+        "objectName": "FightBar"
+      },
+      {
+        "objectName": "FightMeter"
+      },
+      {
+        "objectName": "NoHit"
+      },
+      {
+        "objectName": "LowHit"
+      },
+      {
+        "objectName": "MedHit"
+      },
+      {
+        "objectName": "HeavyHit"
+      },
+      {
+        "objectName": "HitEnemy"
+      },
+      {
+        "objectName": "ActionText_Flirt"
+      },
+      {
+        "objectName": "FightBarEndHitBox"
+      },
+      {
+        "objectName": "ActionText_Talk"
+      },
+      {
+        "objectName": "ActionText_Taunt"
+      },
+      {
+        "objectName": "Compy"
+      },
+      {
+        "objectName": "Damage_Numbers"
+      },
+      {
+        "objectName": "ReniforcedTwoInThree"
+      },
+      {
+        "objectName": "SpinoSaurus"
+      },
+      {
+        "objectName": "SPINE"
+      },
+      {
+        "objectName": "SpineEnd"
+      },
+      {
+        "objectName": "ClawSpino"
+      },
+      {
+        "objectName": "MiniCompy"
+      },
+      {
+        "objectName": "ShellSpikes"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

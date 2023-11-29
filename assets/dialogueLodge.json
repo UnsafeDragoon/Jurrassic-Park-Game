@@ -102,7 +102,7 @@
 	{
 		"title": "giveMoney",
 		"tags": "",
-		"body": "Thanks bud!\n<< headSprites none>> \n*click*\n<< headSprites nedry>>\nAnyways, welcome to this dump we call a park.\nI am definitely the most qualified here so if you want to know anything, just ask.",
+		"body": "Thanks bud!\n<< headSprites none>> \n*click*\n<< headSprites nedry>>\nAnyways, welcome to this dump we call a park.\nI am definitely the most qualified here so if you want to know anything, just ask.\n<< nedryAlt false>>",
 		"position": {
 			"x": 1239,
 			"y": -345
@@ -112,7 +112,7 @@
 	{
 		"title": "dontGiveMoney",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nAlright fine then jerk.\nWelcome to Jurrassic Park, a hole filled with dino dung and losers.\nDon't worry, you'll fit right in.\nGet lost.\n<< nedryAlt true>>",
+		"body": "<< headSprites nedry>>\nAlright fine then jerk.\nWelcome to Jurrassic Park, a hole filled with dino dung and hopeless losers.\nThe Old Geezer is forcing me to answer any questions you have.\nCome back if you want something. Otherwise, get lost.",
 		"position": {
 			"x": 1459,
 			"y": -345
@@ -132,7 +132,7 @@
 	{
 		"title": "giveMoneyAlt",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nWhat?\nI mean, I guess I'll take it.\n<< headSprites none>>\nclick\n<< headSprites nedry>>\nAlright.\nYou ticked me off earlier but I'll forgive it just this once.\nThose other bums are too incompetent to do their jobs, so if you've got any questions ask away.",
+		"body": "<< headSprites nedry>>\nWhat?\nI mean, I guess I'll take it.\n<< headSprites none>>\nclick\n<< headSprites nedry>>\nAlright.\nYou ticked me off earlier but I'll forgive it just this once.\nThose other bums are too incompetent to do their jobs, so if you've got any questions ask away.\n<< nedryAlt false>>",
 		"position": {
 			"x": 1889,
 			"y": -382
@@ -152,7 +152,7 @@
 	{
 		"title": "nedryAsk",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Wu: |nedryAskWu]]\n[[ Regis: |nedryAskRegis]]",
+		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Wu: |nedryAskMuldoon]]\n[[ Regis: |nedryAskRegis]]",
 		"position": {
 			"x": 1465,
 			"y": -690
@@ -162,7 +162,7 @@
 	{
 		"title": "nedryAskHam",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nOh, that guy.\nThanks to him, i'm forced to work here against my will.\nA small job he said!\nHe lied so I left.\nBut APPARENTLY thats against the law.\nSo it's either 10 years in a cell, 20 years in debt, or this dump.",
+		"body": "<< headSprites nedry>>\nOh, that guy.\nThanks to him, i'm forced to work here against my will.\nA small job he said!\nHe lied so I left.\nBut APPARENTLY thats against the law.\nSo it's either 10 years in a cell, 20 years in debt, or this dump.\nI think i made the wrong choice...",
 		"position": {
 			"x": 1232,
 			"y": -1013
@@ -170,19 +170,19 @@
 		"colorID": 0
 	},
 	{
-		"title": "nedryAskWu",
+		"title": "nedryAskMuldoon",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<< headSprites nedry>>\nThat guy?\nHe's actually pretty tough.\nFirst week he came by, he chewed out the old geezer for being an idiot about park security. \nThanks to HIM, we have [i]actual[/i] [color=#eef704]security measures[/color] in place case the dinos decide to go awol.\nI'm taking real hardware.\nLet me let you in on a secret new stuff, we've got missle launchers to blow those dumb dinos to pieces.\nAlmost makes you [i]wish[/i] for just one dino to escape so we could use the thing.",
 		"position": {
 			"x": 1452,
-			"y": -1013
+			"y": -1014
 		},
 		"colorID": 0
 	},
 	{
 		"title": "nedryAskRegis",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<< headSprites nedry>>\nRegis?\nThat guy is a total wuss.\nFreaks out at the slightest hint of danger.\nOne time, when a worker got bit by a dino no bigger than that trash can-\nRegis ran away and locked himself in the bunker at the south end of the island.\nIt took the rest of the day to get him out.\nWith incompetence like that, it makes me glad hes out there picking up dino dung and i'm operating the control systems.\nHuh?\nHe's in charge of training recruits now? Things [i]must[/i] be getting desperate.\ngood luck, you'll need it.",
 		"position": {
 			"x": 1672,
 			"y": -1013
@@ -194,8 +194,8 @@
 		"tags": "",
 		"body": "Empty Text",
 		"position": {
-			"x": 1171,
-			"y": -809
+			"x": 1015,
+			"y": -752
 		},
 		"colorID": 0
 	}
