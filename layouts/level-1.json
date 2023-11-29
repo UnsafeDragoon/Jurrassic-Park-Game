@@ -197,6 +197,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterSpawnBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -258,6 +259,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CompyEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -319,6 +321,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "AnklyoEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -380,6 +383,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -441,6 +445,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -502,6 +507,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoBossSpawn",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -563,6 +569,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BagelPickup",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -624,6 +631,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_AidPickup",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -682,35 +690,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "RandomEncounterSpawnBox"
-      },
-      {
-        "objectName": "CompyEncounter"
-      },
-      {
-        "objectName": "AnklyoEncounter"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "SpinoBossSpawn"
-      },
-      {
-        "objectName": "BagelPickup"
-      },
-      {
-        "objectName": "Band_AidPickup"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Link",

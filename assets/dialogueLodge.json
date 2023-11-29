@@ -4,18 +4,18 @@
 		"tags": "",
 		"body": "<< headSprites hammond>> \nHello everyone, I hope you all have had a safe flight. We have alot to show you here. \nYou will travel back to the Prehistoric Era with what you will witness today. \nHave some time to settle in and be ready to leave the Lodge soon for the tour!  \nAlso everyone, please keep in mind....  \nThis park is near and dear to me, so please treat it with respect.\nWith that said...\n<< introSpeechFinished >>\nWelcome everyone, to [color=#eef704]Jurrassic Park![/color] \nAnd you! Umm....  \nWhat was your name again?  \nYou know what forget it!\nI can't even remember half of the faces that I hire!\nI'll just call you [color=#eef704]Techy[/color].\nBeing the new technician, you are going to fix any electrical issues the park may encounter. \n[color=#eef704]Ed Regis[/color], with the [color=#eef704]sunglasses[/color], will give you a tour around the Lodge, where most of the operations take place. \nBefore you're off, make sure not to [color=#eef704]hurt[/color] any of MY [color=#eef704]dinosaurs[/color].\nIt is park property and costs alot of money. Anyways, welcome aboard the Jurassic Park team!",
 		"position": {
-			"x": 240,
-			"y": 556
+			"x": 75,
+			"y": -100
 		},
-		"colorID": 0
+		"colorID": 7
 	},
 	{
 		"title": "doorOne",
 		"tags": "",
 		"body": "The door seems to be automatic or may be controlled remotely.\nIt seems to be totally reliant on electricity.",
 		"position": {
-			"x": 310,
-			"y": -633
+			"x": -2682,
+			"y": 606
 		},
 		"colorID": 0
 	},
@@ -24,18 +24,18 @@
 		"tags": "",
 		"body": "In front of you appears to be a gianormous plant much taller than yourself.\nThere also seems to be a plaque right next to it.\nIt says \"Do NOT touch the plants!\"\n[[ Touch It: |plantTouched]]\n[[ Don't Touch It: |plantNotTouched]]",
 		"position": {
-			"x": -168,
-			"y": 167
+			"x": -1896,
+			"y": 569
 		},
-		"colorID": 1
+		"colorID": 0
 	},
 	{
 		"title": "plantTouched",
 		"tags": "",
 		"body": "You reach in to touch the plant and...\n<< peeled>> fail to see the banana that you end up slipping on.\nEveryone saw it and it was hilarious.\n",
 		"position": {
-			"x": -267,
-			"y": -77
+			"x": -1995,
+			"y": 325
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "You decided to obey the law of the sign and walked away...\n<< peeled>> But then you accidentally slip on a banana peel and touch it anyways\n<< headSprites arnold>> what the hell technician!\nI specifically put that sign there for a reason!\nHuh? A banana peel?\nYeah right, i'll believe it when I see it.",
 		"position": {
-			"x": -47,
-			"y": -93
+			"x": -1775,
+			"y": 309
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "You lost your plant appetite and deem plants as your mortal enemy.",
 		"position": {
-			"x": -189,
-			"y": -311
+			"x": -1917,
+			"y": 91
 		},
 		"colorID": 0
 	},
@@ -64,139 +64,249 @@
 		"tags": "",
 		"body": "<< headSprites hammond>> \nHello Techy, please tell me if there are any issues with your coworkers.\nEspecially that damned [color=#eef704]Nedry.[/color]",
 		"position": {
-			"x": 264,
-			"y": 830
+			"x": 99,
+			"y": 174
 		},
-		"colorID": 0
+		"colorID": 7
 	},
 	{
 		"title": "hammondTwo",
 		"tags": "",
 		"body": "<< headSprites hammond>> \nY'know thinking back on your resume, you are a pretty suspicious individual.\nYou have no education, no experience, and absolutely no qualifying skills to do this job.\nBut I like your moxie kid so you get a pass.",
 		"position": {
-			"x": 478,
-			"y": 718
+			"x": 313,
+			"y": 62
 		},
-		"colorID": 0
+		"colorID": 7
 	},
 	{
 		"title": "hammondThree",
 		"tags": "",
 		"body": "<< headSprites hammond>> \nLook Techy, I've got a group to tour and you've got a job to do.\nGet to work.",
 		"position": {
-			"x": 696,
-			"y": 694
+			"x": 531,
+			"y": 38
 		},
-		"colorID": 0
+		"colorID": 7
 	},
 	{
 		"title": "nedryOne",
 		"tags": "",
 		"body": "Ugh.. Damn machine!\nWorthless piece of junk!\n...\n<< headSprites nedry>> \nHey you!\nYou're new around here right? \nMind helping a friend out?\n[[ Give a Dollar: |giveMoney]]\n[[ Don't Give Dollar: |dontGiveMoney]]",
 		"position": {
-			"x": 1119,
-			"y": -125
+			"x": 1526,
+			"y": -320
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "giveMoney",
 		"tags": "",
 		"body": "Thanks bud!\n<< headSprites none>> \n*click*\n<< headSprites nedry>>\nAnyways, welcome to this dump we call a park.\nI am definitely the most qualified here so if you want to know anything, just ask.\n<< nedryAlt false>>",
 		"position": {
-			"x": 1239,
-			"y": -345
+			"x": 1349,
+			"y": -632
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "dontGiveMoney",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nAlright fine then jerk.\nWelcome to Jurrassic Park, a hole filled with dino dung and hopeless losers.\nThe Old Geezer is forcing me to answer any questions you have.\nCome back if you want something. Otherwise, get lost.",
+		"body": "<< headSprites nedry>>\nAlright fine then jerk.\nWelcome to Jurassic Park, a hole filled with dino dung and hopeless losers.\nThe Old Geezer is forcing me to answer any questions you have.\nCome back if you want something. Otherwise, get lost.",
 		"position": {
-			"x": 1459,
-			"y": -345
+			"x": 1714,
+			"y": -628
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "nedryAlt",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nWhat do you want?\nDid you have a change of heart all of a sudden?\n[[ Give a Dollar: |giveMoneyAlt]]\n[[ Don't Give Anything: |dontGiveMoneyAlt]]",
 		"position": {
-			"x": 1769,
-			"y": -162
+			"x": 1907,
+			"y": -1588
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "giveMoneyAlt",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nWhat?\nI mean, I guess I'll take it.\n<< headSprites none>>\nclick\n<< headSprites nedry>>\nAlright.\nYou ticked me off earlier but I'll forgive it just this once.\nThose other bums are too incompetent to do their jobs, so if you've got any questions ask away.\n<< nedryAlt false>>",
 		"position": {
-			"x": 1889,
-			"y": -382
+			"x": 2027,
+			"y": -1808
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "dontGiveMoneyAlt",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nYeah I thought so, get lost!",
 		"position": {
-			"x": 2109,
-			"y": -382
+			"x": 2247,
+			"y": -1808
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "nedryAsk",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Wu: |nedryAskMuldoon]]\n[[ Regis: |nedryAskRegis]]",
 		"position": {
-			"x": 1465,
-			"y": -690
+			"x": 1531,
+			"y": -954
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "nedryAskHam",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nOh, that guy.\nThanks to him, i'm forced to work here against my will.\nA small job he said!\nHe lied so I left.\nBut APPARENTLY thats against the law.\nSo it's either 10 years in a cell, 20 years in debt, or this dump.\nI think i made the wrong choice...",
 		"position": {
-			"x": 1232,
-			"y": -1013
+			"x": 1298,
+			"y": -1277
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "nedryAskMuldoon",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nThat guy?\nHe's actually pretty tough.\nFirst week he came by, he chewed out the old geezer for being an idiot about park security. \nThanks to HIM, we have [i]actual[/i] [color=#eef704]security measures[/color] in place case the dinos decide to go awol.\nI'm taking real hardware.\nLet me let you in on a secret new stuff, we've got missle launchers to blow those dumb dinos to pieces.\nAlmost makes you [i]wish[/i] for just one dino to escape so we could use the thing.",
 		"position": {
-			"x": 1452,
-			"y": -1014
+			"x": 1518,
+			"y": -1278
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
 		"title": "nedryAskRegis",
 		"tags": "",
 		"body": "<< headSprites nedry>>\nRegis?\nThat guy is a total wuss.\nFreaks out at the slightest hint of danger.\nOne time, when a worker got bit by a dino no bigger than that trash can-\nRegis ran away and locked himself in the bunker at the south end of the island.\nIt took the rest of the day to get him out.\nWith incompetence like that, it makes me glad hes out there picking up dino dung and i'm operating the control systems.\nHuh?\nHe's in charge of training recruits now? Things [i]must[/i] be getting desperate.\ngood luck, you'll need it.",
 		"position": {
-			"x": 1672,
-			"y": -1013
+			"x": 1738,
+			"y": -1277
 		},
-		"colorID": 0
+		"colorID": 6
 	},
 	{
-		"title": "Node",
+		"title": "arnold",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<< headSprites arnold>> \nHello and welcome to Jurassic Park, we hope you enjoy your stay and-\nOh, its you..\nThank god.\nI can't stand babysitting a bunch of tourists.\nAnyways, I am John Arnold.\nAnd you are?\n...\n......\n...........\nOk then, I guess I'll just call you Technician.",
 		"position": {
-			"x": 1015,
-			"y": -752
+			"x": 1922,
+			"y": 1570
 		},
-		"colorID": 0
+		"colorID": 8
+	},
+	{
+		"title": "arnoldAsk",
+		"tags": "",
+		"body": "<< headSprites arnold>> \nHey Technician, what's going on?\n[[ Dennis: |arnoldAskDennis]]\n[[ Job: |arnoldAskJob]]\n[[ Hammond: |arnoldAskHammond]]",
+		"position": {
+			"x": 1917,
+			"y": 1293
+		},
+		"colorID": 8
+	},
+	{
+		"title": "arnoldAskDennis",
+		"tags": "",
+		"body": "<< headSprites arnold>> \nCan't say we exactly meet eye to eye.\nHe is very condescending and acts high and mighty.\nPersonally, I say just to stay away from him.\nHonestly, I don't even think he wants to be here.",
+		"position": {
+			"x": 1706,
+			"y": 972
+		},
+		"colorID": 8
+	},
+	{
+		"title": "arnoldAskJob",
+		"tags": "",
+		"body": "<< headSprites arnold>> \nWhat do I do?\nI'm the chief engineer, so I guess that means I'm your boss.\nI don't really care about titles or anything so please don't go calling me sir.",
+		"position": {
+			"x": 1926,
+			"y": 972
+		},
+		"colorID": 8
+	},
+	{
+		"title": "arnoldAskHammond",
+		"tags": "",
+		"body": "<< headSprites arnold>> \nMr. Hammond?\nWell I cant say that I share the same burning passion he does for dinosaurs.\nAfter all, he launched a whole park on the idea of it.\nAs ambitious as he is, he doesn't have much practical vision.\nMeaning he asks for too much that we just cannot possibly deliver.\nNot because we are bad at our jobs, but because his expectations are just too high.",
+		"position": {
+			"x": 2147,
+			"y": 972
+		},
+		"colorID": 8
+	},
+	{
+		"title": "wuOne",
+		"tags": "",
+		"body": "<< headSprites wu>> \nSorry, but I'm on my break if you want a tour guide please check with the man standing next to that giant blue plant over there.\nWait\nSorry technician, I thought you were one of those tourists. \nActually, what are you doing here to begin with? Aren't you to undergo training, I doubt you already finished it?\n...\nNo matter.\nIf you need something, I'll be here.",
+		"position": {
+			"x": 704,
+			"y": 1662
+		},
+		"colorID": 2
+	},
+	{
+		"title": "wuThree",
+		"tags": "",
+		"body": "<< headSprites wu>> \nHave you talked to Muldoon yet? I'm sure he'd like to meet you.\nHe's the scary-looking guy next to the reception desk.",
+		"position": {
+			"x": 716,
+			"y": 1302
+		},
+		"colorID": 2
+	},
+	{
+		"title": "wuTwo",
+		"tags": "",
+		"body": "<< headSprites wu>> \nI would not be here if I had a choice. \nMr Hammond told me that I must greet the tourists because it is the first reveal of the park to a public audience.\nI can understand the importance but why me?\nI would be better off working on updating the dinosaurs!",
+		"position": {
+			"x": 519,
+			"y": 1480
+		},
+		"colorID": 2
+	},
+	{
+		"title": "wuFour",
+		"tags": "",
+		"body": "<< headSprites wu>> \nTechnician, [i]surely[/i] you have better things to do. I want to eat my pasta.",
+		"position": {
+			"x": 525,
+			"y": 1112
+		},
+		"colorID": 2
+	},
+	{
+		"title": "muldoonOne",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nYou're the new technician, right?\nWelcome to the team.\nThe name's Muldoon and I'm the park warden.\nI saw your resume, and I can't say that I would hire you, but Hammond is a strange man.\n...\nLook, I'll tell you what I told everyone else...\nAlways prioritize [color=#eef704]human life[/color] above all else. \nI don't care if your a scientist, programmer, or [color=#eef704]technician.[/color]\nJust because your not out there doesn't mean it still doesn't apply.\nAnyways, be seeing you tech.",
+		"position": {
+			"x": -801,
+			"y": 1064
+		},
+		"colorID": 1
+	},
+	{
+		"title": "muldoonTwo",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nHello Tech. Sorry, but theres no time to talk right now.\nGo talk with Ed Regis, near the benches.",
+		"position": {
+			"x": -588,
+			"y": 971
+		},
+		"colorID": 1
+	},
+	{
+		"title": "muldoonThree",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nYou should really get on with that training, Tech.",
+		"position": {
+			"x": -342,
+			"y": 1003
+		},
+		"colorID": 1
 	}
 ]

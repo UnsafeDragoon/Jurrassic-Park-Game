@@ -801,7 +801,7 @@
         "alwaysLoaded": false,
         "file": "assets/RobertMuldoon.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RobertMuldoon.png\",\"extension\":\".png\"}",
         "name": "assets\\RobertMuldoon.png",
         "smoothed": true,
         "userAdded": false
@@ -837,7 +837,7 @@
         "alwaysLoaded": false,
         "file": "assets/HenryWu.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/HenryWu.png\",\"extension\":\".png\"}",
         "name": "assets\\HenryWu.png",
         "smoothed": true,
         "userAdded": false
@@ -2342,6 +2342,105 @@
         "name": "nedry",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/headSprites5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "headSprites2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite116.png\"}",
+        "name": "NewSprite114",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite115",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\NewSprite133",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tutorialOne.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "tutorialOne",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_NewSprite134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\NewSprite134",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/moveOne.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "moveOne",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/interact.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/interact.png\"}",
+        "name": "interact",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/moveTwo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "moveTwo",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/muldoon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "muldoon",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2351,6 +2450,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2412,6 +2512,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2473,6 +2574,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2754,6 +2856,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bagel",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2815,6 +2918,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_Aid",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2876,6 +2980,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3125,6 +3230,66 @@
               ]
             }
           ]
+        },
+        {
+          "name": "wu",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "headSprites2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "muldoon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "muldoon",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3134,6 +3299,7 @@
       "italic": false,
       "name": "Band_Aid_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3153,6 +3319,7 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -3164,6 +3331,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueSelector",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3227,6 +3395,7 @@
       "italic": false,
       "name": "Bagel_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3243,41 +3412,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "Backpack"
-      },
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Bagel"
-      },
-      {
-        "objectName": "Band_Aid"
-      },
-      {
-        "objectName": "headSprites"
-      },
-      {
-        "objectName": "Band_Aid_Text"
-      },
-      {
-        "objectName": "BackpackBackground"
-      },
-      {
-        "objectName": "dialogueSelector"
-      },
-      {
-        "objectName": "Bagel_Text"
-      }
-    ]
-  },
   "objectsGroups": [
     {
       "name": "collidables",
