@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994068,
+    "zoomFactor": 0.8700232859857336,
     "windowMask": false
   },
   "objectsGroups": [
@@ -892,7 +892,7 @@
       "name": "T_Rex",
       "persistentUuid": "f81c35bb-1eab-418f-b5c4-fd91c75b96f8",
       "width": 0,
-      "x": 453,
+      "x": 454,
       "y": 168,
       "zOrder": 38,
       "numberProperties": [],
@@ -905,7 +905,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CombatBoxWalls",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -975,7 +974,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MovingHead",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1090,7 +1088,6 @@
       "assetStoreId": "",
       "height": 128,
       "name": "NewTiledSprite",
-      "tags": "",
       "texture": "New image",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
@@ -1102,7 +1099,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DialogueBoxWalls",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1164,7 +1160,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpawnBoxes",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1207,7 +1202,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tail",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1284,7 +1278,6 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "RedFlatBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -1353,7 +1346,6 @@
       "italic": false,
       "name": "DinosaurAppears",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -1372,7 +1364,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Fight",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1436,7 +1427,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Act",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1500,7 +1490,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Item",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1564,7 +1553,6 @@
     {
       "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
       "name": "Run",
-      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1629,7 +1617,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "twointhreechance",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1691,7 +1678,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "oneinthreechance",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1753,7 +1739,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "spawnedobject",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1815,7 +1800,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Anklyo",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1906,7 +1890,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBar",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1973,7 +1956,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightMeter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2035,7 +2017,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NoHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2078,7 +2059,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LowHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2121,7 +2101,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MedHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2164,7 +2143,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeavyHit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2207,7 +2185,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HitEnemy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2523,7 +2500,6 @@
       "italic": false,
       "name": "ActionText_Flirt",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2551,7 +2527,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FightBarEndHitBox",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2596,7 +2571,6 @@
       "italic": false,
       "name": "ActionText_Talk",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2618,7 +2592,6 @@
       "italic": false,
       "name": "ActionText_Taunt",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -2638,7 +2611,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Compy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2728,7 +2700,6 @@
     {
       "assetStoreId": "",
       "name": "Damage_Numbers",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -2748,7 +2719,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ReniforcedTwoInThree",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2810,7 +2780,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoSaurus",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2901,7 +2870,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SPINE",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2963,7 +2931,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpineEnd",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3006,7 +2973,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ClawSpino",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3068,7 +3034,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MiniCompy",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3238,7 +3203,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ShellSpikes",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3300,12 +3264,40 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Stegosaurus",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -3361,7 +3353,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "StegoSpikes",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3369,11 +3360,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\StegoSpikes",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -3422,7 +3414,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Velociraptor",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3483,7 +3474,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RaptorClaw",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3832,12 +3822,42 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "StegoTail",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "FiringArc": 25,
+          "BulletQuantity": 3,
+          "AngleVariance": 0,
+          "RotateBullet": true,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 0,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0,
+          "BulletSpeedVariance": 0
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -3851,17 +3871,23 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite118",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Spikes",
+                      "x": 21,
+                      "y": 61
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
                     "y": 0
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 85,
+                    "y": 31.5
                   },
                   "customCollisionMask": [
                     [
@@ -3894,7 +3920,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Triceratops",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3955,7 +3980,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Brachiosaurus",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4016,7 +4040,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dilophosaurus",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4077,7 +4100,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Pteranodon",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4138,7 +4160,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "T_Rex",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4194,8 +4215,215 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "StegoSpikeIndividual",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Bullet",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Bullet",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 5.5,
+                    "y": 14
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 13
+                      },
+                      {
+                        "x": 55,
+                        "y": 13
+                      },
+                      {
+                        "x": 55,
+                        "y": 40
+                      },
+                      {
+                        "x": 5,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "CombatBoxWalls"
+      },
+      {
+        "objectName": "MovingHead"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "DialogueBoxWalls"
+      },
+      {
+        "objectName": "SpawnBoxes"
+      },
+      {
+        "objectName": "Tail"
+      },
+      {
+        "objectName": "RedFlatBar"
+      },
+      {
+        "objectName": "DinosaurAppears"
+      },
+      {
+        "objectName": "Fight"
+      },
+      {
+        "objectName": "Act"
+      },
+      {
+        "objectName": "Item"
+      },
+      {
+        "objectName": "Run"
+      },
+      {
+        "objectName": "twointhreechance"
+      },
+      {
+        "objectName": "oneinthreechance"
+      },
+      {
+        "objectName": "spawnedobject"
+      },
+      {
+        "objectName": "Anklyo"
+      },
+      {
+        "objectName": "FightBar"
+      },
+      {
+        "objectName": "FightMeter"
+      },
+      {
+        "objectName": "NoHit"
+      },
+      {
+        "objectName": "LowHit"
+      },
+      {
+        "objectName": "MedHit"
+      },
+      {
+        "objectName": "HeavyHit"
+      },
+      {
+        "objectName": "HitEnemy"
+      },
+      {
+        "objectName": "ActionText_Flirt"
+      },
+      {
+        "objectName": "FightBarEndHitBox"
+      },
+      {
+        "objectName": "ActionText_Talk"
+      },
+      {
+        "objectName": "ActionText_Taunt"
+      },
+      {
+        "objectName": "Compy"
+      },
+      {
+        "objectName": "Damage_Numbers"
+      },
+      {
+        "objectName": "ReniforcedTwoInThree"
+      },
+      {
+        "objectName": "SpinoSaurus"
+      },
+      {
+        "objectName": "SPINE"
+      },
+      {
+        "objectName": "SpineEnd"
+      },
+      {
+        "objectName": "ClawSpino"
+      },
+      {
+        "objectName": "MiniCompy"
+      },
+      {
+        "objectName": "ShellSpikes"
+      },
+      {
+        "objectName": "StegoSpikes"
+      },
+      {
+        "objectName": "Stegosaurus"
+      },
+      {
+        "objectName": "Velociraptor"
+      },
+      {
+        "objectName": "RaptorClaw"
+      },
+      {
+        "objectName": "StegoTail"
+      },
+      {
+        "objectName": "Triceratops"
+      },
+      {
+        "objectName": "Brachiosaurus"
+      },
+      {
+        "objectName": "Dilophosaurus"
+      },
+      {
+        "objectName": "Pteranodon"
+      },
+      {
+        "objectName": "T_Rex"
+      },
+      {
+        "objectName": "StegoSpikeIndividual"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -4279,6 +4507,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PickYourFighter",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6973,15 +7202,286 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Stego",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "StegoSpikeIndividual",
+                        "MovingHead",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "MovingHead",
+                        "Health",
+                        "5",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "StegoAttacks",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "StegoAttacks",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Stegosaurus",
+                            "\"Attack\"",
+                            ">=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ActionText_Flirt"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "TextBox",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "StegoSpikeIndividual",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Stegosaurus",
+                            "\"Attack\"",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "StegoTail",
+                            "820",
+                            "470",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RotateTowardAngle"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            "326",
+                            "0",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Stegosaurus",
+                            "\"Attack\"",
+                            ">=",
+                            "2.2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "RotateTowardAngle"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            "100",
+                            "90",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Angle"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            ">",
+                            "90"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Angle"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            "<",
+                            "180"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Stegosaurus",
+                            "\"Attack\"",
+                            ">=",
+                            "2.7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FireBullet::FireBullet::FireTowardPosition"
+                          },
+                          "parameters": [
+                            "StegoTail",
+                            "FireBullet",
+                            "StegoTail.PointX(\"Spikes\")",
+                            "StegoTail.PointY(\"Spikes\")",
+                            "StegoSpikeIndividual",
+                            "MovingHead.X()",
+                            "MovingHead.Y()",
+                            "200",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -7117,7 +7617,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Break From Combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7182,7 +7681,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Fight",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7329,7 +7827,6 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7489,6 +7986,84 @@
                               "parameters": [
                                 "FightBox",
                                 ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Health::Health::IsDead"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "\"Attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "FightMeter"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "TextBox"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "FightBox",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "StegoAttacks",
+                                "=",
+                                "RandomFloatInRange(1,2)"
                               ]
                             }
                           ]
@@ -8013,6 +8588,122 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "20",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
                         }
                       ]
                     },
@@ -8347,6 +9038,122 @@
                                   },
                                   "parameters": [
                                     "TextBox"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "15",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
                                   ]
                                 }
                               ]
@@ -8790,6 +9597,122 @@
                                   },
                                   "parameters": [
                                     "TextBox"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "10",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
                                   ]
                                 }
                               ]
@@ -9259,6 +10182,122 @@
                                 "value": "VarGlobal"
                               },
                               "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "7",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
                                 "SpinoStrike",
                                 "=",
                                 "1"
@@ -9688,6 +10727,122 @@
                                   },
                                   "parameters": [
                                     "TextBox"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "5",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
                                   ]
                                 }
                               ]
@@ -10157,6 +11312,122 @@
                                 "value": "VarGlobal"
                               },
                               "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "3",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
                                 "SpinoStrike",
                                 "=",
                                 "1"
@@ -10600,6 +11871,122 @@
                                 "value": "VarGlobal"
                               },
                               "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Hit"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "Health",
+                                "0",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "StegoStrike",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Health::Health::IsDead"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "Health",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Stegosaurus",
+                                    "\"Attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "FightMeter"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "TextBox"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Montre"
+                                  },
+                                  "parameters": [
+                                    "FightBox",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ModVarScene"
+                                  },
+                                  "parameters": [
+                                    "StegoAttacks",
+                                    "=",
+                                    "RandomFloatInRange(1,2)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
                                 "SpinoStrike",
                                 "=",
                                 "1"
@@ -10980,6 +12367,92 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::IsDead"
+                          },
+                          "parameters": [
+                            "Stegosaurus",
+                            "Health",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "DinosaurAppears",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DinosaurAppears",
+                            "=",
+                            "\"Victory!\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightMeter"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "FightBox"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PopScene"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ],
                   "parameters": []
@@ -11128,7 +12601,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Run",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -11495,6 +12967,42 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "StegoStrike",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Stegosaurus",
+                                "\"Attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarScene"
+                              },
+                              "parameters": [
+                                "StegoAttack",
+                                "=",
+                                "RandomInRange(1,2)"
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -11570,6 +13078,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -11604,6 +13116,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "Text_AutoTyping",
