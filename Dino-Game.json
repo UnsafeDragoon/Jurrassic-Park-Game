@@ -2333,6 +2333,186 @@
         "name": "assets\\CeadTree.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stegosaurus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Stegosaurus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/StegoSpikes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\StegoSpikes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Velociraptor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Velociraptor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RaptorClaws16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RaptorClaws16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite118",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/VelociraptorEncounter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\VelociraptorEncounter.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite119",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Triceratops.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Triceratops.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brachiosaurus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Brachiosaurus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dilophosaurus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dilophosaurus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pteranodon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pteranodon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/T-rex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\T-rex.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2342,6 +2522,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2403,6 +2584,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2464,6 +2646,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2531,10 +2714,10 @@
           "IsCalledManually": false
         },
         {
-          "acceleration": 1000,
-          "deceleration": 1000,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 1000,
+          "deceleration": 1000,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -2745,6 +2928,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bagel",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2806,6 +2990,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_Aid",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2867,6 +3052,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3095,6 +3281,7 @@
       "italic": false,
       "name": "Band_Aid_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3114,6 +3301,7 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -3125,6 +3313,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueSelector",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3188,6 +3377,7 @@
       "italic": false,
       "name": "Bagel_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3207,6 +3397,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterTrigger",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3246,44 +3437,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "dialogueSelector"
-      },
-      {
-        "objectName": "Backpack"
-      },
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Bagel"
-      },
-      {
-        "objectName": "Band_Aid"
-      },
-      {
-        "objectName": "Band_Aid_Text"
-      },
-      {
-        "objectName": "Bagel_Text"
-      },
-      {
-        "objectName": "BackpackBackground"
-      },
-      {
-        "objectName": "headSprites"
-      },
-      {
-        "objectName": "RandomEncounterTrigger"
-      }
-    ]
-  },
   "objectsGroups": [
     {
       "name": "collidables",
