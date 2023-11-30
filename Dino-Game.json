@@ -2450,7 +2450,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2512,7 +2511,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2574,7 +2572,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2856,7 +2853,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bagel",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2918,7 +2914,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_Aid",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2980,7 +2975,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3299,7 +3293,6 @@
       "italic": false,
       "name": "Band_Aid_Text",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3319,7 +3312,6 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
-      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -3331,7 +3323,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueSelector",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3395,7 +3386,6 @@
       "italic": false,
       "name": "Bagel_Text",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3412,6 +3402,41 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Cursor"
+      },
+      {
+        "objectName": "Backpack"
+      },
+      {
+        "objectName": "MainCharacter"
+      },
+      {
+        "objectName": "Bagel"
+      },
+      {
+        "objectName": "Band_Aid"
+      },
+      {
+        "objectName": "headSprites"
+      },
+      {
+        "objectName": "Band_Aid_Text"
+      },
+      {
+        "objectName": "BackpackBackground"
+      },
+      {
+        "objectName": "dialogueSelector"
+      },
+      {
+        "objectName": "Bagel_Text"
+      }
+    ]
+  },
   "objectsGroups": [
     {
       "name": "collidables",

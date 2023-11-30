@@ -294,8 +294,8 @@
 		"tags": "",
 		"body": "<< headSprites muldoon>> \nHello Tech. Sorry, but theres no time to talk right now.\nGo talk with Ed Regis, near the benches.",
 		"position": {
-			"x": -588,
-			"y": 971
+			"x": -568,
+			"y": 936
 		},
 		"colorID": 1
 	},
@@ -304,8 +304,8 @@
 		"tags": "",
 		"body": "<< headSprites muldoon>> \nYou should really get on with that training, Tech.",
 		"position": {
-			"x": -342,
-			"y": 1003
+			"x": -332,
+			"y": 1063
 		},
 		"colorID": 1
 	}
