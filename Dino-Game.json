@@ -2365,7 +2365,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws8.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws8.png",
         "smoothed": true,
         "userAdded": true
@@ -2374,7 +2374,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws9.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws9.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws9.png",
         "smoothed": true,
         "userAdded": true
@@ -2383,7 +2383,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws10.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws10.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws10.png",
         "smoothed": true,
         "userAdded": true
@@ -2392,7 +2392,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws11.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws11.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws11.png",
         "smoothed": true,
         "userAdded": false
@@ -2401,7 +2401,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws12.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws12.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws12.png",
         "smoothed": true,
         "userAdded": true
@@ -2410,7 +2410,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws13.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws13.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws13.png",
         "smoothed": true,
         "userAdded": true
@@ -2419,7 +2419,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws14.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws14.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws14.png",
         "smoothed": true,
         "userAdded": true
@@ -2428,7 +2428,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws15.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws15.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws15.png",
         "smoothed": true,
         "userAdded": false
@@ -2437,7 +2437,7 @@
         "alwaysLoaded": false,
         "file": "assets/RaptorClaws16.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/RaptorClaws16.png\",\"extension\":\".png\"}",
         "name": "assets\\RaptorClaws16.png",
         "smoothed": true,
         "userAdded": true
@@ -2531,6 +2531,15 @@
         "name": "Bullet",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite121",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3649,6 +3658,7 @@
       "value": false
     },
     {
+      "folded": true,
       "name": "dialogueStates",
       "type": "array",
       "children": [
@@ -3673,6 +3683,12 @@
           "value": 0
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "Levelcheck",
+      "type": "number",
+      "value": 0
     },
     {
       "folded": true,
