@@ -1825,7 +1825,7 @@
         "alwaysLoaded": false,
         "file": "AlanGrant.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"AlanGrant.png\",\"extension\":\".png\"}",
         "name": "AlanGrant.png",
         "smoothed": true,
         "userAdded": false
@@ -2441,6 +2441,93 @@
         "name": "muldoon",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite116",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/helicopter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "helicopter",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arnoldVoice.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arnoldVoice.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "arnoldVoice2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arnoldVoice2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "muldoonVoice.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "muldoonVoice.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "nedryVoice.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "nedryVoice.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "wuVoice.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "wuVoice.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "muldoonVoice (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "muldoonVoice (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/grant.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "grant",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2450,6 +2537,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2511,6 +2599,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2572,6 +2661,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2853,6 +2943,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bagel",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2914,6 +3005,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_Aid",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2975,6 +3067,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3284,6 +3377,36 @@
               ]
             }
           ]
+        },
+        {
+          "name": "grant",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "grant",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3293,6 +3416,7 @@
       "italic": false,
       "name": "Band_Aid_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3312,6 +3436,7 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -3323,6 +3448,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueSelector",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3386,6 +3512,7 @@
       "italic": false,
       "name": "Bagel_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -3402,41 +3529,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "Backpack"
-      },
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Bagel"
-      },
-      {
-        "objectName": "Band_Aid"
-      },
-      {
-        "objectName": "headSprites"
-      },
-      {
-        "objectName": "Band_Aid_Text"
-      },
-      {
-        "objectName": "BackpackBackground"
-      },
-      {
-        "objectName": "dialogueSelector"
-      },
-      {
-        "objectName": "Bagel_Text"
-      }
-    ]
-  },
   "objectsGroups": [
     {
       "name": "collidables",

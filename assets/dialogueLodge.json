@@ -152,7 +152,7 @@
 	{
 		"title": "nedryAsk",
 		"tags": "",
-		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Wu: |nedryAskMuldoon]]\n[[ Regis: |nedryAskRegis]]",
+		"body": "<< headSprites nedry>>\nWhat do you want new stuff?\n[[ Hammond: |nedryAskHam]]\n[[ Muldoon: |nedryAskMuldoon]]\n[[ Regis: |nedryAskRegis]]",
 		"position": {
 			"x": 1531,
 			"y": -954
@@ -308,5 +308,105 @@
 			"y": 1063
 		},
 		"colorID": 1
+	},
+	{
+		"title": "regisOne",
+		"tags": "",
+		"body": "<< headSprites regis>> \nHey!\nYou must be the new guy, erm new girl?\nHonestly, I have no clue what you are.\n.\n..\n....\nAnyways! The name's [color=#eef704]Regis.[/color]\nI'm supposed to be showing you around the park. It is very big, and very easy to get lost in...\nBut don't start worrying! You have the best guide in the world!\nAs excited I am to begin this great tour, you should try to get to know your fellow coworkers.\nThey are all here in the lobby.\nThere's [color=#eef704]Wu[/color], the sad one eating spaghetti by himself.\n[color=#eef704]Nedry[/color], he's by the vending machine.\n[color=#eef704]Arnold[/color], the one by the blue plant.\nAnd finally [color=#eef704]Muldoon[/color], by the door near the reception desk.\nAfter you're done, meet back here and we'll begin the tour!",
+		"position": {
+			"x": -126,
+			"y": -822
+		},
+		"colorID": 4
+	},
+	{
+		"title": "regisTwo",
+		"tags": "",
+		"body": "<< headSprites regis>> \nHey tech!\nDid you finish introducing yourself?\n[[ Yes, let's go: |regisBeginYes]]\n[[ No, not yet: |regisBeginNo]]",
+		"position": {
+			"x": -130,
+			"y": -1044
+		},
+		"colorID": 4
+	},
+	{
+		"title": "regisBeginYes",
+		"tags": "",
+		"body": "<< headSprites regis>> \nOh great!\nOk so before be head out, I need to teach you what to do if you get in an encounter with a dinosaur while working the park. \nI know that being a technician, you might not ever interact with the dinosaurs, but it's still procedure. \nSorry!\n<< beginMockFight>>",
+		"position": {
+			"x": -335,
+			"y": -1389
+		},
+		"colorID": 4
+	},
+	{
+		"title": "regisBeginNo",
+		"tags": "",
+		"body": "<< headSprites regis>> \nOh well, that's okay!\nTake your time, but please don't take too long. \nMr Hammond gets mad when we're slacking off on the job.",
+		"position": {
+			"x": 104,
+			"y": -1380
+		},
+		"colorID": 4
+	},
+	{
+		"title": "grantOne",
+		"tags": "",
+		"body": "<< headSprites grant>> \nThis place is just amazing!\nHow is this even possible?\nYou work here right?\nCan you tell me how this was made? Please?\n[[ I don't know: |grantClueless]]\n[[ I know: |grantKnowledge]]",
+		"position": {
+			"x": -1497,
+			"y": -728
+		},
+		"colorID": 6
+	},
+	{
+		"title": "grantClueless",
+		"tags": "",
+		"body": "<< headSprites grant>> \nOh, thats...\ndisappointing. \nWell, do you know anybody who [i]can[/i] explain?\n[[ Yes: |grantCluelessYes]]\n[[ No: |grantCluelessNo]]",
+		"position": {
+			"x": -1705,
+			"y": -1035
+		},
+		"colorID": 6
+	},
+	{
+		"title": "grantKnowledge",
+		"tags": "",
+		"body": "<< headSprites grant>> \nReally! How?\n.\n...\n....\nCompany secrets, I guess?\n...\n....\n.....\nOk, fine I'll back off.",
+		"position": {
+			"x": -1240,
+			"y": -1065
+		},
+		"colorID": 6
+	},
+	{
+		"title": "grantCluelessYes",
+		"tags": "",
+		"body": "<< headSprites grant>> \nYou do?\nWell, who?\n..\n...\n.....\nUh.\n<< headSprites hammond>>\nTechnician!\nWhat are you doing!\nGet back to work!\n<< headSprites grant>> \nYou mean, I was talking to a Technician the whole time?\nI hate this place.",
+		"position": {
+			"x": -1906,
+			"y": -1381
+		},
+		"colorID": 6
+	},
+	{
+		"title": "grantCluelessNo",
+		"tags": "",
+		"body": "<< headSprites grant>> \nThat's....\nfine.\nSo um...\nWhat [i]do[/i] you do here?\n..\n....\n.....\nOk, good talk.",
+		"position": {
+			"x": -1491,
+			"y": -1348
+		},
+		"colorID": 6
+	},
+	{
+		"title": "grantTwo",
+		"tags": "",
+		"body": "Empty Textss",
+		"position": {
+			"x": -1811,
+			"y": -1724
+		},
+		"colorID": 6
 	}
 ]

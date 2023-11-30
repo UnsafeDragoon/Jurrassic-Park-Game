@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000001587,
+    "zoomFactor": 0.6244537826601813,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1828,6 +1828,22 @@
       ],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 433,
+      "layer": "",
+      "name": "helicopter",
+      "persistentUuid": "4b39af2e-4874-43f1-adbc-c3414ae647b7",
+      "width": 645,
+      "x": 309,
+      "y": 2761,
+      "zOrder": 6000,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1835,6 +1851,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2121,6 +2138,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Plant",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2186,6 +2204,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
+      "tags": "",
       "texture": "assets\\assets_New image.png6.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2202,6 +2221,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "AlanGrant",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2219,6 +2239,7 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -2316,6 +2337,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "IanMalcom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2431,6 +2453,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DonaldGenero",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2546,6 +2569,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "RobertMuldoon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2612,6 +2636,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DennisNedry",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2727,6 +2752,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnArnold",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2793,6 +2819,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3245,6 +3272,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeneryWu",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3311,6 +3339,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "E_Buton",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3421,6 +3450,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "safariLodgeWall",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3437,6 +3467,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWalls",
+      "tags": "",
       "texture": "assets\\New image3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3448,6 +3479,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "blueTint",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3508,6 +3540,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "grass",
+      "tags": "",
       "texture": "assets\\New image4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3519,6 +3552,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JohnHammond",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3632,6 +3666,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3698,6 +3733,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LexMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3849,6 +3885,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3963,6 +4000,7 @@
     {
       "assetStoreId": "",
       "name": "nameInput",
+      "tags": "",
       "type": "TextInput::TextInputObject",
       "variables": [],
       "effects": [],
@@ -3986,6 +4024,7 @@
     {
       "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
       "name": "RedButtonWithShadow",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -4050,6 +4089,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "doorControl",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4116,6 +4156,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "helipad",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4177,6 +4218,7 @@
       "assetStoreId": "",
       "height": 300,
       "name": "NewTiledSprite2",
+      "tags": "",
       "texture": "New image4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 300,
@@ -4188,6 +4230,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "jurassicBanner",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4249,6 +4292,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lodgeWall",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4317,6 +4361,7 @@
       "italic": false,
       "name": "testVariables",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4338,6 +4383,7 @@
       "italic": false,
       "name": "dialougeOptions",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4357,6 +4403,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "interactiblePlant",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4471,6 +4518,7 @@
     {
       "assetStoreId": "",
       "name": "dialogueText",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -4490,6 +4538,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "safariDoor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4599,6 +4648,7 @@
     {
       "assetStoreId": "",
       "name": "NewLight",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -4614,6 +4664,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "npcWalkPoint",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4675,6 +4726,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "beatifulPainting",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4741,6 +4793,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "reception",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4825,6 +4878,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "vendingMachine",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4891,6 +4945,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ringBell",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4952,6 +5007,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "textBorder",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5012,6 +5068,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5023,6 +5080,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "table",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5088,6 +5146,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "buffetCounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5153,6 +5212,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "trash",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5218,6 +5278,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "carpet",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5295,6 +5356,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "italianFOod",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5355,6 +5417,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "bench",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5470,6 +5533,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tutorialOne",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5624,154 +5688,70 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "helicopter",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "helicopter",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "helicopter",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 198
+                      },
+                      {
+                        "x": 601,
+                        "y": 198
+                      },
+                      {
+                        "x": 601,
+                        "y": 416
+                      },
+                      {
+                        "x": 10,
+                        "y": 416
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Plant"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "AlanGrant"
-      },
-      {
-        "objectName": "IanMalcom"
-      },
-      {
-        "objectName": "DonaldGenero"
-      },
-      {
-        "objectName": "RobertMuldoon"
-      },
-      {
-        "objectName": "DennisNedry"
-      },
-      {
-        "objectName": "JohnArnold"
-      },
-      {
-        "objectName": "EdRegis"
-      },
-      {
-        "objectName": "HeneryWu"
-      },
-      {
-        "objectName": "E_Buton"
-      },
-      {
-        "objectName": "safariLodgeWall"
-      },
-      {
-        "objectName": "outdoorWalls"
-      },
-      {
-        "objectName": "blueTint"
-      },
-      {
-        "objectName": "grass"
-      },
-      {
-        "objectName": "JohnHammond"
-      },
-      {
-        "objectName": "wallBottom"
-      },
-      {
-        "objectName": "LexMurphy"
-      },
-      {
-        "objectName": "TimMurphy"
-      },
-      {
-        "objectName": "nameInput"
-      },
-      {
-        "objectName": "RedButtonWithShadow"
-      },
-      {
-        "objectName": "doorControl"
-      },
-      {
-        "objectName": "helipad"
-      },
-      {
-        "objectName": "NewTiledSprite2"
-      },
-      {
-        "objectName": "jurassicBanner"
-      },
-      {
-        "objectName": "lodgeWall"
-      },
-      {
-        "objectName": "testVariables"
-      },
-      {
-        "objectName": "dialougeOptions"
-      },
-      {
-        "objectName": "interactiblePlant"
-      },
-      {
-        "objectName": "dialogueText"
-      },
-      {
-        "objectName": "safariDoor"
-      },
-      {
-        "objectName": "NewLight"
-      },
-      {
-        "objectName": "npcWalkPoint"
-      },
-      {
-        "objectName": "beatifulPainting"
-      },
-      {
-        "objectName": "reception"
-      },
-      {
-        "objectName": "vendingMachine"
-      },
-      {
-        "objectName": "ringBell"
-      },
-      {
-        "objectName": "textBorder"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "table"
-      },
-      {
-        "objectName": "buffetCounter"
-      },
-      {
-        "objectName": "trash"
-      },
-      {
-        "objectName": "carpet"
-      },
-      {
-        "objectName": "italianFOod"
-      },
-      {
-        "objectName": "bench"
-      },
-      {
-        "objectName": "tutorialOne"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -7828,6 +7808,151 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "AlanGrant",
+                "35",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "grantDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"grantTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "grantDialogue",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"grantOne\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "grantDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -8110,8 +8235,153 @@
               },
               "parameters": [
                 "MainCharacter",
+                "EdRegis",
+                "40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"regisTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"regisOne\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
                 "ringBell",
-                "50",
+                "70",
                 ""
               ]
             },
@@ -8247,7 +8517,147 @@
                 "",
                 "hammondSpeak.mp3",
                 "",
-                "10",
+                "5",
+                ".75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"arnold\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "arnoldVoice.mp3",
+                "",
+                "20",
+                ".75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"muldoon\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "muldoonVoice (1).mp3",
+                "",
+                "20",
+                ".75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"nedry\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "nedryVoice.mp3",
+                "",
+                "25",
+                ".75"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"wu\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "wuVoice.mp3",
+                "",
+                "30",
                 ".75"
               ]
             }
@@ -9107,40 +9517,12 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Animation",
-      "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flippable",
-      "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
-    },
-    {
       "name": "RemapForTopdown",
       "type": "BehaviorRemapper::RemapForTopdown"
     },
     {
-      "name": "Resizable",
-      "type": "ResizableCapability::ResizableBehavior"
-    },
-    {
-      "name": "Scale",
-      "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
