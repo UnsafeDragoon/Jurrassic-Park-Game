@@ -128,6 +128,12 @@
       "name": "SpikeSide",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "RaptorAttacking",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -3553,7 +3559,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -5084,6 +5090,114 @@
               },
               "parameters": [
                 "Stegosaurus",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Pteranodon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Triceratops"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Brachiosaurus"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dilophosaurus"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "T_Rex"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "RaptorStrike",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DinosaurAppears",
+                "=",
+                "\"A wild Velociraptor has appeared!\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Anklyo"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Compy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Stegosaurus"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SpinoSaurus"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Velociraptor",
                 ""
               ]
             },
@@ -7794,14 +7908,275 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Raptor",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "RaptorClaw",
+                        "MovingHead",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "MovingHead",
+                        "Health",
+                        "5",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "RaptorAttacking",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            "Animation"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Velociraptor",
+                            "\"Attack\"",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RaptorClaw",
+                            "RandomInRange(560,620)",
+                            "RandomInRange(444,498)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            "=",
+                            "RandomInRange(0,359)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Velociraptor",
+                            "\"Attack\"",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RaptorClaw",
+                            "RandomInRange(560,620)",
+                            "RandomInRange(444,498)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            "=",
+                            "RandomInRange(0,359)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Velociraptor",
+                            "\"Attack\"",
+                            ">=",
+                            "6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "RaptorClaw",
+                            "RandomInRange(560,620)",
+                            "RandomInRange(444,498)",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            "=",
+                            "RandomInRange(0,359)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareObjectTimer"
+                          },
+                          "parameters": [
+                            "Velociraptor",
+                            "\"Attack\"",
+                            ">=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "FightBox"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "ActionText_Flirt"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "TextBox",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "RaptorClaw",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "parameters": []
@@ -8128,6 +8503,7 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8493,9 +8869,9 @@
                                 "value": "ModVarScene"
                               },
                               "parameters": [
-                                "",
+                                "RaptorAttacking",
                                 "=",
-                                ""
+                                "1"
                               ]
                             },
                             {
@@ -9166,9 +9542,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -9737,9 +10113,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -10412,9 +10788,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -11099,9 +11475,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -11774,9 +12150,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -12461,9 +12837,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -13136,9 +13512,9 @@
                                     "value": "ModVarScene"
                                   },
                                   "parameters": [
-                                    "",
+                                    "RaptorAttacking",
                                     "=",
-                                    ""
+                                    "1"
                                   ]
                                 },
                                 {
@@ -14224,7 +14600,7 @@
                                 "value": "ModVarScene"
                               },
                               "parameters": [
-                                "",
+                                "RaptorAttacking",
                                 "=",
                                 ""
                               ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600218,
+    "zoomFactor": 0.5843784410741156,
     "windowMask": false
   },
   "objectsGroups": [
@@ -805,7 +805,7 @@
       "name": "RandomEncounterTrigger",
       "persistentUuid": "074d8033-a7a1-4abd-a8dd-1b8ebd6f0fd6",
       "width": 764,
-      "x": 2021,
+      "x": 2020,
       "y": 770,
       "zOrder": 27,
       "numberProperties": [],
@@ -3503,6 +3503,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Raptor",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

@@ -24,6 +24,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Random Encounters for Level 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
