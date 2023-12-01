@@ -2473,7 +2473,7 @@
         "alwaysLoaded": false,
         "file": "assets/Triceratops.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Triceratops.png\",\"extension\":\".png\"}",
         "name": "assets\\Triceratops.png",
         "smoothed": true,
         "userAdded": true
@@ -2645,6 +2645,42 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite124",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite125",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite126",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EncounterBoxPter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EncounterBoxPter",
+        "smoothed": true,
         "userAdded": true
       }
     ],
