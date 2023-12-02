@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_323",
-  "name": "Level 3",
+  "mangledName": "titleScreen",
+  "name": "titleScreen",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.5468750000000002,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,7 @@
       "ambientLightColorR": 200,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
+      "camera3DNearPlaneDistance": 3,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -55,7 +55,23 @@
           "width": 0
         }
       ],
-      "effects": []
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -94,10 +110,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

@@ -18,14 +18,534 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.2022070730360197,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
-  "events": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 730,
+      "layer": "",
+      "name": "cutsceneBackground",
+      "persistentUuid": "2c1f2c8c-3a90-4e20-b54a-e557c018b106",
+      "width": 1844,
+      "x": 1,
+      "y": 1,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 421,
+      "layer": "",
+      "name": "helicopter",
+      "persistentUuid": "f9abb9ef-aa49-4b56-8070-107201d39be5",
+      "width": 844,
+      "x": -794,
+      "y": 160,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cutsceneBackground",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "backgre",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "backgre3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2719,
+                        "y": 0
+                      },
+                      {
+                        "x": 2719,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "helicopter",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite141",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite142",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite143",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite144",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite145",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite146",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite147",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite148",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 52,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 80
+                      },
+                      {
+                        "x": 598,
+                        "y": 281
+                      },
+                      {
+                        "x": 52,
+                        "y": 281
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "cutsceneBackground"
+      },
+      {
+        "objectName": "helicopter"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "cinematicOp.mp3",
+            "1",
+            "",
+            "100",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "helicopter",
+            "3000",
+            "360",
+            "140",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "cutsceneBackground",
+            "-40",
+            "0",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "helicopter-rotor-sound-effectpart-2-95798.mp3",
+            "0",
+            "no",
+            "60",
+            ".70"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "11"
+          ]
+        },
+        {
+          "type": {
+            "value": "FadeSoundVolume"
+          },
+          "parameters": [
+            "",
+            "0",
+            "0",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "9"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Lodge\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -52,6 +572,22 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 53,
+      "ambientLightColorG": 53,
+      "ambientLightColorR": 53,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
@@ -91,10 +627,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

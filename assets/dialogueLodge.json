@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "The door seems to be automatic or may be controlled remotely.\nIt seems to be totally reliant on electricity.",
 		"position": {
-			"x": -2682,
-			"y": 606
+			"x": -7619,
+			"y": 1125
 		},
 		"colorID": 0
 	},
@@ -24,18 +24,18 @@
 		"tags": "",
 		"body": "In front of you appears to be a gianormous plant much taller than yourself.\nThere also seems to be a plaque right next to it.\nIt says \"Do NOT touch the plants!\"\n[[ Touch It: |plantTouched]]\n[[ Don't Touch It: |plantNotTouched]]",
 		"position": {
-			"x": -1896,
-			"y": 569
+			"x": -6833,
+			"y": 1088
 		},
 		"colorID": 0
 	},
 	{
 		"title": "plantTouched",
 		"tags": "",
-		"body": "You reach in to touch the plant and...\n<< peeled>> fail to see the banana that you end up slipping on.\nEveryone saw it and it was hilarious.\n",
+		"body": "You reach in to touch the plant and...\n<< peeled>> fail to see the banana that you end up slipping on.\nEveryone saw it and it was hilarious.",
 		"position": {
-			"x": -1995,
-			"y": 325
+			"x": -6932,
+			"y": 844
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "You decided to obey the law of the sign and walked away...\n<< peeled>> But then you accidentally slip on a banana peel and touch it anyways\n<< headSprites arnold>> what the hell technician!\nI specifically put that sign there for a reason!\nHuh? A banana peel?\nYeah right, i'll believe it when I see it.",
 		"position": {
-			"x": -1775,
-			"y": 309
+			"x": -6712,
+			"y": 828
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "You lost your plant appetite and deem plants as your mortal enemy.",
 		"position": {
-			"x": -1917,
-			"y": 91
+			"x": -6777,
+			"y": 489
 		},
 		"colorID": 0
 	},
@@ -92,7 +92,7 @@
 	{
 		"title": "nedryOne",
 		"tags": "",
-		"body": "Ugh.. Damn machine!\nWorthless piece of junk!\n...\n<< headSprites nedry>> \nHey you!\nYou're new around here right? \nMind helping a friend out?\n[[ Give a Dollar: |giveMoney]]\n[[ Don't Give Dollar: |dontGiveMoney]]",
+		"body": "Ugh.. Damn machine!\nWorthless piece of junk!\n...\n<< headSprites nedry>> \nHey you!\nYou're new around here right? \nCan I [i]borrow[/i] a dollar?\n[[ Give a Dollar: |giveMoney]]\n[[ Don't Give Dollar: |dontGiveMoney]]",
 		"position": {
 			"x": 1526,
 			"y": -320
@@ -222,7 +222,7 @@
 	{
 		"title": "arnoldAskJob",
 		"tags": "",
-		"body": "<< headSprites arnold>> \nWhat do I do?\nI'm the chief engineer, so I guess that means I'm your boss.\nI don't really care about titles or anything so please don't go calling me sir.",
+		"body": "<< headSprites arnold>> \nWhat do I do?\nI'm the chief engineer, so I guess that means I'm your boss.\nI don't really care for titles though so please don't go calling me sir.\nToo-\nmuch- \nresponsibility.",
 		"position": {
 			"x": 1926,
 			"y": 972
@@ -262,7 +262,7 @@
 	{
 		"title": "wuTwo",
 		"tags": "",
-		"body": "<< headSprites wu>> \nI would not be here if I had a choice. \nMr Hammond told me that I must greet the tourists because it is the first reveal of the park to a public audience.\nI can understand the importance but why me?\nI would be better off working on updating the dinosaurs!",
+		"body": "<< headSprites wu>> \nI would not be here if I had a choice. \nMr Hammond told me that I must greet the tourists because it is the first reveal of the park to a public audience.\nI can understand the importance but why me?\nI would be better off working in the labs!",
 		"position": {
 			"x": 519,
 			"y": 1480
@@ -282,30 +282,30 @@
 	{
 		"title": "muldoonOne",
 		"tags": "",
-		"body": "<< headSprites muldoon>> \nYou're the new technician, right?\nWelcome to the team.\nThe name's Muldoon and I'm the park warden.\nI saw your resume, and I can't say that I would hire you, but Hammond is a strange man.\n...\nLook, I'll tell you what I told everyone else...\nAlways prioritize [color=#eef704]human life[/color] above all else. \nI don't care if your a scientist, programmer, or [color=#eef704]technician.[/color]\nJust because your not out there doesn't mean it still doesn't apply.\nAnyways, be seeing you tech.",
+		"body": "<< headSprites muldoon>> \nYou're the new technician, right?\nWelcome to the team.\nThe name's Muldoon and I'm the park warden.\nI saw your resume, and I can't say that I would hire you, but Hammond is a strange man.\nLook, I'll tell you what I told everyone else...\nAlways prioritize [color=#eef704]human life[/color] above all else. \nI don't care if your a scientist, programmer, or [color=#eef704]technician.[/color]\nJust because your not out there doesn't mean it still doesn't apply.\nAnyways, be seeing you tech.",
 		"position": {
-			"x": -801,
-			"y": 1064
+			"x": -1125,
+			"y": 1065
 		},
 		"colorID": 1
 	},
 	{
-		"title": "muldoonTwo",
+		"title": "muldoonFour",
 		"tags": "",
 		"body": "<< headSprites muldoon>> \nHello Tech. Sorry, but theres no time to talk right now.\nGo talk with Ed Regis, near the benches.",
 		"position": {
-			"x": -568,
-			"y": 936
+			"x": -518,
+			"y": 1224
 		},
 		"colorID": 1
 	},
 	{
-		"title": "muldoonThree",
+		"title": "muldoonFive",
 		"tags": "",
 		"body": "<< headSprites muldoon>> \nYou should really get on with that training, Tech.",
 		"position": {
-			"x": -332,
-			"y": 1063
+			"x": -333,
+			"y": 1056
 		},
 		"colorID": 1
 	},
@@ -332,7 +332,7 @@
 	{
 		"title": "regisBeginYes",
 		"tags": "",
-		"body": "<< headSprites regis>> \nOh great!\nOk so before be head out, I need to teach you what to do if you get in an encounter with a dinosaur while working the park. \nI know that being a technician, you might not ever interact with the dinosaurs, but it's still procedure. \nSorry!\n<< beginMockFight>>",
+		"body": "<< headSprites regis>> \nOh great!\nOk so before be head out, I need to teach you what to do if you get in an encounter with a dinosaur while working the park. \nI know that being a technician, you might not ever interact with the dinosaurs, but it's still procedure. \n<< beginMockFight>>\nSorry about this!",
 		"position": {
 			"x": -335,
 			"y": -1389
@@ -402,11 +402,221 @@
 	{
 		"title": "grantTwo",
 		"tags": "",
-		"body": "Empty Textss",
+		"body": "<< headSprites grant>> \nThanks for the uh, \"help\". I think I can just take over from here.",
 		"position": {
-			"x": -1811,
-			"y": -1724
+			"x": -1680,
+			"y": -1658
 		},
 		"colorID": 6
+	},
+	{
+		"title": "muldoonTwo",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nThis place isn't so bad once you get used to it, just don't be afraid to speak up when leadership is lacking. \nAs a matter of fact, if Hammond is telling you to do anything stupid, you have my blessing to [color=#eef704]disobey.[/color]\nJust don't overdue it, ok?\nI don't want to get yelled at on your behalf because you're too lazy to do your job.",
+		"position": {
+			"x": -905,
+			"y": 1213
+		},
+		"colorID": 1
+	},
+	{
+		"title": "muldoonThree",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nY'know, I don't mind you quiet types. Everyone has their reasons, and that's fine by me.\nJust know that due to your lack of speaking, your [color=#eef704]actions[/color] hold more weight. \nSo try to be considerate to your surroundings. \nWho knows, it might just save your life one day.",
+		"position": {
+			"x": -720,
+			"y": 1047
+		},
+		"colorID": 1
+	},
+	{
+		"title": "malcolmAndGennaroConvoOne",
+		"tags": "",
+		"body": "(Malcolm and Gennaro don't seem to notice you despite standing next to them)\n<< headSprites gennaro>> \nThis place sure is something, isn't it?\n<< headSprites malcolm>> \nIt's impressive, but not secure.\n<< headSprites gennaro>> \nWhat do you mean?\n<< headSprites malcolm>> \nI mean that this park is doomed to fail.\nThere are just too many conditions at play.\n<< headSprites gennaro>> \nSuch as?\n<< headSprites malcolm>> \nWe'll to start, everything here is connected to a system, what if the system turns off, what'll they do then?\nNot only that, but they seem poorly equipped to handle any such event.\n<< headSprites gennaro>> \nBut the employees? Surely they can be trusted to do their [i]jobs[/i] and keep the park healthy.\n<< headSprites malcolm>> \nThe employees are also a problem. You've seen all of them, they are way too incompetent at managing the park.\nHowever,\nThere is the unknown quantity of the newest one.\nNobody here seems to know anything about them.\n<< headSprites gennaro>> \nAre you trying to say that the recruit has the ability to prevent this \"disaster?\"\n<< headSprites malcolm>> \nNot at all, but rather, they may determine the fallout that comes with it.\nThe consequences of said disaster.\n<< headSprites gennaro>> \nI don't know Malcolm, this is probably your most far fetched theory to date.\n<< headSprites malcolm>> \nUnfortunately, thats what most say right before they're about to come true.\n<< headSprites gennaro>> \nSpooky",
+		"position": {
+			"x": 2781,
+			"y": 186
+		},
+		"colorID": 3
+	},
+	{
+		"title": "malcolmAndGennaroConvoTwo",
+		"tags": "",
+		"body": "(You overhear them bounce back and forth from arguing about chaos theory to arguing about whether bananas are better than apples)",
+		"position": {
+			"x": 3022,
+			"y": 187
+		},
+		"colorID": 3
+	},
+	{
+		"title": "lexAndTimConvoOne",
+		"tags": "",
+		"body": "<< headSprites lex>>\nLook it's them!\nHey you work here right?\nWhat do you do here?\nCan we look at the dinosaurs?\nWhere's the bathroom?\nWhy are you so short?\n<< headSprites tim>> \nLex! Stop it!\nThey just got here!\nBut uh, can we see the dinosaurs?\nPlease\n<< headSprites lex>>\nPretty please?\n<< headSprites hammond>> \nYou kids better behave yourselves!\nNo peeking at the exhibits before all of us depart tomorrow.\n<< headSprites lex>> \nThat's no fun! Ugh, what else are we gonna do!",
+		"position": {
+			"x": -2151,
+			"y": 196
+		},
+		"colorID": 5
+	},
+	{
+		"title": "lexAndTimConvoTwo",
+		"tags": "",
+		"body": "<< headSprites lex>> \nYou're pretty weird you know that?\n<< headSprites tim>> \nLex!\n<< headSprites lex>> \nBut it's true!\n<< headSprites tim>> \nYou don't just say stuff like that Lex!\nIt's rude!\n<< headSprites lex>> \nWhy not? I hear adults saying mean stuff all the time!\nLike that fat guy at the vending machine!\n<< headSprites nedry>> \n(What did you say about me you little brat!)\n<< headSprites lex>> \nOr that guy with the sunglasses! People say mean stuff about him all the time!\n<< headSprites regis>> \n(People say mean stuff about me?)\n<< headSprites tim>> \nLex! Quiet down! Everyone can hear you!",
+		"position": {
+			"x": -1861,
+			"y": 71
+		},
+		"colorID": 5
+	},
+	{
+		"title": "lexAndTimConvoThree",
+		"tags": "",
+		"body": "(Hammond shoots a glance at you as if he's telling you to stop indulging the kids)\n(You reluctantly [i]indulge[/i] him)",
+		"position": {
+			"x": -1664,
+			"y": 342
+		},
+		"colorID": 5
+	},
+	{
+		"title": "doorExit",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nAnd where do you think you're going?\nYou've got training to complete, go talk with Regis.",
+		"position": {
+			"x": -8055,
+			"y": -123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "vendingMachine",
+		"tags": "",
+		"body": "You look inside of the vending machine and see four of the same banana painted a different color-\nfour of the same types of generic candy bars-\nand four eggs each stylized with a different hat.",
+		"position": {
+			"x": -7260,
+			"y": 150
+		},
+		"colorID": 0
+	},
+	{
+		"title": "painting",
+		"tags": "",
+		"body": "You look at the painting in awe, starstruck by it's creativity.\nYou just can't stop looking at it.\nEventually, you stop looking at it.",
+		"position": {
+			"x": -6869,
+			"y": -24
+		},
+		"colorID": 0
+	},
+	{
+		"title": "powerBlackout",
+		"tags": "",
+		"body": "<< headSprites regis>> \nGreat job tech!\nYou did well and I think it's finally time to check out the control roo-\n<< blackout>>\n!\n!\nUh oh.\nWells thats not good.\n<< headSprites malcolm>> \n(Called it)\n<< headSprites lex>> \nWhy is it so dark?\nIs that supposed to happen?\n<< headSprites arnold>> \nIt seems that the power went out and the syste-\n<< headSprites hammond>> \nWHY DID EVERTHING TURN OFF!\nWHO IS RESPONSIBLE FOR THIS!\n<< headSprites muldoon>> \nCalm down Mr. Hammond, I'm sure nobody is to blame.\n<< headSprites nedry>> \n( ͡° ͜ʖ ͡°)\n<< headSprites hammond>>\nTHEN WHY DID THIS HAPPEN?\n<< headSprites arnold>> \nMr. Hammond, I'm sure it's just a short circuit somewhere and that all we need to do is fix a single electrical box.\nJust in case it's not though-\nNedry and I should stay to moniter the park systems in case of another breach.\n<< headSprites hammond>>\nThis better not be the fault of your lousely programming Nedry!\n<< headSprites nedry>>\n( ͠° ͟ʖ ͡°)\n<< headSprites hammond>>\nTechnician, I want you to get out there and fix that box!\nEd Regis, go with them!\nUse the door near the reception.\nRegis will tell you the way.\n<< blackoutDialogueChanges>>\nNOW HURRY UP!",
+		"position": {
+			"x": -143,
+			"y": -3122
+		},
+		"colorID": 8
+	},
+	{
+		"title": "regisBlackout",
+		"tags": "",
+		"body": "<< headSprites regis>> \nOh god...\nUhm, don't worry T-tech, I'll follow right behind you.\nI just uh, need to get my barrings first.",
+		"position": {
+			"x": -123,
+			"y": -1651
+		},
+		"colorID": 4
+	},
+	{
+		"title": "nedryBlackout",
+		"tags": "",
+		"body": "<< headSprites nedry>> \nOh no!\nHow could the park systems so easily be defeated!\nWho could have done this?\n¯\\_( ͡° ͜ʖ ͡°)_/¯\nI guess we'll never know...",
+		"position": {
+			"x": 1645,
+			"y": -1784
+		},
+		"colorID": 6
+	},
+	{
+		"title": "arnoldBlackout",
+		"tags": "",
+		"body": "<< headSprites arnold>> \nDon't worry about us Technician, we'll be fine!\nKeep yourself safe when doing out there!\nA power shutdown may mean the electrical fences are offline!",
+		"position": {
+			"x": 1896,
+			"y": 715
+		},
+		"colorID": 8
+	},
+	{
+		"title": "wuBlackout",
+		"tags": "",
+		"body": "<< headSprites wu>> \nA blackout?\nThat's horrible!\nNot only for the dinosaurs potentially escaping,-\nbut also for the cold spaghetti that I was microwaving!",
+		"position": {
+			"x": 750,
+			"y": 891
+		},
+		"colorID": 2
+	},
+	{
+		"title": "muldoonBlackout",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nGet going kid, a lot of people are counting on you.",
+		"position": {
+			"x": -101,
+			"y": 1250
+		},
+		"colorID": 1
+	},
+	{
+		"title": "lexAndTimConvoBlackout",
+		"tags": "",
+		"body": "<< headSprites lex>> \nThank god the power went out so I don't have to look at your ugly face!\n<< headSprites tim>> \nLex! If you don't shut up!",
+		"position": {
+			"x": -1416,
+			"y": 148
+		},
+		"colorID": 5
+	},
+	{
+		"title": "grantBlackout",
+		"tags": "",
+		"body": "<< headSprites grant>> \nA blackout? Great.\nJust great.",
+		"position": {
+			"x": -1378,
+			"y": -1870
+		},
+		"colorID": 6
+	},
+	{
+		"title": "malcolmAndGennaroConvoBlackout",
+		"tags": "",
+		"body": "<< headSprites malcolm>> \nI knew it!\nMan, being right always feels so good.\n<< headSprites gennaro>> \nOk, fine you're kind of right, but the rest still hasn't come true!\n<< headSprites malcolm>> \nWe'll see in good time my friend, we will see.",
+		"position": {
+			"x": 3321,
+			"y": 137
+		},
+		"colorID": 3
+	},
+	{
+		"title": "hammondBlackout",
+		"tags": "",
+		"body": "<< headSprites hammond>> \nWhat are you doing standing around for!\nGet out there and fix my park!",
+		"position": {
+			"x": 863,
+			"y": 81
+		},
+		"colorID": 7
+	},
+	{
+		"title": "doorNextLevel",
+		"tags": "",
+		"body": "<< headSprites muldoon>> \nHey Tech hold on a minute!\nThings might get dangerous out there and might get hectic in here.\nTake these,\n<< headSprites none>> \n(You recieved a flashlight, a backpack, and a radio)\n<< headSprites muldoon>> \nThere you go, now good luck out there!\nTry to get back in one piece, eh?\n<< headSprites regis>>\nOh you're ready Tech? \n<< nextLevel>> \nAlright let's head out.",
+		"position": {
+			"x": -8100,
+			"y": -455
+		},
+		"colorID": 0
 	}
 ]
