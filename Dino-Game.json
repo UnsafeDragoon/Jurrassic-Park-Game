@@ -3016,6 +3016,69 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ankylosaurus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ankylosaurus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite157.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite157.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite162.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite150.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite151.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite151.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite160.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite160.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite153.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
