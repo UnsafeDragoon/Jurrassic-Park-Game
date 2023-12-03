@@ -2821,7 +2821,7 @@
         "alwaysLoaded": false,
         "file": "assets/Pteranodon.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pteranodon.png\",\"extension\":\".png\"}",
         "name": "assets\\Pteranodon.png",
         "smoothed": true,
         "userAdded": true
@@ -3527,6 +3527,24 @@
         "name": "assets\\NewSprite153.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite149",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite150",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

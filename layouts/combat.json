@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047023994,
+    "zoomFactor": 1.0973679695629577,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4303,11 +4303,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Pteranodon",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -4638,6 +4639,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Pteradon_Project",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite150",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 6
+                      },
+                      {
+                        "x": 295,
+                        "y": 6
+                      },
+                      {
+                        "x": 295,
+                        "y": 191
+                      },
+                      {
+                        "x": 3,
+                        "y": 191
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4786,6 +4848,9 @@
       },
       {
         "objectName": "TricsHead"
+      },
+      {
+        "objectName": "Pteradon_Project"
       }
     ]
   },
@@ -8755,7 +8820,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Pteranodon",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8765,10 +8829,84 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        ">",
+                        "90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "<",
+                        "270"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "<",
+                        "90"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        ">",
+                        "270"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "",
+                        "Pteradon_Project",
                         "MovingHead",
                         "",
                         "",
@@ -8813,7 +8951,73 @@
                       "parameters": []
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Pteradon_Project",
+                        "MovingHead.X()-350",
+                        "MovingHead.Y()-200",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Pteranodon",
+                        "\"Attack\"",
+                        ">=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Pteradon_Project",
+                        "MovingHead.X()+350",
+                        "MovingHead.Y()-200",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -8830,7 +9034,53 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "MovingHead",
+                        "10",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "Resizable",
+                        "=",
+                        "92"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "Resizable",
+                        "=",
+                        "57"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Pteradon_Project",
+                        "MovingHead.CenterX()",
+                        "MovingHead.CenterY()",
+                        "270",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -8843,7 +9093,7 @@
                         "Pteranodon",
                         "\"Attack\"",
                         ">=",
-                        "6"
+                        "8"
                       ]
                     }
                   ],
@@ -8853,7 +9103,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "",
+                        "Pteradon_Project",
                         ""
                       ]
                     },
