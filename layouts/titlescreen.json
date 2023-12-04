@@ -114,6 +114,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }

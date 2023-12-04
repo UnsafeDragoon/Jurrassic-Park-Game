@@ -18,6 +18,7 @@
       "actions": []
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -42,6 +43,1248 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "MainCharacter",
+            "",
+            "\"background\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "dialogue generals",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"dialogueOverlay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogueText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "textBorder",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\"",
+                ">=",
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"dialogueOverlay\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "headSprites",
+                "\"none\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogueText"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "textBorder"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"text\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "dialogueText",
+                "=",
+                "DialogueTree::ClippedLineText()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\"",
+                    ">=",
+                    "GlobalVariable(textScrollSpeed)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ScrollClippedText"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"hammond\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hammondSpeak.mp3",
+                    "",
+                    "8",
+                    ".75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"arnold\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "arnoldVoice.mp3",
+                    "",
+                    "20",
+                    ".75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"muldoon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "muldoonVoice (1).mp3",
+                    "",
+                    "20",
+                    ".85"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"nedry\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "nedryVoice.mp3",
+                    "",
+                    "25",
+                    ".75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"wu\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "wuVoice.mp3",
+                    "",
+                    "25",
+                    ".75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"grant\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "grantVoice.mp3",
+                    "",
+                    "30",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"malcolm\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "nedryVoice.mp3",
+                    "",
+                    "30",
+                    ".75"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"gennaro\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "arnoldVoice.mp3",
+                    "",
+                    "30",
+                    "1.05"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"lex\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "lexVoice.mp3",
+                    "",
+                    "30",
+                    "1.25"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"tim\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "timVoice.mp3",
+                    "",
+                    "30",
+                    "1.25"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "headSprites",
+                    "\"regis\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "arnoldVoice.mp3",
+                    "",
+                    "20",
+                    "1.25"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "specialDialogueEvent",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "textScrollSpeed",
+                    "=",
+                    ".0001"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "textScrollSpeed",
+                    "=",
+                    ".0001"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialogueSelector"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "dialougeOptions"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialogueSelector",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dialougeOptions",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectPreviousOption"
+                  },
+                  "parameters": []
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "113"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "135"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "157"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::SelectNextOption"
+                  },
+                  "parameters": []
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "113"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "135"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "DialogueTree::SelectedOptionIndex()",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "dialogueSelector",
+                        "=",
+                        "415",
+                        "=",
+                        "157"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ConfirmSelectOption"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::HasSelectedOptionChanged"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "dialougeOptions",
+                    "=",
+                    "DialogueTree::VerticalOptionsList(\"\")"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "RedButtonWithShadow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "nameInput",
+                "!=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"userNameInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobalTxt"
+                  },
+                  "parameters": [
+                    "playerName",
+                    "=",
+                    "nameInput.Text()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "specialDialogueEvent",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
@@ -240,189 +1483,6 @@
               "parameters": [
                 "interactingStatus",
                 "True"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "sentenceFinished",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "headSprites",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseAnimation"
-              },
-              "parameters": [
-                "headSprites"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "sentenceFinished",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayAnimation"
-              },
-              "parameters": [
-                "headSprites"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "interactingStatus",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"dialogueOverlay\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "interactingStatus",
-                "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"dialogueOverlay\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "MainCharacter",
-                "TopDownMovement",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "sentenceFinished",
-                "True"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "sentenceFinished",
-                "False"
               ]
             }
           ]

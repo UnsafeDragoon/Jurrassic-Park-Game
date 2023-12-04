@@ -88,7 +88,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/pixil-frame-0.png\",\"extension\":\".png\"}",
         "name": "assets\\pixil-frame-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -97,7 +97,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\pixil-frame2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -106,7 +106,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\pixil-frame1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -115,7 +115,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\pixil-frame3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -133,7 +133,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_pixil-frame-0.png\"}",
         "name": "assets\\pixil-frame-0",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -776,7 +776,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/AlanGrant.png\",\"extension\":\".png\"}",
         "name": "assets\\AlanGrant.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -785,7 +785,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\IanMalcolm.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -794,7 +794,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/DonaldGennaro.png\",\"extension\":\".png\"}",
         "name": "assets\\DonaldGennaro.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -803,7 +803,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/RobertMuldoon.png\",\"extension\":\".png\"}",
         "name": "assets\\RobertMuldoon.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -812,7 +812,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/DennisNedry.png\",\"extension\":\".png\"}",
         "name": "assets\\DennisNedry.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -821,7 +821,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/JohnArnold.png\",\"extension\":\".png\"}",
         "name": "assets\\JohnArnold.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -830,7 +830,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\EdRegis.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -839,7 +839,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/HenryWu.png\",\"extension\":\".png\"}",
         "name": "assets\\HenryWu.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1120,7 +1120,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite77",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1136,7 +1136,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite79.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite79.png\"}",
         "name": "NewSprite79",
         "smoothed": true,
         "userAdded": true
@@ -1217,7 +1217,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_New image3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/assets_New image3.png\",\"extension\":\".png\"}",
         "name": "assets\\assets_New image3.png",
         "smoothed": true,
         "userAdded": false
@@ -1228,7 +1228,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/LexMurphy.png\",\"extension\":\".png\"}",
         "name": "assets\\LexMurphy.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1237,7 +1237,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/TimMurphy.png\",\"extension\":\".png\"}",
         "name": "assets\\TimMurphy.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1462,7 +1462,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "talking",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1471,7 +1471,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "talking2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1480,7 +1480,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\talking3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1489,7 +1489,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\talking2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1498,7 +1498,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\talking4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1773,7 +1773,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1782,7 +1782,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down.png\"}",
         "name": "down",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1791,7 +1791,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1800,7 +1800,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/up3.png\"}",
         "name": "up3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1809,7 +1809,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1818,7 +1818,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\AlanGrant",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1827,7 +1827,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"AlanGrant.png\",\"extension\":\".png\"}",
         "name": "AlanGrant.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1883,7 +1883,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "LexMurphy",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1892,7 +1892,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "LexMurphy2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1901,7 +1901,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "up5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2877,7 +2877,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite122",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2913,7 +2913,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite126.png\"}",
         "name": "NewSprite123",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -2922,7 +2922,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "DeadBoi",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -2931,7 +2931,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "DeadBoi2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -3530,6 +3530,105 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/NewSprite119.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite119.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_concreteTexture.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\concreteTexture",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_New image3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_New image3.png2.png\"}",
+        "name": "assets\\New image3.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/wall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "wall",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maintenanceWallUpper.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/maintenanceWallUpper.png\"}",
+        "name": "maintenanceWallUpper",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Jurrassic-Park-Game/assets/assets_New image3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"../../Jurrassic-Park-Game/assets/assets_New image3.png\",\"extension\":\".png\"}",
+        "name": "..\\..\\Jurrassic-Park-Game\\assets\\assets_New image3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/maintenanceWallLower.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "maintenanceWallLower",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image10.png\"}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/wallTop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "wallTop",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite163.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -3545,6 +3644,811 @@
         "name": "NewSprite150",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite151",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite152",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New sound effect4.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Hit/hurt 27\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":0,\\\"decay\\\":0.05,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":-600,\\\"frequencyDeltaSweep\\\":-500,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sawtooth\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":-3900,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect4",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite167.png\"}",
+        "name": "NewSprite153",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite154",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite155",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite170.png\"}",
+        "name": "NewSprite156",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite170.png\"}",
+        "name": "NewSprite157",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite170.png\"}",
+        "name": "NewSprite158",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite171.png\"}",
+        "name": "NewSprite159",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite171.png\"}",
+        "name": "NewSprite160",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite171.png\"}",
+        "name": "NewSprite161",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite169.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite169.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite162",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite163",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nine.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/nine.png\"}",
+        "name": "nine",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/five.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "five",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite174.png\"}",
+        "name": "NewSprite164",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite175.png\"}",
+        "name": "NewSprite165",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite166",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite177.png\"}",
+        "name": "NewSprite167",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite178.png\"}",
+        "name": "NewSprite168",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite179.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite179.png\"}",
+        "name": "NewSprite169",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/three.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/three.png\"}",
+        "name": "three",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/four.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "four",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/five2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "five2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/six.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/six.png\"}",
+        "name": "six",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/seven.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/seven.png\"}",
+        "name": "seven",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/eight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/eight.png\"}",
+        "name": "eight",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nine2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nine2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/zero.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "zero",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/four2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "four2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/five3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "five3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nine3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "nine3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "ShareTechMono-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ShareTechMono-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/keys.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/keys.png\"}",
+        "name": "keys",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/keys2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/keys2.png\"}",
+        "name": "keys2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/keys3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "keys3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "braam-6150.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "braam-6150.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite180.png\"}",
+        "name": "NewSprite170",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockedDoor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockedDoor",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "error-call-to-attention-129258.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "error-call-to-attention-129258.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "click-button-140881.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "click-button-140881.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "decidemp3-14575.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "decidemp3-14575.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "mechanicalclamp-6217.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "mechanicalclamp-6217.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/unlockedDoor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "unlockedDoor",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MiniCompy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MiniCompy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MiniCompy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MiniCompy2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MiniCompy3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MiniCompy3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MiniCompy4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MiniCompy4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDirtPaths.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "electricalDirtPaths",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDirtPaths2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "electricalDirtPaths2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite171",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite172",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite173",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite184.png\"}",
+        "name": "NewSprite174",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite185.png\"}",
+        "name": "NewSprite175",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite186.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite176",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld18",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld19",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/compyOverworld20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "compyOverworld20",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/notCrossable.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/notCrossable.png\"}",
+        "name": "notCrossable",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/crossable.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/crossable.png\"}",
+        "name": "crossable",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/unlockedDoor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "unlockedDoor2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockedDoor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockedDoor2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockedDoor3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lockedDoor3.png\"}",
+        "name": "lockedDoor3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/unlockedDoor3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/unlockedDoor3.png\"}",
+        "name": "unlockedDoor3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite187.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite177",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/invisibleWall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "invisibleWall",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite188.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite178",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite189.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite179",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite190.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite180",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3693,10 +4597,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
+          "LeftwardSpeed": 2,
+          "RightwardSpeed": 2,
+          "UpwardSpeed": 2,
+          "DownwardSpeed": 2,
           "FollowOnX": true,
           "FollowOnY": true,
           "FollowFreeAreaLeft": 0,
@@ -3745,17 +4649,21 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 1000,
-          "deceleration": 1000,
+          "acceleration": 80000,
+          "deceleration": 79998,
+          "maxSpeed": 200,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
           "ignoreDefaultControls": false,
-          "maxSpeed": 200,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -3771,11 +4679,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\pixil-frame-0.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 0
+                    "y": 19.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3786,19 +4700,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 31
+                        "x": 0,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
-                        "y": 31
+                        "x": 25,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
+                        "x": 25,
                         "y": 71
                       },
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 71
                       }
                     ]
@@ -3819,11 +4733,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\pixil-frame2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 0
+                    "y": 19.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3834,19 +4754,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 31
+                        "x": 0,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
-                        "y": 31
+                        "x": 25,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
+                        "x": 25,
                         "y": 71
                       },
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 71
                       }
                     ]
@@ -3867,11 +4787,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\pixil-frame1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 0
+                    "y": 19.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3882,19 +4808,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 31
+                        "x": 0,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
-                        "y": 31
+                        "x": 25,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
+                        "x": 25,
                         "y": 71
                       },
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 71
                       }
                     ]
@@ -3915,11 +4841,17 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\pixil-frame3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
-                    "y": 0
+                    "y": 19.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3930,19 +4862,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 31
+                        "x": 0,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
-                        "y": 31
+                        "x": 25,
+                        "y": 62.5
                       },
                       {
-                        "x": 24,
+                        "x": 25,
                         "y": 71
                       },
                       {
-                        "x": 1,
+                        "x": 0,
                         "y": 71
                       }
                     ]
@@ -4656,7 +5588,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 34
+                      },
+                      {
+                        "x": 20,
+                        "y": 34
+                      },
+                      {
+                        "x": 20,
+                        "y": 36
+                      },
+                      {
+                        "x": 18,
+                        "y": 36
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -4781,6 +5732,33 @@
         },
         {
           "name": "bench"
+        },
+        {
+          "name": "wallTop"
+        },
+        {
+          "name": "barbedWire"
+        },
+        {
+          "name": "NewSprite2"
+        },
+        {
+          "name": "electricalRoomDoor"
+        },
+        {
+          "name": "lockedDoor"
+        },
+        {
+          "name": "pit"
+        },
+        {
+          "name": "lockedDoorSupplyCloset"
+        },
+        {
+          "name": "invisibleWall"
+        },
+        {
+          "name": "gapBridge"
         }
       ]
     },
@@ -4937,6 +5915,12 @@
       "name": "BandAidCount",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "PlayerCombatHealth",
+      "type": "number",
+      "value": 20
     }
   ],
   "layouts": [
@@ -4988,6 +5972,26 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/speedrestrictions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritebasedlighting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"

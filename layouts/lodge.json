@@ -726,7 +726,7 @@
       "depth": 1,
       "height": 291,
       "layer": "background",
-      "name": "NewTiledSprite2",
+      "name": "dirtPath",
       "persistentUuid": "c7d543e0-f725-4ffd-9cad-f8f5aaea64e3",
       "width": 2254,
       "x": -575,
@@ -742,7 +742,7 @@
       "depth": 1,
       "height": 300,
       "layer": "background",
-      "name": "NewTiledSprite2",
+      "name": "dirtPath",
       "persistentUuid": "8604aecc-32f8-4618-a206-baee8407223c",
       "width": 8599,
       "x": -3533,
@@ -758,7 +758,7 @@
       "depth": 1,
       "height": 291,
       "layer": "background",
-      "name": "NewTiledSprite2",
+      "name": "dirtPath",
       "persistentUuid": "54890272-cf3e-4197-a8a5-e555c3ae2d63",
       "width": 4652,
       "x": -3427,
@@ -774,7 +774,7 @@
       "depth": 1,
       "height": 325,
       "layer": "background",
-      "name": "NewTiledSprite2",
+      "name": "dirtPath",
       "persistentUuid": "3dee6b8e-7cc9-42cb-95e0-a3b7f5454ccd",
       "width": 4050,
       "x": -4207,
@@ -3677,7 +3677,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\assets_New image3.png",
+                  "image": "..\\..\\Jurrassic-Park-Game\\assets\\assets_New image3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4199,7 +4199,7 @@
     {
       "assetStoreId": "",
       "height": 300,
-      "name": "NewTiledSprite2",
+      "name": "dirtPath",
       "texture": "New image4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 300,
@@ -5914,7 +5914,7 @@
         "objectName": "helipad"
       },
       {
-        "objectName": "NewTiledSprite2"
+        "objectName": "dirtPath"
       },
       {
         "objectName": "jurassicBanner"
@@ -5989,6 +5989,7 @@
   },
   "events": [
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6583,845 +6584,655 @@
       "target": "freeRoamConstants"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "safariLodgeDialogueEvents",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "CentreCamera"
-          },
-          "parameters": [
-            "",
-            "MainCharacter",
-            "",
-            "\"background\"",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsDialogueRunning"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "MainCharacter",
-            "TopDownMovement",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"dialogueOverlay\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "interactingStatus",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogueText",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "textBorder",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "DialogueTree::IsCommandCalled"
               },
               "parameters": [
-                "",
-                "e"
+                "\"headSprites\""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "KeyReleased"
+                "value": "SetAnimationName"
               },
               "parameters": [
-                "",
-                "Space"
+                "headSprites",
+                "DialogueTree::CommandParameter(0)"
               ]
             }
           ]
         },
         {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueRunning"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"scrollText\"",
-            ">=",
-            ".5"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"peeled\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "interactiblePlant",
+                "\"peeled\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "090035_splatwav-91604.mp3",
+                "no",
+                "70",
+                ".75"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "specialDialogueEvent",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"dialogueOverlay\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "MainCharacter",
-            "TopDownMovement",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "headSprites",
-            "\"none\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "interactingStatus",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dialogueText"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "textBorder"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"headSprites\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "headSprites",
-            "DialogueTree::CommandParameter(0)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"peeled\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetAnimationName"
-          },
-          "parameters": [
-            "interactiblePlant",
-            "\"peeled\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"nextLevel\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "dorm-door-opening-6038.mp3",
+                "no",
+                "70",
+                ".75"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "LoadingScreen",
+                "MainCharacter.X()-700",
+                "MainCharacter.Y()-600",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "090035_splatwav-91604.mp3",
-            "no",
-            "70",
-            ".75"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"nextLevel\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "dorm-door-opening-6038.mp3",
-            "no",
-            "70",
-            ".75"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            ".5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "LoadingScreen",
-            "MainCharacter.X()-700",
-            "MainCharacter.Y()-600",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1.5"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Level 1\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"blackout\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "specialDialogueEvent",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "FadeMusicVolume"
-          },
-          "parameters": [
-            "11.85",
-            "0",
-            "0",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "power-off-96139.mp3",
-            "no",
-            "70",
-            ".6"
-          ]
-        },
-        {
-          "type": {
-            "value": "AjoutObjConcern"
-          },
-          "parameters": [
-            "",
-            "NewLight"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"blackout\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "11.85",
+                "0",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "power-off-96139.mp3",
+                "no",
+                "70",
+                ".6"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "NewLight"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "NewLight",
+                "\"126;126;126\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "NewLight",
+                "\"77;75;75\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "NewLight",
+                "\"31;31;31\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewLight",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Lighting::SetColor"
-          },
-          "parameters": [
-            "NewLight",
-            "\"126;126;126\""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"blackoutDialogueChanges\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "hammondDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "dennisDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "wuDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "arnoldDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "muldoonDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "grantDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "lexAndTimDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "gennaroAndMalcolmDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "regisDialogue",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "nextLevelExit",
+                "True"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"beginMockFight\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "11.85",
+                "0",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "LoadingScreen",
+                "MainCharacter.X()-700",
+                "MainCharacter.Y()-600",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "HeadLoadingIcon",
+                "MainCharacter.X()",
+                "MainCharacter.Y()+20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "NewLight",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Lighting::SetColor"
+              },
+              "parameters": [
+                "NewLight",
+                "\"48;48;48\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Combat\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "LoadingScreen",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"powerBlackout\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            }
           ]
         },
-        {
-          "type": {
-            "value": "Lighting::SetColor"
-          },
-          "parameters": [
-            "NewLight",
-            "\"77;75;75\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Lighting::SetColor"
-          },
-          "parameters": [
-            "NewLight",
-            "\"31;31;31\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NewLight",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::GoToNextLine"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "specialDialogueEvent",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"blackoutDialogueChanges\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "hammondDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "dennisDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "wuDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "arnoldDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "muldoonDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "grantDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "lexAndTimDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "gennaroAndMalcolmDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "regisDialogue",
-            "=",
-            "9"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "nextLevelExit",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"beginMockFight\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "specialDialogueEvent",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "FadeMusicVolume"
-          },
-          "parameters": [
-            "11.85",
-            "0",
-            "0",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "LoadingScreen",
-            "MainCharacter.X()-700",
-            "MainCharacter.Y()-600",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "HeadLoadingIcon",
-            "MainCharacter.X()",
-            "MainCharacter.Y()+20",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Lighting::SetColor"
-          },
-          "parameters": [
-            "NewLight",
-            "\"255;255;255\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ScalableCapability::ScalableBehavior::SetValue"
-          },
-          "parameters": [
-            "HeadLoadingIcon",
-            "Scale",
-            "=",
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "HeadLoadingIcon"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "HeadLoadingIcon",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "HeadLoadingIcon"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "HeadLoadingIcon",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "HeadLoadingIcon"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Lighting::SetColor"
-          },
-          "parameters": [
-            "NewLight",
-            "\"48;48;48\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PushScene"
-          },
-          "parameters": [
-            "",
-            "\"Combat\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "LoadingScreen",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "HeadLoadingIcon",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"powerBlackout\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"scrollText\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "specialDialogueEvent",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Special Events",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -7741,11 +7552,12 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Level Interactions",
+      "name": "safariLodgeInteractions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10346,661 +10158,9 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "dialogue generals",
+      "name": "Other",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"text\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BBText::SetBBText"
-          },
-          "parameters": [
-            "dialogueText",
-            "=",
-            "DialogueTree::ClippedLineText()"
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrollText\"",
-                ">=",
-                "GlobalVariable(textScrollSpeed)"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::ScrollClippedText"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"scrollText\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"hammond\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "hammondSpeak.mp3",
-                "",
-                "8",
-                ".75"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"arnold\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "arnoldVoice.mp3",
-                "",
-                "20",
-                ".75"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"muldoon\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "muldoonVoice (1).mp3",
-                "",
-                "20",
-                ".85"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"nedry\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "nedryVoice.mp3",
-                "",
-                "25",
-                ".75"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"wu\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "wuVoice.mp3",
-                "",
-                "25",
-                ".75"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"grant\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "grantVoice.mp3",
-                "",
-                "30",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"malcolm\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "nedryVoice.mp3",
-                "",
-                "30",
-                ".75"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"gennaro\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "arnoldVoice.mp3",
-                "",
-                "30",
-                "1.05"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"lex\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "lexVoice.mp3",
-                "",
-                "30",
-                "1.25"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"tim\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "timVoice.mp3",
-                "",
-                "30",
-                "1.25"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "\"regis\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "arnoldVoice.mp3",
-                "",
-                "20",
-                "1.25"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "specialDialogueEvent",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::GoToNextLine"
-              },
-              "parameters": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "textScrollSpeed",
-                "=",
-                ".0001"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "textScrollSpeed",
-                "=",
-                ".0001"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"options\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dialogueSelector"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "dialougeOptions"
-          ]
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"options\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialogueSelector",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "dialougeOptions",
-            ""
-          ]
-        }
-      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -11013,287 +10173,39 @@
               "subInstructions": [
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "",
-                    "Up"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::SelectPreviousOption"
-              },
-              "parameters": []
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "113"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "135"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "157"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::SelectNextOption"
-              },
-              "parameters": []
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "113"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "135"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "DialogueTree::SelectedOptionIndex()",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "dialogueSelector",
-                    "=",
-                    "415",
-                    "=",
-                    "157"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "e"
+                    "jurassicBanner",
+                    "MainCharacter.PointX(\"origin\")",
+                    "MainCharacter.PointY(\"origin\")"
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyPressed"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "MainCharacter",
+                    "jurassicBanner",
+                    "MainCharacter.PointY(\"center\")",
                     "",
-                    "Space"
+                    ""
                   ]
                 }
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::ConfirmSelectOption"
+                "value": "Opacity"
               },
-              "parameters": []
+              "parameters": [
+                "jurassicBanner",
+                "=",
+                "70"
+              ]
             }
           ]
         },
@@ -11302,105 +10214,7 @@
           "conditions": [
             {
               "type": {
-                "value": "DialogueTree::HasSelectedOptionChanged"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "dialougeOptions",
-                "=",
-                "DialogueTree::VerticalOptionsList(\"\")"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "RedButtonWithShadow",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::Text"
-          },
-          "parameters": [
-            "nameInput",
-            "!=",
-            "\"\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"userNameInput\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobalTxt"
-              },
-              "parameters": [
-                "playerName",
-                "=",
-                "nameInput.Text()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "specialDialogueEvent",
-                "False"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
+                "inverted": true,
                 "value": "CollisionPoint"
               },
               "parameters": [
@@ -11411,6 +10225,7 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -11421,268 +10236,106 @@
                 ""
               ]
             }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "jurassicBanner",
+                "=",
+                "255"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "walkSafari.mp3",
+                "1",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "interactingStatus",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Opacity"
-          },
-          "parameters": [
-            "jurassicBanner",
-            "=",
-            "70"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionPoint"
-          },
-          "parameters": [
-            "jurassicBanner",
-            "MainCharacter.PointX(\"origin\")",
-            "MainCharacter.PointY(\"origin\")"
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "MainCharacter",
-            "jurassicBanner",
-            "MainCharacter.PointY(\"center\")",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Opacity"
-          },
-          "parameters": [
-            "jurassicBanner",
-            "=",
-            "255"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyReleased"
-          },
-          "parameters": [
-            "",
-            "Num2"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "hammondDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "dennisDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "wuDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "arnoldDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "muldoonDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "regisDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "gennaroAndMalcolmDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "lexAndTimDialogue",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "grantDialogue",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyReleased"
-          },
-          "parameters": [
-            "",
-            "Num1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"scrollText\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"regisTwo\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TopDownMovementBehavior::IsMoving"
-          },
-          "parameters": [
-            "MainCharacter",
-            "TopDownMovement"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "walkSafari.mp3",
-            "1",
-            "yes",
-            "100",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "TopDownMovementBehavior::IsMoving"
-          },
-          "parameters": [
-            "MainCharacter",
-            "TopDownMovement"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [

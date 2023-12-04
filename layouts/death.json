@@ -568,6 +568,16 @@
             "\"Level 2\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "PlayerCombatHealth",
+            "=",
+            "20"
+          ]
         }
       ]
     },
@@ -701,6 +711,10 @@
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }
