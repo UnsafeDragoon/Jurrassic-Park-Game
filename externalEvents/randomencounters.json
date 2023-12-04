@@ -24,7 +24,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Random Encounters for Level 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -384,6 +383,45 @@
                   "parameters": [
                     "",
                     "PteranodonEcounter",
+                    "RandomEncounterSpawnBox.CenterX()",
+                    "RandomEncounterSpawnBox.CenterY()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Cursor",
+                    "\"Spawning\"",
+                    ">",
+                    "1.3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomEncounterSpawnBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BrachEncounter",
                     "RandomEncounterSpawnBox.CenterX()",
                     "RandomEncounterSpawnBox.CenterY()",
                     ""
