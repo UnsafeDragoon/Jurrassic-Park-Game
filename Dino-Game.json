@@ -4449,6 +4449,15 @@
         "name": "NewSprite180",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite181",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
