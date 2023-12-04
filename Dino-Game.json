@@ -4458,6 +4458,24 @@
         "name": "NewSprite181",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrachioStomp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrachioStomp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tri_head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tri_head.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

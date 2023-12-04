@@ -853,7 +853,7 @@
       "width": 370,
       "x": 487,
       "y": 74,
-      "zOrder": 35,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -901,6 +901,21 @@
       "x": 454,
       "y": 168,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BrachStomp",
+      "persistentUuid": "2f797950-e5a2-4113-97e7-6bf2be616ddb",
+      "width": 0,
+      "x": 545,
+      "y": 344,
+      "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4565,7 +4580,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite125",
+                  "image": "assets\\tri_head.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4581,84 +4596,100 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 45.5
-                      },
-                      {
-                        "x": 15.5,
-                        "y": 33
-                      },
-                      {
-                        "x": 36.5,
-                        "y": 16.5
-                      },
-                      {
-                        "x": 42,
-                        "y": 16
-                      },
-                      {
-                        "x": 54.5,
-                        "y": 12
-                      },
-                      {
-                        "x": 70,
-                        "y": 12
-                      },
-                      {
-                        "x": 81.5,
-                        "y": 15.5
-                      },
-                      {
-                        "x": 97,
-                        "y": 25.5
-                      },
-                      {
-                        "x": 106.5,
-                        "y": 19.5
-                      },
-                      {
-                        "x": 107,
-                        "y": 29
-                      },
-                      {
-                        "x": 109.5,
-                        "y": 39.5
-                      },
-                      {
-                        "x": 112,
-                        "y": 65
-                      },
-                      {
-                        "x": 109,
-                        "y": 75.5
-                      },
-                      {
-                        "x": 100.5,
-                        "y": 81
-                      },
-                      {
-                        "x": 101.5,
-                        "y": 95.5
-                      },
-                      {
-                        "x": 94.5,
+                        "x": 16.5,
                         "y": 105
                       },
                       {
-                        "x": 63,
-                        "y": 104
+                        "x": 4.5,
+                        "y": 83
                       },
                       {
-                        "x": 27,
-                        "y": 93
-                      },
-                      {
-                        "x": 15.5,
-                        "y": 84.5
+                        "x": 1.5,
+                        "y": 69
                       },
                       {
                         "x": 10.5,
+                        "y": 41
+                      },
+                      {
+                        "x": 21,
+                        "y": 31
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 53,
+                        "y": 40
+                      },
+                      {
+                        "x": 61.5,
+                        "y": 50
+                      },
+                      {
+                        "x": 79,
+                        "y": 15
+                      },
+                      {
+                        "x": 89,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 98.5,
+                        "y": 17
+                      },
+                      {
+                        "x": 101,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 114.5,
+                        "y": 65.5
+                      },
+                      {
+                        "x": 122.5,
+                        "y": 53
+                      },
+                      {
+                        "x": 133.5,
                         "y": 70.5
+                      },
+                      {
+                        "x": 146.5,
+                        "y": 86
+                      },
+                      {
+                        "x": 141.5,
+                        "y": 106.5
+                      },
+                      {
+                        "x": 133.5,
+                        "y": 111
+                      },
+                      {
+                        "x": 113,
+                        "y": 112
+                      },
+                      {
+                        "x": 94,
+                        "y": 115.5
+                      },
+                      {
+                        "x": 81,
+                        "y": 121
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 119.5
+                      },
+                      {
+                        "x": 36,
+                        "y": 118
                       }
                     ]
                   ]
@@ -4720,6 +4751,124 @@
                       {
                         "x": 3,
                         "y": 191
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BrachStomp",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BrachioStomp.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 45
+                      },
+                      {
+                        "x": 7.5,
+                        "y": 4.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 5
+                      },
+                      {
+                        "x": 69.5,
+                        "y": 17
+                      },
+                      {
+                        "x": 57,
+                        "y": 55.5
+                      },
+                      {
+                        "x": 56,
+                        "y": 81
+                      },
+                      {
+                        "x": 20,
+                        "y": 81
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 2,
+                        "y": 54
+                      }
+                    ],
+                    [
+                      {
+                        "x": 106,
+                        "y": 35.5
+                      },
+                      {
+                        "x": 108,
+                        "y": 5
+                      },
+                      {
+                        "x": 174,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 177,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 174.5,
+                        "y": 53.5
+                      },
+                      {
+                        "x": 177,
+                        "y": 73.5
+                      },
+                      {
+                        "x": 144,
+                        "y": 73.5
+                      },
+                      {
+                        "x": 129.5,
+                        "y": 65.5
+                      },
+                      {
+                        "x": 97.5,
+                        "y": 65.5
                       }
                     ]
                   ]
@@ -4880,6 +5029,9 @@
       },
       {
         "objectName": "Pteradon_Project"
+      },
+      {
+        "objectName": "BrachStomp"
       }
     ]
   },
@@ -8953,6 +9105,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Pteranodon",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -9287,7 +9440,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "",
+                        "BrachStomp",
                         "MovingHead",
                         "",
                         "",
@@ -9332,7 +9485,20 @@
                       "parameters": []
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "BrachStomp",
+                        "545",
+                        "344",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
