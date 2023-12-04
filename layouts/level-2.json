@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5272035716236113,
+    "zoomFactor": 0.2225865133085874,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -359,8 +359,8 @@
       "name": "MainCharacter",
       "persistentUuid": "64804ab4-4ff2-4325-96cb-4eb7b5f5c95c",
       "width": 90,
-      "x": 1497,
-      "y": 1264,
+      "x": -266,
+      "y": -897,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -1626,7 +1626,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1647,7 +1647,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 0
         }
       ],
       "stringProperties": [],
@@ -1688,30 +1688,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 288,
-      "layer": "",
-      "name": "dinoCave",
-      "persistentUuid": "db980cb8-7dd3-4384-8080-fdf85aff33b2",
-      "width": 210,
-      "x": -570,
-      "y": -1284,
-      "zOrder": 2028,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 217,
       "layer": "",
       "name": "LexMurphy",
       "persistentUuid": "56945233-78cc-4f54-8c2b-192b2fdd7d23",
       "width": 109,
-      "x": 775,
-      "y": 3417,
+      "x": 753,
+      "y": 3409,
       "zOrder": 2029,
       "numberProperties": [
         {
@@ -1789,6 +1773,294 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "21ce91a4-e363-4157-940b-b6bff3f7b728",
+      "width": 0,
+      "x": 961,
+      "y": 1292,
+      "zOrder": 2033,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "87a20d3d-bed7-4803-998d-83ad0472e844",
+      "width": 0,
+      "x": 1358,
+      "y": 1156,
+      "zOrder": 2034,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "ddfdf397-315e-4953-828d-5d40628b10cc",
+      "width": 0,
+      "x": 1051,
+      "y": 1005,
+      "zOrder": 2035,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 174,
+      "layer": "dialogueOverlay",
+      "name": "textBorder",
+      "persistentUuid": "bdd0c638-7e37-413f-be5e-ebe6439de97d",
+      "width": 1010,
+      "x": 153,
+      "y": 37,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 137,
+      "layer": "dialogueOverlay",
+      "name": "dialogueText",
+      "persistentUuid": "5a809e37-25dd-4361-b2d8-0a04768c5fe1",
+      "width": 771,
+      "x": 378,
+      "y": 52,
+      "zOrder": 2009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 126,
+      "layer": "dialogueOverlay",
+      "name": "headSprites",
+      "persistentUuid": "9aec55ec-108d-4b2d-8198-e7869f2728f3",
+      "width": 114,
+      "x": 183,
+      "y": 60,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "layer": "dialogueOverlay",
+      "name": "dialogueSelector",
+      "persistentUuid": "05949db2-61fd-4da7-850a-499ced26eeb6",
+      "width": 18,
+      "x": 412,
+      "y": 154,
+      "zOrder": 610,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 86,
+      "layer": "dialogueOverlay",
+      "name": "dialougeOptions",
+      "persistentUuid": "932574bb-afd2-4fac-9199-251e167c9deb",
+      "width": 630,
+      "x": 409,
+      "y": 113,
+      "zOrder": 608,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "layer": "dialogueOverlay",
+      "name": "serverRoomSwitch",
+      "persistentUuid": "16a9db19-ef7a-4fea-8045-e1d061720f64",
+      "width": 35,
+      "x": 599,
+      "y": 1313,
+      "zOrder": 2036,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 217,
+      "layer": "dialogueOverlay",
+      "name": "exposedWires",
+      "persistentUuid": "2fdc0bc5-cf40-4535-bd0e-7e0ee76cb5bc",
+      "width": 100,
+      "x": 559,
+      "y": 1402,
+      "zOrder": 2037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "layer": "",
+      "name": "board",
+      "persistentUuid": "c6abd7e3-03d8-49fa-b52f-5cb743cdeb6e",
+      "width": 247,
+      "x": 1277,
+      "y": 687,
+      "zOrder": 2038,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1565,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "3ecff928-38fd-42bf-8fb6-c977ae8ec171",
+      "width": 352,
+      "x": -580,
+      "y": -1039,
+      "zOrder": 2039,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 246,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "8537c8a4-a832-41c1-aa2b-cc8c44279069",
+      "width": 257,
+      "x": -542,
+      "y": 579,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 300,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "7028fea2-f932-422d-9b22-65e98f555549",
+      "width": 257,
+      "x": -582,
+      "y": 196,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 73,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "dialogueOverlay",
+      "name": "bloodSplatters",
+      "persistentUuid": "3ff63c1b-a297-4b41-b798-4b5a9ea5b71c",
+      "width": 257,
+      "x": -366,
+      "y": -106,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 288,
+      "layer": "",
+      "name": "kingVelociraptorCave",
+      "persistentUuid": "496a4a9a-7d87-4fb6-af3b-7eb1a8894940",
+      "width": 210,
+      "x": -523,
+      "y": -1155,
+      "zOrder": 2041,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "keyToPowerRoom",
+      "persistentUuid": "9be7d3c7-797a-4414-a429-d9bc0b764647",
+      "width": 0,
+      "x": -456,
+      "y": -942,
+      "zOrder": 2042,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 135,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "52cda1cd-1eaa-4f36-9308-81442114b65c",
+      "width": 0,
+      "x": -295,
+      "y": -1180,
+      "zOrder": 2043,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1796,7 +2068,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "floor",
-      "texture": "assets\\concreteTexture",
+      "texture": "assets\\concreteTexture3",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2764,6 +3036,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite162",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 144,
+                        "y": 2
+                      },
+                      {
+                        "x": 144,
+                        "y": 147
+                      },
+                      {
+                        "x": 8,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bloodSplatters",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bloodSplatters",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5300,7 +5621,7 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAoNJREFUeF7tndttwlAQRKEKqqALPqFa+KQLqqCKRFgCYV4j7NV4rjn5jMZ3NuewcUKkeLngI4rAMmoahlkgJOxFgBCEhBEIG4cNQUgYgbBx2BCEhBEIG4cNQUgYgbBx2JAGhPyFzfgL49wW435DEDGt+s7FVQgyppVxbV9ehCAjQ0Y3xZOQ/X4fNN78R9ntdr0vEiETO0fIxAIe6xGCkDACYeOwIQgJIxA2DhuCkDACYeOwIQgJIxA2DhvSmpCweX9uHN7tDVOOEISEEQgb52lDzudz2IjzHme1Wn3+ewhCvC8AhHh5yzaESETeAEK8vGUbQiQib6B5IafT6S2x9XrtpVnQNmshn/ikypJCjsdjgfe8IxBidHI4HHpt2+3W2D6uarPZtP2L4at7CELGvShGXf3ppj7Le0irb50oUc3eQ1oVMmrtJrxY/pSFEK8dhHh5yzaESETeAEK8vGUbQiQibwAhXt6yDSESkTeAEC9v2YYQicgbQIiXt2xDiETkDSDEy1u2IUQi8gYQ4uUt2xAiEXkDCPHylm0IkYi8AYR4ecs2hEhE3gBCvLxlG0IkIm8AIV7esg0hEpE3gBAvb9mGEInIG0CIl7dsQ4hE5A0gxMtbtiFEIvIGEOLlLdsQIhF5Awjx8pZtCJGIvAGEeHnLNoRIRN4AQry8ZRtCJCJvACFe3rINIRKRN4AQL2/ZhhCJyBtAiJe3bHsl5HLR7eGS/CcHybA0gJBSnOMPeyektyXjazhhIIHuWbjXD56JO5Bi4WU9IWxJIdkvj3r5PPX7M9iWL4kOjN9/h+qOePrEwIO5rIgAQopAVh2DkCqSRecgpAhk1TEIqSJZdA5CikBWHfMP/rM5KZVPXVwAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAdhJREFUeF7t2tFtwkAABFEogFJTTUqlgKA0YP+srDF6FLAsM7eWTub58EkReKbaKPMgJHYICCEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0II2RD4fb3+jpJ+3u9bHrZblv4XQcjmYM9SCJmh3AQRsuE4SyFkhnITRMiG4yyFkBnKTRAhG46zFEJmKDdBhGw4zlIImaHcBBGy4ThLIWSGchNEyIbjLIWQGcpNECEbjrMUQkYoz0COvmYWc/WLrstfUBFyfFYIOdmShcweNpsgQjYcZymEzFBuggjZcJylEDJDuQn6eiEbTP6XteI4yzm7z1x9slc/7PJ7yKo4ISuSoxxCRiBXMYSsSI5yCBmBXMUQsiI5yiFkBHIVQ8iKpJxDAre9h3yrV0JiZgkhJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQshJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQuJCfkAi4eIZfrO4IYAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite180\"],\"name\":\"NewSprite2\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAoFJREFUeF7tncFtwlAQRKEKqqALrlTLlS6owlUkwhIIY8MgezWeD49jNP6zvOdFUSLh7YZXFIFt1DQMs0FI2E2AEISEEQgbhw1BSBiBsHHYEISEEQgbhw1BSBiBsHHYkAaE/IXN+Avj3BfjcUMQsa763sVNCDLWlXFr316FICNDRj/FSMjpdAoa7/tHOR6PgzeJkJWdI2RlAc/1CEFIGIGwcdgQhIQRCBuHDUFIGIGwcdgQhIQRCBuHDWlNSNi8PzcOf+0NU44QhIQRCBtntCFd14WN+N3j7Ha79/8PQYj3BkCIl7dsQ4hE5A0gxMtbtiFEIvIGEOLlLdsQIhF5Awjx8pZtCJGIvAGEeHnLNoRIRN4AQry8ZRtCJCJvACFe3rINIRKRN4AQL2/ZhhCJyBtAiJe3bEOIROQNIMTLW7YhRCLyBhDi5S3bECIReQMI8fKWbQiRiLwBhHh5yzaESETeAEK8vGUbQiQibwAhXt6yDSESkTeAEC9v2YYQicgbQIiXt2xDiETkDSDEy1u2IUQi8gYQ4uUt2xAiEXkDCPHylm0IkYi8AYR4ecs2hEhE3gBCvLxlG0IkIm8AIV7esg0hEpE3gBAvb9nWvJDL5fLyTe73ewkgLfDVQt7BTpUlhZzP57SbqGQehJRg/OyQZ9jvPtY+O9GXOhwOg7LmvgRzCjZCfDfQqGnu3d/sR1ar30qqRLUk5HoX3h8u2aqQFZd2UfXUb1kIWYR02cWvhAykLKvg6gUE+mfh3l48E3cByaJLB0LYkiKqM46ZfJ764zlsywyqMy55/ITqLx/9YMahXFJIACGFMCuOQkgFxcIzEFIIs+IohFRQLDwDIYUwK476BwI5OSmiSpRFAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAdhJREFUeF7t2tFtwkAABFEogFJTTUqlgKA0YP+srDF6FLAsM7eWTub58EkReKbaKPMgJHYICCEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0II2RD4fb3+jpJ+3u9bHrZblv4XQcjmYM9SCJmh3AQRsuE4SyFkhnITRMiG4yyFkBnKTRAhG46zFEJmKDdBhGw4zlIImaHcBBGy4ThLIWSGchNEyIbjLIWQGcpNECEbjrMUQkYoz0COvmYWc/WLrstfUBFyfFYIOdmShcweNpsgQjYcZymEzFBuggjZcJylEDJDuQn6eiEbTP6XteI4yzm7z1x9slc/7PJ7yKo4ISuSoxxCRiBXMYSsSI5yCBmBXMUQsiI5yiFkBHIVQ8iKpJxDAre9h3yrV0JiZgkhJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQshJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQuJCfkAi4eIZfrO4IYAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite180\"],\"name\":\"NewSprite2\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -5335,6 +5656,435 @@
                       {
                         "x": 0,
                         "y": 94
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "table",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite153.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -3,
+                    "y": -54
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 103.5
+                      },
+                      {
+                        "x": 193.5,
+                        "y": 104
+                      },
+                      {
+                        "x": 195,
+                        "y": 157
+                      },
+                      {
+                        "x": 11,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "serverRoomSwitch",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "electricSwitchOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAkJJREFUeF7tm9lxgzAQhuWWGJqgKJ5cFE0wtJQMiclgBRCIPRTl86t18B+7qxXDI4TwESr4PQBSmIr1KtK2bWFcbz/OOI5vf/xSBCDGOqKIMeHJ7VAkSZHxABQxJjy5HYokKTIegCLGhCe3E1Wk67rkhlcGDMNwejhAtqhCkR0DYa0Qwq3GqnprPZ/Pw+zT9/3m/8VZCyCl1REUQRGl9Iu1sBbW+i7Me0cUYoQYIUaIkS8GOMavuhiTWxTSL+mX9Ev6Jf3G90ek3yuX2NQR6gh1hDpCHaGOnHlPXP0bqzMkbI0p7o0VQEqr7CjipUgu8xLzRPsRiQfKXQMgucxpzUMRLWZz10WRXOa05qGIFrO566JILnNa81BEi9ncdZOK5C7sPa/eL0O9mc3dvypFcknImtc0zc/389M0zUSK/MQWuvI0GmAAckWBrbGLKlL2clFkBgaQHSu4KFJFsGuAmEUyV6QKIFogzBWpDohU7VgnMNMYka4dACntWIIiUorM60gHvEuwL4RIgjEFsj71SoMxB7IAkC6ORQCRiBk3ILHN7saLKxDJThEgd2tKHPRY68UI1sJaEQNSPQrWwlpY69gDxAgxsmJAsidxs5YkCPMrU63u0AXIWgmJznAhx9RaWiBMFdEE4QbkbhO1lfpNrCWdodyBaChhGuxSPcfRacLUWihy4mBnqohkAYyxmQCRvFHcEwcgJ2z7NkQ7c6HIv1SkuiPKn06/FmqoH+OtQKgBiZsoTUupnX49QKgoYmmndQn4BN+uAmqlpaS+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAcFJREFUeF7tlltOw0AUxdqNIbI0VhbExoIi8REiVZo4mEdwv+eczrVvmt5vF/ncLzLHrUF+m8mMZEQi0GpJYHHt/zLy9nxbMKpd8OnVeXcNGfnKQc4CeQSiQc6SpflTRuiXrrlpmpaXZT5T8Sn7o4NsbzLP89A6H51cKd1eYjXSIAe0ZGQUVqs1SurjXKs1CqzVGiXVah0kdYnV2g+xMviTf1Ea5OD6rsfV98h3PR8NMmo+I6OkNud6RkagtVojlHZnWq0RaK3WCKVWC1BqtQA09VcL3AdHGgSjk4IZkcDi2oxgdFIwIxJYXJsRjE4KZkQCi2szgtFJwYxIYHFtRjA6KZgRCSyuzQhGJwUzIoHFtRnB6KRgRiSwuDYjGJ0UzIgEFtdmBKOTghmRwOLajGB0UjAjElhcmxGMTgpmRAKLazOC0UnBjEhgcW1GMDopmBEJLK7NCEYnBTMigcW1GcHopGBGJLC4NiMYnRTMiAQW12YEo5OCGZHA4tqMYHRSMCMSWFybEYxOCmZEAotrM4LRScGMSGBxbUYwOimYEQksrs0IRicFMyKBxbUZweikYEYksLg2IxidFMyIBBbXXsbIO26FfY0Rrz8kAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite185\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite185",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "electricSwitchOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"powerSwitch\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAkJJREFUeF7tm9lxgzAQhuWWGJqgKJ5cFE0wtJQMiclgBRCIPRTl86t18B+7qxXDI4TwESr4PQBSmIr1KtK2bWFcbz/OOI5vf/xSBCDGOqKIMeHJ7VAkSZHxABQxJjy5HYokKTIegCLGhCe3E1Wk67rkhlcGDMNwejhAtqhCkR0DYa0Qwq3GqnprPZ/Pw+zT9/3m/8VZCyCl1REUQRGl9Iu1sBbW+i7Me0cUYoQYIUaIkS8GOMavuhiTWxTSL+mX9Ev6Jf3G90ek3yuX2NQR6gh1hDpCHaGOnHlPXP0bqzMkbI0p7o0VQEqr7CjipUgu8xLzRPsRiQfKXQMgucxpzUMRLWZz10WRXOa05qGIFrO566JILnNa81BEi9ncdZOK5C7sPa/eL0O9mc3dvypFcknImtc0zc/389M0zUSK/MQWuvI0GmAAckWBrbGLKlL2clFkBgaQHSu4KFJFsGuAmEUyV6QKIFogzBWpDohU7VgnMNMYka4dACntWIIiUorM60gHvEuwL4RIgjEFsj71SoMxB7IAkC6ORQCRiBk3ILHN7saLKxDJThEgd2tKHPRY68UI1sJaEQNSPQrWwlpY69gDxAgxsmJAsidxs5YkCPMrU63u0AXIWgmJznAhx9RaWiBMFdEE4QbkbhO1lfpNrCWdodyBaChhGuxSPcfRacLUWihy4mBnqohkAYyxmQCRvFHcEwcgJ2z7NkQ7c6HIv1SkuiPKn06/FmqoH+OtQKgBiZsoTUupnX49QKgoYmmndQn4BN+uAmqlpaS+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAcRJREFUeF7tm1FqAlEQBNeLBfdonmxDLqZsvoyYOD0yRVjK737TvKpZFcHTcpDX6SD3WLzIfzOpEY0MEXC1hsC2x2qkjW7ooEaGwLbHaqSNbuigRobAtsdqpI1u6KBGhsC2x2qkjW7ooEaGwLbHaqSNbuigRobAtsdqpI1u6KBGhsC2x2qkjW7ooEYqYNd1vd7ntm0bAzc2eL+AF6nofshopALN1apQcrUalFytBjTftSrQXK0KJd+1GpQeV2sfMfXFEX3YvUhhG0aNkF/lvUjB9neE+izRiEaGfoBwtVwtV+vvHfAZSZ6Ry3Wrxl/mPj6f/zGhZOTrvPz4Dfdl22DAi+xwNfJkxX5bjXe3sfSMvFtCnPciBOWkQyMJLSKrEYJy0qGRhBaR1QhBOenQSEKLyGqEoJx0aCShRWQ1QlBOOjSS0CKyGiEoJx0aSWgRWY0QlJMOjSS0iKxGCMpJh0YSWkRWIwTlpEMjCS0iqxGCctKhkYQWkdUIQTnp0EhCi8hqhKCcdGgkoUVkNUJQTjo0ktAishohKCcdGkloEVmNEJSTDo0ktIisRgjKSYdGElpEViME5aRDIwktIqsRgnLScRgjN/wIfY1CUZkhAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"powerSwitch\"],\"name\":\"powerSwitch\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "powerSwitch",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "exposedWires",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite183",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 150
+                      },
+                      {
+                        "x": 25,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "board",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":150,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAYAAABkW8nwAAAAAXNSR0IArs4c6QAAAqJJREFUeF7t2cFJg0EQhuENHsWAJdlAGrCFlJMWbCANWJIQ8SgRRQ8hIJnl/xg0z3/JZdnDx+w770xWY4zj8Elg4QRWCmvhRF33lYDCUgiRBBRWJFaXnhXW48PtuL+7GS+v737lcHEd7PaHk9d0VljbzfriyxSfx/cDoafnt98LC7EUy0zHQiztLdKREIs7RtwZsRALsWZ6vYGixxERC7EQC7H+zj4RsRALsRALsSIjLBHvEfGZ3O2x7LEiEOBYHItjcSyOFcHrTK9XjD3FyLE4VgQCHItjcSxtraetzeSOWIiFWDMvh/D3LFURC7EQC7E4VmSE1dZ62tpM7vZY9lgRCHAsjsWxOBbHiuB1ptcrxp5i5FgcKwIBjsWxOJa21tPWZnJHLMRCrJmXQ/h7lqqIhViIhVgcKzLCams9bW0md3sse6wIBDgWx+JYHItjRfA60+sVY08xcqxvx9rtD6vtZn1UvMsMCByLY3Esba2nrc3kjliIhVgzL4czLeNM1RwRC7EQC7E4lj3WlZPQHst/hREIcKwrJ0tKLxALsRCrOvI637Nq+MwdsRALsRCoj0BVF0MsxEIsxEKsyN8EVRw737ept8eyx4pAgGNxLI7FsThWBK+cqc+Zqo+aY3GsCAQ4FsfiWFUcO9/nZIiFWIiFQH0Eqg5OiIVYiIVYiBUZYas4dr5v72WPZY8VgQDH4lgci2NxrAheOVOfM1UfNcfiWBEIcCyOxbGqOHa+z8kQC7EQC4H6CFQdnBALsRALsRArMsJWcex8397LHsseKwIBjsWxOBbH4lgRvHKmPmeqPmqOxbEiEOBYHItjVXHsfJ+TIRZiIRYC9RGoOjghFmIhFmL9I2INnwQWSGA1xjgucI8rJHCSgMJSEJEEFFYkVpd+AF77f4TtRlBxAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAYAAABkW8nwAAAAAXNSR0IArs4c6QAAA9xJREFUeF7tnT1y2zAQRuXLuFPji6RNm5LqfAKPT5BOLNOmzUXSqPNl4qGTcTgckfgWIH6WeC49C2D59nFBYWj54cQPBDIQeMgwJ1NC4IRYSJCFAGJlwcqkiIUDWQggVhasTIpYOJCFAGJlwcqkiIUDWQggVhasTIpYOJCFAGJlwWqf9OXn2x/7qPURr18fq9a26uJ7gvQ+F2J5r2Cj+SNWo4XxnhZiea9go/kjVqOF8Z4WYnmvYKP5I1ajhfGeFmJVqOA4jrue8VS4hI8lh2FYPd5BrApVQSw7dA5IBWaIJUBahCCWwAyxBEiIZYeEWHZmdCyBGWIJkOhYdkiIZWd2uI51u91MRwPn8zn4hgViIdYJsdYl4BzLfoN8jkAsxJoIBLchq2OIhViIZb1rEuPZChMA0rHoWHSshBsoZigdK4bavzF0LDoWHSvhBooZSseKoUbHClJDrCCi9QC2QrZCtsKEGyhm6FbHipmv5TEckBasDmIlwGYrjNsKE5A3OZSOVbAsdKwE2HQsOhYP7wk3UMxQOlYMNc6xgtQQK4iIc6wYRIgVQ42OFaSGWEFEdKwYRIgVQ42OFaSGWEFEZQN6+CudskTzr7b7AWn+lFnBAwHE8lAlhzkilsOieUgZsTxUyWGOiOWwaB5SRiwHVbpcLtL3YVyv12bq2UwiDupbLcVJrGEYNtcfx/GEWNVK5HNhxPJZt+azRqwGS/T2+0V6PtlK/fHpteojw6HF+vL9W3KB5sX79fyjSLEQq87dLhcXseoUaFp1j45175Nl6GF/OSYUPyeEWIIvR9gKl3IqnyLnY5R4xBJkmoe0IJaS8lZHQSyFoCHmCM9YhstdDY0Vaz4hW+GMBmL9hREjVorQPGMJ9GpvhUKKwRDECiKyBdCx/nesJTnL1majbvjWZI4brGj7jmcrFOp/hK1QuMxdQxBLwNmyWGuv1OTc5gRk+j8QYCtUcJaPuXcqbz3MzJE1HUug2nrHWr6rhVhCUVNDjv6pkI61MIS3G1JvmfsHn9Nv6Vj7sN2chY6lQVbeq7d8IOAZS+DewzNW6NUcaxdErAOIde8SLN1lGo9YggjzkKNvhUYcq+GIZSSJWBowxNI4fUYhlgYMsTROiGXkhFhGYHQsDRhiaZzoWEZOiGUERsfSgHFAqnGiYxk57R3OAalAtOWTdyH9KiGIJWBHLAHSIgSxBGaIJUBCLDskxLIzO3zHsiNhxB4EZLH2WIw5+iGAWP3UuuiVIlZR3P0shlj91LrolSJWUdz9LIZY/dS66JUiVlHc/SyGWP3UuuiVIlZR3P0shlj91Lrolb4DKrUckscckcUAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite186\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite186",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "kingVelociraptorCave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "velociraptorKingCaveSleep",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "velociraptorKingCaveSleep2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "keyToPowerRoom",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABJhJREFUeF7t2j1uVDEQB/BNQZ0TgBBCS0NDC1IkSjgALYq0FTfgBNyAKlJEywECHdLWSDQ0RJQ0QJULEOQl83C8tmf8GX/808Bqnz92fm889ts9WOGvqQgcNDUbTGYFkMZuAoAApLEINDYdZAhAGotAY9NBhgCksQg0Nh1kyAQgl1efEdgR2LmCRgir9Xq9m8b5+bn6J1f/ER+tzyYpAdtD0EMAkLgbIhTEi2BOASjhKBKQIASghCPoLVwgSQhYuuJRdJBsCMiSNJAdBO2O4rvyt0Q9kUVWZchlaQyaClB4FFqysqB8e/99N+KDF/etIwOkAggh6EO5QHBglIOoK8VZYkOQggDFj3Jtl8XVEg6ChvJlCEAygqiuOBQOAwVeDiJatnKBIFPsMOZJna0jAOELc8oVtkcnXhQpiH4ddl1youwgtqG5uoLzyf+oBYNICnvIFhi15Pot7Hza69sCc8tWKAhQ/BnC7rZKgADlH4rvCypncS8FApRMIFS0TSiumNs2ALMX+KgMcW3iQkGugr90h1+s8D/TYQ+KOk4kiPUrgFkzhfuRQxWQ7Xa7fH2sgDebzbS/6+JA2B2XK0Mk9cO2ZJ2cnOy6nBUlK4h+aJSAuGqRQjk6OuJ2gfLnER1dKQGJypIYEMqY7XarQKRz6yjc/FSlH1pcS7jv1T1b3ZWCcP3NAlQERJodWg1Z5kEFngDM1/w91vcVUhDxsqUyhAOxQehhNHdd+nujZ0p2EN/9yUGYbRWMDmC+7jsX7LMPARFniTlUKAS1d2XKyFlSFCQWwrZ8zVJTioDkgNCzRMdQ/9czZ7RsCQXxLls5IUwQqh96HRmxpmQBKQHhqyMjZ0kMyJIlJSFsexBbkSecUZauaJCrgMW2T96xjrp03VhAU0VGPTx2C6JAbbut3gt91yA6yijnlO5BzExRr/VdWG/FfggQQjGD3+OT4mFAbJnS41PioUDMZ2A91pWhQXr89nFYENvDSVetOX728NrPkHTIPwe3Vu/OvlSLU7WBUg+Cse1dB8jTN6/YLhWG+VcaZ3gQ8yGlBEK1sWHoOKVgpgGh5UoCwmEQTAmU6UAomCbM6Yevzli8fP7IWmMAwq767gv0wn38+u3uQkJRr7kTfS2UaTLE3EkRCj1qkVjbUHJnybQgy9LlWapMJIBIblvhNb6zhq9+UPdYsoSBDrns6eHh5d3Ht61NUNRDIpnpWgWiunKhmCd0btjc9UONN00NoeBKUCTnkBIYU4KoD00ormzxgZSCoBtmugzRlyEXjAlSGkGf09QgZo1QOzEdoyYEMsRSsQHCbWMqvw+QygHnhlM15c6Te8tlWLK4iGV4nwr5p4uLvfoJkAwBDu1CBd2GQdthZEhoRBOu92WHDeTnr9/LaB8//6iyI60ySEIMqzY1HyACpGr49wcDyA0DmMMDBCB7ERi+hth2Va6dlpkhOIcUyBiAFAhq7i6lGYJdVu7IO/oDSKVApw6DXVZqBDO3R1HPHNDU7gCSGsHM7QGSOaCp3QEkNYKZ2wMkc0BH6G74Rye9IQGkMTGAAKSxCDQ2HWQIQBqLQGPT+QvkNYmDLUdOIQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAWVJREFUeF7t00ERAAAIhECvf2lr7AMTMODtOsrAKJpgriDYExSkIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC0EC/KEzwBlGO+pQQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite187\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite187",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 10
+                      },
+                      {
+                        "x": 80,
+                        "y": 10
+                      },
+                      {
+                        "x": 80,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
                       }
                     ]
                   ]
@@ -5437,6 +6187,9 @@
         "objectName": "dinoCave"
       },
       {
+        "objectName": "kingVelociraptorCave"
+      },
+      {
         "objectName": "dinoSpawn"
       },
       {
@@ -5444,6 +6197,9 @@
       },
       {
         "objectName": "pit"
+      },
+      {
+        "objectName": "table"
       },
       {
         "objectName": "waterPuddle"
@@ -5456,6 +6212,18 @@
       },
       {
         "objectName": "medKit"
+      },
+      {
+        "objectName": "serverRoomSwitch"
+      },
+      {
+        "objectName": "exposedWires"
+      },
+      {
+        "objectName": "board"
+      },
+      {
+        "objectName": "keyToPowerRoom"
       }
     ]
   },
@@ -5491,6 +6259,15 @@
         },
         {
           "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "dialogueMaintenance "
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarGlobal"
           },
           "parameters": [
@@ -5508,6 +6285,38 @@
             "Opacity",
             "=",
             "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueSelector"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialougeOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textBorder"
           ]
         }
       ]
@@ -7971,6 +8780,81 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "\"Lighting\"",
+            "\"7;7;7\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scrollText\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"regisOne\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "\"Lighting\"",
+            "\"0;146;13\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -8034,9 +8918,9 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 255,
-      "ambientLightColorG": 255,
-      "ambientLightColorR": 255,
+      "ambientLightColorB": 17,
+      "ambientLightColorG": 17,
+      "ambientLightColorR": 17,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -8062,6 +8946,38 @@
       "name": "keypadScreen",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "dialogueOverlay",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

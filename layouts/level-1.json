@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3925161175488384,
+    "zoomFactor": 0.5843784410741172,
     "windowMask": false
   },
   "objectsGroups": [
@@ -179,8 +179,8 @@
       "name": "MainCharacter",
       "persistentUuid": "263e0f96-ded8-4664-9c83-1e866ba6c3bc",
       "width": 46,
-      "x": 2189,
-      "y": 346,
+      "x": 2266,
+      "y": 464,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -2536,6 +2536,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Loading Into Combat",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

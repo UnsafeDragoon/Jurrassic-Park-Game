@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3216911764706712,
+    "zoomFactor": 0.43357743047034886,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4356,27 +4356,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dialougeOptions",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "sadsds\nsdsdsdsdsds\ndsadfjjjjjdjjdjdjdjdjd",
-      "font": "PermanentMarker-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 184
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "interactiblePlant",
@@ -4490,24 +4469,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "dialogueText",
-      "type": "BBText::BBText",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "sdsas",
-        "opacity": 255,
-        "fontSize": 25,
-        "visible": true,
-        "color": "184;0;0",
-        "fontFamily": "PermanentMarker-Regular.ttf",
-        "align": "left",
-        "wordWrap": true
-      }
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -4961,66 +4922,6 @@
                       {
                         "x": 6,
                         "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "textBorder",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\textBoxWorld.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 888,
-                        "y": 0
-                      },
-                      {
-                        "x": 888,
-                        "y": 138
-                      },
-                      {
-                        "x": 0,
-                        "y": 138
                       }
                     ]
                   ]
@@ -5926,13 +5827,7 @@
         "objectName": "testVariables"
       },
       {
-        "objectName": "dialougeOptions"
-      },
-      {
         "objectName": "interactiblePlant"
-      },
-      {
-        "objectName": "dialogueText"
       },
       {
         "objectName": "safariDoor"
@@ -5954,9 +5849,6 @@
       },
       {
         "objectName": "ringBell"
-      },
-      {
-        "objectName": "textBorder"
       },
       {
         "objectName": "NewSprite"
@@ -7781,6 +7673,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {

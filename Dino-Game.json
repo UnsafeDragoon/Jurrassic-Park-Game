@@ -3758,7 +3758,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite169.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite169.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite169.png",
         "smoothed": false,
         "userAdded": true
@@ -4274,7 +4274,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite186.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite186.png\"}",
         "name": "NewSprite176",
         "smoothed": true,
         "userAdded": false
@@ -4445,8 +4445,133 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite190.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite190.png\"}",
         "name": "NewSprite180",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogueMaintenance .json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogueMaintenance .json\"}",
+        "name": "dialogueMaintenance ",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite181",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite182",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite193.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite193.png\"}",
+        "name": "NewSprite183",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite194.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite194.png\"}",
+        "name": "NewSprite184",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite195.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite195.png\"}",
+        "name": "NewSprite185",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/powerSwitch.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/powerSwitch.png\"}",
+        "name": "powerSwitch",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite196.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite186",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_concreteTexture2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture2.png\"}",
+        "name": "assets\\concreteTexture2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_concreteTexture3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture3.png\"}",
+        "name": "assets\\concreteTexture3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bloodSplatters.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bloodSplatters",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/velociraptorKingCaveSleep.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/velociraptorKingCaveSleep.png\"}",
+        "name": "velociraptorKingCaveSleep",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/velociraptorKingCaveSleep2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "velociraptorKingCaveSleep2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite197.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite187",
         "smoothed": true,
         "userAdded": true
       }
@@ -5614,6 +5739,105 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "textBorder",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\textBoxWorld.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 888,
+                        "y": 0
+                      },
+                      {
+                        "x": 888,
+                        "y": 138
+                      },
+                      {
+                        "x": 0,
+                        "y": 138
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "dialougeOptions",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "sadsds\nsdsdsdsdsds\ndsadfjjjjjdjjdjdjdjdjd",
+      "font": "PermanentMarker-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 184
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "dialogueText",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "sdsas",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "184;0;0",
+        "fontFamily": "PermanentMarker-Regular.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5651,6 +5875,15 @@
       },
       {
         "objectName": "RandomEncounterTrigger"
+      },
+      {
+        "objectName": "textBorder"
+      },
+      {
+        "objectName": "dialougeOptions"
+      },
+      {
+        "objectName": "dialogueText"
       }
     ]
   },
