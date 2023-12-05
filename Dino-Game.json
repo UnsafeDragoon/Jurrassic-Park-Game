@@ -4476,6 +4476,33 @@
         "name": "assets\\tri_head.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/reigis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\reigis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_reigis.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\reigis",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BagelSpawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BagelSpawner",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
