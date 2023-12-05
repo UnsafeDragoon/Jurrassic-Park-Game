@@ -140,7 +140,7 @@
         "alwaysLoaded": false,
         "file": "assets/New image.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image.png\"}",
         "name": "New image",
         "smoothed": true,
         "userAdded": false
@@ -1100,7 +1100,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite75.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite75.png\"}",
         "name": "NewSprite75",
         "smoothed": true,
         "userAdded": true
@@ -1109,7 +1109,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite76.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite76.png\"}",
         "name": "NewSprite76",
         "smoothed": true,
         "userAdded": true
@@ -2785,7 +2785,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite122.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite122.png\"}",
         "name": "NewSprite119",
         "smoothed": true,
         "userAdded": true
@@ -2866,7 +2866,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite124.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite124.png\"}",
         "name": "NewSprite121",
         "smoothed": true,
         "userAdded": true
@@ -3053,7 +3053,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite129.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite129.png\"}",
         "name": "NewSprite126",
         "smoothed": true,
         "userAdded": true
@@ -3071,7 +3071,7 @@
         "alwaysLoaded": false,
         "file": "assets/EncounterBoxPter.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/EncounterBoxPter.png\"}",
         "name": "EncounterBoxPter",
         "smoothed": true,
         "userAdded": true
@@ -4454,7 +4454,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite191.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite191.png\"}",
         "name": "NewSprite181",
         "smoothed": true,
         "userAdded": true
@@ -4501,6 +4501,78 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "BagelSpawner",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite182",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/New image.png\",\"extension\":\".png\"}",
+        "name": "assets\\New image.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TricEncounterBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TricEncounterBox",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TricEncounter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TricEncounter",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RandomEncounterTrigger.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RandomEncounterTrigger",
         "smoothed": true,
         "userAdded": true
       }
@@ -4746,10 +4818,10 @@
                     "y": 19.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12.5,
+                    "y": 55
                   },
                   "customCollisionMask": [
                     [
@@ -4800,10 +4872,10 @@
                     "y": 19.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12.5,
+                    "y": 55
                   },
                   "customCollisionMask": [
                     [
@@ -4854,10 +4926,10 @@
                     "y": 19.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12.5,
+                    "y": 55
                   },
                   "customCollisionMask": [
                     [
@@ -4908,10 +4980,10 @@
                     "y": 19.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 12.5,
+                    "y": 55
                   },
                   "customCollisionMask": [
                     [
@@ -5619,7 +5691,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BoxTrigger",
+          "name": "TriggerBox",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5629,7 +5701,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite115",
+                  "image": "RandomEncounterTrigger",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5642,26 +5714,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 18,
-                        "y": 34
-                      },
-                      {
-                        "x": 20,
-                        "y": 34
-                      },
-                      {
-                        "x": 20,
-                        "y": 36
-                      },
-                      {
-                        "x": 18,
-                        "y": 36
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
