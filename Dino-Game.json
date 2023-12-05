@@ -4561,7 +4561,7 @@
         "alwaysLoaded": false,
         "file": "assets/velociraptorKingCaveSleep2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/velociraptorKingCaveSleep2.png\"}",
         "name": "velociraptorKingCaveSleep2",
         "smoothed": true,
         "userAdded": false
@@ -4573,6 +4573,110 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite187",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite198.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite198.png\"}",
+        "name": "NewSprite188",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite199.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite199.png\"}",
+        "name": "NewSprite189",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite200.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite190",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerOpen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerOpen",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDoor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "electricalDoor",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDoor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "electricalDoor2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "lighting-a-fire-14421.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lighting-a-fire-14421.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "lighterClick.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lighterClick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "dinosaur-growl-106744.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dinosaur-growl-106744.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "excapePlease.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "excapePlease.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "radio-106544.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "radio-106544.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
@@ -5992,6 +6096,9 @@
         },
         {
           "name": "gapBridge"
+        },
+        {
+          "name": "doorElectrical"
         }
       ]
     },

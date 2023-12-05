@@ -1,10 +1,10 @@
 [
 	{
-		"title": "regisOne",
+		"title": "electricalIntro",
 		"tags": "",
-		"body": "Testing\n1\n2\n3\n4\n5\n67\nsdaosjdsaos\\\nsdaosjdsaossadosa\n!!!\nend",
+		"body": "<< headSprites regis>>\nIt's so dark in here.\nHELLO!\nANY BODY THERE?\nThere should be people here!\nWhere is everyone?\nI can't see anything!\nWait!\nI got my lighter!\n<< headSprites none>>\n<< lighterSFX>> *click*\n<< lighterSFX>>*click*\n<< headSprites regis>> \nC'mon work, please.\n<< headSprites none>> \n<< lighterSFX>>*click*\n<< lighterActivate>> << headSprites regis>>Yes! So where are w-\n!!!\nI-i-is that bl-blood?\n<< headSprites none>> << kingVelociraptorSFX>>...\n<< headSprites regis>> \nNO!\nI'M NOT DOING THIS!\n<< regisRunAway>> GET ME OUT OF THIS PLACE!\nIT'S LOCKED!!!\nTHIS CAN'T BE HAPPENING!\nI DON\"T WANT TO DIEEEEEEEE!\n<< radio>>(Incoming Transmission...)    \n<< headSprites muldoon>> Hey kid, just wanted to check on your and Regis's progress so far. Can you put him on?\n<< headSprites regis>> I WANT TO GO HOME DAMMIT!\nI NEVER SHOULD HAVE WORKED HERE!\n<< headSprites muldoon>> Is that him? What happened!\nY'know what, forget it!\nKid, we need you to turn on the power, soon!\nThe dinosaurs have escaped and are surrounding the Lodge!\nIf the electrical fences don't get activated soon, they'll swarm us inside!\nYou're our only hope to survive!\nDon't let us down. Out",
 		"position": {
-			"x": 25,
+			"x": 23,
 			"y": -150
 		},
 		"colorID": 0

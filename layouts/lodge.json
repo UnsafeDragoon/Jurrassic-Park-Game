@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047034886,
+    "zoomFactor": 0.463311182451517,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6484,30 +6484,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsCommandCalled"
-              },
-              "parameters": [
-                "\"headSprites\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "headSprites",
-                "DialogueTree::CommandParameter(0)"
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [

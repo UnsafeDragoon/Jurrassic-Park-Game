@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2225865133085874,
+    "zoomFactor": 0.5272035716236383,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -99,22 +99,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 217,
-      "layer": "",
-      "name": "EdRegis",
-      "persistentUuid": "daca9db3-f444-453b-b2d8-121963d3d4c5",
-      "width": 109,
-      "x": 61,
-      "y": -193,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 260,
       "layer": "",
       "name": "wallTop",
@@ -187,21 +171,6 @@
       "x": 789,
       "y": -1121,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lighting",
-      "name": "NewLight",
-      "persistentUuid": "35b8d94d-e314-4704-8108-718466c25fa2",
-      "width": 0,
-      "x": 468,
-      "y": -49,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -346,22 +315,6 @@
       "x": 1428,
       "y": 1665,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 349,
-      "layer": "",
-      "name": "MainCharacter",
-      "persistentUuid": "64804ab4-4ff2-4325-96cb-4eb7b5f5c95c",
-      "width": 90,
-      "x": -266,
-      "y": -897,
-      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -546,13 +499,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 787,
+      "height": 789,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "d20da7d8-1e7b-4640-b99a-a5d9ab906ab6",
       "width": 80,
       "x": 496,
-      "y": -1011,
+      "y": -1013,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -874,8 +827,8 @@
       "name": "codeForKeypadNums",
       "persistentUuid": "5ee016ab-0258-4c7e-b2ca-55a217efce1f",
       "width": 196,
-      "x": 1460,
-      "y": -149,
+      "x": 1453,
+      "y": -199,
       "zOrder": 2007,
       "numberProperties": [
         {
@@ -1626,7 +1579,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 0
         }
       ],
       "stringProperties": [],
@@ -1694,13 +1647,13 @@
       "name": "LexMurphy",
       "persistentUuid": "56945233-78cc-4f54-8c2b-192b2fdd7d23",
       "width": 109,
-      "x": 753,
-      "y": 3409,
+      "x": 325,
+      "y": 3247,
       "zOrder": 2029,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1715,8 +1668,8 @@
       "name": "TimMurphy",
       "persistentUuid": "37a42771-3faa-4d49-86f5-3eaec1ddd031",
       "width": 109,
-      "x": 144,
-      "y": 1289,
+      "x": 146,
+      "y": 1295,
       "zOrder": 2030,
       "numberProperties": [
         {
@@ -1761,14 +1714,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "medKit",
       "persistentUuid": "db08d0e9-7c21-4f55-ad9e-f535c828f98c",
-      "width": 0,
-      "x": 1622,
-      "y": 1485,
+      "width": 71,
+      "x": 1633,
+      "y": 1526,
       "zOrder": 2032,
       "numberProperties": [],
       "stringProperties": [],
@@ -2061,6 +2015,137 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "c38635a5-49f0-43e5-8446-8d6f163dee26",
+      "width": 0,
+      "x": 631,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "2eeda38e-28d8-44dc-8fed-e8b311d8f231",
+      "width": 0,
+      "x": 553,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "eb5263ff-be41-4852-973f-12ed23d31561",
+      "width": 0,
+      "x": 474,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "087f2e44-c05a-4db2-8d8f-5576705c4a72",
+      "width": 0,
+      "x": 391,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "04fcb5f5-ac39-4409-8033-424c522f2744",
+      "width": 0,
+      "x": 313,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "660a6b50-65d3-4887-a96d-fc70d1218a4e",
+      "width": 0,
+      "x": 234,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 227,
+      "layer": "",
+      "name": "doorElectrical",
+      "persistentUuid": "b86c05ce-f65a-4ba8-aefa-84e8059179c0",
+      "width": 162,
+      "x": 575,
+      "y": -1013,
+      "zOrder": 2045,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 206,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "6745936b-40af-4afa-87df-3777bd66376b",
+      "width": 0,
+      "x": 565,
+      "y": 142,
+      "zOrder": 2008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2310,7 +2395,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\EdRegis.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2359,7 +2450,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2395,7 +2492,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2431,7 +2534,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2480,7 +2589,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2516,7 +2631,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2552,7 +2673,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2588,7 +2715,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp6",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2624,7 +2757,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp7",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2660,7 +2799,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp8",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2696,7 +2841,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp9",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2737,7 +2888,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewLight",
+      "name": "flashLightTemp",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -6094,6 +6245,253 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "locker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "lockerClosed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAitJREFUeF7tmMGNg0AAxJYy6YQS6IQyk9/pIl1OiiPDCjlvxuzavLKMMR7jBr+li0xW8aXIuq6THe//4xzH8fNAF5khXUVmqPD7DBWpiGSgT0sSi7EVweqkYUUksRhbEaxOGlZEEouxFcHqpOH9i0jiTsH2v9Ypmj94yUuRfd8/mF7/6LZtf/+v1UUuilORi8S/fW1FKiIZ6NOSxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYuzbIpg4wXAZYzwmOMfXR7jNRZ7wmAUuxe5MVQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAi5JREFUeF7tlUEOgkAAxPQh+/+H8RBN1IsXs9SUbKCe6cC2ivfbST73k5zj1kFWK1mRikgG+mpJYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8ez1iowxHkTXtm2HyNpzE3SQMQY5/4vZI0E/CD7FG5x+vukL/3ggVPJzv+nnm77wj4McgnaQQzTvuMn1ivQ/0v9I/yM7XhELXnq9t9aCEb4eabpIr99ev71+V/85/36+6R/76sfsIKsVqkhFJAN9tSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EPgEuFR7J8vhu2AAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAixJREFUeF7tmFFqwzAAxdqD5Io5TK6Yg2xQ6M9ohxHIOEH92U/0UkuGjT0fN/k8b3KORwdZrWRFKiIZ6GpJYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbC6AXDbtp9Pj53n+VX8kkU6yEDtqY9UZKrugZdVZEDS1EcqMlX3wMsqMiBp6iPvIsdxvN677/vr52X/ROkgU+/PPy/raq1S4v09KlIRycDtrtZfT5f9hXj5g5Abu+R/UToIMbAa09WqiGSgqyWJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgIrIonFsxXB6iSwIpJYPFsRrE4CKyKJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgIrIonFsxXB6iSwIpJYPFsRrE4CKyKJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgJvU+QXxcNzyRKH8HEAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite190\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite190",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lockerOpen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAidJREFUeF7tm8FpxEAUxTylDL65Abcw/Te024NAYD7K/QksfZLsbrLe9/1dA75WD/KxihX5WJCrIhWRDHRakliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw3XOWfGZ4g9iHQiFNtpUXPWriKWWcqtCDVn7eYUue97xk/2HsQ6dsjt13goTptVRFMLwRWB4rRZRTS1EFwRKE6bVURTC8FzivQGHTwBazbnpW6nZd0I5HZaUJw2q4imFoIrAsVps4poaiF4TpHexIYnYM3WmCL997R1I5A75zV7pwVPwJp1WpZZyq0INWftKmKZpdyKUHPWriKWWcqtCDVn7ea8+dDnI9aNQG6nBcVps4poaiG4IlCcNquIphaCKwLFabM5HyuM+XxkzIM8zzPjP3p6EO37DwOvijBx2qoimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4LX3nvEn5T0IPAFr1mlZZim3ItSctauIZZZyK0LNWbuKWGYptyLUnLWriGWWcitCzVm7ilhmKbci1Jy1q4hllnIrQs1Zu4pYZin3Dyx/PcRYCd6DAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAiRJREFUeF7tmEEKwkAAxLbP7Av7TMVLUUHBSOpa0pvgpLuJJ5cxxmWc4Fm6yGQVH4qs6zrZ8d4fZ9u2/QtdZIZ0FZmhwv0ZKlIRyUA/LUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThucvIok7BNv/Wodo/uAlz0Vun//p2f/u7SKTZKvIJCH2Y1SkIpKBflqSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjH1ZBBN/PVzGGPutfn2Yb95/motcAWW1sRBC067FAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"lockerOpen\"],\"name\":\"lockerOpen\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lockerOpen",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "doorElectrical",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "electricalDoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "electricalDoor2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "lighterLightSource",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 300,
+        "color": "255;86;41",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6121,7 +6519,7 @@
         "objectName": "NewSprite"
       },
       {
-        "objectName": "NewLight"
+        "objectName": "flashLightTemp"
       },
       {
         "objectName": "lightObsticle"
@@ -6211,6 +6609,9 @@
         "objectName": "gapBridge"
       },
       {
+        "objectName": "doorElectrical"
+      },
+      {
         "objectName": "medKit"
       },
       {
@@ -6224,6 +6625,12 @@
       },
       {
         "objectName": "keyToPowerRoom"
+      },
+      {
+        "objectName": "locker"
+      },
+      {
+        "objectName": "lighterLightSource"
       }
     ]
   },
@@ -6319,7 +6726,601 @@
             "textBorder"
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "walkSafari.mp3",
+                "3",
+                "yes",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "door-slam-172171.mp3",
+                "1",
+                "no",
+                "40",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EdRegis",
+                "600",
+                "-910",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "0",
+                "180",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "EdRegis",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "door-slam-172171.mp3",
+                "1",
+                "no",
+                "40",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "MainCharacter",
+                "600",
+                "-910",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "MainCharacter",
+                "0",
+                "180",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "doorElectrical",
+                "SmoothCamera",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "MainCharacter",
+                "Scale",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "-40",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2.17"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "EdRegis"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "MainCharacter"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"electricalIntro\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "yes"
+              ]
+            }
+          ]
+        }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dialogue Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lighterActivate\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "lighting-a-fire-14421.mp3",
+                "1",
+                "no",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "lighterLightSource",
+                "EdRegis.PointX(\"light\")",
+                "EdRegis.PointY(\"light\")",
+                "\"Lighting\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lighterSFX\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "lighterClick.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"kingVelociraptorSFX\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "dinosaur-growl-106744.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"regisRunAway\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "EdRegis",
+                "Animation",
+                "=",
+                "\"walkUp\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "0",
+                "-325",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "walkSafari.mp3",
+                "3",
+                "yes",
+                "100",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "excapePlease.mp3",
+                "",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "EdRegis"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "=",
+                "600",
+                "=",
+                "-910"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "electricalInteractions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "securityKeypad",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Plan"
+              },
+              "parameters": [
+                "MainCharacter",
+                ">",
+                "securityKeypad.ZOrder()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"keypadScreen\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -6414,11 +7415,23 @@
             "value": "MettreXY"
           },
           "parameters": [
-            "NewLight",
+            "flashLightTemp",
             "=",
             "MainCharacter.PointX(\"light\")",
             "=",
             "MainCharacter.PointY(\"light\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "lighterLightSource",
+            "=",
+            "EdRegis.PointX(\"light\")",
+            "=",
+            "EdRegis.PointY(\"light\")"
           ]
         }
       ]
@@ -6452,7 +7465,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewLight"
+            "flashLightTemp"
           ]
         }
       ]
@@ -6487,7 +7500,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "NewLight",
+            "flashLightTemp",
             ""
           ]
         }
@@ -6660,6 +7673,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -8202,91 +9216,6 @@
           "subInstructions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueRunning"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "MainCharacter",
-            "securityKeypad",
-            "120",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "interactingStatus",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "Plan"
-          },
-          "parameters": [
-            "MainCharacter",
-            ">",
-            "securityKeypad.ZOrder()"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"keypadScreen\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -8852,6 +9781,49 @@
             "",
             "\"Lighting\"",
             "\"0;146;13\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Lighting::SetRadius"
+          },
+          "parameters": [
+            "lighterLightSource",
+            "RandomInRange(300,370)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "EdRegis",
+            "=",
+            "600",
+            "=",
+            "-910"
           ]
         }
       ]
