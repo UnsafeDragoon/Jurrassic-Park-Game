@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5272035716236383,
+    "zoomFactor": 0.16514724314651472,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1668,8 +1668,8 @@
       "name": "TimMurphy",
       "persistentUuid": "37a42771-3faa-4d49-86f5-3eaec1ddd031",
       "width": 109,
-      "x": 146,
-      "y": 1295,
+      "x": -580,
+      "y": 693,
       "zOrder": 2030,
       "numberProperties": [
         {
@@ -1689,8 +1689,8 @@
       "name": "bloodSplatters",
       "persistentUuid": "c7fe8db5-7cc8-4b3c-a60d-8f08904523cd",
       "width": 30,
-      "x": 213,
-      "y": 1411,
+      "x": -513,
+      "y": 809,
       "zOrder": 2004,
       "numberProperties": [],
       "stringProperties": [],
@@ -1931,8 +1931,8 @@
       "name": "bloodSplatters",
       "persistentUuid": "8537c8a4-a832-41c1-aa2b-cc8c44279069",
       "width": 257,
-      "x": -542,
-      "y": 579,
+      "x": -537,
+      "y": 812,
       "zOrder": 2040,
       "numberProperties": [],
       "stringProperties": [],
@@ -2296,11 +2296,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 93.5
+                        "y": 77.5
                       },
                       {
                         "x": 400,
-                        "y": 95.5
+                        "y": 80.5
                       },
                       {
                         "x": 400,
@@ -2345,11 +2345,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 93.5
+                        "y": 77.5
                       },
                       {
                         "x": 400,
-                        "y": 95.5
+                        "y": 80.5
                       },
                       {
                         "x": 400,
