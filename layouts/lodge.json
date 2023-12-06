@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.463311182451517,
+    "zoomFactor": 0.405751890594487,
     "windowMask": false
   },
   "objectsGroups": [
@@ -5740,12 +5740,6 @@
         "objectName": "MainCharacter"
       },
       {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
         "objectName": "Plant"
       },
       {
@@ -5876,6 +5870,12 @@
       },
       {
         "objectName": "helicopter"
+      },
+      {
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
       }
     ]
   },
@@ -7097,6 +7097,16 @@
               "parameters": [
                 "specialDialogueEvent",
                 "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RegisStrike",
+                "=",
+                "1"
               ]
             }
           ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2153256609467137,
+    "zoomFactor": 0.16514724314654905,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -6792,7 +6792,10 @@
         "objectName": "floor"
       },
       {
-        "objectName": "EdRegis"
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "outdoorWalls"
       },
       {
         "objectName": "wallBottom"
@@ -6801,16 +6804,13 @@
         "objectName": "wallTop"
       },
       {
-        "objectName": "outdoorWalls"
-      },
-      {
-        "objectName": "outdoorWallsPassThrough"
-      },
-      {
-        "objectName": "NewSprite"
+        "objectName": "EdRegis"
       },
       {
         "objectName": "flashLightTemp"
+      },
+      {
+        "objectName": "outdoorWallsPassThrough"
       },
       {
         "objectName": "lightObsticle"
@@ -6825,25 +6825,19 @@
         "objectName": "securityKeypad"
       },
       {
-        "objectName": "securityKeypadInterface"
-      },
-      {
         "objectName": "terminalLightSource"
       },
       {
         "objectName": "bloodSplatters"
       },
       {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
         "objectName": "codeForKeypadNums"
       },
       {
-        "objectName": "keys"
+        "objectName": "securityKeypadInterface"
       },
       {
-        "objectName": "LoadingScreen"
+        "objectName": "keys"
       },
       {
         "objectName": "NewBitmapText"
@@ -6855,22 +6849,16 @@
         "objectName": "lockedDoor"
       },
       {
-        "objectName": "lockedDoorSupplyCloset"
-      },
-      {
         "objectName": "dinoObsticle"
-      },
-      {
-        "objectName": "LexMurphy"
-      },
-      {
-        "objectName": "dinoObsticleAlt"
       },
       {
         "objectName": "dirtPath"
       },
       {
-        "objectName": "TimMurphy"
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
       },
       {
         "objectName": "dinoCave"
@@ -6885,16 +6873,28 @@
         "objectName": "dinoSpawnAlt"
       },
       {
+        "objectName": "dinoObsticleAlt"
+      },
+      {
         "objectName": "pit"
       },
       {
         "objectName": "table"
       },
       {
+        "objectName": "lockedDoorSupplyCloset"
+      },
+      {
         "objectName": "waterPuddle"
       },
       {
         "objectName": "invisibleWall"
+      },
+      {
+        "objectName": "LexMurphy"
+      },
+      {
+        "objectName": "TimMurphy"
       },
       {
         "objectName": "gapBridge"

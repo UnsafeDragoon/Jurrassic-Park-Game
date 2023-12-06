@@ -4485,104 +4485,105 @@
         "smoothed": true,
         "userAdded": false
       },
-      {     "alwaysLoaded": false,
-      "file": "assets/BrachioStomp.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\BrachioStomp.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/tri_head.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\tri_head.png",
-      "smoothed": true,
-      "userAdded": false
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/reigis.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\reigis.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/assets_reigis.png",
-      "kind": "image",
-      "metadata": "{\"extension\":\".png\"}",
-      "name": "assets\\reigis",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/BagelSpawner.png",
-      "kind": "image",
-      "metadata": "{\"extension\":\".png\"}",
-      "name": "BagelSpawner",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/NewSprite192.png",
-      "kind": "image",
-      "metadata": "{\"extension\":\".png\"}",
-      "name": "NewSprite182",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/Tree1.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\Tree1.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/Tree2.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\Tree2.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/Tree3.png",
-      "kind": "image",
-      "metadata": "",
-      "name": "assets\\Tree3.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/New image.png",
-      "kind": "image",
-      "metadata": "{\"localFilePath\":\"assets/New image.png\",\"extension\":\".png\"}",
-      "name": "assets\\New image.png",
-      "smoothed": true,
-      "userAdded": true
-    },
-    {
-      "alwaysLoaded": false,
-      "file": "assets/TricEncounterBox.png",
-      "kind": "image",
-      "metadata": "{\"extension\":\".png\"}",
-      "name": "TricEncounterBox",
-      "smoothed": true,
-      "userAdded": false
-    },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrachioStomp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BrachioStomp.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tri_head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tri_head.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/reigis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\reigis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_reigis.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\reigis",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BagelSpawner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BagelSpawner",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite182",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tree3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/New image.png\",\"extension\":\".png\"}",
+        "name": "assets\\New image.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TricEncounterBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TricEncounterBox",
+        "smoothed": true,
+        "userAdded": false
+      },
       {
         "alwaysLoaded": false,
         "file": "assets/TricEncounter.png",
@@ -4619,7 +4620,7 @@
         "smoothed": true,
         "userAdded": true
       },
-{
+      {
         "alwaysLoaded": false,
         "file": "assets/NewSprite193.png",
         "kind": "image",
@@ -4675,7 +4676,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/T_RexAttack.png",
+        "file": "assets/ElectricalRoom.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\T_RexAttack.png",
@@ -4763,8 +4764,8 @@
         "smoothed": true,
         "userAdded": true
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
         "file": "assets/powerSwitch.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/powerSwitch.png\"}",
@@ -4808,11 +4809,11 @@
         "smoothed": true,
         "userAdded": false
       },
-        {
-          "alwaysLoaded": false,
-          "file": "assets/NewSprite196.png",
-          "kind": "image",
-          "metadata": "{\"extension\":\".png\"}",
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite196.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite186",
         "smoothed": true,
         "userAdded": false
@@ -4826,8 +4827,8 @@
         "smoothed": true,
         "userAdded": false
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
         "file": "assets/assets_concreteTexture2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture2.png\"}",
@@ -4844,8 +4845,8 @@
         "smoothed": true,
         "userAdded": false
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
         "file": "assets/assets_concreteTexture3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture3.png\"}",
@@ -4862,8 +4863,8 @@
         "smoothed": true,
         "userAdded": false
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
         "file": "assets/bloodSplatters.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -4904,7 +4905,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite187",
-        
         "smoothed": true,
         "userAdded": true
       },
@@ -4917,8 +4917,8 @@
         "smoothed": true,
         "userAdded": true
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite198.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite198.png\"}",
@@ -4971,8 +4971,17 @@
         "smoothed": true,
         "userAdded": true
       },
-        {
-          "alwaysLoaded": false,
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ElectricalRoom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ElectricalRoom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/electricalDoor.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
