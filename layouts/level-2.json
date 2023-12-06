@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16514724314654905,
+    "zoomFactor": 0.271592136847441,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2257,6 +2257,29 @@
           "name": "noteNum",
           "type": "number",
           "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "9a07c1bb-43f7-45b2-a17c-b62c8de2384b",
+      "width": 56,
+      "x": 691,
+      "y": 1314,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 5
         }
       ]
     }
@@ -6783,6 +6806,124 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Flashlight",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Flashlight",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite182",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 46,
+                      "y": 26
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9,
+                    "y": 15
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 23.5,
+                    "y": 26
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 36,
+                        "y": 21
+                      },
+                      {
+                        "x": 36,
+                        "y": 15
+                      },
+                      {
+                        "x": 52,
+                        "y": 15
+                      },
+                      {
+                        "x": 52,
+                        "y": 22
+                      },
+                      {
+                        "x": 41,
+                        "y": 22
+                      },
+                      {
+                        "x": 41,
+                        "y": 30
+                      },
+                      {
+                        "x": 52,
+                        "y": 30
+                      },
+                      {
+                        "x": 52,
+                        "y": 36
+                      },
+                      {
+                        "x": 36,
+                        "y": 36
+                      },
+                      {
+                        "x": 36,
+                        "y": 31
+                      },
+                      {
+                        "x": 9,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "playerLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -6846,6 +6987,9 @@
         "objectName": "terminalInput"
       },
       {
+        "objectName": "Flashlight"
+      },
+      {
         "objectName": "lockedDoor"
       },
       {
@@ -6853,6 +6997,9 @@
       },
       {
         "objectName": "dirtPath"
+      },
+      {
+        "objectName": "playerLight"
       },
       {
         "objectName": "LoadingScreen"
@@ -7515,6 +7662,45 @@
                 "600",
                 "=",
                 "-910"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"flashlightCreate\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Flashlight",
+                "0",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "playerLight",
+                "0",
+                "0",
+                "\"Lighting\""
               ]
             }
           ]
@@ -10124,6 +10310,53 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Flashlight",
+            "=",
+            "MainCharacter.CenterX()",
+            "=",
+            "MainCharacter.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "Flashlight",
+            "CursorX()",
+            "CursorY()",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "playerLight",
+            "=",
+            "Flashlight.PointX(\"Point\")",
+            "=",
+            "Flashlight.PointY(\"Point\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
