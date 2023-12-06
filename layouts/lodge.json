@@ -5839,12 +5839,6 @@
         "objectName": "MainCharacter"
       },
       {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
         "objectName": "Plant"
       },
       {
@@ -5984,6 +5978,12 @@
       },
       {
         "objectName": "helicopter"
+      },
+      {
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
       }
     ]
   },
@@ -7229,6 +7229,16 @@
               "parameters": [
                 "specialDialogueEvent",
                 "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RegisStrike",
+                "=",
+                "1"
               ]
             }
           ]

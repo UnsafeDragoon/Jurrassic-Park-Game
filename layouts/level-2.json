@@ -5353,7 +5353,10 @@
         "objectName": "floor"
       },
       {
-        "objectName": "EdRegis"
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "outdoorWalls"
       },
       {
         "objectName": "wallBottom"
@@ -5362,16 +5365,13 @@
         "objectName": "wallTop"
       },
       {
-        "objectName": "outdoorWalls"
-      },
-      {
-        "objectName": "outdoorWallsPassThrough"
-      },
-      {
-        "objectName": "NewSprite"
+        "objectName": "EdRegis"
       },
       {
         "objectName": "NewLight"
+      },
+      {
+        "objectName": "outdoorWallsPassThrough"
       },
       {
         "objectName": "lightObsticle"
@@ -5386,25 +5386,19 @@
         "objectName": "securityKeypad"
       },
       {
-        "objectName": "securityKeypadInterface"
-      },
-      {
         "objectName": "terminalLightSource"
       },
       {
         "objectName": "bloodSplatters"
       },
       {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
         "objectName": "codeForKeypadNums"
       },
       {
-        "objectName": "keys"
+        "objectName": "securityKeypadInterface"
       },
       {
-        "objectName": "LoadingScreen"
+        "objectName": "keys"
       },
       {
         "objectName": "NewBitmapText"
@@ -5416,22 +5410,16 @@
         "objectName": "lockedDoor"
       },
       {
-        "objectName": "lockedDoorSupplyCloset"
-      },
-      {
         "objectName": "dinoObsticle"
-      },
-      {
-        "objectName": "LexMurphy"
-      },
-      {
-        "objectName": "dinoObsticleAlt"
       },
       {
         "objectName": "dirtPath"
       },
       {
-        "objectName": "TimMurphy"
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
       },
       {
         "objectName": "dinoCave"
@@ -5443,13 +5431,25 @@
         "objectName": "dinoSpawnAlt"
       },
       {
+        "objectName": "dinoObsticleAlt"
+      },
+      {
         "objectName": "pit"
+      },
+      {
+        "objectName": "lockedDoorSupplyCloset"
       },
       {
         "objectName": "waterPuddle"
       },
       {
         "objectName": "invisibleWall"
+      },
+      {
+        "objectName": "LexMurphy"
+      },
+      {
+        "objectName": "TimMurphy"
       },
       {
         "objectName": "gapBridge"
