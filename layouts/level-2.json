@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2807503133490779,
+    "zoomFactor": 0.1446302370225626,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -6016,7 +6016,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite185",
+                  "image": "assets\\NewSprite208.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6126,7 +6126,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite183",
+                  "image": "assets\\NewSprite206.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6192,7 +6192,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite186",
+                  "image": "assets\\NewSprite209.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6319,7 +6319,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite187",
+                  "image": "assets\\NewSprite210.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6385,7 +6385,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite190",
+                  "image": "assets\\NewSprite213.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6683,7 +6683,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite191",
+                  "image": "assets\\NewSprite214.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6744,7 +6744,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite193",
+                  "image": "assets\\NewSprite216.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

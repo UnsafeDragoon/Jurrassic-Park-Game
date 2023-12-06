@@ -4768,6 +4768,69 @@
         "name": "NewSprite193",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite213.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite214.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite214.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite208.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite206.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite206.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite209.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite210.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite210.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite216.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite216.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
