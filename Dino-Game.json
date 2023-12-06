@@ -1343,7 +1343,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite85.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite85.png\"}",
         "name": "NewSprite85",
         "smoothed": true,
         "userAdded": false
@@ -3758,7 +3758,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite169.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite169.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite169.png",
         "smoothed": false,
         "userAdded": true
@@ -4274,7 +4274,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite186.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite186.png\"}",
         "name": "NewSprite176",
         "smoothed": true,
         "userAdded": false
@@ -4445,7 +4445,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite190.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite190.png\"}",
         "name": "NewSprite180",
         "smoothed": true,
         "userAdded": true
@@ -4460,47 +4460,19 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/BrachioStomp.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\BrachioStomp.png",
-        "smoothed": true,
+        "disablePreload": false,
+        "file": "assets/dialogueMaintenance .json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogueMaintenance .json\"}",
+        "name": "dialogueMaintenance ",
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tri_head.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\tri_head.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/reigis.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\reigis.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_reigis.png",
+        "file": "assets/NewSprite191.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\reigis",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BagelSpawner.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BagelSpawner",
+        "name": "NewSprite181",
         "smoothed": true,
         "userAdded": true
       },
@@ -4511,53 +4483,106 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite182",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tree1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Tree1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tree2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Tree2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tree3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Tree3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/New image.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/New image.png\",\"extension\":\".png\"}",
-        "name": "assets\\New image.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/TricEncounterBox.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "TricEncounterBox",
-        "smoothed": true,
         "userAdded": false
       },
+      {     "alwaysLoaded": false,
+      "file": "assets/BrachioStomp.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\BrachioStomp.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/tri_head.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\tri_head.png",
+      "smoothed": true,
+      "userAdded": false
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/reigis.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\reigis.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/assets_reigis.png",
+      "kind": "image",
+      "metadata": "{\"extension\":\".png\"}",
+      "name": "assets\\reigis",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/BagelSpawner.png",
+      "kind": "image",
+      "metadata": "{\"extension\":\".png\"}",
+      "name": "BagelSpawner",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/NewSprite192.png",
+      "kind": "image",
+      "metadata": "{\"extension\":\".png\"}",
+      "name": "NewSprite182",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/Tree1.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\Tree1.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/Tree2.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\Tree2.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/Tree3.png",
+      "kind": "image",
+      "metadata": "",
+      "name": "assets\\Tree3.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/New image.png",
+      "kind": "image",
+      "metadata": "{\"localFilePath\":\"assets/New image.png\",\"extension\":\".png\"}",
+      "name": "assets\\New image.png",
+      "smoothed": true,
+      "userAdded": true
+    },
+    {
+      "alwaysLoaded": false,
+      "file": "assets/TricEncounterBox.png",
+      "kind": "image",
+      "metadata": "{\"extension\":\".png\"}",
+      "name": "TricEncounterBox",
+      "smoothed": true,
+      "userAdded": false
+    },
       {
         "alwaysLoaded": false,
         "file": "assets/TricEncounter.png",
@@ -4594,6 +4619,15 @@
         "smoothed": true,
         "userAdded": true
       },
+{
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite193.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite193.png\"}",
+        "name": "NewSprite183",
+        "smoothed": true,
+        "userAdded": true
+      },
       {
         "alwaysLoaded": false,
         "file": "assets/NewSprite193.png",
@@ -4608,6 +4642,24 @@
         "file": "assets/NewSprite193.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite193.png\"}",
+        "name": "NewSprite185",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite194.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite194.png\"}",
+        "name": "NewSprite184",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite195.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite195.png\"}",
         "name": "NewSprite185",
         "smoothed": true,
         "userAdded": true
@@ -4711,6 +4763,15 @@
         "smoothed": true,
         "userAdded": true
       },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/powerSwitch.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/powerSwitch.png\"}",
+        "name": "powerSwitch",
+        "smoothed": true,
+        "userAdded": true
+      },
       {
         "alwaysLoaded": false,
         "file": "assets/NewSprite196.png",
@@ -4747,12 +4808,30 @@
         "smoothed": true,
         "userAdded": false
       },
+        {
+          "alwaysLoaded": false,
+          "file": "assets/NewSprite196.png",
+          "kind": "image",
+          "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite186",
+        "smoothed": true,
+        "userAdded": false
+      },
       {
         "alwaysLoaded": false,
         "file": "assets/TRexBite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "TRexBite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/assets_concreteTexture2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture2.png\"}",
+        "name": "assets\\concreteTexture2",
         "smoothed": true,
         "userAdded": false
       },
@@ -4765,12 +4844,30 @@
         "smoothed": true,
         "userAdded": false
       },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/assets_concreteTexture3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_concreteTexture3.png\"}",
+        "name": "assets\\concreteTexture3",
+        "smoothed": true,
+        "userAdded": false
+      },
       {
         "alwaysLoaded": false,
         "file": "assets/TRexBite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "TRexBite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/bloodSplatters.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bloodSplatters",
         "smoothed": true,
         "userAdded": false
       },
@@ -4785,10 +4882,65 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/velociraptorKingCaveSleep.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/velociraptorKingCaveSleep.png\"}",
+        "name": "velociraptorKingCaveSleep",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/velociraptorKingCaveSleep2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/velociraptorKingCaveSleep2.png\"}",
+        "name": "velociraptorKingCaveSleep2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite197.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite187",
+        
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/TRexBite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "TRexBite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/NewSprite198.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite198.png\"}",
+        "name": "NewSprite188",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite199.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite199.png\"}",
+        "name": "NewSprite189",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite200.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite190",
         "smoothed": true,
         "userAdded": true
       },
@@ -4803,10 +4955,240 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/lockerOpen.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerOpen",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/TRexBite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "TRexBite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+        {
+          "alwaysLoaded": false,
+        "file": "assets/electricalDoor.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "electricalDoor",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDoor2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "electricalDoor2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "lighting-a-fire-14421.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lighting-a-fire-14421.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "lighterClick.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lighterClick.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "dinosaur-growl-106744.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "dinosaur-growl-106744.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "excapePlease.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "excapePlease.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "radio-106544.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "radio-106544.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerOpen2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lockerOpen2.png\"}",
+        "name": "lockerOpen2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerBageled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerBageled",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerBageled2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lockerBageled2.png\"}",
+        "name": "lockerBageled2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerOpen3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/lockerOpen3.png\"}",
+        "name": "lockerOpen3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerBageled3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerBageled3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerBageled4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerBageled4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/lockerBageled5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "lockerBageled5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite201.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite191",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite202.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite192",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite203.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite193",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite213.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite214.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite214.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite208.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite208.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite206.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite206.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite209.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite209.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite210.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite210.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite216.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite216.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -5955,6 +6337,105 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "textBorder",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\textBoxWorld.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 888,
+                        "y": 0
+                      },
+                      {
+                        "x": 888,
+                        "y": 138
+                      },
+                      {
+                        "x": 0,
+                        "y": 138
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "dialougeOptions",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "sadsds\nsdsdsdsdsds\ndsadfjjjjjdjjdjdjdjdjd",
+      "font": "PermanentMarker-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 184
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "dialogueText",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "sdsas",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "184;0;0",
+        "fontFamily": "PermanentMarker-Regular.ttf",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5992,6 +6473,15 @@
       },
       {
         "objectName": "RandomEncounterTrigger"
+      },
+      {
+        "objectName": "textBorder"
+      },
+      {
+        "objectName": "dialougeOptions"
+      },
+      {
+        "objectName": "dialogueText"
       }
     ]
   },
@@ -6100,6 +6590,9 @@
         },
         {
           "name": "gapBridge"
+        },
+        {
+          "name": "doorElectrical"
         }
       ]
     },

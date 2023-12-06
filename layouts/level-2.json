@@ -99,22 +99,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 217,
-      "layer": "",
-      "name": "EdRegis",
-      "persistentUuid": "daca9db3-f444-453b-b2d8-121963d3d4c5",
-      "width": 109,
-      "x": 61,
-      "y": -193,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 260,
       "layer": "",
       "name": "wallTop",
@@ -187,21 +171,6 @@
       "x": 789,
       "y": -1121,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "Lighting",
-      "name": "NewLight",
-      "persistentUuid": "35b8d94d-e314-4704-8108-718466c25fa2",
-      "width": 0,
-      "x": 468,
-      "y": -49,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -346,22 +315,6 @@
       "x": 1428,
       "y": 1665,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 349,
-      "layer": "",
-      "name": "MainCharacter",
-      "persistentUuid": "64804ab4-4ff2-4325-96cb-4eb7b5f5c95c",
-      "width": 90,
-      "x": 1497,
-      "y": 1264,
-      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -546,13 +499,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 787,
+      "height": 789,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "d20da7d8-1e7b-4640-b99a-a5d9ab906ab6",
       "width": 80,
       "x": 496,
-      "y": -1011,
+      "y": -1013,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -790,7 +743,7 @@
       "name": "securityKeypad",
       "persistentUuid": "20e968ba-491e-451a-b275-ed938cba12cc",
       "width": 0,
-      "x": 1016,
+      "x": 979,
       "y": 656,
       "zOrder": 2002,
       "numberProperties": [],
@@ -805,7 +758,7 @@
       "name": "terminalLightSource",
       "persistentUuid": "5e589b78-ac68-4a9c-91bc-0d69019e1acd",
       "width": 0,
-      "x": 1089,
+      "x": 1052,
       "y": 748,
       "zOrder": 2003,
       "numberProperties": [],
@@ -874,8 +827,8 @@
       "name": "codeForKeypadNums",
       "persistentUuid": "5ee016ab-0258-4c7e-b2ca-55a217efce1f",
       "width": 196,
-      "x": 1460,
-      "y": -149,
+      "x": 1453,
+      "y": -199,
       "zOrder": 2007,
       "numberProperties": [
         {
@@ -894,7 +847,7 @@
       "name": "bloodSplatters",
       "persistentUuid": "aa844b8f-7fbc-41e8-8d17-d3bcbea3e6ab",
       "width": 0,
-      "x": 1004,
+      "x": 967,
       "y": 820,
       "zOrder": 2008,
       "numberProperties": [],
@@ -1647,7 +1600,7 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 0
         }
       ],
       "stringProperties": [],
@@ -1688,35 +1641,19 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 288,
-      "layer": "",
-      "name": "dinoCave",
-      "persistentUuid": "db980cb8-7dd3-4384-8080-fdf85aff33b2",
-      "width": 210,
-      "x": -570,
-      "y": -1284,
-      "zOrder": 2028,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 217,
       "layer": "",
       "name": "LexMurphy",
       "persistentUuid": "56945233-78cc-4f54-8c2b-192b2fdd7d23",
       "width": 109,
-      "x": 775,
-      "y": 3417,
+      "x": 325,
+      "y": 3247,
       "zOrder": 2029,
       "numberProperties": [
         {
           "name": "animation",
-          "value": 2
+          "value": 1
         }
       ],
       "stringProperties": [],
@@ -1731,8 +1668,8 @@
       "name": "TimMurphy",
       "persistentUuid": "37a42771-3faa-4d49-86f5-3eaec1ddd031",
       "width": 109,
-      "x": 144,
-      "y": 1289,
+      "x": -580,
+      "y": 693,
       "zOrder": 2030,
       "numberProperties": [
         {
@@ -1752,8 +1689,8 @@
       "name": "bloodSplatters",
       "persistentUuid": "c7fe8db5-7cc8-4b3c-a60d-8f08904523cd",
       "width": 30,
-      "x": 213,
-      "y": 1411,
+      "x": -513,
+      "y": 809,
       "zOrder": 2004,
       "numberProperties": [],
       "stringProperties": [],
@@ -1777,18 +1714,551 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "",
       "name": "medKit",
       "persistentUuid": "db08d0e9-7c21-4f55-ad9e-f535c828f98c",
-      "width": 0,
-      "x": 1622,
-      "y": 1485,
+      "width": 71,
+      "x": 1633,
+      "y": 1526,
       "zOrder": 2032,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "21ce91a4-e363-4157-940b-b6bff3f7b728",
+      "width": 0,
+      "x": 961,
+      "y": 1292,
+      "zOrder": 2033,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "87a20d3d-bed7-4803-998d-83ad0472e844",
+      "width": 0,
+      "x": 1358,
+      "y": 1156,
+      "zOrder": 2034,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "ddfdf397-315e-4953-828d-5d40628b10cc",
+      "width": 0,
+      "x": 1051,
+      "y": 1005,
+      "zOrder": 2035,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 174,
+      "layer": "dialogueOverlay",
+      "name": "textBorder",
+      "persistentUuid": "bdd0c638-7e37-413f-be5e-ebe6439de97d",
+      "width": 1010,
+      "x": 153,
+      "y": 37,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 137,
+      "layer": "dialogueOverlay",
+      "name": "dialogueText",
+      "persistentUuid": "5a809e37-25dd-4361-b2d8-0a04768c5fe1",
+      "width": 771,
+      "x": 378,
+      "y": 52,
+      "zOrder": 2009,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 126,
+      "layer": "dialogueOverlay",
+      "name": "headSprites",
+      "persistentUuid": "9aec55ec-108d-4b2d-8198-e7869f2728f3",
+      "width": 114,
+      "x": 183,
+      "y": 60,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "layer": "dialogueOverlay",
+      "name": "dialogueSelector",
+      "persistentUuid": "05949db2-61fd-4da7-850a-499ced26eeb6",
+      "width": 18,
+      "x": 412,
+      "y": 154,
+      "zOrder": 610,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 86,
+      "layer": "dialogueOverlay",
+      "name": "dialougeOptions",
+      "persistentUuid": "932574bb-afd2-4fac-9199-251e167c9deb",
+      "width": 630,
+      "x": 409,
+      "y": 113,
+      "zOrder": 608,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 90,
+      "layer": "dialogueOverlay",
+      "name": "serverRoomSwitch",
+      "persistentUuid": "16a9db19-ef7a-4fea-8045-e1d061720f64",
+      "width": 35,
+      "x": 599,
+      "y": 1313,
+      "zOrder": 2036,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 217,
+      "layer": "dialogueOverlay",
+      "name": "exposedWires",
+      "persistentUuid": "2fdc0bc5-cf40-4535-bd0e-7e0ee76cb5bc",
+      "width": 100,
+      "x": 559,
+      "y": 1402,
+      "zOrder": 2037,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "layer": "",
+      "name": "board",
+      "persistentUuid": "c6abd7e3-03d8-49fa-b52f-5cb743cdeb6e",
+      "width": 247,
+      "x": 1325,
+      "y": 687,
+      "zOrder": 2038,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1565,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "3ecff928-38fd-42bf-8fb6-c977ae8ec171",
+      "width": 352,
+      "x": -580,
+      "y": -1039,
+      "zOrder": 2039,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 246,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "8537c8a4-a832-41c1-aa2b-cc8c44279069",
+      "width": 257,
+      "x": -537,
+      "y": 812,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 300,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "7028fea2-f932-422d-9b22-65e98f555549",
+      "width": 257,
+      "x": -582,
+      "y": 196,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 73,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "dialogueOverlay",
+      "name": "bloodSplatters",
+      "persistentUuid": "3ff63c1b-a297-4b41-b798-4b5a9ea5b71c",
+      "width": 257,
+      "x": -366,
+      "y": -106,
+      "zOrder": 2040,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 288,
+      "layer": "",
+      "name": "kingVelociraptorCave",
+      "persistentUuid": "496a4a9a-7d87-4fb6-af3b-7eb1a8894940",
+      "width": 210,
+      "x": -523,
+      "y": -1155,
+      "zOrder": 2041,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "keyToPowerRoom",
+      "persistentUuid": "9be7d3c7-797a-4414-a429-d9bc0b764647",
+      "width": 0,
+      "x": -456,
+      "y": -938,
+      "zOrder": 2042,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 135,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "table",
+      "persistentUuid": "52cda1cd-1eaa-4f36-9308-81442114b65c",
+      "width": 0,
+      "x": -295,
+      "y": -1180,
+      "zOrder": 2043,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "c38635a5-49f0-43e5-8446-8d6f163dee26",
+      "width": 0,
+      "x": 631,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "2eeda38e-28d8-44dc-8fed-e8b311d8f231",
+      "width": 0,
+      "x": 553,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "eb5263ff-be41-4852-973f-12ed23d31561",
+      "width": 0,
+      "x": 474,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "087f2e44-c05a-4db2-8d8f-5576705c4a72",
+      "width": 0,
+      "x": 391,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 0
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "04fcb5f5-ac39-4409-8033-424c522f2744",
+      "width": 0,
+      "x": 313,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "locker",
+      "persistentUuid": "660a6b50-65d3-4887-a96d-fc70d1218a4e",
+      "width": 0,
+      "x": 234,
+      "y": 666,
+      "zOrder": 2044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 227,
+      "layer": "",
+      "name": "doorElectrical",
+      "persistentUuid": "b86c05ce-f65a-4ba8-aefa-84e8059179c0",
+      "width": 162,
+      "x": 575,
+      "y": -1013,
+      "zOrder": 2045,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 206,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "bloodSplatters",
+      "persistentUuid": "6745936b-40af-4afa-87df-3777bd66376b",
+      "width": 0,
+      "x": 565,
+      "y": 142,
+      "zOrder": 2008,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "1d7e4cdb-2566-4df2-9ef0-7142619cc878",
+      "width": 56,
+      "x": 57,
+      "y": -378,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "cf284832-e2ef-424c-b6bd-bf4a963478c8",
+      "width": 56,
+      "x": 1196,
+      "y": 719,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "0c6296ef-a634-4910-8451-35443628d8b8",
+      "width": 56,
+      "x": 737,
+      "y": 726,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "30998675-d992-48db-b0b1-1385c4f8bffc",
+      "width": 56,
+      "x": 116,
+      "y": 735,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "adf484de-4c0b-4d76-bf54-e4f48dd7e751",
+      "width": 56,
+      "x": 1533,
+      "y": 1588,
+      "zOrder": 2046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 4
+        }
+      ]
     }
   ],
   "objects": [
@@ -1796,7 +2266,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "floor",
-      "texture": "assets\\concreteTexture",
+      "texture": "assets\\concreteTexture3",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -1939,11 +2409,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 93.5
+                        "y": 77.5
                       },
                       {
                         "x": 400,
-                        "y": 95.5
+                        "y": 80.5
                       },
                       {
                         "x": 400,
@@ -1988,11 +2458,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 93.5
+                        "y": 77.5
                       },
                       {
                         "x": 400,
-                        "y": 95.5
+                        "y": 80.5
                       },
                       {
                         "x": 400,
@@ -2038,7 +2508,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\EdRegis.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2087,7 +2563,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking2.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2123,7 +2605,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking3.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2159,7 +2647,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\talking4.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2208,7 +2702,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp3",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2244,7 +2744,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp4",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2280,7 +2786,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp5",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2316,7 +2828,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp6",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2352,7 +2870,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp7",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2388,7 +2912,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp8",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2424,7 +2954,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "walkUp9",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 39,
+                      "y": 58.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -2465,7 +3001,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "NewLight",
+      "name": "flashLightTemp",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -2764,6 +3300,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite162",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 8,
+                        "y": 2
+                      },
+                      {
+                        "x": 144,
+                        "y": 2
+                      },
+                      {
+                        "x": 144,
+                        "y": 147
+                      },
+                      {
+                        "x": 8,
+                        "y": 147
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bloodSplatters",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bloodSplatters",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5300,7 +5885,7 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAoNJREFUeF7tndttwlAQRKEKqqALPqFa+KQLqqCKRFgCYV4j7NV4rjn5jMZ3NuewcUKkeLngI4rAMmoahlkgJOxFgBCEhBEIG4cNQUgYgbBx2BCEhBEIG4cNQUgYgbBx2JAGhPyFzfgL49wW435DEDGt+s7FVQgyppVxbV9ehCAjQ0Y3xZOQ/X4fNN78R9ntdr0vEiETO0fIxAIe6xGCkDACYeOwIQgJIxA2DhuCkDACYeOwIQgJIxA2DhvSmpCweX9uHN7tDVOOEISEEQgb52lDzudz2IjzHme1Wn3+ewhCvC8AhHh5yzaESETeAEK8vGUbQiQib6B5IafT6S2x9XrtpVnQNmshn/ikypJCjsdjgfe8IxBidHI4HHpt2+3W2D6uarPZtP2L4at7CELGvShGXf3ppj7Le0irb50oUc3eQ1oVMmrtJrxY/pSFEK8dhHh5yzaESETeAEK8vGUbQiQibwAhXt6yDSESkTeAEC9v2YYQicgbQIiXt2xDiETkDSDEy1u2IUQi8gYQ4uUt2xAiEXkDCPHylm0IkYi8AYR4ecs2hEhE3gBCvLxlG0IkIm8AIV7esg0hEpE3gBAvb9mGEInIG0CIl7dsQ4hE5A0gxMtbtiFEIvIGEOLlLdsQIhF5Awjx8pZtCJGIvAGEeHnLNoRIRN4AQry8ZRtCJCJvACFe3rINIRKRN4AQL2/ZhhCJyBtAiJe3bHsl5HLR7eGS/CcHybA0gJBSnOMPeyektyXjazhhIIHuWbjXD56JO5Bi4WU9IWxJIdkvj3r5PPX7M9iWL4kOjN9/h+qOePrEwIO5rIgAQopAVh2DkCqSRecgpAhk1TEIqSJZdA5CikBWHfMP/rM5KZVPXVwAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAdhJREFUeF7t2tFtwkAABFEogFJTTUqlgKA0YP+srDF6FLAsM7eWTub58EkReKbaKPMgJHYICCEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0II2RD4fb3+jpJ+3u9bHrZblv4XQcjmYM9SCJmh3AQRsuE4SyFkhnITRMiG4yyFkBnKTRAhG46zFEJmKDdBhGw4zlIImaHcBBGy4ThLIWSGchNEyIbjLIWQGcpNECEbjrMUQkYoz0COvmYWc/WLrstfUBFyfFYIOdmShcweNpsgQjYcZymEzFBuggjZcJylEDJDuQn6eiEbTP6XteI4yzm7z1x9slc/7PJ7yKo4ISuSoxxCRiBXMYSsSI5yCBmBXMUQsiI5yiFkBHIVQ8iKpJxDAre9h3yrV0JiZgkhJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQshJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQuJCfkAi4eIZfrO4IYAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite180\"],\"name\":\"NewSprite2\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAoFJREFUeF7tncFtwlAQRKEKqqALrlTLlS6owlUkwhIIY8MgezWeD49jNP6zvOdFUSLh7YZXFIFt1DQMs0FI2E2AEISEEQgbhw1BSBiBsHHYEISEEQgbhw1BSBiBsHHYkAaE/IXN+Avj3BfjcUMQsa763sVNCDLWlXFr316FICNDRj/FSMjpdAoa7/tHOR6PgzeJkJWdI2RlAc/1CEFIGIGwcdgQhIQRCBuHDUFIGIGwcdgQhIQRCBuHDWlNSNi8PzcOf+0NU44QhIQRCBtntCFd14WN+N3j7Ha79/8PQYj3BkCIl7dsQ4hE5A0gxMtbtiFEIvIGEOLlLdsQIhF5Awjx8pZtCJGIvAGEeHnLNoRIRN4AQry8ZRtCJCJvACFe3rINIRKRN4AQL2/ZhhCJyBtAiJe3bEOIROQNIMTLW7YhRCLyBhDi5S3bECIReQMI8fKWbQiRiLwBhHh5yzaESETeAEK8vGUbQiQibwAhXt6yDSESkTeAEC9v2YYQicgbQIiXt2xDiETkDSDEy1u2IUQi8gYQ4uUt2xAiEXkDCPHylm0IkYi8AYR4ecs2hEhE3gBCvLxlG0IkIm8AIV7esg0hEpE3gBAvb9nWvJDL5fLyTe73ewkgLfDVQt7BTpUlhZzP57SbqGQehJRg/OyQZ9jvPtY+O9GXOhwOg7LmvgRzCjZCfDfQqGnu3d/sR1ar30qqRLUk5HoX3h8u2aqQFZd2UfXUb1kIWYR02cWvhAykLKvg6gUE+mfh3l48E3cByaJLB0LYkiKqM46ZfJ764zlsywyqMy55/ITqLx/9YMahXFJIACGFMCuOQkgFxcIzEFIIs+IohFRQLDwDIYUwK476BwI5OSmiSpRFAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAdhJREFUeF7t2tFtwkAABFEogFJTTUqlgKA0YP+srDF6FLAsM7eWTub58EkReKbaKPMgJHYICCEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0IIiRGI1bEQQmIEYnUshJAYgVgdCyEkRiBWx0II2RD4fb3+jpJ+3u9bHrZblv4XQcjmYM9SCJmh3AQRsuE4SyFkhnITRMiG4yyFkBnKTRAhG46zFEJmKDdBhGw4zlIImaHcBBGy4ThLIWSGchNEyIbjLIWQGcpNECEbjrMUQkYoz0COvmYWc/WLrstfUBFyfFYIOdmShcweNpsgQjYcZymEzFBuggjZcJylEDJDuQn6eiEbTP6XteI4yzm7z1x9slc/7PJ7yKo4ISuSoxxCRiBXMYSsSI5yCBmBXMUQsiI5yiFkBHIVQ8iKpJxDAre9h3yrV0JiZgkhJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQshJEYgVsdCCIkRiNWxEEJiBGJ1LISQGIFYHQuJCfkAi4eIZfrO4IYAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite180\"],\"name\":\"NewSprite2\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -5344,6 +5929,860 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "table",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite153.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -3,
+                    "y": -54
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 103.5
+                      },
+                      {
+                        "x": 193.5,
+                        "y": 104
+                      },
+                      {
+                        "x": 195,
+                        "y": 157
+                      },
+                      {
+                        "x": 11,
+                        "y": 157
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "serverRoomSwitch",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "electricSwitchOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAkJJREFUeF7tm9lxgzAQhuWWGJqgKJ5cFE0wtJQMiclgBRCIPRTl86t18B+7qxXDI4TwESr4PQBSmIr1KtK2bWFcbz/OOI5vf/xSBCDGOqKIMeHJ7VAkSZHxABQxJjy5HYokKTIegCLGhCe3E1Wk67rkhlcGDMNwejhAtqhCkR0DYa0Qwq3GqnprPZ/Pw+zT9/3m/8VZCyCl1REUQRGl9Iu1sBbW+i7Me0cUYoQYIUaIkS8GOMavuhiTWxTSL+mX9Ev6Jf3G90ek3yuX2NQR6gh1hDpCHaGOnHlPXP0bqzMkbI0p7o0VQEqr7CjipUgu8xLzRPsRiQfKXQMgucxpzUMRLWZz10WRXOa05qGIFrO566JILnNa81BEi9ncdZOK5C7sPa/eL0O9mc3dvypFcknImtc0zc/389M0zUSK/MQWuvI0GmAAckWBrbGLKlL2clFkBgaQHSu4KFJFsGuAmEUyV6QKIFogzBWpDohU7VgnMNMYka4dACntWIIiUorM60gHvEuwL4RIgjEFsj71SoMxB7IAkC6ORQCRiBk3ILHN7saLKxDJThEgd2tKHPRY68UI1sJaEQNSPQrWwlpY69gDxAgxsmJAsidxs5YkCPMrU63u0AXIWgmJznAhx9RaWiBMFdEE4QbkbhO1lfpNrCWdodyBaChhGuxSPcfRacLUWihy4mBnqohkAYyxmQCRvFHcEwcgJ2z7NkQ7c6HIv1SkuiPKn06/FmqoH+OtQKgBiZsoTUupnX49QKgoYmmndQn4BN+uAmqlpaS+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAcFJREFUeF7tlltOw0AUxdqNIbI0VhbExoIi8REiVZo4mEdwv+eczrVvmt5vF/ncLzLHrUF+m8mMZEQi0GpJYHHt/zLy9nxbMKpd8OnVeXcNGfnKQc4CeQSiQc6SpflTRuiXrrlpmpaXZT5T8Sn7o4NsbzLP89A6H51cKd1eYjXSIAe0ZGQUVqs1SurjXKs1CqzVGiXVah0kdYnV2g+xMviTf1Ea5OD6rsfV98h3PR8NMmo+I6OkNud6RkagtVojlHZnWq0RaK3WCKVWC1BqtQA09VcL3AdHGgSjk4IZkcDi2oxgdFIwIxJYXJsRjE4KZkQCi2szgtFJwYxIYHFtRjA6KZgRCSyuzQhGJwUzIoHFtRnB6KRgRiSwuDYjGJ0UzIgEFtdmBKOTghmRwOLajGB0UjAjElhcmxGMTgpmRAKLazOC0UnBjEhgcW1GMDopmBEJLK7NCEYnBTMigcW1GcHopGBGJLC4NiMYnRTMiAQW12YEo5OCGZHA4tqMYHRSMCMSWFybEYxOCmZEAotrM4LRScGMSGBxbUYwOimYEQksrs0IRicFMyKBxbUZweikYEYksLg2IxidFMyIBBbXXsbIO26FfY0Rrz8kAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite185\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite208.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "electricSwitchOn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"powerSwitch\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAkJJREFUeF7tm9lxgzAQhuWWGJqgKJ5cFE0wtJQMiclgBRCIPRTl86t18B+7qxXDI4TwESr4PQBSmIr1KtK2bWFcbz/OOI5vf/xSBCDGOqKIMeHJ7VAkSZHxABQxJjy5HYokKTIegCLGhCe3E1Wk67rkhlcGDMNwejhAtqhCkR0DYa0Qwq3GqnprPZ/Pw+zT9/3m/8VZCyCl1REUQRGl9Iu1sBbW+i7Me0cUYoQYIUaIkS8GOMavuhiTWxTSL+mX9Ev6Jf3G90ek3yuX2NQR6gh1hDpCHaGOnHlPXP0bqzMkbI0p7o0VQEqr7CjipUgu8xLzRPsRiQfKXQMgucxpzUMRLWZz10WRXOa05qGIFrO566JILnNa81BEi9ncdZOK5C7sPa/eL0O9mc3dvypFcknImtc0zc/389M0zUSK/MQWuvI0GmAAckWBrbGLKlL2clFkBgaQHSu4KFJFsGuAmEUyV6QKIFogzBWpDohU7VgnMNMYka4dACntWIIiUorM60gHvEuwL4RIgjEFsj71SoMxB7IAkC6ORQCRiBk3ILHN7saLKxDJThEgd2tKHPRY68UI1sJaEQNSPQrWwlpY69gDxAgxsmJAsidxs5YkCPMrU63u0AXIWgmJznAhx9RaWiBMFdEE4QbkbhO1lfpNrCWdodyBaChhGuxSPcfRacLUWihy4mBnqohkAYyxmQCRvFHcEwcgJ2z7NkQ7c6HIv1SkuiPKn06/FmqoH+OtQKgBiZsoTUupnX49QKgoYmmndQn4BN+uAmqlpaS+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAcRJREFUeF7tm1FqAlEQBNeLBfdonmxDLqZsvoyYOD0yRVjK737TvKpZFcHTcpDX6SD3WLzIfzOpEY0MEXC1hsC2x2qkjW7ooEaGwLbHaqSNbuigRobAtsdqpI1u6KBGhsC2x2qkjW7ooEaGwLbHaqSNbuigRobAtsdqpI1u6KBGhsC2x2qkjW7ooEYqYNd1vd7ntm0bAzc2eL+AF6nofshopALN1apQcrUalFytBjTftSrQXK0KJd+1GpQeV2sfMfXFEX3YvUhhG0aNkF/lvUjB9neE+izRiEaGfoBwtVwtV+vvHfAZSZ6Ry3Wrxl/mPj6f/zGhZOTrvPz4Dfdl22DAi+xwNfJkxX5bjXe3sfSMvFtCnPciBOWkQyMJLSKrEYJy0qGRhBaR1QhBOenQSEKLyGqEoJx0aCShRWQ1QlBOOjSS0CKyGiEoJx0aSWgRWY0QlJMOjSS0iKxGCMpJh0YSWkRWIwTlpEMjCS0iqxGCctKhkYQWkdUIQTnp0EhCi8hqhKCcdGgkoUVkNUJQTjo0ktAishohKCcdGkloEVmNEJSTDo0ktIisRgjKSYdGElpEViME5aRDIwktIqsRgnLScRgjN/wIfY1CUZkhAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"powerSwitch\"],\"name\":\"powerSwitch\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "powerSwitch",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "exposedWires",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite206.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 0
+                      },
+                      {
+                        "x": 73,
+                        "y": 150
+                      },
+                      {
+                        "x": 25,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "board",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":150,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAYAAABkW8nwAAAAAXNSR0IArs4c6QAAAqJJREFUeF7t2cFJg0EQhuENHsWAJdlAGrCFlJMWbCANWJIQ8SgRRQ8hIJnl/xg0z3/JZdnDx+w770xWY4zj8Elg4QRWCmvhRF33lYDCUgiRBBRWJFaXnhXW48PtuL+7GS+v737lcHEd7PaHk9d0VljbzfriyxSfx/cDoafnt98LC7EUy0zHQiztLdKREIs7RtwZsRALsWZ6vYGixxERC7EQC7H+zj4RsRALsRALsSIjLBHvEfGZ3O2x7LEiEOBYHItjcSyOFcHrTK9XjD3FyLE4VgQCHItjcSxtraetzeSOWIiFWDMvh/D3LFURC7EQC7E4VmSE1dZ62tpM7vZY9lgRCHAsjsWxOBbHiuB1ptcrxp5i5FgcKwIBjsWxOJa21tPWZnJHLMRCrJmXQ/h7lqqIhViIhVgcKzLCams9bW0md3sse6wIBDgWx+JYHItjRfA60+sVY08xcqxvx9rtD6vtZn1UvMsMCByLY3Esba2nrc3kjliIhVgzL4czLeNM1RwRC7EQC7E4lj3WlZPQHst/hREIcKwrJ0tKLxALsRCrOvI637Nq+MwdsRALsRCoj0BVF0MsxEIsxEKsyN8EVRw737ept8eyx4pAgGNxLI7FsThWBK+cqc+Zqo+aY3GsCAQ4FsfiWFUcO9/nZIiFWIiFQH0Eqg5OiIVYiIVYiBUZYas4dr5v72WPZY8VgQDH4lgci2NxrAheOVOfM1UfNcfiWBEIcCyOxbGqOHa+z8kQC7EQC4H6CFQdnBALsRALsRArMsJWcex8397LHsseKwIBjsWxOBbH4lgRvHKmPmeqPmqOxbEiEOBYHItjVXHsfJ+TIRZiIRYC9RGoOjghFmIhFmL9I2INnwQWSGA1xjgucI8rJHCSgMJSEJEEFFYkVpd+AF77f4TtRlBxAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAYAAABkW8nwAAAAAXNSR0IArs4c6QAAA9xJREFUeF7tnT1y2zAQRuXLuFPji6RNm5LqfAKPT5BOLNOmzUXSqPNl4qGTcTgckfgWIH6WeC49C2D59nFBYWj54cQPBDIQeMgwJ1NC4IRYSJCFAGJlwcqkiIUDWQggVhasTIpYOJCFAGJlwcqkiIUDWQggVhasTIpYOJCFAGJlwWqf9OXn2x/7qPURr18fq9a26uJ7gvQ+F2J5r2Cj+SNWo4XxnhZiea9go/kjVqOF8Z4WYnmvYKP5I1ajhfGeFmJVqOA4jrue8VS4hI8lh2FYPd5BrApVQSw7dA5IBWaIJUBahCCWwAyxBEiIZYeEWHZmdCyBGWIJkOhYdkiIZWd2uI51u91MRwPn8zn4hgViIdYJsdYl4BzLfoN8jkAsxJoIBLchq2OIhViIZb1rEuPZChMA0rHoWHSshBsoZigdK4bavzF0LDoWHSvhBooZSseKoUbHClJDrCCi9QC2QrZCtsKEGyhm6FbHipmv5TEckBasDmIlwGYrjNsKE5A3OZSOVbAsdKwE2HQsOhYP7wk3UMxQOlYMNc6xgtQQK4iIc6wYRIgVQ42OFaSGWEFEdKwYRIgVQ42OFaSGWEFEZQN6+CudskTzr7b7AWn+lFnBAwHE8lAlhzkilsOieUgZsTxUyWGOiOWwaB5SRiwHVbpcLtL3YVyv12bq2UwiDupbLcVJrGEYNtcfx/GEWNVK5HNhxPJZt+azRqwGS/T2+0V6PtlK/fHpteojw6HF+vL9W3KB5sX79fyjSLEQq87dLhcXseoUaFp1j45175Nl6GF/OSYUPyeEWIIvR9gKl3IqnyLnY5R4xBJkmoe0IJaS8lZHQSyFoCHmCM9YhstdDY0Vaz4hW+GMBmL9hREjVorQPGMJ9GpvhUKKwRDECiKyBdCx/nesJTnL1majbvjWZI4brGj7jmcrFOp/hK1QuMxdQxBLwNmyWGuv1OTc5gRk+j8QYCtUcJaPuXcqbz3MzJE1HUug2nrHWr6rhVhCUVNDjv6pkI61MIS3G1JvmfsHn9Nv6Vj7sN2chY6lQVbeq7d8IOAZS+DewzNW6NUcaxdErAOIde8SLN1lGo9YggjzkKNvhUYcq+GIZSSJWBowxNI4fUYhlgYMsTROiGXkhFhGYHQsDRhiaZzoWEZOiGUERsfSgHFAqnGiYxk57R3OAalAtOWTdyH9KiGIJWBHLAHSIgSxBGaIJUBCLDskxLIzO3zHsiNhxB4EZLH2WIw5+iGAWP3UuuiVIlZR3P0shlj91LrolSJWUdz9LIZY/dS66JUiVlHc/SyGWP3UuuiVIlZR3P0shlj91Lrolb4DKrUckscckcUAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite186\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite209.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "kingVelociraptorCave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "velociraptorKingCaveSleep",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "velociraptorKingCaveSleep2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "keyToPowerRoom",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAABJhJREFUeF7t2j1uVDEQB/BNQZ0TgBBCS0NDC1IkSjgALYq0FTfgBNyAKlJEywECHdLWSDQ0RJQ0QJULEOQl83C8tmf8GX/808Bqnz92fm889ts9WOGvqQgcNDUbTGYFkMZuAoAApLEINDYdZAhAGotAY9NBhgCksQg0Nh1kyAQgl1efEdgR2LmCRgir9Xq9m8b5+bn6J1f/ER+tzyYpAdtD0EMAkLgbIhTEi2BOASjhKBKQIASghCPoLVwgSQhYuuJRdJBsCMiSNJAdBO2O4rvyt0Q9kUVWZchlaQyaClB4FFqysqB8e/99N+KDF/etIwOkAggh6EO5QHBglIOoK8VZYkOQggDFj3Jtl8XVEg6ChvJlCEAygqiuOBQOAwVeDiJatnKBIFPsMOZJna0jAOELc8oVtkcnXhQpiH4ddl1youwgtqG5uoLzyf+oBYNICnvIFhi15Pot7Hza69sCc8tWKAhQ/BnC7rZKgADlH4rvCypncS8FApRMIFS0TSiumNs2ALMX+KgMcW3iQkGugr90h1+s8D/TYQ+KOk4kiPUrgFkzhfuRQxWQ7Xa7fH2sgDebzbS/6+JA2B2XK0Mk9cO2ZJ2cnOy6nBUlK4h+aJSAuGqRQjk6OuJ2gfLnER1dKQGJypIYEMqY7XarQKRz6yjc/FSlH1pcS7jv1T1b3ZWCcP3NAlQERJodWg1Z5kEFngDM1/w91vcVUhDxsqUyhAOxQehhNHdd+nujZ0p2EN/9yUGYbRWMDmC+7jsX7LMPARFniTlUKAS1d2XKyFlSFCQWwrZ8zVJTioDkgNCzRMdQ/9czZ7RsCQXxLls5IUwQqh96HRmxpmQBKQHhqyMjZ0kMyJIlJSFsexBbkSecUZauaJCrgMW2T96xjrp03VhAU0VGPTx2C6JAbbut3gt91yA6yijnlO5BzExRr/VdWG/FfggQQjGD3+OT4mFAbJnS41PioUDMZ2A91pWhQXr89nFYENvDSVetOX728NrPkHTIPwe3Vu/OvlSLU7WBUg+Cse1dB8jTN6/YLhWG+VcaZ3gQ8yGlBEK1sWHoOKVgpgGh5UoCwmEQTAmU6UAomCbM6Yevzli8fP7IWmMAwq767gv0wn38+u3uQkJRr7kTfS2UaTLE3EkRCj1qkVjbUHJnybQgy9LlWapMJIBIblvhNb6zhq9+UPdYsoSBDrns6eHh5d3Ht61NUNRDIpnpWgWiunKhmCd0btjc9UONN00NoeBKUCTnkBIYU4KoD00ormzxgZSCoBtmugzRlyEXjAlSGkGf09QgZo1QOzEdoyYEMsRSsQHCbWMqvw+QygHnhlM15c6Te8tlWLK4iGV4nwr5p4uLvfoJkAwBDu1CBd2GQdthZEhoRBOu92WHDeTnr9/LaB8//6iyI60ySEIMqzY1HyACpGr49wcDyA0DmMMDBCB7ERi+hth2Va6dlpkhOIcUyBiAFAhq7i6lGYJdVu7IO/oDSKVApw6DXVZqBDO3R1HPHNDU7gCSGsHM7QGSOaCp3QEkNYKZ2wMkc0BH6G74Rye9IQGkMTGAAKSxCDQ2HWQIQBqLQGPT+QvkNYmDLUdOIQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAWVJREFUeF7t00ERAAAIhECvf2lr7AMTMODtOsrAKJpgriDYExSkIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC0EC/KEzwBlGO+pQQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite187\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite210.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 10
+                      },
+                      {
+                        "x": 80,
+                        "y": 10
+                      },
+                      {
+                        "x": 80,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "locker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "lockerClosed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"NewSprite2\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAitJREFUeF7tmMGNg0AAxJYy6YQS6IQyk9/pIl1OiiPDCjlvxuzavLKMMR7jBr+li0xW8aXIuq6THe//4xzH8fNAF5khXUVmqPD7DBWpiGSgT0sSi7EVweqkYUUksRhbEaxOGlZEEouxFcHqpOH9i0jiTsH2v9Ypmj94yUuRfd8/mF7/6LZtf/+v1UUuilORi8S/fW1FKiIZ6NOSxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThhWRxGJsRbA6aVgRSSzGVgSrk4YVkcRibEWwOmlYEUksxlYEq5OGFZHEYuzbIpg4wXAZYzwmOMfXR7jNRZ7wmAUuxe5MVQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAi5JREFUeF7tlUEOgkAAxPQh+/+H8RBN1IsXs9SUbKCe6cC2ivfbST73k5zj1kFWK1mRikgG+mpJYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8ez1iowxHkTXtm2HyNpzE3SQMQY5/4vZI0E/CD7FG5x+vukL/3ggVPJzv+nnm77wj4McgnaQQzTvuMn1ivQ/0v9I/yM7XhELXnq9t9aCEb4eabpIr99ev71+V/85/36+6R/76sfsIKsVqkhFJAN9tSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EVkQSi2crgtVJYEUksXi2IlidBFZEEotnK4LVSWBFJLF4tiJYnQRWRBKLZyuC1UlgRSSxeLYiWJ0EPgEuFR7J8vhu2AAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAixJREFUeF7tmFFqwzAAxdqD5Io5TK6Yg2xQ6M9ohxHIOEH92U/0UkuGjT0fN/k8b3KORwdZrWRFKiIZ6GpJYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbA6CayIJBbPVgSrk8CKSGLxbEWwOgmsiCQWz1YEq5PAikhi8WxFsDoJrIgkFs9WBKuTwIpIYvFsRbC6AXDbtp9Pj53n+VX8kkU6yEDtqY9UZKrugZdVZEDS1EcqMlX3wMsqMiBp6iPvIsdxvN677/vr52X/ROkgU+/PPy/raq1S4v09KlIRycDtrtZfT5f9hXj5g5Abu+R/UToIMbAa09WqiGSgqyWJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgIrIonFsxXB6iSwIpJYPFsRrE4CKyKJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgIrIonFsxXB6iSwIpJYPFsRrE4CKyKJxbMVweoksCKSWDxbEaxOAisiicWzFcHqJLAiklg8WxGsTgJvU+QXxcNzyRKH8HEAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite190\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite213.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lockerOpen",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAidJREFUeF7tm8FpxEAUxTylDL65Abcw/Te024NAYD7K/QksfZLsbrLe9/1dA75WD/KxihX5WJCrIhWRDHRakliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw3XOWfGZ4g9iHQiFNtpUXPWriKWWcqtCDVn7eYUue97xk/2HsQ6dsjt13goTptVRFMLwRWB4rRZRTS1EFwRKE6bVURTC8FzivQGHTwBazbnpW6nZd0I5HZaUJw2q4imFoIrAsVps4poaiF4TpHexIYnYM3WmCL997R1I5A75zV7pwVPwJp1WpZZyq0INWftKmKZpdyKUHPWriKWWcqtCDVn7ea8+dDnI9aNQG6nBcVps4poaiG4IlCcNquIphaCKwLFabM5HyuM+XxkzIM8zzPjP3p6EO37DwOvijBx2qoimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4LX3nvEn5T0IPAFr1mlZZim3ItSctauIZZZyK0LNWbuKWGYptyLUnLWriGWWcitCzVm7ilhmKbci1Jy1q4hllnIrQs1Zu4pYZin3Dyx/PcRYCd6DAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAiRJREFUeF7tmEEKwkAAxLbP7Av7TMVLUUHBSOpa0pvgpLuJJ5cxxmWc4Fm6yGQVH4qs6zrZ8d4fZ9u2/QtdZIZ0FZmhwv0ZKlIRyUA/LUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThucvIok7BNv/Wodo/uAlz0Vun//p2f/u7SKTZKvIJCH2Y1SkIpKBflqSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjH1ZBBN/PVzGGPutfn2Yb95/motcAWW1sRBC067FAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"lockerOpen3\"],\"name\":\"lockerOpen\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lockerOpen3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lockerBageled",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"lockerBageled\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAidJREFUeF7tm8FpxEAUxTylDL65Abcw/Te024NAYD7K/QksfZLsbrLe9/1dA75WD/KxihX5WJCrIhWRDHRakliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw3XOWfGZ4g9iHQiFNtpUXPWriKWWcqtCDVn7eYUue97xk/2HsQ6dsjt13goTptVRFMLwRWB4rRZRTS1EFwRKE6bVURTC8FzivQGHTwBazbnpW6nZd0I5HZaUJw2q4imFoIrAsVps4poaiF4TpHexIYnYM3WmCL997R1I5A75zV7pwVPwJp1WpZZyq0INWftKmKZpdyKUHPWriKWWcqtCDVn7ea8+dDnI9aNQG6nBcVps4poaiG4IlCcNquIphaCKwLFabM5HyuM+XxkzIM8zzPjP3p6EO37DwOvijBx2qoimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4IpAcdqsIppaCK4IFKfNKqKpheCKQHHarCKaWgiuCBSnzSqiqYXgikBx2qwimloIrggUp80qoqmF4LX3nvEn5T0IPAFr1mlZZim3ItSctauIZZZyK0LNWbuKWGYptyLUnLWriGWWcitCzVm7ilhmKbci1Jy1q4hllnIrQs1Zu4pYZin3Dyx/PcRYCd6DAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAADICAYAAACqNrLOAAAAAXNSR0IArs4c6QAAAiRJREFUeF7tmEEKwkAAxLbP7Av7TMVLUUHBSOpa0pvgpLuJJ5cxxmWc4Fm6yGQVH4qs6zrZ8d4fZ9u2/QtdZIZ0FZmhwv0ZKlIRyUA/LUksxlYEq5OGFZHEYmxFsDppWBFJLMZWBKuThucvIok7BNv/Wodo/uAlz0Vun//p2f/u7SKTZKvIJCH2Y1SkIpKBflqSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjK0IVicNKyKJxdiKYHXSsCKSWIytCFYnDSsiicXYimB10rAikliMrQhWJw0rIonF2IpgddKwIpJYjH1ZBBN/PVzGGPutfn2Yb95/motcAWW1sRBC067FAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"lockerBageled5\"],\"name\":\"lockerBageled\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lockerBageled5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 200
+                      },
+                      {
+                        "x": 0,
+                        "y": 200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "doorElectrical",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "electricalDoor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "electricalDoor2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 0
+                      },
+                      {
+                        "x": 50,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "lighterLightSource",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 300,
+        "color": "255;86;41",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "note",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAfxJREFUeF7t3DFqw1AUBVGLbCT7X5U3YhwIpFH7D+Eaxr2Gqxm91tej35SBa2pNYx4FGfsIClKQMQNjc7qQgowZGJvThRRkzMDYnC6kIGMGxuZ0IQUZMzA2pwspyJiBsTldSEHGDIzN6UIKMmZgbE4XUpAxA2NzupCCjBkYm6Mv5D32fv8959jnMeD2xgU5/AR4kPfr+3DS5z1+fT3/Rh/7PAbcL6QgZx9UQc78/T7dhQCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErIIAiRJREGkTsAoCJEpEQaRNwCoIkCgRBZE2AasgQKJEFETaBKyCAIkSURBpE7AKAiRKREGkTcAqCJAoEQWRNgGrIECiRBRE2gSsggCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErIIAiRJREGkTsAoCJEpEQaRNwCoIkCgRBZE2AasgQKJEFETaBKyCAIkSURBpE7AKAiRKREGkTcAqCJAoEQWRNgGrIECiRBRE2gSsggCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErOkg4P0+GXH8x9THgJu9/oz/8HPSQQ7n9HhBxr6BghRkzMDYnC6kIGMGxuZ0IQUZMzA2pwspyJiBsTldSEHGDIzN6UIKMmZgbM4P3G3wZWrUjD4AAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAwBJREFUeF7tm8FywyAMRJ3//+h2fPAM44KRF4TXzcutaSSv9rGQOO1n42HlwMdKDWI2gJgtAoAAxMwBMzkkBCBmDpjJISEAMXPATA4JAYiZA2ZySAhAzBwwk0NCAGLmgJkcEgIQMwfM5JAQgJg5YCaHhADEzAEzOSQEIGYOmMkhIQAxc8BMDgkBiJkDZnJICEDMHDCTQ0IAYuaAmRwSAhAzB8zkkBCAmDlgJueJhPxsW/UfhVrPr7TscQ2rgRwDnwfff94fq/WUsB00LDegBqSEUwOVDakE8fhCyR72vAKP67UgnJ8/6jN01hJRLpjMaze34YxBWxerQWityHL7ujpzlG3uamu6grTkLFsFpLUV9Q7R3huASP3ZyKuZa/2Wni1PAoms7pZB5dZ3tXJnzdcDPy09swT3BKmH5eN7em+w2b9fBeSsO7rilm4Xs81V+j0FJKo1Ci7az/517kDsDZwtECCzHR3sB5BBA2eXA2S2o4P9nIF83TusyAezQd5S+dXNPqnhm4qcEvL4fSQHcA5Aejf7ehpnbm1Hr4NN79rTGS6/YDFBxMjeB8Py1srILDbpHBlCWR3lCoxc+wpI6w7yHV29dC4/ZyOm3Blw9mt7t9/Ve2RHXTSBs+dq9nMHsgu/k4SewSWIyOqP9psG7G1AIgb1zqZIj2iCpoF47F2EMMHdc6eVgh6omrQ78ITR/pa8ISGjgyogSMio60n1JCTJWLUtQFTnkuoAkmSs2hYgqnP/pe4b3mW9ihVAzHABBCBmDpjJISEAMXPATA4JAYiZA2Zy3p6Q1p3c8x8r7La/YtZXiOws4oj5tddYQvoPQEY2nZHvSkau26z9diDlF1EWiQFIyjrXmwJE9y6lEiAptupNAaJ7l1IJkBRb9aYA0b1LqQRIiq16U4Do3qVUAiTFVr0pQHTvUioBkmKr3hQguncplQBJsVVvChDdu5RKgKTYqjcFiO5dSiVAUmzVmwJE9y6lEiAptupNAaJ7l1IJkBRb9aYA0b1LqQRIiq1601/5iWplPLgvKQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite191\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite214.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 23
+                      },
+                      {
+                        "x": 83,
+                        "y": 23
+                      },
+                      {
+                        "x": 83,
+                        "y": 86
+                      },
+                      {
+                        "x": 19,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cartOfBarbedWire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfiAAAAAXNSR0IArs4c6QAACeZJREFUeF7t2u1u49YOBdDM+z90ixQIYGRmGntLlvix+ueiqCkdLlHcSa5/ffiHAAECBAgEAr+CGiUECBAgQOBDgBgCAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgE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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite193\"],\"name\":\"NewSprite2\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite216.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 39
+                      },
+                      {
+                        "x": 400,
+                        "y": 39
+                      },
+                      {
+                        "x": 400,
+                        "y": 194
+                      },
+                      {
+                        "x": 0,
+                        "y": 194
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5371,7 +6810,7 @@
         "objectName": "NewSprite"
       },
       {
-        "objectName": "NewLight"
+        "objectName": "flashLightTemp"
       },
       {
         "objectName": "lightObsticle"
@@ -5437,6 +6876,9 @@
         "objectName": "dinoCave"
       },
       {
+        "objectName": "kingVelociraptorCave"
+      },
+      {
         "objectName": "dinoSpawn"
       },
       {
@@ -5444,6 +6886,9 @@
       },
       {
         "objectName": "pit"
+      },
+      {
+        "objectName": "table"
       },
       {
         "objectName": "waterPuddle"
@@ -5455,7 +6900,34 @@
         "objectName": "gapBridge"
       },
       {
+        "objectName": "doorElectrical"
+      },
+      {
         "objectName": "medKit"
+      },
+      {
+        "objectName": "serverRoomSwitch"
+      },
+      {
+        "objectName": "exposedWires"
+      },
+      {
+        "objectName": "board"
+      },
+      {
+        "objectName": "keyToPowerRoom"
+      },
+      {
+        "objectName": "locker"
+      },
+      {
+        "objectName": "lighterLightSource"
+      },
+      {
+        "objectName": "note"
+      },
+      {
+        "objectName": "cartOfBarbedWire"
       }
     ]
   },
@@ -5491,6 +6963,15 @@
         },
         {
           "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "dialogueMaintenance "
+          ]
+        },
+        {
+          "type": {
             "value": "ModVarGlobal"
           },
           "parameters": [
@@ -5509,8 +6990,634 @@
             "=",
             "50"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueSelector"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialougeOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textBorder"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "walkSafari.mp3",
+                "3",
+                "yes",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "door-slam-172171.mp3",
+                "1",
+                "no",
+                "40",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EdRegis",
+                "600",
+                "-910",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "0",
+                "180",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "EdRegis",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "door-slam-172171.mp3",
+                "1",
+                "no",
+                "40",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "MainCharacter",
+                "600",
+                "-910",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "MainCharacter",
+                "0",
+                "180",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "doorElectrical",
+                "SmoothCamera",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "MainCharacter",
+                "Scale",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "-40",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2.17"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "EdRegis"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "MainCharacter"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"electricalIntro\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "yes"
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dialogue Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lighterActivate\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "lighting-a-fire-14421.mp3",
+                "1",
+                "no",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "lighterLightSource",
+                "EdRegis.PointX(\"light\")",
+                "EdRegis.PointY(\"light\")",
+                "\"Lighting\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"lighterSFX\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "lighterClick.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"kingVelociraptorSFX\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "dinosaur-growl-106744.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"regisRunAway\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "EdRegis",
+                "Animation",
+                "=",
+                "\"walkUp\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "0",
+                "-325",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "walkSafari.mp3",
+                "3",
+                "yes",
+                "100",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "excapePlease.mp3",
+                "",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "EdRegis"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "EdRegis",
+                "=",
+                "600",
+                "=",
+                "-910"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "electricalInteractions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "securityKeypad",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Plan"
+              },
+              "parameters": [
+                "MainCharacter",
+                ">",
+                "securityKeypad.ZOrder()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"keypadScreen\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -5605,11 +7712,23 @@
             "value": "MettreXY"
           },
           "parameters": [
-            "NewLight",
+            "flashLightTemp",
             "=",
             "MainCharacter.PointX(\"light\")",
             "=",
             "MainCharacter.PointY(\"light\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "lighterLightSource",
+            "=",
+            "EdRegis.PointX(\"light\")",
+            "=",
+            "EdRegis.PointY(\"light\")"
           ]
         }
       ]
@@ -5643,7 +7762,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewLight"
+            "flashLightTemp"
           ]
         }
       ]
@@ -5678,7 +7797,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "NewLight",
+            "flashLightTemp",
             ""
           ]
         }
@@ -5851,6 +7970,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -7393,91 +9513,6 @@
           "subInstructions": [
             {
               "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "e"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "inverted": true,
-            "value": "DialogueTree::IsDialogueRunning"
-          },
-          "parameters": []
-        },
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "MainCharacter",
-            "securityKeypad",
-            "120",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "GlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "interactingStatus",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "Plan"
-          },
-          "parameters": [
-            "MainCharacter",
-            ">",
-            "securityKeypad.ZOrder()"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"keypadScreen\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -7971,6 +10006,124 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "\"Lighting\"",
+            "\"7;7;7\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"scrollText\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"regisOne\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "\"Lighting\"",
+            "\"0;146;13\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Lighting::SetRadius"
+          },
+          "parameters": [
+            "lighterLightSource",
+            "RandomInRange(300,370)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Num5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "EdRegis",
+            "=",
+            "600",
+            "=",
+            "-910"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -8034,9 +10187,9 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 255,
-      "ambientLightColorG": 255,
-      "ambientLightColorR": 255,
+      "ambientLightColorB": 17,
+      "ambientLightColorG": 17,
+      "ambientLightColorR": 17,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -8062,6 +10215,38 @@
       "name": "keypadScreen",
       "renderingType": "",
       "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "dialogueOverlay",
+      "renderingType": "",
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
