@@ -5245,6 +5245,60 @@
         "name": "assets\\NewSprite116.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite198.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite198",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite199.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite199",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite200.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite200",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BrachEncounter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BrachEncounter",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PteranodonEcounter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PteranodonEcounter",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RandomEncounterSpawnBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/RandomEncounterSpawnBox.png\"}",
+        "name": "RandomEncounterSpawnBox",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

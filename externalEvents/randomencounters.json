@@ -523,87 +523,9 @@
                   },
                   "parameters": [
                     "",
-                    "AnklyoEncounter",
-                    "RandomEncounterSpawnBox.CenterX()",
-                    "RandomEncounterSpawnBox.CenterY()",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Cursor",
-                    "\"Spawning\"",
-                    ">",
-                    "1.3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AjoutHasard"
-                  },
-                  "parameters": [
-                    "",
-                    "RandomEncounterSpawnBox"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
                     "Raptor_Encounter",
                     "RandomEncounterSpawnBox.CenterX()",
                     "RandomEncounterSpawnBox.CenterY()",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Cursor",
-                    "\"Spawning\"",
-                    ">",
-                    "1.3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AjoutHasard"
-                  },
-                  "parameters": [
-                    "",
-                    "RandomEncounterSpawnBox"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "StegoEncounter",
-                    "RandomEncounterSpawnBox.CenterX()",
-                    "RandomEncounterSpawnBox.Y()",
                     ""
                   ]
                 }
@@ -941,6 +863,45 @@
                   "parameters": [
                     "",
                     "PteranodonEcounter",
+                    "RandomEncounterSpawnBox.CenterX()",
+                    "RandomEncounterSpawnBox.CenterY()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Cursor",
+                    "\"Spawning\"",
+                    ">",
+                    "1.3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "RandomEncounterSpawnBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "",
                     "RandomEncounterSpawnBox.CenterX()",
                     "RandomEncounterSpawnBox.CenterY()",
                     ""
