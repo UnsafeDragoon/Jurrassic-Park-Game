@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3111974942445292,
+    "zoomFactor": 0.46331118245141245,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -141,7 +141,7 @@
       "width": 2972,
       "x": -874,
       "y": -3524,
-      "zOrder": 0,
+      "zOrder": -100000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -172,7 +172,7 @@
       "width": 171,
       "x": -293,
       "y": -2237,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -188,7 +188,7 @@
       "width": 171,
       "x": -274,
       "y": -2392,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -204,7 +204,7 @@
       "width": 171,
       "x": -216,
       "y": -2534,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -220,7 +220,7 @@
       "width": 171,
       "x": -127,
       "y": -2658,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -236,7 +236,7 @@
       "width": 171,
       "x": -18,
       "y": -2760,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -252,7 +252,7 @@
       "width": 171,
       "x": 109,
       "y": -2838,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -268,7 +268,7 @@
       "width": 171,
       "x": 258,
       "y": -2884,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -284,7 +284,7 @@
       "width": 171,
       "x": 415,
       "y": -2900,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -300,7 +300,7 @@
       "width": 171,
       "x": 583,
       "y": -2901,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -316,7 +316,7 @@
       "width": 171,
       "x": 751,
       "y": -2901,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,7 +332,7 @@
       "width": 171,
       "x": 915,
       "y": -2901,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -348,7 +348,7 @@
       "width": 171,
       "x": 1071,
       "y": -2889,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -364,7 +364,7 @@
       "width": 171,
       "x": 1205,
       "y": -2839,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -380,7 +380,7 @@
       "width": 171,
       "x": 1321,
       "y": -2747,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -396,7 +396,7 @@
       "width": 171,
       "x": 1416,
       "y": -2626,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -412,7 +412,7 @@
       "width": 171,
       "x": 1482,
       "y": -2485,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,7 +428,7 @@
       "width": 171,
       "x": 1520,
       "y": -2336,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -444,7 +444,7 @@
       "width": 171,
       "x": 1534,
       "y": -2176,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -459,7 +459,7 @@
       "width": 0,
       "x": 283,
       "y": 1043,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -474,7 +474,7 @@
       "width": 0,
       "x": 303,
       "y": 863,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -489,7 +489,7 @@
       "width": 0,
       "x": 366,
       "y": 701,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -504,7 +504,7 @@
       "width": 0,
       "x": 470,
       "y": 556,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -519,7 +519,7 @@
       "width": 0,
       "x": 601,
       "y": 445,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -534,7 +534,7 @@
       "width": 0,
       "x": 765,
       "y": 378,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -549,7 +549,7 @@
       "width": 0,
       "x": 957,
       "y": 328,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -564,7 +564,7 @@
       "width": 0,
       "x": 1133,
       "y": 267,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -579,7 +579,7 @@
       "width": 0,
       "x": 1278,
       "y": 171,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -594,7 +594,7 @@
       "width": 0,
       "x": 1398,
       "y": 33,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -609,7 +609,7 @@
       "width": 0,
       "x": 1476,
       "y": -128,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -624,7 +624,7 @@
       "width": 0,
       "x": 1519,
       "y": -316,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -640,7 +640,7 @@
       "width": 194,
       "x": 1535,
       "y": -498,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -656,7 +656,7 @@
       "width": 1030,
       "x": 1112,
       "y": -1104,
-      "zOrder": 4,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -672,7 +672,7 @@
       "width": 194,
       "x": 1526,
       "y": -1712,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -688,7 +688,7 @@
       "width": 192,
       "x": 1525,
       "y": -1893,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -704,7 +704,7 @@
       "width": 177,
       "x": 1531,
       "y": -2010,
-      "zOrder": 8,
+      "zOrder": -5000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -752,7 +752,7 @@
       "width": 118,
       "x": 2022,
       "y": -3530,
-      "zOrder": 10,
+      "zOrder": -10000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -798,8 +798,8 @@
       "name": "MainCharacter",
       "persistentUuid": "7740d57c-3a3b-4e89-a751-5fe2c7af9244",
       "width": 46,
-      "x": 353,
-      "y": 924,
+      "x": 1601,
+      "y": -598,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -879,7 +879,7 @@
       "width": 727,
       "x": 2111,
       "y": -3512,
-      "zOrder": 8,
+      "zOrder": -10000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1004,8 +1004,8 @@
       "name": "Tree2_2",
       "persistentUuid": "6b91b62b-fe25-4b44-b48f-a1936c9dc1b8",
       "width": 200,
-      "x": 1640,
-      "y": 860,
+      "x": 1713,
+      "y": 828,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -1586,6 +1586,52 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Cursor",
+      "persistentUuid": "82796f7b-7a50-426f-b174-fe7c52dfe5b6",
+      "width": 0,
+      "x": 377,
+      "y": 880,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 567,
+      "layer": "",
+      "name": "TrexEncounter",
+      "persistentUuid": "3fb1e02e-b125-4896-ba22-222523d2eb6d",
+      "width": 64,
+      "x": 704,
+      "y": -3015,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Colored_T_rex",
+      "persistentUuid": "3a05b00d-384c-418a-a6f0-1dd549f3ebd9",
+      "width": 0,
+      "x": 97,
+      "y": -2910,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1715,7 +1761,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree1_2",
       "type": "Sprite",
@@ -1726,6 +1772,10 @@
         {
           "name": "LightObstacleBehavior",
           "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -1755,20 +1805,228 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 31.5,
+                        "y": 96.5
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 91.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 85
+                      },
+                      {
+                        "x": 43,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 36.5,
+                        "y": 72.5
+                      },
+                      {
+                        "x": 33,
+                        "y": 72.5
+                      },
+                      {
+                        "x": 30,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 31,
+                        "y": 63
+                      },
+                      {
+                        "x": 34.5,
+                        "y": 60
+                      },
+                      {
+                        "x": 39,
+                        "y": 61
+                      },
+                      {
+                        "x": 43,
+                        "y": 61
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 64
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 47,
+                        "y": 68.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 51,
+                        "y": 59.5
+                      },
+                      {
+                        "x": 42,
+                        "y": 59
+                      },
+                      {
+                        "x": 38,
+                        "y": 57
+                      },
+                      {
+                        "x": 35,
+                        "y": 55.5
+                      },
+                      {
+                        "x": 25.5,
+                        "y": 55.5
+                      },
+                      {
+                        "x": 18,
+                        "y": 58
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 58
+                      },
+                      {
+                        "x": 8,
+                        "y": 55
+                      },
+                      {
+                        "x": 5,
+                        "y": 52.5
+                      },
+                      {
                         "x": 4,
-                        "y": 4
+                        "y": 46
                       },
                       {
-                        "x": 96,
-                        "y": 4
+                        "x": 4.5,
+                        "y": 39.5
                       },
                       {
-                        "x": 96,
+                        "x": 8.5,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 14,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 17,
+                        "y": 15.5
+                      },
+                      {
+                        "x": 17,
+                        "y": 10.5
+                      },
+                      {
+                        "x": 26,
+                        "y": 3.5
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 39,
+                        "y": 13
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 63,
+                        "y": 10
+                      },
+                      {
+                        "x": 78.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 84,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 83.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 92,
+                        "y": 22
+                      },
+                      {
+                        "x": 96.5,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 95.5,
+                        "y": 42
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 49
+                      },
+                      {
+                        "x": 87.5,
+                        "y": 54
+                      },
+                      {
+                        "x": 79,
+                        "y": 54
+                      },
+                      {
+                        "x": 76.5,
+                        "y": 55
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 69.5
+                      },
+                      {
+                        "x": 63.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 75.5
+                      },
+                      {
+                        "x": 58.5,
+                        "y": 78.5
+                      },
+                      {
+                        "x": 58,
+                        "y": 88.5
+                      },
+                      {
+                        "x": 61,
+                        "y": 91
+                      },
+                      {
+                        "x": 60.5,
                         "y": 98
                       },
                       {
-                        "x": 4,
-                        "y": 98
+                        "x": 33,
+                        "y": 98.5
                       }
                     ]
                   ]
@@ -1780,7 +2038,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree2_2",
       "type": "Sprite",
@@ -1791,6 +2049,10 @@
         {
           "name": "LightObstacleBehavior",
           "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -1820,20 +2082,184 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26,
-                        "y": 3
+                        "x": 49.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 44,
+                        "y": 64.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 66
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 64
+                      },
+                      {
+                        "x": 30,
+                        "y": 59
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 58
+                      },
+                      {
+                        "x": 25.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 25.5,
+                        "y": 46
+                      },
+                      {
+                        "x": 29,
+                        "y": 40
+                      },
+                      {
+                        "x": 29,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 29
+                      },
+                      {
+                        "x": 39,
+                        "y": 20.5
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 20.5
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 39,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 48.5,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 11
+                      },
+                      {
+                        "x": 47,
+                        "y": 8.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 58,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 62,
+                        "y": 4
+                      },
+                      {
+                        "x": 66,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 67,
+                        "y": 11.5
+                      },
+                      {
+                        "x": 71,
+                        "y": 15
+                      },
+                      {
+                        "x": 72,
+                        "y": 22
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 26
+                      },
+                      {
+                        "x": 78,
+                        "y": 24.5
+                      },
+                      {
+                        "x": 81,
+                        "y": 28.5
                       },
                       {
                         "x": 87,
-                        "y": 3
+                        "y": 37.5
                       },
                       {
-                        "x": 87,
+                        "x": 86.5,
+                        "y": 41.5
+                      },
+                      {
+                        "x": 83,
+                        "y": 45
+                      },
+                      {
+                        "x": 78,
+                        "y": 48
+                      },
+                      {
+                        "x": 76,
+                        "y": 50.5
+                      },
+                      {
+                        "x": 78,
+                        "y": 53
+                      },
+                      {
+                        "x": 78,
+                        "y": 56
+                      },
+                      {
+                        "x": 80.5,
+                        "y": 57.5
+                      },
+                      {
+                        "x": 80,
+                        "y": 61.5
+                      },
+                      {
+                        "x": 73.5,
+                        "y": 66
+                      },
+                      {
+                        "x": 68.5,
+                        "y": 68
+                      },
+                      {
+                        "x": 62,
+                        "y": 68.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 70
+                      },
+                      {
+                        "x": 61.5,
                         "y": 91
                       },
                       {
-                        "x": 26,
-                        "y": 91
+                        "x": 48,
+                        "y": 91.5
                       }
                     ]
                   ]
@@ -1845,7 +2271,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree3_2",
       "type": "Sprite",
@@ -1856,6 +2282,10 @@
         {
           "name": "LightObstacleBehavior",
           "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -1885,20 +2315,164 @@
                   "customCollisionMask": [
                     [
                       {
+                        "x": 29.5,
+                        "y": 94.5
+                      },
+                      {
+                        "x": 29.5,
+                        "y": 88
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 80
+                      },
+                      {
+                        "x": 41.5,
+                        "y": 74.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 21.5,
+                        "y": 61.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 55
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 47.5
+                      },
+                      {
                         "x": 11,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 11,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 19,
+                        "y": 27
+                      },
+                      {
+                        "x": 20.5,
+                        "y": 19
+                      },
+                      {
+                        "x": 20,
+                        "y": 15.5
+                      },
+                      {
+                        "x": 21,
+                        "y": 10
+                      },
+                      {
+                        "x": 30,
+                        "y": 4
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 4
+                      },
+                      {
+                        "x": 36.5,
+                        "y": 6
+                      },
+                      {
+                        "x": 42,
+                        "y": 6
+                      },
+                      {
+                        "x": 47,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 59.5,
                         "y": 3
                       },
                       {
-                        "x": 93,
-                        "y": 3
+                        "x": 61.5,
+                        "y": 11
                       },
                       {
-                        "x": 93,
-                        "y": 96
+                        "x": 79.5,
+                        "y": 11.5
                       },
                       {
-                        "x": 11,
-                        "y": 96
+                        "x": 80.5,
+                        "y": 17
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 24.5
+                      },
+                      {
+                        "x": 91,
+                        "y": 32
+                      },
+                      {
+                        "x": 87,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 44.5
+                      },
+                      {
+                        "x": 93.5,
+                        "y": 50.5
+                      },
+                      {
+                        "x": 89.5,
+                        "y": 52.5
+                      },
+                      {
+                        "x": 87,
+                        "y": 57.5
+                      },
+                      {
+                        "x": 82,
+                        "y": 60.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 60
+                      },
+                      {
+                        "x": 69.5,
+                        "y": 67.5
+                      },
+                      {
+                        "x": 62.5,
+                        "y": 72.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 78.5
+                      },
+                      {
+                        "x": 64.5,
+                        "y": 85
+                      },
+                      {
+                        "x": 65,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 60.5,
+                        "y": 95.5
+                      },
+                      {
+                        "x": 36,
+                        "y": 95.5
                       }
                     ]
                   ]
@@ -1945,12 +2519,7 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ]
+      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -2289,7 +2858,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2331,7 +2919,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2374,6 +2981,235 @@
                     "y": 0
                   },
                   "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LoadingScreen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite243",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2000,
+                        "y": 0
+                      },
+                      {
+                        "x": 2000,
+                        "y": 2000
+                      },
+                      {
+                        "x": 0,
+                        "y": 2000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HeadLoadingIcon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "HeadLoadingIcon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite125.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 23,
+                        "y": 0
+                      },
+                      {
+                        "x": 23,
+                        "y": 22
+                      },
+                      {
+                        "x": 0,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TrexEncounter",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite244",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Colored_T_rex",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ColorT_rex.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 52
+                      },
+                      {
+                        "x": 344,
+                        "y": 52
+                      },
+                      {
+                        "x": 344,
+                        "y": 257
+                      },
+                      {
+                        "x": 4,
+                        "y": 257
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2432,6 +3268,18 @@
       },
       {
         "objectName": "TricEncounter"
+      },
+      {
+        "objectName": "LoadingScreen"
+      },
+      {
+        "objectName": "HeadLoadingIcon"
+      },
+      {
+        "objectName": "TrexEncounter"
+      },
+      {
+        "objectName": "Colored_T_rex"
       }
     ]
   },
@@ -2449,6 +3297,30 @@
         "includeConfig": 0
       },
       "target": "RandomEncounters"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Cursor",
+            "\"Spawning\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2599,34 +3471,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "RandomEncounterTrigger",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Cursor",
-                    "\"Spawning\""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -2890,1522 +3734,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "Anklyo",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "AnklyoEncounter",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "AnklyoEncounter",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "LoadingScreen",
-                    "MainCharacter.X()-700",
-                    "MainCharacter.Y()-600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HeadLoadingIcon",
-                    "MainCharacter.X()",
-                    "MainCharacter.Y()+20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    "Scale",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Combat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AnklyoStrike",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CompyStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "StegoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SpinoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TricStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PterStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BrachStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "RaptorStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "LoadingScreen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Compy",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "CompyEncounter",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "CompyEncounter",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "LoadingScreen",
-                    "MainCharacter.X()-700",
-                    "MainCharacter.Y()-600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HeadLoadingIcon",
-                    "MainCharacter.X()",
-                    "MainCharacter.Y()+20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    "Scale",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Combat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AnklyoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CompyStrike",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SpinoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "StegoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TricStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PterStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BrachStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "RaptorStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "LoadingScreen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Spino",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "SpinoBossSpawn",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "SpinoBossSpawn",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "LoadingScreen",
-                    "MainCharacter.X()-700",
-                    "MainCharacter.Y()-600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HeadLoadingIcon",
-                    "MainCharacter.X()",
-                    "MainCharacter.Y()+20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    "Scale",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Combat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AnklyoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CompyStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "StegoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SpinoStrike",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TricStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PterStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BrachStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "RaptorStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "LoadingScreen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Stego",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "StegoEncounter",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "StegoEncounter",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "LoadingScreen",
-                    "MainCharacter.X()-700",
-                    "MainCharacter.Y()-600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HeadLoadingIcon",
-                    "MainCharacter.X()",
-                    "MainCharacter.Y()+20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    "Scale",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Combat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AnklyoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CompyStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SpinoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "StegoStrike",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TricStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PterStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BrachStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "RaptorStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "LoadingScreen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Raptor",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "Raptor_Encounter",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Raptor_Encounter",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
-                  },
-                  "parameters": [
-                    "MainCharacter",
-                    "TopDownMovement",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "LoadingScreen",
-                    "MainCharacter.X()-700",
-                    "MainCharacter.Y()-600",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "HeadLoadingIcon",
-                    "MainCharacter.X()",
-                    "MainCharacter.Y()+20",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ScalableCapability::ScalableBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    "Scale",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PushScene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Combat\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "AnklyoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "CompyStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "SpinoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "StegoStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "TricStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "PterStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "BrachStrike",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "RaptorStrike",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "LoadingScreen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "HeadLoadingIcon",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
           "name": "Tric",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4708,7 +4036,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pter",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5011,7 +4338,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Brachiosaurus",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5039,6 +4365,308 @@
                   },
                   "parameters": [
                     "BrachEncounter",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LoadingScreen",
+                    "MainCharacter.X()-700",
+                    "MainCharacter.Y()-600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "HeadLoadingIcon",
+                    "MainCharacter.X()",
+                    "MainCharacter.Y()+20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    "Scale",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Combat\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "AnklyoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CompyStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SpinoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "StegoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "RaptorStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TricStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PterStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BrachStrike",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "LoadingScreen",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Trex",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TrexEncounter",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TrexEncounter",
                     ""
                   ]
                 },

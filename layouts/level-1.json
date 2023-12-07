@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2636457673770946,
+    "zoomFactor": 0.737081631799445,
     "windowMask": false
   },
   "objectsGroups": [
@@ -182,8 +182,8 @@
       "name": "MainCharacter",
       "persistentUuid": "263e0f96-ded8-4664-9c83-1e866ba6c3bc",
       "width": 46,
-      "x": 659,
-      "y": 447,
+      "x": 2464,
+      "y": 4974,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -695,7 +695,7 @@
       "width": 112,
       "x": 2673,
       "y": -770,
-      "zOrder": 25,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2472,6 +2472,53 @@
       "x": -742,
       "y": 5992,
       "zOrder": 2155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "SpinoColor",
+      "persistentUuid": "bfc94410-b50c-4093-a564-3ee00994b8fb",
+      "width": 0,
+      "x": 2706,
+      "y": 4960,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "WaterTiledSprite",
+      "persistentUuid": "b91cf557-29ca-4e9e-8509-1a6973f123c3",
+      "width": 514,
+      "x": 2778,
+      "y": 5100,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 5,
+      "height": 290,
+      "layer": "",
+      "name": "NoTouchyZone",
+      "persistentUuid": "95cbaedc-d193-48b8-a240-46e724264520",
+      "width": 563,
+      "x": 2560,
+      "y": 4918,
+      "zOrder": 2156,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4511,7 +4558,49 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "NoTouchyZone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite245",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SpinoColor",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4525,7 +4614,44 @@
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ColorSpino.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 48
+                      },
+                      {
+                        "x": 325,
+                        "y": 48
+                      },
+                      {
+                        "x": 325,
+                        "y": 252
+                      },
+                      {
+                        "x": 25,
+                        "y": 252
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -4617,7 +4743,10 @@
         "objectName": "TransitionColisionBox"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "NoTouchyZone"
+      },
+      {
+        "objectName": "SpinoColor"
       }
     ]
   },
@@ -4657,6 +4786,16 @@
             "Levelcheck",
             "=",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "SpinoColor",
+            "Flippable",
+            "yes"
           ]
         }
       ]
@@ -4712,6 +4851,16 @@
           "parameters": [
             "MainCharacter",
             "WaterTiledSprite",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "NoTouchyZone",
             ""
           ]
         }

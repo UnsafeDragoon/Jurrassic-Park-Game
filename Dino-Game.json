@@ -5277,7 +5277,7 @@
         "alwaysLoaded": false,
         "file": "assets/BrachEncounter.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/BrachEncounter.png\"}",
         "name": "BrachEncounter",
         "smoothed": true,
         "userAdded": true
@@ -5286,7 +5286,7 @@
         "alwaysLoaded": false,
         "file": "assets/PteranodonEcounter.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PteranodonEcounter.png\"}",
         "name": "PteranodonEcounter",
         "smoothed": true,
         "userAdded": false
@@ -5765,6 +5765,69 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "TREX_USE_BITE10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite243.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite243",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite244.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite244",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ColorT_rex.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ColorT_rex.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HeadLoadingIcon.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HeadLoadingIcon",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite125.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite125.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite125.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ColorSpino.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ColorSpino.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite245.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite245",
         "smoothed": true,
         "userAdded": true
       }
