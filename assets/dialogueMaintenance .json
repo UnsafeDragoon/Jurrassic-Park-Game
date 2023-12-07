@@ -62,10 +62,10 @@
 	{
 		"title": "medkitOne",
 		"tags": "",
-		"body": "It's a medkit, inside there seems to be bandages, medicine,-\nand an emergency bagel hidden inside of breakable glass.",
+		"body": "It's a medkit, inside there seems to be bandages, medicine,-\nand an emergency bagel inside a breakable glass container.\nWill you break it open?\n[[ Break it: |medkitBagelYes]]\n[[ Do not: |medkitBagelNo]]",
 		"position": {
-			"x": -487,
-			"y": 193
+			"x": -263,
+			"y": 258
 		},
 		"colorID": 0
 	},
@@ -82,7 +82,7 @@
 	{
 		"title": "notePit",
 		"tags": "",
-		"body": "Lousy grate!\nThe stupid thing keeps falling off every 2 weeks. \nTell that lousy Greg to fill that hole in already, it's been months!\nWe just can't keep buying temporary grates, it's a waste of money!",
+		"body": "Lousy grate!\nThe stupid thing keeps falling off every 2 weeks. \nTell that lousy Greg to fill that hole in already, it's been months!\nWe just can't keep buying temporary grates, it's a waste of money!\nCan you please get Bernard to unlock the supply closet so we could get the spare.\nHe won't listen to me!",
 		"position": {
 			"x": -31,
 			"y": -1643
@@ -92,7 +92,7 @@
 	{
 		"title": "noteGrate",
 		"tags": "",
-		"body": "Temporary temporary grate for use in case the temporary temporary grate fails until the temporary non-temporary grate arrives.\nYou decide to temporarily borrow the grate.",
+		"body": "Temporary temporary grate for use in case the temporary temporary grate fails until the temporary non-temporary grate arrives.\n<< gratePocket>> You take the temporary temporary grate and shove it in your pocket.",
 		"position": {
 			"x": 233,
 			"y": -1635
@@ -122,10 +122,10 @@
 	{
 		"title": "notePower",
 		"tags": "",
-		"body": "PSA- ENOUGH IS ENOUGH!\nOk so one of you (not naming names), thought it would be funny to keep turning the power on and off,-\n-so from now on it's being kept LOCKED!\nIf for some [i]VALID[/i] reason you need to get in, come see me cause I have the only key!\nP.S -And before you ask, no, rebooting the power to fix the bagel dispenser is [i]NOT[/i] a valid reason Greg!",
+		"body": "PSA- ENOUGH IS ENOUGH!\nOk so one of you (not naming names), thought it would be funny to keep turning the power on and off,-\n-so from now on it's being kept LOCKED!\nIf for some [i]VALID[/i] reason you need to get in, come see me cause I have the only key!\nP.S -And before you ask, no, rebooting the power to fix the bagel dispenser is [i]NOT[/i] a valid reason Jimmy!",
 		"position": {
 			"x": 973,
-			"y": -1666
+			"y": -1667
 		},
 		"colorID": 0
 	},
@@ -152,7 +152,7 @@
 	{
 		"title": "noteBarbedWire",
 		"tags": "",
-		"body": "PSA- BARBED WIRE ON HOLD\nThe park has received a shipment of barbed wire and has nowhere to put it, so it's staying here until further notice.\nPLEASE! PLEASE! PLEASE!\nDo not touch the barbed wire under any circumstance!\nIt is a serious hazard and could really get someone hurt!",
+		"body": "PSA- BARBED WIRE ON HOLD\nThe park has received a shipment of barbed wire and has nowhere to put it, so it's staying here until further notice.\nPLEASE! PLEASE! PLEASE!\nDo not touch the barbed wire under any circumstance!\nIt is a serious hazard and could really get someone hurt!\nBut I suppose...\nMaybe in a life or death scenario it could stop an attacker?\n...\nYeah right! What are the odds of that happening right?",
 		"position": {
 			"x": 1238,
 			"y": -1667
@@ -162,10 +162,50 @@
 	{
 		"title": "noteSwitch",
 		"tags": "",
-		"body": "PSA - FAULTY SWITCH!\nDO NOT touch the switch next to this note, it is faulty and will shock you.\nWe are going to get it fixed next week so LEAVE IT ALONE!\nHow did this even happen!?",
+		"body": "PSA - FAULTY SWITCH!\nDO NOT touch the switch next to this note, it is faulty and will shock you.\nWe are going to get it fixed next week so LEAVE IT ALONE!\nWhat kind of person thinks to do something like this?",
 		"position": {
 			"x": 1515,
 			"y": -1648
+		},
+		"colorID": 0
+	},
+	{
+		"title": "medkitBagelYes",
+		"tags": "",
+		"body": "<< itemBagel>> << medkitAdvance>> You have received: bagel.",
+		"position": {
+			"x": -367,
+			"y": -27
+		},
+		"colorID": 0
+	},
+	{
+		"title": "medkitBagelNo",
+		"tags": "",
+		"body": "You left it alone to save for another emergency.",
+		"position": {
+			"x": -146,
+			"y": -28
+		},
+		"colorID": 0
+	},
+	{
+		"title": "medkitTwo",
+		"tags": "",
+		"body": "The med kit no longer serves any use to you, although there are still medical supplies for lethal injuries.",
+		"position": {
+			"x": 101,
+			"y": 261
+		},
+		"colorID": 0
+	},
+	{
+		"title": "powerRoomKey",
+		"tags": "",
+		"body": "<< kingVelociraptorSFX>> ...\n<< kingVelociraptorFight>> ...",
+		"position": {
+			"x": -431,
+			"y": -1468
 		},
 		"colorID": 0
 	}

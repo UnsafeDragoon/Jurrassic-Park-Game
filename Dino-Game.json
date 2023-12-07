@@ -5196,7 +5196,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite216.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite216.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite216.png",
         "smoothed": true,
         "userAdded": true
@@ -5261,6 +5261,24 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite199",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite199.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite199.png\"}",
+        "name": "NewSprite199",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backOut.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "backOut",
         "smoothed": true,
         "userAdded": true
       },
@@ -5401,10 +5419,37 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/NewSprite201.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite201",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCave.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/kingVelociraptorCave.png\"}",
+        "name": "kingVelociraptorCave",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite218.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite212",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken",
         "smoothed": true,
         "userAdded": true
       },
@@ -5419,10 +5464,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite218.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite214",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken3",
         "smoothed": true,
         "userAdded": true
       },
@@ -5437,10 +5500,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite218.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite216",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken5",
         "smoothed": true,
         "userAdded": true
       },
@@ -5455,10 +5536,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite218.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite218",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken7",
         "smoothed": true,
         "userAdded": true
       },
@@ -5477,6 +5576,223 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite220",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "kingVelociraptorCaveAwaken29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "radioNew.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "radioNew.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite219.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite219.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -5830,6 +6146,15 @@
         "name": "NewSprite245",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite221.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite221.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7232,6 +7557,9 @@
         },
         {
           "name": "doorElectrical"
+        },
+        {
+          "name": "cartOfBarbedWire"
         }
       ]
     },
