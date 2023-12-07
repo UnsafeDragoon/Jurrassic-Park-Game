@@ -1598,7 +1598,7 @@
               },
               "parameters": [
                 "MainCharacter",
-                "\"Walking Up\""
+                "\"WalkingUP\""
               ]
             }
           ]
@@ -1624,7 +1624,7 @@
               },
               "parameters": [
                 "MainCharacter",
-                "\"Walking down\""
+                "\"WalkingDown\""
               ]
             }
           ]
@@ -1650,7 +1650,7 @@
               },
               "parameters": [
                 "MainCharacter",
-                "\"Walking Left\""
+                "\"WalkingLeft\""
               ]
             }
           ]
@@ -1676,7 +1676,7 @@
               },
               "parameters": [
                 "MainCharacter",
-                "\"Walking Right\""
+                "\"WalkingRight\""
               ]
             }
           ]
@@ -1693,6 +1693,106 @@
                 "MainCharacter",
                 "collidables",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "MainCharacter",
+                "\"UP\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "MainCharacter",
+                "\"Down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "MainCharacter",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "MainCharacter",
+                "\"Right\""
               ]
             }
           ]

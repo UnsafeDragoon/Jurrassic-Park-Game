@@ -6418,6 +6418,132 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking down12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking down10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking down11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking down11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Up.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Up2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Up3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Right2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Right3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Right4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Left2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Left3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walking Left4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Walking Left4.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6637,7 +6763,7 @@
       ],
       "animations": [
         {
-          "name": "Walking down",
+          "name": "Down",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6692,7 +6818,7 @@
           ]
         },
         {
-          "name": "Walking Up",
+          "name": "UP",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6746,7 +6872,7 @@
           ]
         },
         {
-          "name": "Walking Right",
+          "name": "Right",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6800,7 +6926,7 @@
           ]
         },
         {
-          "name": "Walking Left",
+          "name": "Left",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6810,6 +6936,642 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\pixil-frame3.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WalkingDown",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking down12.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking down10.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking down11.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WalkingUP",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Up.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Up2.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Up3.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WalkingRight",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Right2.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Right3.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Right4.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Right.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "WalkingLeft",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Left.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Left2.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Left3.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Left4.png",
                   "points": [
                     {
                       "name": "light",
