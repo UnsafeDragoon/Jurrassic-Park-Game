@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.46331118245141245,
+    "zoomFactor": 0.546875000000018,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -798,8 +798,8 @@
       "name": "MainCharacter",
       "persistentUuid": "7740d57c-3a3b-4e89-a751-5fe2c7af9244",
       "width": 46,
-      "x": 1601,
-      "y": -598,
+      "x": 350,
+      "y": 947,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1629,6 +1629,38 @@
       "x": 97,
       "y": -2910,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 800,
+      "layer": "",
+      "name": "DionoSpawnTTrigger",
+      "persistentUuid": "984d9be9-eeb0-4cbf-9022-789c312a8819",
+      "width": 64,
+      "x": 791,
+      "y": -15,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 261,
+      "layer": "",
+      "name": "Congugulation",
+      "persistentUuid": "e89b727d-101f-4587-a548-1984a0ea31ed",
+      "width": 186,
+      "x": -299,
+      "y": -2291,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3216,6 +3248,90 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DionoSpawnTTrigger",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite246",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Congugulation",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite247",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3280,6 +3396,12 @@
       },
       {
         "objectName": "Colored_T_rex"
+      },
+      {
+        "objectName": "DionoSpawnTTrigger"
+      },
+      {
+        "objectName": "Congugulation"
       }
     ]
   },
@@ -3290,13 +3412,6 @@
         "includeConfig": 0
       },
       "target": "Backpack"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "RandomEncounters"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3310,17 +3425,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Cursor",
-            "\"Spawning\""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -3471,6 +3576,43 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "DionoSpawnTTrigger",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "DionoSpawnTTrigger",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Cursor",
+                    "\"Spawning\""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -3714,6 +3856,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Congugulation",
+                    "MainCharacter",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"VICTORY\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -3734,6 +3905,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tric",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4036,6 +4208,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pter",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4338,6 +4511,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Brachiosaurus",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4672,6 +4846,15 @@
                 },
                 {
                   "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Colored_T_rex",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
                   },
                   "parameters": [
@@ -4903,7 +5086,27 @@
                   "parameters": [
                     "BrachStrike",
                     "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TrexStrike",
+                    "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "RegisStrike",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -5072,6 +5275,35 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MainCharacter",
+            "Congugulation",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"VICTORY\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

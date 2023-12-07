@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000001413,
+    "zoomFactor": 0.34375202416132083,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3677,7 +3677,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "..\\..\\Jurrassic-Park-Game\\assets\\assets_New image3.png",
+                  "image": "assets\\maintenanceWallLower.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6362,18 +6362,6 @@
             },
             {
               "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "MainCharacter",
-                "=",
-                "522",
-                "=",
-                "557"
-              ]
-            },
-            {
-              "type": {
                 "value": "Wait"
               },
               "parameters": [
@@ -6880,6 +6868,16 @@
           "actions": [
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RegisStrike",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
@@ -7108,16 +7106,6 @@
               "parameters": [
                 "specialDialogueEvent",
                 "False"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "RegisStrike",
-                "=",
-                "1"
               ]
             }
           ]

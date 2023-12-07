@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36605362360941457,
+    "zoomFactor": 0.18857475781254138,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,6 +28,30 @@
       "name": "compyOverworldSpawn",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "takeMedkit",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "medkitDialogue",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "haveGrate",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "haveMedkit",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -1721,8 +1745,8 @@
       "name": "medKit",
       "persistentUuid": "db08d0e9-7c21-4f55-ad9e-f535c828f98c",
       "width": 71,
-      "x": 1633,
-      "y": 1526,
+      "x": 1645,
+      "y": 1538,
       "zOrder": 2032,
       "numberProperties": [],
       "stringProperties": [],
@@ -1858,12 +1882,12 @@
       "customSize": true,
       "depth": 1,
       "height": 90,
-      "layer": "dialogueOverlay",
+      "layer": "",
       "name": "serverRoomSwitch",
       "persistentUuid": "16a9db19-ef7a-4fea-8045-e1d061720f64",
       "width": 35,
       "x": 599,
-      "y": 1313,
+      "y": 1315,
       "zOrder": 2036,
       "numberProperties": [],
       "stringProperties": [],
@@ -1874,7 +1898,7 @@
       "customSize": true,
       "depth": 1,
       "height": 217,
-      "layer": "dialogueOverlay",
+      "layer": "background",
       "name": "exposedWires",
       "persistentUuid": "2fdc0bc5-cf40-4535-bd0e-7e0ee76cb5bc",
       "width": 100,
@@ -1959,7 +1983,7 @@
       "customSize": true,
       "depth": 1,
       "height": 73,
-      "layer": "dialogueOverlay",
+      "layer": "background",
       "name": "bloodSplatters",
       "persistentUuid": "3ff63c1b-a297-4b41-b798-4b5a9ea5b71c",
       "width": 257,
@@ -1982,20 +2006,25 @@
       "x": -523,
       "y": -1155,
       "zOrder": 2041,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 324,
       "customSize": false,
       "height": 0,
       "layer": "background",
       "name": "keyToPowerRoom",
       "persistentUuid": "9be7d3c7-797a-4414-a429-d9bc0b764647",
       "width": 0,
-      "x": -456,
-      "y": -938,
+      "x": -465,
+      "y": -1027,
       "zOrder": 2042,
       "numberProperties": [],
       "stringProperties": [],
@@ -2161,8 +2190,8 @@
       "name": "note",
       "persistentUuid": "1d7e4cdb-2566-4df2-9ef0-7142619cc878",
       "width": 56,
-      "x": 57,
-      "y": -378,
+      "x": 58,
+      "y": -351,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2177,8 +2206,8 @@
       "name": "note",
       "persistentUuid": "cf284832-e2ef-424c-b6bd-bf4a963478c8",
       "width": 56,
-      "x": 1196,
-      "y": 719,
+      "x": 1204,
+      "y": 714,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2200,8 +2229,8 @@
       "name": "note",
       "persistentUuid": "0c6296ef-a634-4910-8451-35443628d8b8",
       "width": 56,
-      "x": 737,
-      "y": 726,
+      "x": 726,
+      "y": 715,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2223,8 +2252,8 @@
       "name": "note",
       "persistentUuid": "30998675-d992-48db-b0b1-1385c4f8bffc",
       "width": 56,
-      "x": 116,
-      "y": 735,
+      "x": 110,
+      "y": 703,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2246,8 +2275,8 @@
       "name": "note",
       "persistentUuid": "adf484de-4c0b-4d76-bf54-e4f48dd7e751",
       "width": 56,
-      "x": 1533,
-      "y": 1588,
+      "x": 1530,
+      "y": 1558,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2269,8 +2298,8 @@
       "name": "note",
       "persistentUuid": "9a07c1bb-43f7-45b2-a17c-b62c8de2384b",
       "width": 56,
-      "x": 691,
-      "y": 1314,
+      "x": 679,
+      "y": 1259,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2300,6 +2329,21 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "cartOfBarbedWire",
+      "persistentUuid": "b933d7cc-2c68-49b1-addf-e58ae3f6fdae",
+      "width": 0,
+      "x": 1513,
+      "y": -1173,
+      "zOrder": 2047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
       "depth": 2,
       "height": 121,
@@ -2313,6 +2357,29 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 47,
+      "layer": "",
+      "name": "note",
+      "persistentUuid": "08f7fe00-d592-4133-b05e-c3f8f8239b54",
+      "width": 45,
+      "x": 1505,
+      "y": -1094,
+      "zOrder": 2057,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "noteNum",
+          "type": "number",
+          "value": 6
+        }
+      ]
     },
     {
       "angle": 0,
@@ -2375,6 +2442,27 @@
       "y": 48,
       "zOrder": 2048,
       "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
+      "layer": "keypadScreen",
+      "name": "keys",
+      "persistentUuid": "ef201c51-69df-4824-a1b7-45ba14313919",
+      "width": 112,
+      "x": 1042,
+      "y": 20,
+      "zOrder": 2015,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 12
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     }
@@ -2531,11 +2619,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 77.5
+                        "y": 58.5
                       },
                       {
                         "x": 400,
-                        "y": 80.5
+                        "y": 57.5
                       },
                       {
                         "x": 400,
@@ -2580,11 +2668,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 77.5
+                        "y": 58.5
                       },
                       {
                         "x": 400,
-                        "y": 80.5
+                        "y": 57.5
                       },
                       {
                         "x": 400,
@@ -4358,6 +4446,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "keys3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 120
+                      },
+                      {
+                        "x": 0,
+                        "y": 120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "backOut",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "backOut",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6389,7 +6526,1244 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "velociraptorKingCaveSleep2",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "kingVelociraptorCaveAwaken",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken2",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken3",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken4",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken5",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken6",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken7",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken8",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken9",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken10",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken11",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken12",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken13",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken14",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken15",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken16",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken17",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken18",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken19",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken20",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken21",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken22",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken23",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken24",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken25",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken26",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken27",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken28",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "kingVelociraptorCaveAwaken29",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": -0.5,
@@ -6790,7 +8164,7 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "note",
       "type": "Sprite",
@@ -6804,7 +8178,12 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite2",
@@ -6812,17 +8191,23 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAfxJREFUeF7t3DFqw1AUBVGLbCT7X5U3YhwIpFH7D+Eaxr2Gqxm91tej35SBa2pNYx4FGfsIClKQMQNjc7qQgowZGJvThRRkzMDYnC6kIGMGxuZ0IQUZMzA2pwspyJiBsTldSEHGDIzN6UIKMmZgbE4XUpAxA2NzupCCjBkYm6Mv5D32fv8959jnMeD2xgU5/AR4kPfr+3DS5z1+fT3/Rh/7PAbcL6QgZx9UQc78/T7dhQCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErIIAiRJREGkTsAoCJEpEQaRNwCoIkCgRBZE2AasgQKJEFETaBKyCAIkSURBpE7AKAiRKREGkTcAqCJAoEQWRNgGrIECiRBRE2gSsggCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErIIAiRJREGkTsAoCJEpEQaRNwCoIkCgRBZE2AasgQKJEFETaBKyCAIkSURBpE7AKAiRKREGkTcAqCJAoEQWRNgGrIECiRBRE2gSsggCJElEQaROwCgIkSkRBpE3AKgiQKBEFkTYBqyBAokQURNoErOkg4P0+GXH8x9THgJu9/oz/8HPSQQ7n9HhBxr6BghRkzMDYnC6kIGMGxuZ0IQUZMzA2pwspyJiBsTldSEHGDIzN6UIKMmZgbM4P3G3wZWrUjD4AAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAwBJREFUeF7tm8FywyAMRJ3//+h2fPAM44KRF4TXzcutaSSv9rGQOO1n42HlwMdKDWI2gJgtAoAAxMwBMzkkBCBmDpjJISEAMXPATA4JAYiZA2ZySAhAzBwwk0NCAGLmgJkcEgIQMwfM5JAQgJg5YCaHhADEzAEzOSQEIGYOmMkhIQAxc8BMDgkBiJkDZnJICEDMHDCTQ0IAYuaAmRwSAhAzB8zkkBCAmDlgJueJhPxsW/UfhVrPr7TscQ2rgRwDnwfff94fq/WUsB00LDegBqSEUwOVDakE8fhCyR72vAKP67UgnJ8/6jN01hJRLpjMaze34YxBWxerQWityHL7ujpzlG3uamu6grTkLFsFpLUV9Q7R3huASP3ZyKuZa/2Wni1PAoms7pZB5dZ3tXJnzdcDPy09swT3BKmH5eN7em+w2b9fBeSsO7rilm4Xs81V+j0FJKo1Ci7az/517kDsDZwtECCzHR3sB5BBA2eXA2S2o4P9nIF83TusyAezQd5S+dXNPqnhm4qcEvL4fSQHcA5Aejf7ehpnbm1Hr4NN79rTGS6/YDFBxMjeB8Py1srILDbpHBlCWR3lCoxc+wpI6w7yHV29dC4/ZyOm3Blw9mt7t9/Ve2RHXTSBs+dq9nMHsgu/k4SewSWIyOqP9psG7G1AIgb1zqZIj2iCpoF47F2EMMHdc6eVgh6omrQ78ITR/pa8ISGjgyogSMio60n1JCTJWLUtQFTnkuoAkmSs2hYgqnP/pe4b3mW9ihVAzHABBCBmDpjJISEAMXPATA4JAYiZA2Zy3p6Q1p3c8x8r7La/YtZXiOws4oj5tddYQvoPQEY2nZHvSkau26z9diDlF1EWiQFIyjrXmwJE9y6lEiAptupNAaJ7l1IJkBRb9aYA0b1LqQRIiq16U4Do3qVUAiTFVr0pQHTvUioBkmKr3hQguncplQBJsVVvChDdu5RKgKTYqjcFiO5dSiVAUmzVmwJE9y6lEiAptupNAaJ7l1IJkBRb9aYA0b1LqQRIiq1601/5iWplPLgvKQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite191\"],\"name\":\"NewSprite2\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":100,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAA0JJREFUeF7tnGGOpCAUhKezF9n7n2ovspmJm3ZDjMLDV9KFfvPTxuJRHwWKyby++LNy4GVVDcV8AcRsEgAEIGYOmJVDQgBi5oBZOSQEIGYOmJVDQgBi5oBZOSQEIGYOmJVDQgBi5oBZOSQEIGYOmJVDQm4M5NtsbKPLkUxuich75AARTAEpkO+/vwUlzSXx+vVnLVjipURkTQhA8pMJIEkPSUjSQPXtAFE7mtQDSNJA9e0AUTua1ANI0kD17QBRO5rUA0jSQPXtUwNZit97eTy6rjavpne2hmmBrAPeDnwd0Cff8jM13ApICWcP1NWQShBnJ8qUQI6Mr11fl5croOwlokxwT9+3AXI0IxczVgi1PadsF91raktTDVJr73n/LjkXlIjUTnuPlqLWJtp6AIjcvzWylrY9vcjeMl1CMmvz1sDtElebuaqlrgO8ZHJLRHoTElluzq7p0eVL1W66hGwH3ppxa/vIcqEyNaMzPZDo4KPgonpXtXsMkKsMVOsCRO1oUg8gSQPVtwNE7WhS7xFAZnnCWljeGkgJgqesZHSXI6izb8dnz5HyJecVbpWQ1mFfC7ByaSuM/Uep1ff2BXZZvfJ4RSK1o5O9IiNGtpas8mglal60llbfpc60CSlnYMTAmil7B5YRzT0jjz4pR1MyLZDeOB8B6b1+1G8rBa3fb7VkReH0JKHXwFaievWm3kPOAIkY1NqbIhrlzG9Bu/17yBZU776zXUbKT8HRPQEg0bicaNdKTE0ymqbHbOon/JfeAhCpnXkxgOQ9lCoARGpnXgwgeQ8/osCm/hHbjzsFCEDCDpz+HhLuwbAhCTGDAhCAhB1gyQpbVXlIEGisEgARmCn5DvyuAyBPBnJ0klse2f+P7oX/x4tNvZiFEfP32iwSkY9PkQkPkIhLgTaZbyWlPEACZvc0yYIBSI/bA9oCZIDJPV0ApMetAW0BMsDkni4A0uPWgLYAGWByTxcA6XFrQFtrIAPG79yF5FxQIrIeLjq7NaA2iZcSkQGDfUwXADFDDRCAmDlgVg4JAYiZA2blkBCAmDlgVg4JAYiZA2blkBCAmDlgVg4JAYiZA2blkBCAmDlgVg4JAYiZA2blkBAzID8BOC6DTGa+5AAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAWVJREFUeF7t00ERAAAIhECvf2lr7AMTMODtOsrAKJpgriDYExSkIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC0EC/KEzwBlGO+pQQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite201\"],\"name\":\"NewSprite2\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "assets\\NewSprite214.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "interactPoint",
+                      "x": 47,
+                      "y": 215.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": -1,
+                    "y": -113
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6830,26 +8215,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 23
-                      },
-                      {
-                        "x": 83,
-                        "y": 23
-                      },
-                      {
-                        "x": 83,
-                        "y": 86
-                      },
-                      {
-                        "x": 19,
-                        "y": 86
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -6865,7 +8231,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite2",
@@ -6873,12 +8244,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADICAYAAADGFbfiAAAAAXNSR0IArs4c6QAACeZJREFUeF7t2u1u49YOBdDM+z90ixQIYGRmGntLlvix+ueiqCkdLlHcSa5/ffiHAAECBAgEAr+CGiUECBAgQOBDgBgCAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgEBEjEpogAAQIEBIgZIECAAIFIQIBEbIoIECBAQICYAQIECBCIBARIxKaIAAECBASIGSBAgACBSECARGyKCBAgQECAmAECBAgQiAQESMSmiAABAgQEiBkgQIAAgUhAgERsiggQIEBAgJgBAgQIEIgE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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite193\"],\"name\":\"NewSprite2\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":200,\\\"width\\\":400,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite199\"],\"name\":\"NewSprite2\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\NewSprite216.png",
+                  "image": "assets\\NewSprite219.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6895,19 +8266,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 39
+                        "y": 2
                       },
                       {
                         "x": 400,
-                        "y": 39
+                        "y": 2
                       },
                       {
                         "x": 400,
-                        "y": 194
+                        "y": 177
                       },
                       {
                         "x": 0,
-                        "y": 194
+                        "y": 177
                       }
                     ]
                   ]
@@ -8303,6 +9674,18 @@
                 "TopDownMovement",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Level3BGMusic.mp3",
+                "yes",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -8435,6 +9818,67 @@
               "parameters": [
                 "specialDialogueEvent",
                 "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"kingVelociraptorFight\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "kingVelociraptorCave",
+                "Animation",
+                "=",
+                "\"kingVelociraptorCaveAwaken\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Combat\""
               ]
             }
           ]
@@ -8594,6 +10038,64 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"medkitAdvance\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "medkitDialogue",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"gratePocket\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "gapBridge",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "haveGrate",
+                "True"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -8683,11 +10185,862 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "True"
+              ]
+            },
+            {
+              "type": {
                 "value": "ShowLayer"
               },
               "parameters": [
                 "",
                 "\"keypadScreen\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "board",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Plan"
+              },
+              "parameters": [
+                "MainCharacter",
+                ">",
+                "board.ZOrder()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"bulletinBoard\""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MainCharacter",
+                "pit",
+                "120",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "haveGrate",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"pitOne\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "haveGrate",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "pit",
+                    "Animation",
+                    "=",
+                    "\"crossable\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "pit",
+                    "Animation",
+                    "=",
+                    "\"crossable\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "keyToPowerRoom",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"powerRoomKey\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "medKit",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Plan"
+              },
+              "parameters": [
+                "MainCharacter",
+                ">",
+                "medKit.ZOrder()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "takeMedkit",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "medkitDialogue",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"medkitOne\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "takeMedkit",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "medkitDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"medkitTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "takeMedkit",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "note",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"notePower\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"noteTerminal\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"noteLocker\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"notePit\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"noteGrate\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"noteSwitch\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "note",
+                    "noteNum",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"noteBarbedWire\""
+                  ]
+                }
               ]
             }
           ]
@@ -9046,7 +11399,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -9493,6 +11845,52 @@
                 "keys",
                 "Animation",
                 "=",
+                "\"backOut\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"keypadScreen\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "keys",
+                "Animation",
+                "=",
                 "\"clear\""
               ]
             }
@@ -9512,6 +11910,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11189,14 +13588,13 @@
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "EdRegis",
+            "kingVelociraptorCave",
+            "Animation",
             "=",
-            "600",
-            "=",
-            "-910"
+            "\"velociraptorKingCaveSleep\""
           ]
         }
       ]
@@ -11246,7 +13644,16 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "MontreSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
