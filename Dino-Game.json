@@ -5534,6 +5534,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite219.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite219.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite221.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite221.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

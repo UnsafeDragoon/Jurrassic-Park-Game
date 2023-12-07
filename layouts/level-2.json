@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9900028342517396,
+    "zoomFactor": 0.21532566094672378,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -8085,7 +8085,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "NewSprite201",
+                  "image": "assets\\NewSprite221.png",
                   "points": [
                     {
                       "name": "interactPoint",
@@ -8138,7 +8138,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite199",
+                  "image": "assets\\NewSprite219.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
