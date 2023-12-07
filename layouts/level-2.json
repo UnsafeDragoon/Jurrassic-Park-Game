@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.271592136847441,
+    "zoomFactor": 0.3000035299584551,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2282,6 +2282,21 @@
           "value": 5
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Cursor",
+      "persistentUuid": "7108e8e9-8089-42f5-900e-60bd41732bd5",
+      "width": 0,
+      "x": -495,
+      "y": 1213,
+      "zOrder": 2047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2317,6 +2332,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
         {
           "name": "YSort",
           "type": "YSort::YSort"
@@ -4470,6 +4489,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
+        {
           "name": "YSort",
           "type": "YSort::YSort"
         }
@@ -5328,6 +5351,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
         {
           "name": "YSort",
           "type": "YSort::YSort"
@@ -6556,6 +6583,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
+        {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera",
           "LeftwardSpeed": 0.9,
@@ -6833,7 +6864,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite182",
+                  "image": "assets\\NewSprite192.png",
                   "points": [
                     {
                       "name": "Point",
@@ -7084,7 +7115,42 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "RandomEncounters"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "freeRoamConstants"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Cursor",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Levelcheck",
+            "=",
+            "2"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -7168,6 +7234,14 @@
           },
           "parameters": [
             "textBorder"
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
           ]
         }
       ],

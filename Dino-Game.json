@@ -1172,7 +1172,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite81.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite81.png\"}",
         "name": "NewSprite81",
         "smoothed": true,
         "userAdded": false
@@ -4588,7 +4588,7 @@
         "alwaysLoaded": false,
         "file": "assets/TricEncounter.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TricEncounter.png\"}",
         "name": "TricEncounter",
         "smoothed": true,
         "userAdded": true
@@ -5198,6 +5198,51 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\NewSprite216.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite197.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite197.png\"}",
+        "name": "NewSprite197",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricalDirtPaths.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\electricalDirtPaths.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite116.png",
         "smoothed": true,
         "userAdded": true
       }

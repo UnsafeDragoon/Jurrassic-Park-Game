@@ -18,17 +18,1508 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.20902556228335706,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Backpack",
+      "name": "Backpack",
+      "persistentUuid": "72117875-ce21-4cc4-ba9b-53947e24d84b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "layer": "Backpack",
+      "name": "BackpackBackground",
+      "persistentUuid": "2f710bcf-c44e-487d-8842-31911247a49f",
+      "width": 255,
+      "x": 25,
+      "y": 10,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Backpack",
+      "name": "Bagel",
+      "persistentUuid": "89c3c24a-eeda-4fac-86b4-14073afe21ca",
+      "width": 0,
+      "x": 59,
+      "y": 1,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Backpack",
+      "name": "Band_Aid",
+      "persistentUuid": "c598e18b-f948-42fe-a8f2-6cf4fd2af8f3",
+      "width": 0,
+      "x": 168,
+      "y": 3,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Backpack",
+      "name": "Band_Aid_Text",
+      "persistentUuid": "037426f0-3fa0-462b-9fd5-ba509d74e46d",
+      "width": 0,
+      "x": 239,
+      "y": 22,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Backpack",
+      "name": "Bagel_Text",
+      "persistentUuid": "a8dd7e23-2bdb-4d1d-a94d-9b48afe39535",
+      "width": 0,
+      "x": 120,
+      "y": 23,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ElectricalBuilding2",
+      "persistentUuid": "4fc38ca4-6498-4846-bd5f-b687103d11cb",
+      "width": 0,
+      "x": -7,
+      "y": 1072,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 5758,
+      "layer": "",
+      "name": "GrassTiled2",
+      "persistentUuid": "08f1c6b3-7890-4482-83dc-77424ea275ca",
+      "width": 2972,
+      "x": -874,
+      "y": -3293,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Lodge",
+      "persistentUuid": "5718bc3a-d2e4-40c4-b75a-9c0d795ff72b",
+      "width": 0,
+      "x": -405,
+      "y": -2158,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "24a83d4d-e7e2-4276-a7b4-c7aec2db2a4e",
+      "width": 171,
+      "x": -293,
+      "y": -2237,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 104,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "bdfe4f4d-1e81-48d6-8eea-9e216c6b0516",
+      "width": 171,
+      "x": -274,
+      "y": -2392,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 120,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "be0438eb-b194-45f2-a454-20fd7d47303e",
+      "width": 171,
+      "x": -216,
+      "y": -2534,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 132,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "fa069e0e-feff-4f5c-aa86-cd6786777d0b",
+      "width": 171,
+      "x": -127,
+      "y": -2658,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 141,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "3cdf97c3-14e3-4f45-8a54-5dc3de6b32c8",
+      "width": 171,
+      "x": -18,
+      "y": -2760,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 156,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "c2ca1047-7fa1-4f10-9fa8-0dc71210e183",
+      "width": 171,
+      "x": 109,
+      "y": -2838,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 170,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "b8137735-b221-469e-9202-26f5f8d20a19",
+      "width": 171,
+      "x": 258,
+      "y": -2884,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "22d444b0-e4bc-4563-a370-66f05cc98d4c",
+      "width": 171,
+      "x": 415,
+      "y": -2900,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "30c69717-929e-4748-93fa-b1853ba7df81",
+      "width": 171,
+      "x": 583,
+      "y": -2901,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "0d552965-6cff-42c5-8219-fb9155f55a5f",
+      "width": 171,
+      "x": 751,
+      "y": -2901,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "2c1f57c4-d2f5-41d5-a748-611242c3c432",
+      "width": 171,
+      "x": 915,
+      "y": -2901,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 190,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "e4e825ce-a866-4e58-8396-a2ad5b3854af",
+      "width": 171,
+      "x": 1071,
+      "y": -2889,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 211,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "f3629674-2a91-4f0c-af49-eb751599fa6b",
+      "width": 171,
+      "x": 1205,
+      "y": -2839,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 225,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "dfe13e22-470c-4975-9e77-c2a2cb344b72",
+      "width": 171,
+      "x": 1321,
+      "y": -2747,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 239,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "67f197a8-9e4a-4069-86bc-8c05f5aa7974",
+      "width": 171,
+      "x": 1416,
+      "y": -2626,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 251,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "a2ce36e7-7f5d-475c-94bb-4a3b3367b331",
+      "width": 171,
+      "x": 1482,
+      "y": -2485,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 261,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "1b6626b9-c9d6-4c54-8e61-edaebc502cac",
+      "width": 171,
+      "x": 1520,
+      "y": -2336,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 171,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "02fa6f1b-1c91-48c5-bd6f-e3e162ae6ba6",
+      "width": 171,
+      "x": 1534,
+      "y": -2176,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "f5f5fdc1-e1c5-4334-9091-e21b4cc96f85",
+      "width": 0,
+      "x": 283,
+      "y": 1043,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 103,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "6a19358d-7e5b-4ce2-810b-0cca84239cc5",
+      "width": 0,
+      "x": 303,
+      "y": 863,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 120,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "6fa7703b-81f5-41f1-9ad4-49cf69a2f590",
+      "width": 0,
+      "x": 366,
+      "y": 701,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 131,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "ef986ca7-2089-4ce8-b359-aad6c5c1d67e",
+      "width": 0,
+      "x": 470,
+      "y": 556,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 149,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "870f68a1-6a3d-4d0e-9780-cc47e0a84e46",
+      "width": 0,
+      "x": 601,
+      "y": 445,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 166,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "bc8a38db-07cd-4f32-b9ee-df684de9a72a",
+      "width": 0,
+      "x": 765,
+      "y": 378,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 166,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "5c90b2f2-2c5a-4bd0-b6ca-ecd9b2830646",
+      "width": 0,
+      "x": 957,
+      "y": 328,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 156,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "624cfb4a-8a69-4e53-ab8d-a1d799532497",
+      "width": 0,
+      "x": 1133,
+      "y": 267,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 139,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "5db3b67c-4b5e-4a3d-b7dc-9259e806bb42",
+      "width": 0,
+      "x": 1278,
+      "y": 171,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 124,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "37e74de3-a35c-44d0-ae3f-04bf9606f778",
+      "width": 0,
+      "x": 1398,
+      "y": 33,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 108,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "88dc2c81-5ee8-4d91-a846-478a35a2bac5",
+      "width": 0,
+      "x": 1476,
+      "y": -128,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 100,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "a891caf3-4626-4330-a1af-869550cf7ba5",
+      "width": 0,
+      "x": 1519,
+      "y": -316,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 204,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "78001f75-f388-44f0-ac46-2d6f02f50467",
+      "width": 194,
+      "x": 1535,
+      "y": -498,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "339dd02f-d494-424c-88d5-c9533c9fb8b5",
+      "width": 1030,
+      "x": 1112,
+      "y": -1104,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 193,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "bb4b7e95-415d-4cb0-a5e7-e99ec6fad437",
+      "width": 194,
+      "x": 1526,
+      "y": -1712,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 189,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "e6f2280e-3718-425d-b60e-cb7df6172902",
+      "width": 192,
+      "x": 1525,
+      "y": -1893,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 180,
+      "layer": "",
+      "name": "DirtPath2",
+      "persistentUuid": "181f3806-0ff6-4f2f-8293-f3e9ff746071",
+      "width": 177,
+      "x": 1531,
+      "y": -2010,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1027,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "a1090a71-8ac2-44e7-ae7a-af2408f999bd",
+      "width": 64,
+      "x": -338,
+      "y": -3016,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 2503,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "1efbabf6-d8cb-4cbe-bb93-c7463f824e62",
+      "width": 64,
+      "x": 911,
+      "y": -4265,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 5771,
+      "layer": "",
+      "name": "SandTiled2",
+      "persistentUuid": "7269a8b4-2a91-4021-be1d-173d5f44613d",
+      "width": 172,
+      "x": 2022,
+      "y": -3299,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 289,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "13c218fc-8586-4c96-88c3-bd2fc01c46bf",
+      "width": 64,
+      "x": 765,
+      "y": 784,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1398,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "d0dbd01a-1ac8-4e8b-92b7-56ab3d6b9176",
+      "width": 64,
+      "x": 1462,
+      "y": 87,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "MainCharacter",
+      "persistentUuid": "7740d57c-3a3b-4e89-a751-5fe2c7af9244",
+      "width": 0,
+      "x": 380,
+      "y": 990,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "10a8be06-a0dc-425f-9d71-1180039c5da8",
+      "width": 0,
+      "x": 462,
+      "y": 911,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1118,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "1a248eca-7554-44d9-89a7-1b016c0ab280",
+      "width": 64,
+      "x": -26,
+      "y": -18,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 1316,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "4302f38d-e090-433c-98fe-361448ba7739",
+      "width": 64,
+      "x": 630,
+      "y": -674,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 2430,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "b3c55022-68d6-4353-a2ce-778ab6127787",
+      "width": 64,
+      "x": 1286,
+      "y": -2447,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 5763,
+      "layer": "",
+      "name": "WaterTiled2",
+      "persistentUuid": "f02301a4-3535-4dd6-a283-8ff114230a50",
+      "width": 264,
+      "x": 2183,
+      "y": -3299,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 460,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "2f954241-0dc1-453c-a800-1b26e464117c",
+      "width": 64,
+      "x": 296,
+      "y": -2448,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 994,
+      "layer": "",
+      "name": "FenceTopDown2",
+      "persistentUuid": "6fb41f07-cadf-4570-b731-7bfe7ddf3a35",
+      "width": 64,
+      "x": 791,
+      "y": -2943,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ElectricalBuilding2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ElectricalRoom.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 809,
+                        "y": 0
+                      },
+                      {
+                        "x": 809,
+                        "y": 854
+                      },
+                      {
+                        "x": 0,
+                        "y": 854
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "DirtPath2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\electricalDirtPaths.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 28
+                      },
+                      {
+                        "x": 200,
+                        "y": 28
+                      },
+                      {
+                        "x": 200,
+                        "y": 179
+                      },
+                      {
+                        "x": 0,
+                        "y": 179
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tree1_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tree1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 4
+                      },
+                      {
+                        "x": 96,
+                        "y": 4
+                      },
+                      {
+                        "x": 96,
+                        "y": 98
+                      },
+                      {
+                        "x": 4,
+                        "y": 98
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tree2_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tree2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 26,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 3
+                      },
+                      {
+                        "x": 87,
+                        "y": 91
+                      },
+                      {
+                        "x": 26,
+                        "y": 91
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tree3_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tree3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 3
+                      },
+                      {
+                        "x": 93,
+                        "y": 3
+                      },
+                      {
+                        "x": 93,
+                        "y": 96
+                      },
+                      {
+                        "x": 11,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "WaterTiled2",
+      "texture": "assets\\NewSprite119.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SandTiled2",
+      "texture": "assets\\New image8.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "GrassTiled2",
+      "texture": "assets\\New image4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Lodge",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Capture.PNG",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 92
+                      },
+                      {
+                        "x": 811,
+                        "y": 92
+                      },
+                      {
+                        "x": 811,
+                        "y": 499
+                      },
+                      {
+                        "x": 0,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FenceTopDown2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite116.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 0
+                      },
+                      {
+                        "x": 31,
+                        "y": 64
+                      },
+                      {
+                        "x": 30,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "ElectricalBuilding2"
+      },
+      {
+        "objectName": "DirtPath2"
+      },
+      {
+        "objectName": "Tree1_2"
+      },
+      {
+        "objectName": "Tree2_2"
+      },
+      {
+        "objectName": "Tree3_2"
+      },
+      {
+        "objectName": "WaterTiled2"
+      },
+      {
+        "objectName": "SandTiled2"
+      },
+      {
+        "objectName": "GrassTiled2"
+      },
+      {
+        "objectName": "Lodge"
+      },
+      {
+        "objectName": "FenceTopDown2"
+      },
+      {
+        "objectName": "NewLight"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Backpack"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "RandomEncounters"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Cursor",
+            "=",
+            "CursorX()",
+            "=",
+            "CursorY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "ElectricalBuilding2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "Lodge",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "WaterTiled2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MainCharacter",
+            "FenceTopDown2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Levelcheck",
+            "=",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -55,6 +1546,54 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Backpack",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],
@@ -94,10 +1633,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Text_AutoTyping",
-      "type": "AutoTyping::Text_AutoTyping"
     },
     {
       "name": "TopDownMovement",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410741236,
+    "zoomFactor": 0.6455105703311838,
     "windowMask": false
   },
   "objectsGroups": [
@@ -182,8 +182,8 @@
       "name": "MainCharacter",
       "persistentUuid": "263e0f96-ded8-4664-9c83-1e866ba6c3bc",
       "width": 46,
-      "x": 2266,
-      "y": 464,
+      "x": 659,
+      "y": 447,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -2443,6 +2443,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "layer": "",
+      "name": "TransitionColisionBox",
+      "persistentUuid": "86fd9c08-f82f-4dba-85e7-c4182dd866a7",
+      "width": 119,
+      "x": -273,
+      "y": 6245,
+      "zOrder": 2154,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "layer": "",
+      "name": "SpinoBossSpawn",
+      "persistentUuid": "a5c8d6f5-99e6-4ac6-bd5a-67430259369b",
+      "width": 1120,
+      "x": -742,
+      "y": 5992,
+      "zOrder": 2155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2771,7 +2803,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "NewSprite81",
                   "points": [],
                   "originPoint": {
@@ -3574,74 +3606,74 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite182",
+                  "image": "assets\\NewSprite120.png",
                   "points": [
                     {
                       "name": "Point",
-                      "x": 46,
-                      "y": 26
+                      "x": 46.5,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 9,
-                    "y": 15
+                    "x": 13,
+                    "y": 15.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 23.5,
-                    "y": 26
+                    "x": 27,
+                    "y": 24.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 21.5
+                        "x": 13,
+                        "y": 20.5
                       },
                       {
-                        "x": 36,
+                        "x": 39.5,
+                        "y": 20
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
                         "y": 21
                       },
                       {
-                        "x": 36,
-                        "y": 15
+                        "x": 43,
+                        "y": 21
                       },
                       {
-                        "x": 52,
-                        "y": 15
+                        "x": 43,
+                        "y": 27
                       },
                       {
-                        "x": 52,
-                        "y": 22
+                        "x": 50,
+                        "y": 27
                       },
                       {
-                        "x": 41,
-                        "y": 22
+                        "x": 50,
+                        "y": 31.5
                       },
                       {
-                        "x": 41,
-                        "y": 30
+                        "x": 39.5,
+                        "y": 31.5
                       },
                       {
-                        "x": 52,
-                        "y": 30
+                        "x": 39.5,
+                        "y": 27.5
                       },
                       {
-                        "x": 52,
-                        "y": 36
-                      },
-                      {
-                        "x": 36,
-                        "y": 36
-                      },
-                      {
-                        "x": 36,
-                        "y": 31
-                      },
-                      {
-                        "x": 9,
-                        "y": 31
+                        "x": 13,
+                        "y": 27.5
                       }
                     ]
                   ]
@@ -4345,7 +4377,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -4424,6 +4461,71 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TransitionColisionBox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite197",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": []
             }
           ]
         }
@@ -4510,6 +4612,12 @@
       },
       {
         "objectName": "ElectricalRoom"
+      },
+      {
+        "objectName": "TransitionColisionBox"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -4711,6 +4819,35 @@
             "Flashlight.PointX(\"Point\")",
             "=",
             "Flashlight.PointY(\"Point\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MainCharacter",
+            "TransitionColisionBox",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2\"",
+            ""
           ]
         }
       ]
@@ -7283,11 +7420,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
