@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.36605362360941457,
+    "zoomFactor": 0.27159213684744116,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -8302,6 +8302,18 @@
                 "MainCharacter",
                 "TopDownMovement",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Level3BGMusic.mp3",
+                "yes",
+                "50",
+                "1"
               ]
             }
           ]
