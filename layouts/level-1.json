@@ -2529,6 +2529,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterSpawnBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2590,6 +2591,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CompyEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2651,6 +2653,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "AnklyoEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2712,6 +2715,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2773,6 +2777,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2834,6 +2839,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoBossSpawn",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2895,6 +2901,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BagelPickup",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2956,6 +2963,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_AidPickup",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3017,6 +3025,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "GrassFlooring",
+      "tags": "",
       "texture": "assets\\New image4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3028,6 +3037,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DirtPath",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3136,6 +3146,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LodgeExitPhoto",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3197,6 +3208,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Fence_Top",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3263,6 +3275,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "SandTilledSprite",
+      "tags": "",
       "texture": "New image6",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3274,6 +3287,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "WaterTiledSprite",
+      "tags": "",
       "texture": "assets\\NewSprite119.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3285,6 +3299,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CeaderTree",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3345,6 +3360,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "StegoEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3406,6 +3422,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Raptor_Encounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3467,6 +3484,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TricEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3509,6 +3527,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PteranodonEcounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3570,6 +3589,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BrachEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3631,6 +3651,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Flashlight",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3734,6 +3755,7 @@
     {
       "assetStoreId": "",
       "name": "playerLight",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -3749,6 +3771,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree1",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3990,6 +4013,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4195,6 +4219,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree3",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4420,6 +4445,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "ElectricalRoom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4517,6 +4543,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TransitionColisionBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4559,6 +4586,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NoTouchyZone",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4601,6 +4629,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SpinoColor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4658,98 +4687,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "RandomEncounterSpawnBox"
-      },
-      {
-        "objectName": "CompyEncounter"
-      },
-      {
-        "objectName": "AnklyoEncounter"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "SpinoBossSpawn"
-      },
-      {
-        "objectName": "BagelPickup"
-      },
-      {
-        "objectName": "Band_AidPickup"
-      },
-      {
-        "objectName": "GrassFlooring"
-      },
-      {
-        "objectName": "DirtPath"
-      },
-      {
-        "objectName": "LodgeExitPhoto"
-      },
-      {
-        "objectName": "Fence_Top"
-      },
-      {
-        "objectName": "SandTilledSprite"
-      },
-      {
-        "objectName": "WaterTiledSprite"
-      },
-      {
-        "objectName": "CeaderTree"
-      },
-      {
-        "objectName": "StegoEncounter"
-      },
-      {
-        "objectName": "Raptor_Encounter"
-      },
-      {
-        "objectName": "TricEncounter"
-      },
-      {
-        "objectName": "PteranodonEcounter"
-      },
-      {
-        "objectName": "BrachEncounter"
-      },
-      {
-        "objectName": "Flashlight"
-      },
-      {
-        "objectName": "playerLight"
-      },
-      {
-        "objectName": "Tree1"
-      },
-      {
-        "objectName": "Tree2"
-      },
-      {
-        "objectName": "Tree3"
-      },
-      {
-        "objectName": "ElectricalRoom"
-      },
-      {
-        "objectName": "TransitionColisionBox"
-      },
-      {
-        "objectName": "NoTouchyZone"
-      },
-      {
-        "objectName": "SpinoColor"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -8142,10 +8079,6 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

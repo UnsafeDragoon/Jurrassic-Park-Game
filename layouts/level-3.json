@@ -1671,6 +1671,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "ElectricalBuilding2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1736,6 +1737,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DirtPath2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1796,6 +1798,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree1_2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2073,6 +2076,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree2_2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2306,6 +2310,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree3_2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2519,6 +2524,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "WaterTiled2",
+      "tags": "",
       "texture": "assets\\NewSprite119.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2530,6 +2536,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "SandTiled2",
+      "tags": "",
       "texture": "assets\\New image8.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2546,6 +2553,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "GrassTiled2",
+      "tags": "",
       "texture": "assets\\New image4.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2557,6 +2565,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Lodge",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2617,6 +2626,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FenceTopDown2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2681,6 +2691,7 @@
     {
       "assetStoreId": "",
       "name": "NewLight",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -2696,6 +2707,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Flashlight",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2799,6 +2811,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterSpawnBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2860,6 +2873,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "PteranodonEcounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2921,6 +2935,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BrachEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2982,6 +2997,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TricEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3024,6 +3040,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3090,6 +3107,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3151,6 +3169,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TrexEncounter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3193,6 +3212,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Colored_T_rex",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3253,6 +3273,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "DionoSpawnTTrigger",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3295,6 +3316,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Congugulation",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3334,77 +3356,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "ElectricalBuilding2"
-      },
-      {
-        "objectName": "DirtPath2"
-      },
-      {
-        "objectName": "Tree1_2"
-      },
-      {
-        "objectName": "Tree2_2"
-      },
-      {
-        "objectName": "Tree3_2"
-      },
-      {
-        "objectName": "WaterTiled2"
-      },
-      {
-        "objectName": "SandTiled2"
-      },
-      {
-        "objectName": "GrassTiled2"
-      },
-      {
-        "objectName": "Lodge"
-      },
-      {
-        "objectName": "FenceTopDown2"
-      },
-      {
-        "objectName": "NewLight"
-      },
-      {
-        "objectName": "Flashlight"
-      },
-      {
-        "objectName": "RandomEncounterSpawnBox"
-      },
-      {
-        "objectName": "PteranodonEcounter"
-      },
-      {
-        "objectName": "BrachEncounter"
-      },
-      {
-        "objectName": "TricEncounter"
-      },
-      {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
-        "objectName": "TrexEncounter"
-      },
-      {
-        "objectName": "Colored_T_rex"
-      },
-      {
-        "objectName": "DionoSpawnTTrigger"
-      },
-      {
-        "objectName": "Congugulation"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Link",

@@ -6423,7 +6423,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down12.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking down12.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down12.png",
         "smoothed": true,
         "userAdded": true
@@ -6432,7 +6432,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down10.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking down10.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down10.png",
         "smoothed": true,
         "userAdded": true
@@ -6441,7 +6441,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking down11.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking down11.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down11.png",
         "smoothed": true,
         "userAdded": false
@@ -6450,7 +6450,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Up.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Up.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Up.png",
         "smoothed": true,
         "userAdded": true
@@ -6459,7 +6459,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Up2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Up2.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Up2.png",
         "smoothed": true,
         "userAdded": true
@@ -6468,7 +6468,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Up3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Up3.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Up3.png",
         "smoothed": true,
         "userAdded": false
@@ -6477,7 +6477,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Right2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Right2.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Right2.png",
         "smoothed": true,
         "userAdded": true
@@ -6486,7 +6486,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Right3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Right3.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Right3.png",
         "smoothed": true,
         "userAdded": false
@@ -6495,7 +6495,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Right4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Right4.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Right4.png",
         "smoothed": true,
         "userAdded": true
@@ -6504,7 +6504,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Left.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Left.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Left.png",
         "smoothed": true,
         "userAdded": true
@@ -6513,7 +6513,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Left2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Left2.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Left2.png",
         "smoothed": true,
         "userAdded": false
@@ -6522,7 +6522,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Left3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Left3.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Left3.png",
         "smoothed": true,
         "userAdded": false
@@ -6531,7 +6531,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Right.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Right.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Right.png",
         "smoothed": true,
         "userAdded": true
@@ -6540,8 +6540,35 @@
         "alwaysLoaded": false,
         "file": "assets/Walking Left4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Walking Left4.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking Left4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingDown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingDown",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUP.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingUP",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\WalkingUP.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -6553,6 +6580,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Cursor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6614,6 +6642,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Backpack",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6675,6 +6704,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MainCharacter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6827,7 +6857,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\pixil-frame2.png",
+                  "image": "assets\\WalkingUP.png",
                   "points": [
                     {
                       "name": "light",
@@ -6985,11 +7015,12 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Walking down12.png",
+                  "image": "WalkingDown",
                   "points": [
                     {
                       "name": "light",
@@ -7032,6 +7063,48 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Walking down10.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking down12.png",
                   "points": [
                     {
                       "name": "light",
@@ -7123,8 +7196,51 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingUP",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Walking Up.png",
@@ -7261,50 +7377,9 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Walking Right2.png",
-                  "points": [
-                    {
-                      "name": "light",
-                      "x": 12,
-                      "y": 43
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 19.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 12.5,
-                    "y": 55
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 62.5
-                      },
-                      {
-                        "x": 25,
-                        "y": 62.5
-                      },
-                      {
-                        "x": 25,
-                        "y": 71
-                      },
-                      {
-                        "x": 0,
-                        "y": 71
-                      }
-                    ]
-                  ]
-                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Walking Right3.png",
@@ -7349,7 +7424,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Walking Right4.png",
+                  "image": "assets\\Walking Right2.png",
                   "points": [
                     {
                       "name": "light",
@@ -7430,6 +7505,48 @@
                       }
                     ]
                   ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Walking Right4.png",
+                  "points": [
+                    {
+                      "name": "light",
+                      "x": 12,
+                      "y": 43
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 19.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 12.5,
+                    "y": 55
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -7441,7 +7558,8 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -7621,6 +7739,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Bagel",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7682,6 +7801,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Band_Aid",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7743,6 +7863,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "headSprites",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8177,6 +8298,7 @@
       "italic": false,
       "name": "Band_Aid_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -8196,6 +8318,7 @@
       "assetStoreId": "",
       "height": 50,
       "name": "BackpackBackground",
+      "tags": "",
       "texture": "New image2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -8207,6 +8330,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueSelector",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8270,6 +8394,7 @@
       "italic": false,
       "name": "Bagel_Text",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -8289,6 +8414,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RandomEncounterTrigger",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8331,6 +8457,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "textBorder",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8393,6 +8520,7 @@
       "italic": false,
       "name": "dialougeOptions",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -8411,6 +8539,7 @@
     {
       "assetStoreId": "",
       "name": "dialogueText",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -8427,53 +8556,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "Backpack"
-      },
-      {
-        "objectName": "MainCharacter"
-      },
-      {
-        "objectName": "Bagel"
-      },
-      {
-        "objectName": "Band_Aid"
-      },
-      {
-        "objectName": "headSprites"
-      },
-      {
-        "objectName": "Band_Aid_Text"
-      },
-      {
-        "objectName": "BackpackBackground"
-      },
-      {
-        "objectName": "dialogueSelector"
-      },
-      {
-        "objectName": "Bagel_Text"
-      },
-      {
-        "objectName": "RandomEncounterTrigger"
-      },
-      {
-        "objectName": "textBorder"
-      },
-      {
-        "objectName": "dialougeOptions"
-      },
-      {
-        "objectName": "dialogueText"
-      }
-    ]
-  },
   "objectsGroups": [
     {
       "name": "collidables",

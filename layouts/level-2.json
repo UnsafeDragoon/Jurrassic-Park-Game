@@ -2472,6 +2472,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "floor",
+      "tags": "",
       "texture": "assets\\concreteTexture3",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2483,6 +2484,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2494,6 +2496,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWalls",
+      "tags": "",
       "texture": "assets\\New image3.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -2514,6 +2517,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallBottom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2580,6 +2584,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "wallTop",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2695,6 +2700,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "EdRegis",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3212,6 +3218,7 @@
     {
       "assetStoreId": "",
       "name": "flashLightTemp",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -3227,6 +3234,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "outdoorWallsPassThrough",
+      "tags": "",
       "texture": "assets\\New image3.png2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3238,6 +3246,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "lightObsticle",
+      "tags": "",
       "texture": "New image8",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3258,6 +3267,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "barbedWire",
+      "tags": "",
       "texture": "New image10",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -3274,6 +3284,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "electricalRoomDoor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3340,6 +3351,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "securityKeypad",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3477,6 +3489,7 @@
     {
       "assetStoreId": "",
       "name": "terminalLightSource",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -3492,6 +3505,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "bloodSplatters",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3602,6 +3616,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "codeForKeypadNums",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3761,6 +3776,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "securityKeypadInterface",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3878,6 +3894,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "keys",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4537,6 +4554,7 @@
     {
       "assetStoreId": "",
       "name": "NewBitmapText",
+      "tags": "",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
       "effects": [],
@@ -4559,6 +4577,7 @@
       "italic": false,
       "name": "terminalInput",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -4578,6 +4597,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lockedDoor",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4693,6 +4713,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dinoObsticle",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4902,6 +4923,7 @@
       "assetStoreId": "",
       "height": 300,
       "name": "dirtPath",
+      "tags": "",
       "texture": "electricalDirtPaths2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 300,
@@ -4913,6 +4935,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LoadingScreen",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4974,6 +4997,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "HeadLoadingIcon",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5035,6 +5059,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dinoCave",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5096,6 +5121,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dinoSpawn",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5170,6 +5196,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dinoSpawnAlt",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5244,6 +5271,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dinoObsticleAlt",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -5449,6 +5477,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "pit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5563,6 +5592,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "lockedDoorSupplyCloset",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5700,6 +5730,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "waterPuddle",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5761,6 +5792,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "invisibleWall",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5803,6 +5835,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "LexMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -5954,6 +5987,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TimMurphy",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6069,6 +6103,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "gapBridge",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6135,6 +6170,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "medKit",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6201,6 +6237,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "table",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6266,6 +6303,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "serverRoomSwitch",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6376,6 +6414,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "exposedWires",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6437,6 +6476,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "board",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6503,6 +6543,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "kingVelociraptorCave",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7806,6 +7847,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "keyToPowerRoom",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -7867,6 +7909,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "locker",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8031,6 +8074,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "doorElectrical",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8152,6 +8196,7 @@
     {
       "assetStoreId": "",
       "name": "lighterLightSource",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -8167,6 +8212,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "note",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -8227,6 +8273,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "cartOfBarbedWire",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8293,6 +8340,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Flashlight",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8396,6 +8444,7 @@
     {
       "assetStoreId": "",
       "name": "playerLight",
+      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -8411,6 +8460,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RaptorEncounterBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8453,6 +8503,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RaptorBOSSBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -8492,164 +8543,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "floor"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "outdoorWalls"
-      },
-      {
-        "objectName": "wallBottom"
-      },
-      {
-        "objectName": "wallTop"
-      },
-      {
-        "objectName": "EdRegis"
-      },
-      {
-        "objectName": "flashLightTemp"
-      },
-      {
-        "objectName": "outdoorWallsPassThrough"
-      },
-      {
-        "objectName": "lightObsticle"
-      },
-      {
-        "objectName": "barbedWire"
-      },
-      {
-        "objectName": "electricalRoomDoor"
-      },
-      {
-        "objectName": "securityKeypad"
-      },
-      {
-        "objectName": "terminalLightSource"
-      },
-      {
-        "objectName": "bloodSplatters"
-      },
-      {
-        "objectName": "codeForKeypadNums"
-      },
-      {
-        "objectName": "securityKeypadInterface"
-      },
-      {
-        "objectName": "keys"
-      },
-      {
-        "objectName": "NewBitmapText"
-      },
-      {
-        "objectName": "terminalInput"
-      },
-      {
-        "objectName": "Flashlight"
-      },
-      {
-        "objectName": "lockedDoor"
-      },
-      {
-        "objectName": "dinoObsticle"
-      },
-      {
-        "objectName": "dirtPath"
-      },
-      {
-        "objectName": "playerLight"
-      },
-      {
-        "objectName": "LoadingScreen"
-      },
-      {
-        "objectName": "HeadLoadingIcon"
-      },
-      {
-        "objectName": "dinoCave"
-      },
-      {
-        "objectName": "kingVelociraptorCave"
-      },
-      {
-        "objectName": "dinoSpawn"
-      },
-      {
-        "objectName": "dinoSpawnAlt"
-      },
-      {
-        "objectName": "dinoObsticleAlt"
-      },
-      {
-        "objectName": "pit"
-      },
-      {
-        "objectName": "table"
-      },
-      {
-        "objectName": "lockedDoorSupplyCloset"
-      },
-      {
-        "objectName": "waterPuddle"
-      },
-      {
-        "objectName": "invisibleWall"
-      },
-      {
-        "objectName": "LexMurphy"
-      },
-      {
-        "objectName": "TimMurphy"
-      },
-      {
-        "objectName": "gapBridge"
-      },
-      {
-        "objectName": "doorElectrical"
-      },
-      {
-        "objectName": "medKit"
-      },
-      {
-        "objectName": "serverRoomSwitch"
-      },
-      {
-        "objectName": "exposedWires"
-      },
-      {
-        "objectName": "board"
-      },
-      {
-        "objectName": "keyToPowerRoom"
-      },
-      {
-        "objectName": "locker"
-      },
-      {
-        "objectName": "lighterLightSource"
-      },
-      {
-        "objectName": "note"
-      },
-      {
-        "objectName": "cartOfBarbedWire"
-      },
-      {
-        "objectName": "RaptorEncounterBox"
-      },
-      {
-        "objectName": "RaptorBOSSBox"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Link",

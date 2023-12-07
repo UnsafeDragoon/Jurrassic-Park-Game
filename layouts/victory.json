@@ -92,6 +92,7 @@
       "italic": false,
       "name": "Yippe",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -111,6 +112,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "YIPPEPEPPEPEPE",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2257,17 +2259,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "Yippe"
-      },
-      {
-        "objectName": "YIPPEPEPPEPEPE"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

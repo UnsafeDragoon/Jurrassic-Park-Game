@@ -61,6 +61,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "cutsceneBackground",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -122,6 +123,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "helicopter",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -432,17 +434,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "cutsceneBackground"
-      },
-      {
-        "objectName": "helicopter"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
