@@ -3794,7 +3794,7 @@
         "alwaysLoaded": false,
         "file": "assets/five.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/five.png\"}",
         "name": "five",
         "smoothed": true,
         "userAdded": true
@@ -5160,7 +5160,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite208.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite208.png\",\"extension\":\".png\"}",
         "name": "assets\\NewSprite208.png",
         "smoothed": true,
         "userAdded": false
@@ -6155,6 +6155,260 @@
         "name": "assets\\NewSprite221.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws8.png\"}",
+        "name": "assets\\RaptorClaws8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws9.png\"}",
+        "name": "assets\\RaptorClaws9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws10.png\"}",
+        "name": "assets\\RaptorClaws10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws11.png\"}",
+        "name": "assets\\RaptorClaws11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws12.png\"}",
+        "name": "assets\\RaptorClaws12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws13.png\"}",
+        "name": "assets\\RaptorClaws13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws14.png\"}",
+        "name": "assets\\RaptorClaws14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws15.png\"}",
+        "name": "assets\\RaptorClaws15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws16.png\"}",
+        "name": "assets\\RaptorClaws16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws17.png\"}",
+        "name": "assets\\RaptorClaws17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws18.png\"}",
+        "name": "assets\\RaptorClaws18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws19.png\"}",
+        "name": "assets\\RaptorClaws19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws20.png\"}",
+        "name": "assets\\RaptorClaws20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws21.png\"}",
+        "name": "assets\\RaptorClaws21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_RaptorClaws22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_RaptorClaws22.png\"}",
+        "name": "assets\\RaptorClaws22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite219.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite219.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/electricSwitchOff.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "electricSwitchOff",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite246.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite246",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite247.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite247",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "power-on-39172.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "power-on-39172.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Level3BGMusic.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Level3BGMusic.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/eight2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "eight2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/eight3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/eight3.png\"}",
+        "name": "eight3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/three2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "three2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/three3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "three3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/six2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "six2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/two.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "two",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/two2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "two2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
