@@ -6408,6 +6408,16 @@
         "name": "NewSprite306",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Level2BGMusic.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Level2BGMusic.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
