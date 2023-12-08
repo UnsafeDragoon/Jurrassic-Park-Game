@@ -3784,8 +3784,8 @@
               "timeBetweenFrames": 0.25,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws8.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3798,30 +3798,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 68,
-                        "y": 9
-                      },
-                      {
-                        "x": 91,
-                        "y": 9
-                      },
-                      {
-                        "x": 91,
-                        "y": 37
-                      },
-                      {
-                        "x": 68,
-                        "y": 37
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws9.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3834,38 +3815,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 61,
-                        "y": 28
-                      },
-                      {
-                        "x": 71,
-                        "y": 13.5
-                      },
-                      {
-                        "x": 82.5,
-                        "y": 19.5
-                      },
-                      {
-                        "x": 89,
-                        "y": 29.5
-                      },
-                      {
-                        "x": 77.5,
-                        "y": 44.5
-                      },
-                      {
-                        "x": 65,
-                        "y": 39.5
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws10.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3878,42 +3832,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 38.5,
-                        "y": 48.5
-                      },
-                      {
-                        "x": 61,
-                        "y": 28.5
-                      },
-                      {
-                        "x": 72.5,
-                        "y": 33.5
-                      },
-                      {
-                        "x": 78.5,
-                        "y": 41
-                      },
-                      {
-                        "x": 79,
-                        "y": 44.5
-                      },
-                      {
-                        "x": 48.5,
-                        "y": 69.5
-                      },
-                      {
-                        "x": 40,
-                        "y": 60
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws11.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3926,42 +3849,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 25,
-                        "y": 57
-                      },
-                      {
-                        "x": 50.5,
-                        "y": 38
-                      },
-                      {
-                        "x": 62.5,
-                        "y": 42.5
-                      },
-                      {
-                        "x": 68.5,
-                        "y": 53.5
-                      },
-                      {
-                        "x": 55.5,
-                        "y": 65
-                      },
-                      {
-                        "x": 36,
-                        "y": 78
-                      },
-                      {
-                        "x": 25,
-                        "y": 68
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws12.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3974,42 +3866,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 14,
-                        "y": 63
-                      },
-                      {
-                        "x": 46,
-                        "y": 42
-                      },
-                      {
-                        "x": 57.5,
-                        "y": 47
-                      },
-                      {
-                        "x": 64,
-                        "y": 57.5
-                      },
-                      {
-                        "x": 44,
-                        "y": 71
-                      },
-                      {
-                        "x": 21,
-                        "y": 83.5
-                      },
-                      {
-                        "x": 14.5,
-                        "y": 72.5
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws13.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4022,38 +3883,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 73.5
-                      },
-                      {
-                        "x": 9,
-                        "y": 65
-                      },
-                      {
-                        "x": 40,
-                        "y": 48.5
-                      },
-                      {
-                        "x": 50.5,
-                        "y": 51.5
-                      },
-                      {
-                        "x": 54,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 16,
-                        "y": 84
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws14.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4066,38 +3900,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 67.5
-                      },
-                      {
-                        "x": 24,
-                        "y": 58
-                      },
-                      {
-                        "x": 33,
-                        "y": 64.5
-                      },
-                      {
-                        "x": 33.5,
-                        "y": 77
-                      },
-                      {
-                        "x": 16,
-                        "y": 86.5
-                      },
-                      {
-                        "x": 7,
-                        "y": 76
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws15.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4110,38 +3917,11 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 4.5,
-                        "y": 66
-                      },
-                      {
-                        "x": 16,
-                        "y": 62.5
-                      },
-                      {
-                        "x": 18.5,
-                        "y": 74
-                      },
-                      {
-                        "x": 19,
-                        "y": 83.5
-                      },
-                      {
-                        "x": 14,
-                        "y": 84
-                      },
-                      {
-                        "x": 7,
-                        "y": 76
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 },
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\RaptorClaws16.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\RaptorClaws22",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4154,22 +3934,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 75.5
-                      },
-                      {
-                        "x": 11.5,
-                        "y": 82.5
-                      },
-                      {
-                        "x": 9,
-                        "y": 83.5
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -8490,7 +8255,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PickYourFighter",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11848,6 +11612,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Spino",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12983,7 +12748,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Raptor",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",

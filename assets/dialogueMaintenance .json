@@ -2,7 +2,7 @@
 	{
 		"title": "electricalIntro",
 		"tags": "",
-		"body": "<< headSprites regis>>\nIt's so dark in here.\nHELLO!\nANY BODY THERE?\nThere should be people here!\nWhere is everyone?\nI can't see anything!\nWait!\nI got my lighter!\n<< headSprites none>>\n<< lighterSFX>> *click*\n<< lighterSFX>>*click*\n<< headSprites regis>> \nC'mon work, please.\n<< headSprites none>> \n<< lighterSFX>>*click*\n<< lighterActivate>> << headSprites regis>>Yes! So where are w-\n!!!\nI-i-is that bl-blood?\n<< headSprites none>> << kingVelociraptorSFX>>...\n<< headSprites regis>> \nNO!\nI'M NOT DOING THIS!\n<< regisRunAway>> GET ME OUT OF THIS PLACE!\nIT'S LOCKED!!!\nTHIS CAN'T BE HAPPENING!\nI DON\"T WANT TO DIEEEEEEEE!\n<< headSprites none>>\n<< radio>>(Incoming Transmission...)    \n<< headSprites muldoon>> Hey kid, just wanted to check on your and Regis's progress so far. Can you put him on?\n<< headSprites regis>> I WANT TO GO HOME DAMMIT!\nI NEVER SHOULD HAVE WORKED HERE!\n<< headSprites muldoon>> \nIs that him? What happened down there?\nY'know what, forget it!\nKid, we need you to turn on the power, soon!\nThe dinosaurs have escaped and are surrounding the Lodge!\nIf the electrical fences don't get activated soon, they'll swarm us inside!\nYou're our only hope to survive!\nDon't let us down.\n<< headSprites none>>\n<< radio>> ...\n<< flashlightCreate>>The radio went silent.",
+		"body": "<< headSprites regis>>\nIt's so dark in here.\nHELLO!\nANY BODY THERE?\nThere should be people here!\nWhere is everyone?\nI can't see anything!\nWait!\nI got my lighter!\n<< headSprites none>>\n<< lighterSFX>> *click*\n<< lighterSFX>>*click*\n<< headSprites regis>> \nC'mon work, please.\n<< headSprites none>> \n<< lighterSFX>>*click*\n<< lighterActivate>> << headSprites regis>>Yes! So where are w-\n!!!\nI-i-is that bl-blood?\n<< headSprites none>> << kingVelociraptorSFX>>...\n<< headSprites regis>> \nNO!\nI'M NOT DOING THIS!\n<< regisRunAway>> GET ME OUT OF THIS PLACE!\nIT'S LOCKED!!!\nTHIS CAN'T BE HAPPENING!\nI DON'T WANT TO DIEEEEEEEE!\n<< headSprites none>>\n<< radio>>(Incoming Transmission...)    \n<< headSprites muldoon>> Hey kid, just wanted to check on your and Regis's progress so far. Can you put him on?\n<< headSprites regis>> I WANT TO GO HOME!!!\nI NEVER SHOULD HAVE WORKED HERE!\n<< headSprites muldoon>> \nIs that him? What happened down there?\nY'know what, forget it!\nKid, we need you to turn on the power, soon!\nThe dinosaurs have escaped and are surrounding the Lodge!\nIf the electrical fences don't get activated soon, they'll swarm us inside!\nYou're our only hope to survive!\nDon't let us down.\n<< headSprites none>>\n<< radio>> ...\n<< flashlightCreate>>The radio went silent.",
 		"position": {
 			"x": 104,
 			"y": -961
@@ -206,6 +206,46 @@
 		"position": {
 			"x": -431,
 			"y": -1468
+		},
+		"colorID": 0
+	},
+	{
+		"title": "powerDoorOne",
+		"tags": "",
+		"body": "The door is locked and requires a key to open it.",
+		"position": {
+			"x": -1127,
+			"y": -1577
+		},
+		"colorID": 0
+	},
+	{
+		"title": "powerDoorTwo",
+		"tags": "",
+		"body": "You unlocked the door",
+		"position": {
+			"x": -817,
+			"y": -1610
+		},
+		"colorID": 0
+	},
+	{
+		"title": "powerOn",
+		"tags": "",
+		"body": "You pulled the lever up and down.\nThe power has been restored.\n<< headSprites regis>>\nYES! I'M OUT OF HERE AND I'M NEVER COMING BACK!\nA T-REX!?!\nWHY CAN'T I CATCH A BREAK!\n<< headSprites none>>\nYou follow soon after.\n<< nextLevel>> ..",
+		"position": {
+			"x": -30,
+			"y": -1241
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cartOfBarbedWire",
+		"tags": "",
+		"body": "It is a cart with rolls of barbed wire stacked on top of it.",
+		"position": {
+			"x": -1237,
+			"y": -314
 		},
 		"colorID": 0
 	}

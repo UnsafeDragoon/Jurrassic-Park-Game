@@ -52,6 +52,12 @@
       "name": "haveMedkit",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "havePowerKey",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -75,7 +81,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1521,
+      "height": 1330,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "df6b9d1e-3b5a-4e79-bf73-10b862948dfa",
@@ -143,7 +149,7 @@
       "layer": "",
       "name": "wallTop",
       "persistentUuid": "c8ac68f8-0012-405d-b333-5489c37bb147",
-      "width": 566,
+      "width": 492,
       "x": 5,
       "y": -959,
       "zOrder": -2,
@@ -235,7 +241,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2449,
+      "height": 2207,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "cd77379a-085f-4119-aef7-b66a44105a95",
@@ -347,7 +353,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2197,
+      "height": 1955,
       "layer": "background",
       "name": "floor",
       "persistentUuid": "f681e113-4f75-4710-89ae-17d283e3bee2",
@@ -411,7 +417,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2436,
+      "height": 2192,
       "layer": "",
       "name": "outdoorWalls",
       "persistentUuid": "c2f9b5ee-c555-463d-9ae9-11da01276355",
@@ -731,7 +737,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 160,
+      "height": 211,
       "layer": "",
       "name": "barbedWire",
       "persistentUuid": "2a29db29-0877-41af-9c69-c66cffadd45e",
@@ -1655,52 +1661,10 @@
       "name": "invisibleWall",
       "persistentUuid": "625d45b2-c080-4aa6-9a7e-e909b0bdfa2b",
       "width": 1051,
-      "x": -164,
-      "y": 3580,
+      "x": -160,
+      "y": 3325,
       "zOrder": 2027,
       "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 217,
-      "layer": "",
-      "name": "LexMurphy",
-      "persistentUuid": "56945233-78cc-4f54-8c2b-192b2fdd7d23",
-      "width": 109,
-      "x": 325,
-      "y": 3247,
-      "zOrder": 2029,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 217,
-      "layer": "",
-      "name": "TimMurphy",
-      "persistentUuid": "37a42771-3faa-4d49-86f5-3eaec1ddd031",
-      "width": 109,
-      "x": -580,
-      "y": 693,
-      "zOrder": 2030,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -1886,8 +1850,8 @@
       "name": "serverRoomSwitch",
       "persistentUuid": "16a9db19-ef7a-4fea-8045-e1d061720f64",
       "width": 35,
-      "x": 599,
-      "y": 1315,
+      "x": -881,
+      "y": 1770,
       "zOrder": 2036,
       "numberProperties": [],
       "stringProperties": [],
@@ -1902,8 +1866,8 @@
       "name": "exposedWires",
       "persistentUuid": "2fdc0bc5-cf40-4535-bd0e-7e0ee76cb5bc",
       "width": 100,
-      "x": 559,
-      "y": 1402,
+      "x": -921,
+      "y": 1857,
       "zOrder": 2037,
       "numberProperties": [],
       "stringProperties": [],
@@ -2023,8 +1987,8 @@
       "name": "keyToPowerRoom",
       "persistentUuid": "9be7d3c7-797a-4414-a429-d9bc0b764647",
       "width": 0,
-      "x": -465,
-      "y": -1027,
+      "x": -464,
+      "y": -1009,
       "zOrder": 2042,
       "numberProperties": [],
       "stringProperties": [],
@@ -2298,8 +2262,8 @@
       "name": "note",
       "persistentUuid": "9a07c1bb-43f7-45b2-a17c-b62c8de2384b",
       "width": 56,
-      "x": 679,
-      "y": 1259,
+      "x": -801,
+      "y": 1714,
       "zOrder": 2046,
       "numberProperties": [],
       "stringProperties": [],
@@ -2461,6 +2425,102 @@
         {
           "name": "animation",
           "value": 12
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 87,
+      "layer": "",
+      "name": "powerSwitch",
+      "persistentUuid": "c3ff3e75-6d3c-4dc5-b384-a3fca3b255c0",
+      "width": 57,
+      "x": 225,
+      "y": -954,
+      "zOrder": 3001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "codeForKeypadNums",
+      "persistentUuid": "31a765af-8d22-4055-abfd-2967f58ca8e9",
+      "width": 0,
+      "x": 323,
+      "y": 1470,
+      "zOrder": 3002,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "codeForKeypadNums",
+      "persistentUuid": "0b8e7d01-edb3-4c69-aeda-502948dde86b",
+      "width": 0,
+      "x": 229,
+      "y": 1984,
+      "zOrder": 3003,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "codeForKeypadNums",
+      "persistentUuid": "0cdc499d-74a6-42a8-9a52-57f2c33f2f35",
+      "width": 0,
+      "x": 429,
+      "y": 2555,
+      "zOrder": 3004,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 5
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "background",
+      "name": "codeForKeypadNums",
+      "persistentUuid": "cfbb3aa4-84c8-430f-a4c4-96ab8b4a47ae",
+      "width": 0,
+      "x": 324,
+      "y": 3178,
+      "zOrder": 3005,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 6
         }
       ],
       "stringProperties": [],
@@ -3754,6 +3814,202 @@
               ]
             }
           ]
+        },
+        {
+          "name": "eight",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "eight3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 89
+                      },
+                      {
+                        "x": 17,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "three",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "three3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 89
+                      },
+                      {
+                        "x": 17,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "six",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "six2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 89
+                      },
+                      {
+                        "x": 17,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "two",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "two2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 1
+                      },
+                      {
+                        "x": 91,
+                        "y": 89
+                      },
+                      {
+                        "x": 17,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4705,10 +4961,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        },
         {
           "name": "YSort",
           "type": "YSort::YSort"
@@ -6278,7 +6530,7 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAkJJREFUeF7tm9lxgzAQhuWWGJqgKJ5cFE0wtJQMiclgBRCIPRTl86t18B+7qxXDI4TwESr4PQBSmIr1KtK2bWFcbz/OOI5vf/xSBCDGOqKIMeHJ7VAkSZHxABQxJjy5HYokKTIegCLGhCe3E1Wk67rkhlcGDMNwejhAtqhCkR0DYa0Qwq3GqnprPZ/Pw+zT9/3m/8VZCyCl1REUQRGl9Iu1sBbW+i7Me0cUYoQYIUaIkS8GOMavuhiTWxTSL+mX9Ev6Jf3G90ek3yuX2NQR6gh1hDpCHaGOnHlPXP0bqzMkbI0p7o0VQEqr7CjipUgu8xLzRPsRiQfKXQMgucxpzUMRLWZz10WRXOa05qGIFrO566JILnNa81BEi9ncdZOK5C7sPa/eL0O9mc3dvypFcknImtc0zc/389M0zUSK/MQWuvI0GmAAckWBrbGLKlL2clFkBgaQHSu4KFJFsGuAmEUyV6QKIFogzBWpDohU7VgnMNMYka4dACntWIIiUorM60gHvEuwL4RIgjEFsj71SoMxB7IAkC6ORQCRiBk3ILHN7saLKxDJThEgd2tKHPRY68UI1sJaEQNSPQrWwlpY69gDxAgxsmJAsidxs5YkCPMrU63u0AXIWgmJznAhx9RaWiBMFdEE4QbkbhO1lfpNrCWdodyBaChhGuxSPcfRacLUWihy4mBnqohkAYyxmQCRvFHcEwcgJ2z7NkQ7c6HIv1SkuiPKn06/FmqoH+OtQKgBiZsoTUupnX49QKgoYmmndQn4BN+uAmqlpaS+AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACMCAYAAAA+//q0AAAAAXNSR0IArs4c6QAAAcFJREFUeF7tlltOw0AUxdqNIbI0VhbExoIi8REiVZo4mEdwv+eczrVvmt5vF/ncLzLHrUF+m8mMZEQi0GpJYHHt/zLy9nxbMKpd8OnVeXcNGfnKQc4CeQSiQc6SpflTRuiXrrlpmpaXZT5T8Sn7o4NsbzLP89A6H51cKd1eYjXSIAe0ZGQUVqs1SurjXKs1CqzVGiXVah0kdYnV2g+xMviTf1Ea5OD6rsfV98h3PR8NMmo+I6OkNud6RkagtVojlHZnWq0RaK3WCKVWC1BqtQA09VcL3AdHGgSjk4IZkcDi2oxgdFIwIxJYXJsRjE4KZkQCi2szgtFJwYxIYHFtRjA6KZgRCSyuzQhGJwUzIoHFtRnB6KRgRiSwuDYjGJ0UzIgEFtdmBKOTghmRwOLajGB0UjAjElhcmxGMTgpmRAKLazOC0UnBjEhgcW1GMDopmBEJLK7NCEYnBTMigcW1GcHopGBGJLC4NiMYnRTMiAQW12YEo5OCGZHA4tqMYHRSMCMSWFybEYxOCmZEAotrM4LRScGMSGBxbUYwOimYEQksrs0IRicFMyKBxbUZweikYEYksLg2IxidFMyIBBbXXsbIO26FfY0Rrz8kAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"NewSprite185\"],\"name\":\"NewSprite2\"}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":140,\\\"width\\\":50,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACMCAYAAACK9Qy7AAAAAXNSR0IArs4c6QAAA+ZJREFUeF7tnT1y4kAQRuV8uQxFSELIdTYncJHvdQhJCCkug3NvTWHZgCQ00+ruacMj3elPw3vqGf0su29N03w2z/F5e4avkb4EQgKZREggGWkqCIkuZLFYBJti/3SOx+P9HzznHoKQuudjZ8lCCEJEBFiyRNjsihBix1aU/NJC/v3pXNGIIKaivx86V3EIESvQLWyFIkSXqzgNIU3TaC5ZYhNfhQiZSHA2mzXvn/uJKT/lCJmIMgm5/pzP54mJl/KX3kOmEERIGb1Jj07W6/Xo0Q6Hw82Y5XI5WLPb7Ubz2gF0SA8qhGSfP9kD6ZBsVD4DEeLDOfsoCMlG5TMQIT6cs49iImS73X5PYLVa3Uxmv983m82md4JcZfX8JYeSN4ZDV1kIyW6IzkA6RM7OpNJUyP1ylb4BS9ZjjwgxOc/loQiRszOpdBWSlqv04Spr2CVCTM5zeShC5OxMKhFiglUeihA5O5NKhJhglYciRM7OpBIhJljloQiRszOpRIgJVnkoQuTsTCoRYoJVHooQOTuTSlMhQzPm4WKlh4sIKW8iOqScmWkFQkzxlocjpJyZaQVCTPGWhyOknJlpBUJM8ZaHI6ScmWkFQkzxlocjpJyZaQVCTPGWhyOknJlpBUJM8ZaHmwgpn8algh/sGP1gByFSAgiRkzOqZMkyAiuNRYiUnFEdQozASmMnCZEeVKOOf3xGg6JiBkIUYWpEIUSDomIGQhRhakQhRIOiYgZCFGFqRCFEg6JiBkIUYWpEIUSDomIGQhRhakQhRIOiYgZCFGFqRCFEg6JixssIUWTmHZWeXP/6T+fx+y/+RggJJg8hCNEn4H5Wzefz7/8u/HQ6uR9fH6FuYhUgSBmWiBDdE3xyWhUhadZtl7Bs3TpEyORzWjcAIbo8J6dVEcKmHmhTR8bjJnLvEIQEEoKM8S3GtUMQElQI9x5BNnVuBumQcQLBRlTZQ1iyWLKC9UEwIWk6dEm/lCpLVjsVpHSluAq5fuyOlAAdcj0FbhIDC2FP+ZHjvmTRJYEeLvZNhbv3IK9w22kgBCGhbxKr7iHXl8Hck1zOE4QE6xeEIOSWAJs6m3qwnkAIQh4RYMmiQ+gQOiT/HOCyN5+Vy8iqQngn0nVcTQgyAr2gQsbw6ufeIdcyeFNYeclCxvh1gVuHIGNchuvjd/aNQEKQkSfDrUN4XoWQfALBRrps6nRIvnWE5LNyGekqhBvBcacuQtI0WLbGZbhdZSEkTwZC8jm5jWTJckOddyCE5HFyG+UihEcn+T4Rks/KZaS5ELqjzKOpEGSUyTC77L1/GcUder4Y9Q5BRj78vpGmQvhVVLmc/9RaY7pr4LtoAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACMCAYAAACK9Qy7AAAAAXNSR0IArs4c6QAAAepJREFUeF7t00ERAAAIhECvf2lr7AMTMODtOsrAKJpgriDYExSkIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCCoIZwHBaSEEwAxhOCykIZgDDaSEFwQxgOC2kIJgBDKeFFAQzgOG0kIJgBjCcFlIQzACG00IKghnAcFpIQTADGE4LKQhmAMNpIQXBDGA4LaQgmAEMp4UUBDOA4bSQgmAGMJwWUhDMAIbTQgqCGcBwWkhBMAMYTgspCGYAw2khBcEMYDgtpCCYAQynhRQEM4DhtJCCYAYwnBZSEMwAhtNCsCAPQ00AjVqZ/yAAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"assets\\\\NewSprite208.png\",\"electricSwitchOff\"],\"name\":\"electricSwitchOff\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -8249,7 +8501,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\NewSprite219.png",
+                  "image": "NewSprite219.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8490,6 +8742,86 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "powerSwitch",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "mainPowerResetSwitch",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":160,\\\"width\\\":100,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACgCAYAAAD6m8n2AAAAAXNSR0IArs4c6QAABcZJREFUeF7tndt13DAMRNc1uJ+49rgf15B8xNpzIpkaAMSL3MkvKS0wF8OXJOft8/f7n8fNv18fX3fN5rbP3+/maz0v1OYXHfcbgegKLh2ItmKk1RqdiDSO2fyi87g4ZDbgkTDRiWwD5PF43M4h0kTP/XYBkJ3XG4HoSi660NyARAcqlW31IZdAhKSzCs4MJCtApNfqjjjnRyAD4lUFJwZSFeBZr90ccc6HQL6JVxWcGEhVgK/mCPEcQiBoOWFrR0Puc8giAJvA6CoEYOgQAkHS2trVQNDxuy0M+VXagKV3riqw2Xzg8xCpANZ+swl0O12ezScdyGzAuwG4zCHZQxaB3I8l4Q7ZDcAhp3dex5xHIMbJbxkg3oEeelWtmqIdET6HEIjMcqMCmx6yCGAOgLtDCKQYCAH4Aph2CIEUAyEAGQCv1SCc1AmkGAgB5AKAcwiBFAPhq6S1AIZPDHVh4d7VRx3ZRx5YEVkP8WtA6HYEgBSStRMI0Cm70MxAsgMd6ea9CKnOi0BOpJcBUh3oqpM0mjnEr5Keb0QgSFpbuxjIrgC8zpxs8j8eaM4bziEEYpX8/joxkC4AdpsrEIDhTp1AahwBDxdjwsJ31VYSumNVgc3mAZ+HoMS92mcT6bIqnM2jDMhs4LsAaDNkEcjPY0uaQ3YBEL0KJBDjJBhVYGFAvAPuvsPWcg17lTTrWJxAlMjpiHvBpPsityGLQJoA8QYhrSSlgWH3LnlMO6RLIlBx0KFLHmogXQLvBsBr0UEgs2RP188OuRDILo6I3mF7cSWQSSVnHQEPF+kIn+WrlXP4X7b2riBtoqsVmPlFOSRMFYjVAFyGrN0+RyCQb8R0BBozZO1uQxaByARHvcxAdgHgtcNGQkvbCaR4yDVP6nSEtMZt/Y7FiNghBGITWnoVBFIFYJUzJ6nQo36j5Xnbt99X308gYBAIHYEk9GlHhdbmT42jQLVyVBeYdqg6+sPjd60Q0v4E8LNSBCKtIGM/beGlAdEGhvJfdUhCeREIUkjZPlt4YUBmAxvp0M0Z3nkSiNIB5+5tgXgH1u0UNhrE4Xw3hxDInNXcgHiD6DZHZJ+tTTuEQGzOcPtghwB8AVweUGn/hx0CKQZCALEA1A4hkGIgrwIge/Ukxbr9u71IiG4FKH7JASV2bn/1/YRWr+cDqt3e7UVCdHPEZVL3AkJHoFKQtbsNWQQiExz1MgMhACStrZ1AgG7ZhScGkh2Ytr66T9bSfAhkoFRVAbZ9lRRV1C6OEC97qyoEgeh65CGNG/Vr8yopCnRXRwwdQkegkshpn36EGx2mlzNWKTgCia4o4f2fX1BpH+EK72/u5uWII4Cuzhh+sEMg5tqZurAtkFd3xGWVVe0QAvkfSfqkTgD3Ix2BTM0E44uthZcGxBrgKOXVVk9S7gQiVUrYb7bwwoDMBnbOf1dHpK2yCERoqVM3N4cQgA3A2fkEotQxuvDMQKIDU+oU1j07TwIBKNsDyQ4wrPSbgTjCUTuEQGwlIl22QyAEEAtAvQ8hkGIgBJALADqEQIqBeH0fsuozbJv8j4d0ktbeX/xur/TGUYFKf3/UbxXnuwHpBsIbQNYIQCBK60UXnhlIdGBKnZ7dvZ2RnSeBAPJtgWQHJnXI6o647EOky14CkZbIXL/lvqDazRFih9ARc5VuvfrikG4gdncEdAiBWGvb5zr4PMTnZ+R38XZE1g5bnuF9TwLxUtLpPm2AeDuj29Ar5UUgUqWS+pUBoSP+J1z+0SeBFAMhgJ8BXPYhWd8YEkgxEAKQAUhzCIEUA/EGsNoO+1zpVj3clr3WANDyftUNnlWPaSDWHx6BeDUA7nMIgfyT1EsHtUO8fvhV5wg0RBMIUmjQ7l2Yx89AIN4/vOoccQgWrQeBKB2SDiT6B5X5l3fP1uPl/4cdRLwMSPYPIyGq2qt1eDqkOpAqAF5HHl4bXfPL1ucAVl09dStEAvn4cjXnbGH+BVr/dS0428ooAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACgCAYAAAD6m8n2AAAAAXNSR0IArs4c6QAABBFJREFUeF7tnMF5ozAQRnEPOaQYXyhji+FEMVsGF3eQNtLD5ls2/uL1B2hG/0gI83KNGMh7mhlJOL50Xfen46cZAheENONifhCEtOUDIY35QAhCWiPQ2PPQQxDSGIHGHseSIX/H8BNHYHPfh5A40NZICLGSqjQOIZVAW2+DECupSuMQUgm09TYIsZKqNA4hlUBbb4MQK6lK4xBSCbT1Ngixkqo0DiGVQFtvU0fIr7e3Jt/N//78bO0sDiHWqVtp3LmFVIK8epuFDEXInlIQsif9hXsjBCH/CLS6ytrbDxmyt4Gn++8mZC8Ofd/Pq5b3j4+9HmHzvghpTMtphax5mKbpnDv1vSbmvWQhZC8DT/dFSCMi7o+BkCAhwzCEnA7fbrfNJ7per1lPPI5jqd5T5yzL+1cjZJnYbh8lRQhCXElMyXLh+hlMD8kE93wZJYuS5ZpKlCwXLkpWJq71yyhZlCzXpKJkuXBRsjJxUbIWCLzG0ck4jot2+77fnCzTNM2/H4bBNakoWQlcCPkBVOTU07vKQghCikzE1PeTHea0lwwhQ8iQrb7+nCGp1dU9Fqss4+JSbeoIMYK2DkPIwc+yKFmNN3VKlrUWGcdRsk5Wsu6rq/ufzVlWIlNKZwhCjKXqYca6PrnobeoIQYiVwGu+D0mtssgQ6/z4HkcPYZXlmjK8MXS+MaRkueZXejAli5KVniUPIyhZlKyZwGFf4dJDXAmfHkwPoYekZwk9xM6Is6yDv6Di6MQ+2eeR9BB6iGvKsA9hH8I+ZGsOkCFkCBlChjwQYJXFKotV1hYBMoQMIUNKZoiLLv+Fm8allqz0Hf4fwUdJE8QQ8mI9hAzxEiBD1gi85kdJvfODHkKGkCGJZbYrqTjtdZ72uuiyD0njYtnLsjc9Sx5GULIoWcd+QeWa7vSQNC56CD0kPUvoIXZGa19gZo3ATp2dOjt1durWerEwjqZOU3dNHzaGbAzZGG7NATKEDCFDyJAHAqyyWGWxykps1KRvlHPR5bQ3jYuSdfCSlVYcO4JlbyxPORpCZISxARASy1OOhhAZYWwAhMTylKMhREYYGwAhsTzlaAiREcYGQEgsTzkaQmSEsQEQEstTjnY6ITKx4wZo838Mj8tTfnKEyAhjAyAklqccDSEywtgACInlKUdDiIwwNgBCYnnK0RAiI4wNgJBYnnI0hMgIYwMgJJanHA0hMsLYAAiJ5SlHQ4iMMDYAQmJ5ytEQIiOMDYCQWJ5yNITICGMDICSWpxwNITLC2AAIieUpR0OIjDA2AEJiecrRECIjjA2AkFiecjSEyAhjAyAklqccTRYiPwEB7AQuXde5vuLCHpqROQQQkkOt4DUIKQg3JzRCcqgVvAYhBeHmhEZIDrWC1yCkINyc0F8W4TA9Yf+2EgAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"mainPowerResetSwitch\"],\"name\":\"mainPowerResetSwitch\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mainPowerResetSwitch",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -2.5,
+                    "y": -185.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "buildingLights",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 900,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8628,6 +8960,9 @@
         "objectName": "doorElectrical"
       },
       {
+        "objectName": "buildingLights"
+      },
+      {
         "objectName": "lighterLightSource"
       },
       {
@@ -8647,6 +8982,9 @@
       },
       {
         "objectName": "RaptorBOSSBox"
+      },
+      {
+        "objectName": "powerSwitch"
       }
     ]
   },
@@ -8670,7 +9008,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "MainRaptorEncounter",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8745,6 +9082,16 @@
                 "MainCharacter.X()",
                 "MainCharacter.Y()+20",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetLayerAmbientLightColor"
+              },
+              "parameters": [
+                "",
+                "\"Lighting\"",
+                "\"255;255;255\""
               ]
             },
             {
@@ -8963,6 +9310,16 @@
               },
               "parameters": [
                 "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetLayerAmbientLightColor"
+              },
+              "parameters": [
+                "",
+                "\"Lighting\"",
+                "\"17;17;17\""
               ]
             },
             {
@@ -9430,6 +9787,18 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Level3BGMusic.mp3",
+            "yes",
+            "60",
+            "1"
+          ]
         }
       ],
       "events": [
@@ -9776,6 +10145,31 @@
                 "value": "DialogueTree::IsCommandCalled"
               },
               "parameters": [
+                "\"nextLevel\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 3\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
                 "\"kingVelociraptorSFX\""
               ]
             }
@@ -9865,11 +10259,249 @@
             },
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
               },
               "parameters": [
-                "specialDialogueEvent",
-                "False"
+                "MainCharacter",
+                "TopDownMovement",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
+              },
+              "parameters": [
+                "MainCharacter",
+                "TopDownMovement",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "LoadingScreen",
+                "MainCharacter.X()-700",
+                "MainCharacter.Y()-600",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "HeadLoadingIcon",
+                "MainCharacter.X()",
+                "MainCharacter.Y()+20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HeadLoadingIcon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "AnklyoStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "CompyStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "SpinoStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "StegoStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RaptorStrike",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TricStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "PterStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TrexStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BrachStrike",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RegisStrike",
+                "=",
+                "0"
               ]
             },
             {
@@ -9879,6 +10511,70 @@
               "parameters": [
                 "",
                 "\"Combat\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "specialDialogueEvent",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "LoadingScreen",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HeadLoadingIcon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "kingVelociraptorCave",
+                "Animation",
+                "=",
+                "\"velociraptorKingCaveSleep\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "keyToPowerRoom",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "havePowerKey",
+                "True"
               ]
             }
           ]
@@ -10307,6 +11003,121 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "powerSwitch",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Plan"
+              },
+              "parameters": [
+                "MainCharacter",
+                ">",
+                "powerSwitch.ZOrder()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"powerOn\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "power-on-39172.mp3",
+                "",
+                "80",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetLayerAmbientLightColor"
+              },
+              "parameters": [
+                "",
+                "\"Lighting\"",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -10485,6 +11296,338 @@
             },
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MainCharacter",
+                "lockedDoor",
+                "120",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "lockedDoor",
+                "Animation",
+                "=",
+                "\"lockedDoor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"lockedDoors\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MainCharacter",
+                "lockedDoorSupplyCloset",
+                "120",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "lockedDoorSupplyCloset",
+                "Animation",
+                "=",
+                "\"lockedDoor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"scrollText\""
+              ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::StartDialogueFromBranch"
+              },
+              "parameters": [
+                "\"lockedDoors\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "electricalRoomDoor",
+                "160",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "havePowerKey",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"powerDoorOne\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "havePowerKey",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"powerDoorTwo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "electricalRoomDoor",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
                 "value": "Distance"
               },
               "parameters": [
@@ -10513,6 +11656,422 @@
           "actions": [],
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "keyToPowerRoom",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "dinosaur-growl-106744.mp3",
+                    "1",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "specialDialogueEvent",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "kingVelociraptorCave",
+                    "Animation",
+                    "=",
+                    "\"kingVelociraptorCaveAwaken\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityX"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::SetVelocityY"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LoadingScreen",
+                    "MainCharacter.X()-700",
+                    "MainCharacter.Y()-600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "HeadLoadingIcon",
+                    "MainCharacter.X()",
+                    "MainCharacter.Y()+20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    "Scale",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "AnklyoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "CompyStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "SpinoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "StegoStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "RaptorStrike",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TricStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "PterStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TrexStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "BrachStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "RegisStrike",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Combat\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "specialDialogueEvent",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetLayerAmbientLightColor"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Lighting\"",
+                    "\"17;17;17\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "LoadingScreen",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HeadLoadingIcon",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "kingVelociraptorCave",
+                    "Animation",
+                    "=",
+                    "\"velociraptorKingCaveSleep\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "havePowerKey",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "MainCharacter",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
