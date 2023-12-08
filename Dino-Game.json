@@ -11,7 +11,7 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "d5b4456a-7117-4ae7-8f79-2c0d6cc9e992",
@@ -29,7 +29,36 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "titleCardUnderTail.png"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -50,8 +79,12 @@
       "placement": "bottom-left",
       "showWatermark": false
     },
-    "authorIds": [],
-    "authorUsernames": [],
+    "authorIds": [
+      "Titu7kzeZ2TXqCIVPtOaTtVjRn73"
+    ],
+    "authorUsernames": [
+      "donovanb"
+    ],
     "categories": [],
     "playableDevices": [],
     "extensionProperties": [],
@@ -7302,6 +7335,15 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\kingVelociraptorCaveAwaken29.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "titleCardUnderTail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "titleCardUnderTail.png",
         "smoothed": true,
         "userAdded": true
       }
