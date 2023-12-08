@@ -8238,11 +8238,48 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "Level2BGMusic.mp3",
+            "7",
             "yes",
             "20",
             "3"
@@ -14491,7 +14528,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Fight",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25638,6 +25674,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -25712,6 +25793,51 @@
                               },
                               "parameters": [
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
                               ]
                             },
                             {
@@ -25802,6 +25928,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -25884,6 +26055,51 @@
                               },
                               "parameters": [
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
                               ]
                             },
                             {
@@ -25974,6 +26190,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -26060,6 +26321,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -26134,6 +26440,51 @@
                               },
                               "parameters": [
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
                               ]
                             },
                             {
@@ -26216,6 +26567,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -26290,6 +26686,51 @@
                               },
                               "parameters": [
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
                               ]
                             },
                             {
@@ -26372,6 +26813,51 @@
                             },
                             {
                               "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "PopScene"
                               },
                               "parameters": [
@@ -26446,6 +26932,51 @@
                               },
                               "parameters": [
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RePlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3"
                               ]
                             },
                             {
@@ -27206,6 +27737,51 @@
                           },
                           "parameters": [
                             "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StopSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RePlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RePlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RePlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RePlayMusicCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "3"
                           ]
                         },
                         {

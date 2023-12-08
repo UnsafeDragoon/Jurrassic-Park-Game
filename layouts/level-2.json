@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18857475781254138,
+    "zoomFactor": 0.44664559572395346,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -58,6 +58,12 @@
       "name": "havePowerKey",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "regisDialogue",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -2448,14 +2454,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 210,
       "layer": "background",
       "name": "codeForKeypadNums",
       "persistentUuid": "31a765af-8d22-4055-abfd-2967f58ca8e9",
-      "width": 0,
-      "x": 323,
-      "y": 1470,
+      "width": 171,
+      "x": 226,
+      "y": 1476,
       "zOrder": 3002,
       "numberProperties": [
         {
@@ -2468,14 +2475,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 155,
       "layer": "background",
       "name": "codeForKeypadNums",
       "persistentUuid": "0b8e7d01-edb3-4c69-aeda-502948dde86b",
-      "width": 0,
-      "x": 229,
-      "y": 1984,
+      "width": 152,
+      "x": 278,
+      "y": 3105,
       "zOrder": 3003,
       "numberProperties": [
         {
@@ -2488,14 +2496,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 156,
       "layer": "background",
       "name": "codeForKeypadNums",
       "persistentUuid": "0cdc499d-74a6-42a8-9a52-57f2c33f2f35",
-      "width": 0,
-      "x": 429,
-      "y": 2555,
+      "width": 163,
+      "x": 366,
+      "y": 2499,
       "zOrder": 3004,
       "numberProperties": [
         {
@@ -2508,14 +2517,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 154,
       "layer": "background",
       "name": "codeForKeypadNums",
       "persistentUuid": "cfbb3aa4-84c8-430f-a4c4-96ab8b4a47ae",
-      "width": 0,
-      "x": 324,
-      "y": 3178,
+      "width": 158,
+      "x": 202,
+      "y": 2034,
       "zOrder": 3005,
       "numberProperties": [
         {
@@ -4750,7 +4760,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "backOut",
+                  "image": "assets\\backOut.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6832,7 +6842,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken",
+                  "image": "assets\\kingVelociraptorCave.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -6874,7 +6884,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken2",
+                  "image": "assets\\kingVelociraptorCaveAwaken.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -6916,7 +6926,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken3",
+                  "image": "assets\\kingVelociraptorCaveAwaken2.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -6958,7 +6968,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken4",
+                  "image": "assets\\kingVelociraptorCaveAwaken3.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7000,7 +7010,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken5",
+                  "image": "assets\\kingVelociraptorCaveAwaken4.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7042,7 +7052,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken6",
+                  "image": "assets\\kingVelociraptorCaveAwaken5.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7084,7 +7094,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken7",
+                  "image": "assets\\kingVelociraptorCaveAwaken6.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7126,7 +7136,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken8",
+                  "image": "assets\\kingVelociraptorCaveAwaken7.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7168,7 +7178,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken9",
+                  "image": "assets\\kingVelociraptorCaveAwaken8.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7210,7 +7220,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken10",
+                  "image": "assets\\kingVelociraptorCaveAwaken9.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7252,7 +7262,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken11",
+                  "image": "assets\\kingVelociraptorCaveAwaken10.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7294,7 +7304,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken12",
+                  "image": "assets\\kingVelociraptorCaveAwaken11.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7336,7 +7346,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken13",
+                  "image": "assets\\kingVelociraptorCaveAwaken12.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7378,7 +7388,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken14",
+                  "image": "assets\\kingVelociraptorCaveAwaken13.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7420,7 +7430,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken15",
+                  "image": "assets\\kingVelociraptorCaveAwaken14.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7462,7 +7472,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken16",
+                  "image": "assets\\kingVelociraptorCaveAwaken15.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7504,7 +7514,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken17",
+                  "image": "assets\\kingVelociraptorCaveAwaken16.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7546,7 +7556,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken18",
+                  "image": "assets\\kingVelociraptorCaveAwaken17.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7588,7 +7598,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken19",
+                  "image": "assets\\kingVelociraptorCaveAwaken18.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7630,7 +7640,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken20",
+                  "image": "assets\\kingVelociraptorCaveAwaken19.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7672,7 +7682,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken21",
+                  "image": "assets\\kingVelociraptorCaveAwaken20.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7714,7 +7724,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken22",
+                  "image": "assets\\kingVelociraptorCaveAwaken21.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7756,7 +7766,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken23",
+                  "image": "assets\\kingVelociraptorCaveAwaken22.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7798,7 +7808,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken24",
+                  "image": "assets\\kingVelociraptorCaveAwaken23.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7840,7 +7850,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken25",
+                  "image": "assets\\kingVelociraptorCaveAwaken24.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7882,7 +7892,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken26",
+                  "image": "assets\\kingVelociraptorCaveAwaken25.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7924,7 +7934,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken27",
+                  "image": "assets\\kingVelociraptorCaveAwaken26.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -7966,7 +7976,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken28",
+                  "image": "assets\\kingVelociraptorCaveAwaken27.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -8008,7 +8018,49 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "kingVelociraptorCaveAwaken29",
+                  "image": "assets\\kingVelociraptorCaveAwaken28.png",
+                  "points": [
+                    {
+                      "name": "eyes",
+                      "x": 51.5,
+                      "y": 63.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 43.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 38
+                      },
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\kingVelociraptorCaveAwaken29.png",
                   "points": [
                     {
                       "name": "eyes",
@@ -11118,7 +11170,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11245,6 +11296,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "metallic-clang-100473.mp3",
+                    "3",
+                    "60",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -11252,6 +11316,195 @@
                     "Animation",
                     "=",
                     "\"crossable\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueRunning"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "MainCharacter",
+                "EdRegis",
+                "120",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "interactingStatus",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"regisThree\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"regisTwo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "regisDialogue",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"scrollText\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"regisOne\""
                   ]
                 }
               ]

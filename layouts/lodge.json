@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.34375202416132083,
+    "zoomFactor": 0.35534345588179106,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1850,6 +1850,51 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "tutorialLights",
+      "persistentUuid": "9ff92992-e7a0-4a6a-b25f-f28e6c666a1b",
+      "width": 0,
+      "x": 861,
+      "y": 1588,
+      "zOrder": 6001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "tutorialLights",
+      "persistentUuid": "3ffddcb1-82c9-4b5f-a718-66d505136a9a",
+      "width": 0,
+      "x": 222,
+      "y": 1914,
+      "zOrder": 6001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "tutorialLights",
+      "persistentUuid": "1d3b97d6-4aff-424f-a1ee-64d1f522e482",
+      "width": 0,
+      "x": 857,
+      "y": 2333,
+      "zOrder": 6001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1945,17 +1990,125 @@
       ],
       "animations": [
         {
-          "name": "Walking down",
+          "name": "WalkingDown",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Walking down\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":11,\\\"height\\\":100,\\\"width\\\":25,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAABkCAYAAABzVZt8AAAAAXNSR0IArs4c6QAAAQhJREFUaEPt07EKglAAheErUZmEEhjREDREb9UWNERT1NDi2jP2Ai1B4BBCiHGhJKGEX8whjqMcPNzvHh3TwOM00GFUgpTFJS4kgMJal7iQAAprXeJCAiisdYkLCaCw1iUuJIDCWpe4kAAKa13iQgIorHWJCwmgsNYlLiSAwlrXH3DtNstsNp0Yz23npzlfYrOPjl/vF1+8LRmGoRmHfl5yS+5mtY3qLwn6vcJpFuvDb0peR7F0tZbYD88HfvY+r9M1LmXHd/KpxL4rK6pUMvLcLOh2Cv9K7SVuq1Xgsm1JmtZ38ehXf4YrcdEilSAxcYkLCaCw1iUuJIDCWpe4kAAKa13iQgIo/ADVhyZlAnd+NQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAABkCAYAAABzVZt8AAAAAXNSR0IArs4c6QAAAOBJREFUaEPt07EKglAAheErLk1C0NIL9IjRFi0R7T1Bb9ULtASRRAkhxh2SahD+MOHC7yYcOfrdYxYGuLIBOoIlSFkuuZAACrsuuZAACrsuuZAACrsuuZAACrsuuZAACrsuuZAACrsuuZAACrsuuZAACrsuuZAACruuxLi2q0UznRTtWx9PZZgvN/gcOx/Y79bNq+FWPcLlek+05J3rb18SqWbjoiWL94dz2e+ZfBekWzLK8w+q+CVVXffLhX7rjjB+q1+KLUFqcsmFBFDYdcmFBFDYdcmFBFDYdcmFBFD4CaEENWUC+t1vAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAABkCAYAAABzVZt8AAAAAXNSR0IArs4c6QAAAdFJREFUaEPtlTtLA0EUhWd9EBVlG0EU2xSCpU0qm4j2+gdsLHy0PgqRIPgCK1HQxspOf4CYxiqNjSBYpBXTpIlKNERZmYEZxuxsdk8CKeSkyevs/eZ+Oaue6MDD6wBDEAJZpi7qggxAYbaLuiADUJjtoi7IABRmu6gLMgCF2S7qggxAYbaLuiADUJjtoi7IABSG2nVzshXo6fNr+4mvTRTsnpxVw/Mb02aD7OG9ev3zdBs7o2mgJ7NoTh68v4qH61MDmVpYEd7QmHn/XbiMnBX5hQ3QkzSoEaC/jwJBEDlMguwN7AZAEHsLr1Yxc4KUL+R7/Ww2TPlNtTk3canSUzQkqsOubUKQOIBSZp3cBWsEOSF3y2l17cxZMTQjahP7mlhIMX+havtSKocg+vdxbSIh46PD6lDp7NKfw4c20RAZntguJN7keTdjsm1Bmm0CQeyjN5agS9RFUKs6f/iW7ngJOz/OBZWPT8X1B/vV8+rVYwiyNzci1ncO8D8rcuBRblOVQAIG+nqdt0b1qy7kQdqC2IBS+c1sZUPl5y1Dou5q9PPY/wXoQFeeEMgidVEXZAAKs13UBRmAwmwXdUEGoDDbRV2QASjMdlEXZAAK/592/QJ/SZdltN6POAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 4\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAABkCAYAAABzVZt8AAAAAXNSR0IArs4c6QAAAh9JREFUaEPtlbFKxEAQhnPFSRQ8PFEhYiMHio21lS9gKZa+haWlpW9hKZa+gI9gp2B9oOLJCWfwlMgf+dfJumsyVxwKs02ym9n/2/ln2LSSKYzWFBiJQVQum11ml8oBVbB1l9mlckAVbN1ldqkcUAVbd/1Tu3bWVovRx3uy0JlPrm7u1HWs3bC72SsovJ2tFJOAVBAUYhJQLYQVhrhf7ev+faP9tUEhcS0sCpHiqIMcz8OXcop1vvN7KLsfkJh4trxU6vQfHsunP5cwHxSFbPXWnWgdgFkQ9CuEWUhA6NRYe3vNS+2Z2TTJFrtfB3oaOPskqJJJCAIxCMnhrwECgMwoCCFAFjkEgCVz7bbLInSJ+ba5TAiBAE+OYAmVc9lhscMwmxIiAfQZTwoRzCxG47FrYdZHWgooYoIQnJqnYiBEaA824l1CZByzjkKkTX4WmFOYNSCY3+R+dh6zcXbJYvIkF2cnyf7hsast5hhyzYfSNplNsCY8HUX3Do5KrcvzUwf01wCW2VEDdal0l/QeQYSE2tRfY3a+RgUiu4wCTSEh+6BR6S6K+td6nucVi2IZhSDRa0VmA4A/bgdDZ+9Gt1P5iaXp99VTewsTJCFS3AdLGECN/idNiqyNqf39agVD8QZRuWh2mV0qB1TB1l1ml8oBVbB1l9mlckAVbN1ldqkcUAVbd5ldKgdUwdZdZpfKAVWwdZfZpXJAFWzd9ffs+gQ2UDF01WzVfAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"Walking down\"],\"name\":\"Walking down\"}}",
-              "timeBetweenFrames": 0.125,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Walking down",
+                  "image": "WalkingDown2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingDown3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingDown4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingDown5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1994,16 +2147,125 @@
           ]
         },
         {
-          "name": "Walking Up",
+          "name": "WalkingUp",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\pixil-frame2.png",
+                  "image": "WalkingUp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingUp2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingUp3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingUp4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2042,16 +2304,125 @@
           ]
         },
         {
-          "name": "Walking Right",
+          "name": "WalkingRight",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\pixil-frame1.png",
+                  "image": "WalkingRight",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingRight2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingRight3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingRight4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2090,16 +2461,125 @@
           ]
         },
         {
-          "name": "Walking Left",
+          "name": "WalkingLeft",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\pixil-frame3.png",
+                  "image": "WalkingLeft",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingLeft2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingLeft3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -0.5,
+                    "y": 24
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 61
+                      },
+                      {
+                        "x": 23.5,
+                        "y": 61
+                      },
+                      {
+                        "x": 24,
+                        "y": 71
+                      },
+                      {
+                        "x": 1,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WalkingLeft4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5731,6 +6211,20 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "tutorialLights",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 300,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5876,6 +6370,9 @@
       },
       {
         "objectName": "HeadLoadingIcon"
+      },
+      {
+        "objectName": "tutorialLights"
       }
     ]
   },
@@ -7044,7 +7541,7 @@
               },
               "parameters": [
                 "NewLight",
-                "\"48;48;48\""
+                "\"255;255;255\""
               ]
             },
             {

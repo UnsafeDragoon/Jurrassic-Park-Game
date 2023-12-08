@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Main Menu and level select",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Dino-Game",
+    "name": "UnderTail",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -33,7 +33,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "New image12",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -48,7 +48,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -1244,7 +1244,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite83.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite83.png\"}",
         "name": "NewSprite83",
         "smoothed": true,
         "userAdded": true
@@ -1408,7 +1408,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Walking down",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -5844,7 +5844,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite246.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite246.png\"}",
         "name": "NewSprite246",
         "smoothed": true,
         "userAdded": true
@@ -6425,7 +6425,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Walking down12.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down12.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -6434,7 +6434,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Walking down10.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down10.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -6443,7 +6443,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Walking down11.png\",\"extension\":\".png\"}",
         "name": "assets\\Walking down11.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -6551,14 +6551,14 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "WalkingDown",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
         "file": "assets/WalkingUP.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/WalkingUP.png\"}",
         "name": "WalkingUP",
         "smoothed": true,
         "userAdded": false
@@ -6843,6 +6843,467 @@
         "name": "mainPowerResetSwitch",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "radioNew.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "radioNew.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingDown2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingDown2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingDown3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingDown3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingDown4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingDown4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingDown5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingDown5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingUp",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingUp2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUp3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingUp3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingUp4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingUp4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingRight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingRight",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingRight2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingRight2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingRight3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingRight3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingRight4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingRight4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingLeft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingLeft",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingLeft2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingLeft2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingLeft3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingLeft3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/WalkingLeft4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "WalkingLeft4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/backOut.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\backOut.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "metallic-clang-100473.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "metallic-clang-100473.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image14.png\"}",
+        "name": "New image12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCave.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCave.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken28.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/kingVelociraptorCaveAwaken29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kingVelociraptorCaveAwaken29.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7460,7 +7921,7 @@
           ]
         },
         {
-          "name": "WalkingUP",
+          "name": "WalkingUp",
           "useMultipleDirections": false,
           "directions": [
             {
