@@ -6571,6 +6571,15 @@
         "name": "assets\\WalkingUP.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite307.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite307",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

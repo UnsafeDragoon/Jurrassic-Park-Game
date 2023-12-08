@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416428125373102,
+    "zoomFactor": 0.4789341884535246,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -126,6 +126,22 @@
       "x": 320,
       "y": 369,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1723,
+      "layer": "",
+      "name": "Loading_box_of_DOOM",
+      "persistentUuid": "1ad56f0e-b82e-48d9-bedd-cccaebb20b98",
+      "width": 2201,
+      "x": -442,
+      "y": -482,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -485,6 +501,72 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Loading_box_of_DOOM",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite307",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -510,6 +592,9 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "Loading_box_of_DOOM"
       }
     ]
   },
@@ -565,6 +650,17 @@
           },
           "parameters": [
             "HiddenButtons",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Loading_box_of_DOOM",
+            "Opacity",
             "=",
             "0"
           ]
@@ -693,6 +789,28 @@
       "actions": [
         {
           "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Loading_box_of_DOOM",
+            "Tween",
+            "\"LoadingScreen\"",
+            "255",
+            "\"linear\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -727,6 +845,28 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Loading_box_of_DOOM",
+            "Tween",
+            "\"LoadingScreen\"",
+            "255",
+            "\"linear\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -765,6 +905,28 @@
       "actions": [
         {
           "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Loading_box_of_DOOM",
+            "Tween",
+            "\"LoadingScreen\"",
+            "255",
+            "\"linear\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
             "value": "Scene"
           },
           "parameters": [
@@ -799,6 +961,28 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+          },
+          "parameters": [
+            "Loading_box_of_DOOM",
+            "Tween",
+            "\"LoadingScreen\"",
+            "255",
+            "\"linear\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -927,6 +1111,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     },
     {
       "name": "YSort",
