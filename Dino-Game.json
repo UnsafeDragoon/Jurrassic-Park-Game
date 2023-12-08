@@ -6409,6 +6409,15 @@
         "name": "two2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mainPowerResetSwitch.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/mainPowerResetSwitch.png\"}",
+        "name": "mainPowerResetSwitch",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
